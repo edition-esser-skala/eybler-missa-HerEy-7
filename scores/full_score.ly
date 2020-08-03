@@ -23,16 +23,9 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \smallGroupDistance } <<
-						\set GrandStaff.instrumentName = "Oboe"
-						\new Staff {
-							\set Staff.instrumentName = "I"
-							\KyrieViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "II"
-							\KyrieViolinoII
-						}
+					\new Staff <<
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \KyrieOboeI \KyrieOboeII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Fagotto I, II"
