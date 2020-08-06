@@ -658,6 +658,7 @@ tocLabel = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
+tempoGloria = \tempoMarkup "Allegro vivace"
 
 
 \include "notes/ob1.ly"

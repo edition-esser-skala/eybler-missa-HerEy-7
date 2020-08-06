@@ -71,3 +71,136 @@ KyrieViolinoII = {
 		c4 r r\fermata \bar "|." %61 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		e16(\p c) c( e) e( c) c( e) e( c) c( e)
+		f( c) c( f) f( c) c( f) f( c) c( f)
+		g( c,) c( g') g( c,) c( g') g( c,) c( g')
+		e( c) c( e) e( c) c( e) e( c) c( e)
+		g( d) d( g) g( d) d( g) g( e) e( g) %5
+		g( d) d( g) g( d) d( g) g( d) d( g)
+		g( d) d( g) a( d,) d( a') a( d,) d( a')
+		g8-! g16(\f a) a( g) g( f) f( e) e( d)
+		d8-! f16( g) g( f) f( e) e( d) d( c)
+		c c' c c e, c' c c e c c c %10
+		f8 f,16 f' g8 g,16 g' a8 a, 16 a'
+		d,8 d'16 c c h h a a g g f
+		e8 c,16 e e g g c c e e g
+		f a, a a a f' f f h, d d d
+		c d d e e8 e, 16 g g c c e %15
+		f a, a a a f' f f h, d d d
+		c d d e e8 c,16 e e g g c
+		c8\p c c c c c
+		a a a a a a
+		e e e e e e %20
+		d d d d d d
+		e e e e e e
+		fis fis d d fis fis
+		g g g g g g
+		fis( d e fis g a) %25
+		g g g g g g
+		g g g g g g
+		a( a d, h' a g)
+		e e e e e e
+		a a a a a a %30
+		a a a a h h
+		c c c c e, e
+		d d d d d d
+		d-! g16(\f a) a( h) h( c) c( d) d( e)
+		e8 h16( c) c( d) d( e) e( fis) fis( g) %35
+		g4 <h, d, g,>\ff <c e, g,>
+		<h d, g,> r r
+		r q <c e, g,>
+		<h d, g,> r r
+		r q <c e, g,> %40
+		<h d, g,>8 d[\p d d d d]
+		r c c c c c
+		r fis, fis fis fis fis
+		r g g g g g
+		r g g g g g %45
+		r fis fis fis fis fis
+		r g g g g g
+		r fis fis fis fis fis
+		fis16\f fis fis fis g g g g a a a a
+		h h h h e e e e cis cis cis cis %50
+		d g g g g g g g fis fis fis fis
+		g8 e,16 d d g g fis fis h h a
+		a c c h h e e d d c c h
+		h a a g g fis fis e e d d c
+		c h h g' a,8 g' a, fis' %55
+		g c16 h h a a g g fis fis e
+		e8 e[\p e e e e]
+		e e e e e e
+		e e e e e e
+		e e e e e e %60
+		e e dis-\critnote dis dis dis
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		e-! e-! e-! e( fis g) %65
+		g g g g g g
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		g g g g g g
+		g g fis fis g g %70
+		a a a a a a
+		g g a a g g
+		g4\trill fis r
+		d fis g
+		c,2 h4 %75
+		r fis' g
+		c,2 h4
+		d\cresc e fis
+		g2 g4
+		g-!\f g-! r %80
+		c-!\ff h-! r
+		e,2.~\pp
+		e4 e e
+		d2 fis4
+		g8 g16\f fis fis a a g g h h a %85
+		a c c h h d d c c e e d
+		d g g fis fis e e d d c c h
+		h a a g g fis fis e e d d c
+		c h h g' a,8 g' a, fis'
+		g, g'16 a a g g f f e e d %90
+		d8 f16 g g f f e e d d c
+		c c' c c e, c' c c g c c c
+		e c c c e, c' c c e c c c
+		d g g g h, g' g g d g g g
+		e c c c e, c' c c e c c c %95
+		f8.[\ffE c16 c8. c16 c8. c16]
+		c8.[ c16 f8. f16 e8. e16]
+		d8.[ d16 d8. d16 c8. c16]
+		h8 g16 a a g g f f e e d
+		d8 f16 g g f f e e d d c %100
+		c c' c c e, c' c c g c c c
+		a a' a a f a a a c, a' a a
+		h, g' g g g, g' g g d f f f
+		e f f g g e e f f g g a
+		a f f f c f f f a c c c %105
+		g e e e c e e e g c c c
+		h d f, f d' f, f f e c' c c
+		c e, e e d g g h h d d h
+		c c, c c h h' h h a a, a a
+		g h h h d f f f e g g g %110
+		c c, c c h h' h h a a, a a
+		g h h h d f f f e c c c
+		d, c' c c d c c c h d d d
+		e g g g c, c' c c a f f f
+		e g g g c, e e e d, h' h h %115
+		c e e d d c c h h a a g
+		g c c c g' c, c c b' c, c c
+		c a' a a a g g f f e e d
+		e g g g c e, e e d8 h'
+		c, e,16 f f g g a a h h c %120
+		c8 g16 a a h h c c d d e
+		e8 h16 c c d d e e f f g
+		g e e f f d d e e c c d
+		d h h c c d d e e f f g
+		g c c e, d8 c' g,, h'' %125
+		c4 c,, r\fermata \bar "||" %126 finis
+	}
+}

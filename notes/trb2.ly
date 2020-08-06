@@ -67,3 +67,66 @@ KyrieTromboneII = {
 		R2.\fermataMarkup \bar "|." %61 finis
 	}
 }
+
+GloriaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \tempoGloria
+		R2.*9 %9
+		e4\f e8 e c c %10
+		c4 b a
+		g2.
+		g4 r r
+		c c8 c d d
+		e d c4 r %15
+		c4. c8 d d
+		e d c4 r
+		R2.*19 %36
+		r4 h\f c
+		d d r
+		r h c
+		d8 d d4 r %40
+		R2.*8 %48
+		fis4\f e d
+		d e cis %50
+		d d d
+		g, r r
+		R2.*25 %77
+		r4 g\pE\crescE a
+		g e' d
+		c-!\f d-! r %80
+		a-!\ffE e-! r
+		R2.*10 %91
+		e'4\f e e
+		c2 e4
+		d h d
+		c8 d e4 r %95
+		c2 c4
+		c h c
+		d2 c4
+		h r r
+		R2. %100
+		c4 c c
+		c2 c4
+		h g h
+		c8 c c4 r
+		c2. %105
+		c
+		d2 c4
+		c h r
+		g g g
+		g h c %110
+		g2 g4
+		g h c
+		c4. c8 h4
+		c c a
+		g c h %115
+		c r r
+		b4. b8 b4
+		a d f
+		e2 d4
+		c r r %120
+		R2.*5 %125
+		R2.\fermataMarkup \bar "||" %126 finis
+	}
+}

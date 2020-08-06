@@ -60,3 +60,79 @@ KyrieOboeI = {
 		R2.\fermataMarkup \bar "|." %61 finis
 	}
 }
+
+GloriaOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		R2.*9 %9
+		c'2\f e4 %10
+		f g a
+		d,2.
+		e4 r r
+		f2.
+		e2 g4 %15
+		f2.
+		e8 f g c, e g
+		c4 r r
+		R2.*3 %21
+		g2.\p
+		fis
+		g
+		fis8 fis g a h c %25
+		d4 r r
+		R2.
+		r4 r8 d, c h
+		a2.
+		c %30
+		e4 r r
+		R2.*4 %35
+		r4 g\f e
+		d r r
+		r g e
+		d r r
+		r g e %40
+		d r r
+		R2.*7 %48
+		d4\f e fis
+		g e cis %50
+		d g fis
+		g r r
+		R2.*39 %91
+		c,2.\f
+		e
+		g
+		e8 d \pao c4 r %95
+		f\ff g a
+		g f e
+		f2 e4
+		d r r
+		R2. %100
+		c'2.
+		a
+		g2 f4
+		e8 f g4 r
+		a2. %105
+		c
+		g4 f e
+		e d r
+		g2.~
+		g4 h c %110
+		g2.~
+		g4 h c
+		d,2.
+		g4 f8[ e f d]
+		c2 d4 %115
+		\pao c r r
+		b'2.
+		a4 g8 f e d
+		c2 d4
+		c8 e, f g a h %120
+		c g a h c d
+		e h c d e f
+		g e f d e c
+		d h c d e f
+		g c, d4 h %125
+		c r r\fermata \bar "||" %126 finis
+	}
+}
