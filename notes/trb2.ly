@@ -130,3 +130,31 @@ GloriaTromboneII = {
 		R2.\fermataMarkup \bar "||" %126 finis
 	}
 }
+
+QuiTollisTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		R1*3 %133
+		r2 r4 h\ff
+		g8 e r e' f4 f8 f %135
+		fis4 e8 e e dis r4
+		R1*4 %140
+		r2 r4 fis\f
+		d8 h r h c!4 c8 c
+		cis?4 h8 h h ais r4
+		cis8.\sfE e16 g4 r2
+		h,8.\sfE d16 fis4 r2 %145
+		R1*7 %152
+		r4 d\f h8 g r4
+		r r8 g c4 h8 h
+		a2 g4 r %155
+		R1
+		gis4.\sfE gis8 gis a a4
+		R1
+		r2 r4 gis8\pE gis
+		a4 h2 a4 %160
+		gis2 r\fermata \bar "||" %161 finis
+	}
+}

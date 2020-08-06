@@ -204,3 +204,42 @@ GloriaViola = {
 		<c c,>4 <c' c, c,> r\fermata \bar "||" %126 finis
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef alto
+		\key e \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		h16\pE h h h h h h h h h h h h h h h
+		gis'\cresc gis gis gis gis gis gis gis e e e e e e e e
+		a\f a a a a a a a a a a a h\decresc h h h
+		h\p h h h c c c c c c c c h h a a
+		g\f g g g e e e e f f f f f f f f %135
+		fis\sfE fis fis fis e e e e e e dis dis dis dis dis dis
+		d\pp d d d d d d d c c c c c c c c
+		c c c c h h h h c\pE c c c c c c c
+		d\cresc d d d d d d d c c c c c c c c
+		h h h h h h h h d d d d d d d d %140
+		d\f d d d cis?\decrescE cis h h cis cis cis cis cis cis cis cis
+		h\f d d d d h h h c c c c c c c c
+		cis? cis cis cis h h h h h h ais ais ais ais ais ais
+		ais\sfp ais ais ais ais ais ais ais ais ais ais ais ais ais ais ais
+		h\sfp h h h h h h h h h h h d d d d %145
+		e e e e e e e e d d d d d d d d
+		cis cis cis cis d d cis cis cis cis cis cis h h h h
+		ais ais ais ais ais ais ais ais a\pp a a a a a a a
+		a a a a g g g g a a a a a a a a
+		h h h h c c c c h h h h h h h h %150
+		h h h h h h h h h h h h h h h h
+		a\crescE a a a g g g g fis fis fis fis fis fis fis fis
+		d' d d d d d d d d\f d d d d d d d
+		c c c c d d d d c c c c h h h h
+		a a a a a a a a g g h h d d h h %155
+		a\p a a a a a h c h h h h h h h h
+		gis\sfp gis gis gis gis gis gis gis gis gis a a a a a a
+		a\p a a a a a a a a a g g fis fis e e
+		h' h h h h h h h e,4 gis8 gis
+		a4 h2 a4 %160
+		gis2-\critnote r\fermata \bar "||" %161 finis
+	}
+}

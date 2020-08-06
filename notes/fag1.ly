@@ -198,3 +198,40 @@ GloriaFagottoI = {
 		c4 c' r\fermata \bar "||" %126 finis
 	}
 }
+
+QuiTollisFagottoI = {
+	\relative c {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		R1
+		e'\p\crescE
+		f4.\fE e8 dis4 h\decrescE
+		h\p e2 dis4
+		e2\f f~ %135
+		f4 e e8 dis r4
+		R1
+		r2 c\p
+		d\cresc dis
+		e eis %140
+		fis4\fE e8\decresc d cis2
+		h4\f h c2
+		cis4 h h8 ais r4
+		r8 e'4 e8 cis4(\sf e8) r
+		r8 fis4 fis8 d4(\sf fis8) r %145
+		r4 g\pp f f
+		e fis8 e e4 d
+		cis r r2
+		R1*2 %150
+		r2 e~
+		e\cresc a,
+		d d\f
+		c4 d2 g8 e
+		d2. r4 %155
+		R1
+		d4.\sfp e16 f f8 e e4
+		R1*2
+		\clef bass r4 gis,,8 gis a h c d %160
+		e2 r\fermata \bar "||" %161 finis
+	}
+}

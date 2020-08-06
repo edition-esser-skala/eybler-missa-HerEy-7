@@ -91,3 +91,13 @@ GloriaClarinoI = {
 		c4 \pao c, r\fermata \bar "||" %126 finis
 	}
 }
+
+QuiTollisClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		R1*30 %160
+		R1\fermataMarkup \bar "||" %161 finis
+	}
+}

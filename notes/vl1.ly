@@ -204,6 +204,45 @@ GloriaViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		g'16\p g g g g g g g h h h h h h h h
+		e\cresc e e e e e e e a a a a a a a a
+		c\f c c c c c c c c c c c h\decresc h a a
+		g\p g g g g g a a fis fis fis fis fis fis fis fis
+		e\f e e e e e e e c c c c c c c c %135
+		cis\sf cis cis cis cis cis cis cis h h h h h h h h
+		h\pp h h h h h h h c c c c c c a a
+		g g g g g g g g g\pE g g g g g g g
+		gis\cresc gis gis gis gis gis gis gis a a a a a a a a
+		h h h h h h h h h h h h h h h h %140
+		ais\f ais ais ais h\decresc h h h h h h h ais ais ais ais
+		h\f h h h fis' fis fis fis fis fis fis fis e e e e
+		d d d d d d d d d d cis cis cis cis cis cis
+		cis\sfp cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis
+		d\sfp d d d d d d d d d d d d d d d %145
+		d d d d c! c c c c c c c h h h h
+		ais ais ais ais h h cis cis e e e e d d d d
+		cis cis cis cis cis cis cis cis c\pp c c c c c c c
+		h h h h h h c c c c c c c c a a
+		g g g g fis fis fis fis g g g g g g g g %150
+		h h h h h h h h c c c c c c c c
+		e\cresc e e e e e e e e e e e e e e e
+		d d d d c c c c h\f h h h d d d d
+		e e e e d d d d fis fis fis fis g g e e
+		d d d d d d c c h h h h h h h h %155
+		c\p c c c c c h a a a gis gis gis gis gis gis
+		f'\sfp f f f f f e d d d c c c c c c
+		c\p c c c c c c c c c h h a a g g
+		fis fis fis fis fis fis fis fis e2
+		e1 %160
+		e2 r\fermata \bar "||" %161 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -367,6 +367,70 @@ GloriaSopranoLyrics = \lyricmode {
 	tris. %120 finis
 }
 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		R1*3 %133
+		r2 r4 \mvTrh h'\ff^\tuttiE
+		g8 e r e' c4 c8 c %135
+		cis4. cis8 h h r4
+		r d8\pp f, e4 a
+		g4..( f?16) e4 r
+		R1*2 %140
+		r2 r4 fis'\f
+		d8 h r fis' fis4 e8 e
+		d4. d8 d cis r4
+		g'8.\sf e16 cis4 r2
+		fis8.\sf d16 h4 r d~\p %145
+		d c! c h
+		ais h8([ cis)] e4( d)
+		cis r c\pp c
+		h h8([ c)] c4. a8
+		g4( \grace h16 a4) g r %150
+		R1*2
+		r4 d'\f h8 g r g
+		e'4 d8 d fis4 g8 e
+		d4.( c8) h4 r %155
+		c4.\p h16([ a)] a8([ gis)] gis4
+		f'4.\sfE e16([ d)] d8([ c)] c4
+		c4.\p c8 c ([ h)] a8[( g)]
+		fis2 e4 e8 e
+		e4 e e2 %160
+		e r\fermata \bar "||" %161 finis
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	Qui %134
+	tol -- lis pec -- ca -- ta, pec -- %135
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis.
+
+	Qui %141
+	tol -- lis pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Su -- sci -- pe,
+	su -- sci -- pe de -- %145
+	pre -- ca -- ti --
+	o -- nem no --
+	stram, no -- stram
+	de -- pre -- ca -- ti --
+	o -- nem. %150
+
+	Qui \xE se -- des, qui %153
+	se -- des \x ad dex -- te -- ram
+	Pa -- tris: %155
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no -- %160
+	bis. %161 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

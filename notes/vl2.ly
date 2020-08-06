@@ -204,3 +204,42 @@ GloriaViolinoII = {
 		c4 c,, r\fermata \bar "||" %126 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #131
+		e16\p e e e e e e e fis fis fis fis fis fis fis fis
+		h\cresc h h h h h h h c c c c c c c c
+		f\f f f f f f e e dis dis a' a g\decresc g fis fis
+		fis\p fis e e e e e e e e e e dis dis dis dis
+		e\f h h h h h h h h h h h a a a a %135
+		g\sfE g g g g g g g g g fis fis fis fis fis fis
+		f\pp f f f f f f f e e e e es es es es
+		d d d d d d d d e\pE e e e e e e e
+		f\cresc f f f f f f f fis fis fis fis fis fis fis fis
+		e e e e e e e e eis eis eis eis eis eis eis eis %140
+		fis\f fis fis fis e\decresc e d d g g g g fis fis e e
+		d\f fis fis fis fis h h h g g g g g g g g
+		gis gis gis gis gis gis gis gis fis fis fis fis fis fis fis fis
+		g\sfp g g g g g g g g-\critnote g g g g g g g
+		fis\sfp fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %145
+		g g g g g g g g f f f f f f f f
+		e e e e fis fis fis fis fis fis fis fis gis gis gis gis
+		cis, fis fis fis fis fis fis fis fis\pp fis fis fis fis fis fis fis
+		fis fis fis fis e e e e e e e e e e e e
+		d d d d d d d d d d d d d d d d %150
+		fis fis fis fis fis fis fis fis g g g g g g g g
+		c\crescE c c c c c c c c c c c c c c c
+		h h h h a a a a g\f g g g g g g g
+		g g g g g g g g a a a a h h g g
+		d d d d fis fis fis fis g g g g g g g g %155
+		fis\p fis fis fis fis fis fis fis f f f f f f f f
+		d\sfp d d d d d e f f f e e e e e e
+		f\p f f f f f e e dis dis dis dis e e e e
+		e e e e dis dis dis dis e4 h8 h
+		c4 d c2
+		h r\fermata \bar "||"
+	}
+}
