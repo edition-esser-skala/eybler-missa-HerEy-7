@@ -235,3 +235,103 @@ QuiTollisFagottoII = {
 		e2 r\fermata \bar "||"
 	}
 }
+
+QuoniamFagottoII = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #162
+		\partial 8 g'8\f c8.\trillE d16 e8 e, a8.\trillE h16 c8 c,
+		f e d c g' g, r a'
+		d8.\trillE e16 f8 f, b8.\trillE c16 d8 d,
+		g f e d a' a, r4 %165
+		f'8 e d f e d c e
+		d c h g c c'16 h c8 e,
+		d c h g c c'16 h c8 e,
+		f c' a f e g c e
+		d h c c, g g' d h %170
+		g d'' h g c g e c
+		g d'' h g c g e c
+		a a'16 g a8 g f e d16 c h a
+		g8 g'16 f g8 f e d c16 e g c
+		d8 d, d' c h d g, c %175
+		f, d g g, c4 r
+		r2 r4 r8 g'
+		c8.\trillE d16 e8 e, a8.\trillE h16 c8 c,
+		f e d c g' g, r4
+		R1 %180
+		h'2\p c4 c,
+		R1
+		h'2 c4 c,
+		r2 f4\f a8 c
+		a,4 c8 f a2~ %185
+		a4 g8 f e\p r e r
+		gis r gis r a r a r
+		d, r f r g r g r
+		g, r g r c4 r
+		R1*3 %192
+		r2 r8 g'\f g g
+		a8. a16 a4 r8 a a a16 a
+		h4 h r8 h h h16 h %195
+		c4 h a2\trill
+		g4 a f d
+		h' h g e
+		c' c a8 h c4~
+		c h c r %200
+		r c8. h16 a8. g16 fis4
+		r d'8. c16 h8. a16 g4
+		r e' c d
+		g, r r2
+		R1*3 %207
+		r2 r8 a a a
+		h8. h16 h4 r8 h h h16 h
+		c4 c r8 c c c16 c %210
+		d4 c^\critnote h2
+		a g
+		f e
+		d4 b' g e
+		c' c a f %215
+		d' d b8 c d4~
+		d c2 b4~
+		b a b r
+		r b8. a16 g8. f16 e!4
+		r c'8. b16 a8. g16 f4 %220
+		r d'8 c b a16 b c8 b
+		a g f4 r2
+		R1*8 %230
+		r2 r8 a a a
+		h8. h16 h4 r8 h h h16 h
+		c4 c r8 c c c16 c
+		d4 c2 h4
+		c r r2 %235
+		r8 a a a b8. b16 b4
+		r8 b b b16 b c4 c
+		r8 c c c16 c d4 c
+		b8 a16 b c8 b a f b a
+		g f16 g a8 g f g a h %240
+		c g c2 h4
+		c a2 gis4
+		a r r2
+		R1
+		r2 r4 r8 c %245
+		d c16 d e8 d c4 r8 c
+		h a16 h c8 h a2
+		g4 r r8 c c c
+		d8. d16 d4 r8 h h h16 h
+		c4 c r8 a a a16 a %250
+		h4^\critnote h g2
+		a4 r r d
+		h g c c8. h16
+		a8. g16 f4 r h8. a16
+		g8. f16 e4 r e'8. d16 %255
+		c8. h16 a4 r2
+		R1
+		r2 r8 g g g
+		a8. a16 a4 r8 a a a16 a
+		h4 h r8 h4 h8 %260
+		c4 c r f8. e16
+		d8. c16 h8. a16 g4 g
+		g2 g4 g,
+		c g c r\fermata \bar "|." %264 FINIS
+	}
+}

@@ -101,3 +101,54 @@ QuiTollisClarinoI = {
 		R1\fermataMarkup \bar "||" %161 finis
 	}
 }
+
+QuoniamClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #162
+		\partial 8 r8 R1*5 %166
+		r4 r8 g'\f c g e c
+		g'4 r8 g c g e c
+		c' c16 c c c c c c4 r8 c
+		d4. e8 e d r4 %170
+		d4 r8 d e4 r8 e
+		d4 r8 d e4 r
+		R1*2
+		r2 d4 d8 e %175
+		r f e d c4 r
+		R1*9 %185
+		c4\f c8 c c4 r
+		R1*2
+		r2 c4 r
+		R1*7 %196
+		c4 r r2
+		R1
+		r2 r4 e
+		d2 c4 r %200
+		R1*3
+		c4 r r2
+		R1*27 %231
+		r2 d
+		e4 r r2
+		R1*9 %242
+		e4 r r2
+		R1
+		c4 r r2 %245
+		R1*2
+		g4 r r2
+		g4 r r2
+		g4 r r2 %250
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2 %255
+		g4 r r2
+		R1*4 %260
+		r4 c c r
+		r f2 e4
+		d2 c4 d
+		e d c r\fermata \bar "|." %264 FINIS
+	}
+}

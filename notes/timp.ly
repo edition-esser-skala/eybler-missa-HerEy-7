@@ -97,3 +97,57 @@ QuiTollisTimpani = {
 		R1\fermataMarkup \bar "||" %161 finis
 	}
 }
+
+QuoniamTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoQuoniam
+			\set Score.currentBarNumber = #162
+		\partial 8 r8 R1*5 %166
+		r4 r8 g\fE c4 r8 c
+		g4 r8 g c4 r
+		c8 c16 c c c c c c4 r
+		g8 g16 g g8 c g4 r %170
+		g r8 g c4 r8 c
+		g4 r8 g c4 r
+		R1*2
+		r2 g4 g8 c %175
+		r4 r8 g c4 r
+		R1*4 %180
+		g4\p r c r
+		R1
+		g4 r c r
+		R1*2 %185
+		c4\f c8 c c r r4
+		R1*2
+		r2 c4 r
+		R1*7 %196
+		c4 r r2
+		R1*2
+		r4 g c r %200
+		R1*3
+		c4 r r2
+		R1*27 %231
+		r2 g
+		c4 r r2
+		R1*9 %242
+		c4 r r2
+		R1
+		c4 r r2 %245
+		R1*2
+		g4 r r2
+		g4 r r2
+		g4 r r2 %250
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2
+		g4 r r2 %255
+		g4 r r2
+		R1*4 %260
+		r4 c c r
+		r2 g4 c
+		g8 g16 g g8 g c4 g
+		c g c r\fermata \bar "|." %264 FINIS
+	}
+}
