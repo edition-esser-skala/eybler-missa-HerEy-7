@@ -818,6 +818,164 @@ QuoniamBassFigures = \figuremode {
 	r1 %264 FINIS
 }
 
+CredoOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoCredo
+		\mvTr c8\f-\tuttiE d e d c e g c
+		a c a f e g e c
+		d d' d, c h d g h
+		c g e c g d' g h
+		a a, a' g fis a d, fis %5
+		g a h a g d h h'
+		a a, a' g fis a d, fis
+		g a h a g d h h'
+		c c, c' h a d, d' c
+		h d h g fis a d d, %10
+		g fis e d c a d d,
+		g a h e c a d d,
+		g a h a g h d g
+		e g e c h d h g
+		a a' c a fis a fis d %15
+		g d h g d' fis a d
+		a e c a e' gis h e
+		c g e c g h d g
+		d' a f! d a c e a
+		fis fis g g a g a d, %20
+		g a h a g a g f
+		e g e c h d h g
+		c c' e c a, a' c a
+		e h' g e a, a' c a
+		h h, g' e h' a h h, %25
+		e fis g c a fis h h,
+		e fis g fis e g h e
+		c e c a g h g e
+		fis a fis e dis fis dis h
+		e fis g e h' h, h' a %30
+		gis h gis e a e' c a
+		gis h e, gis a e c a
+		g! g' h g c g e c
+		h d g, h c e g c
+		a c a f c' g e c %35
+		f g a f c e g c
+		d a f d a' g a a,
+		d e f b g e a a,
+		d e f e d f a d
+		b d b g f a f d %40
+		e g e d cis e a cis
+		d a f d a' a, a' g
+		fis a fis d g b g d
+		a' c a d, b' d b g
+		e g e c f a f c %45
+		g' b g c, a' c a f
+		d e f d g g, g' f
+		e f g e a a, a' g
+		f a c c, d f a a,
+		b d f f, g b d d, %50
+		e e' a, a' e d e e,
+		a h c f d h e e,
+		a h c h a c e a
+		f a f d c e c a
+		h c h a gis h e gis %55
+		a e c a e' e, e' d
+		c e c a gis h e gis
+		a gis a a, e' e, e' d
+		c c' e c h d h g
+		c h c c, g' d h g %60
+		a a' c a g, g' h g
+		f, f' a f e, e' g e
+		d c h c d e f e
+		d c h a g f e d
+		c e g c g g' h g %65
+		c, d e a f d g g,
+		c d e d c e g c
+		a c a f e g e c
+		d d' d, c h d h g
+		c g' e c h d g h %70
+		a, c f^\critnote a g, h e g
+		f, a d f e, g c e
+		d d' d, c h d g, h
+		c c' g g, c4 r\fermata \bar "||" %74 finis
+	}
+}
+
+CredoBassFigures = \figuremode {
+	r1
+	<6>2 q
+	r <6 5>
+	r1
+	<5>2 <[6 5]> %5
+	r1
+	<5>2 <[6 5]>
+	r1
+	r2 <6\\>
+	<6> q %10
+	r2 <[6 5]>4 <_+>
+	r2 <[6 5]>4 <_+>4
+	r1
+	\bo <[6]>2 \bc q
+	<5> <7>8 <\t> <6 4> <7 _+> %15
+	r2 <_+>
+	r <[_+]>
+	<5!>1
+	<_!>
+	<[6 5]>4 <6> <7 4> <6\\> %20
+	r1
+	\bo <[6]>2 <6>4 \bc <[5!]>
+	r2 <6\\>
+	<5> <6\\>4 <6>
+	<7 [5+] _+> <6> \bo <[7 5+] 4> \bc <[\t \t] _+> %25
+	r2 <[6\\ 5]>4 <[5+] _+>
+	r1
+	<6>2 q
+	<5> \bo <7 [_+]>8 \bc <\t [\t]> <6 4> <7 [5+] _+>
+	r2 <[5+] _+> %30
+	<6>1
+	<[6 5]>
+	r
+	<[6 5]>
+	<6>2. <[6 5-]>4 %35
+	r1
+	r2 \bo <[7] 4>4 \bc <[\t] _+>
+	r2 \bo <[6 5 _-]>4 \bc <[_+ \l]>
+	r1
+	<6>2 q %40
+	<5-> <7->4 \bo <[8 6 _+]>8 \bc <[5 3 \l]>
+	r2 <_+>
+	<6> <[_-]>
+	<6\\> <6>
+	<6 5->1 %45
+	<6 _->2 <6>
+	r <_!>
+	<5>1
+	<8>4 \bassFigureExtendersOn q8 <3> <8>4 q8 <3>
+	<8>4 q8 <3> <8 _->4 q8 <3> \bassFigureExtendersOff %50
+	<7 5! _+>2 \bo <[7] 4>4 \bc <[\t] _+>
+	r2 \bo <[6 5]>4 \bc <[_+ \l]>
+	r1
+	<6>2 q
+	<5> <7>4 <[8] 6 _+>8 <5 [3]> %55
+	r2 <_+>
+	<6> <6>4. <5>8
+	<9 4>4 <8 3> <_+>2
+	<5!> <6>4. <7>8
+	<9 4>4 <8 3>2. %60
+	<7>4 <6 4> <7> <6 4>
+	<7> <6 4> <7> <6 4>
+	<6>8 <8> <6 5> <3> <6 4 3>2 \bassFigureExtendersOn
+	q2.. q8 \bassFigureExtendersOff
+	r2 <7 4>4 <\t 3> %65
+	r2 <[6 5]>
+	r1
+	<6>2 q
+	r <7>4 <6 5>
+	r2 <6> %70
+	q q
+	q q
+	q <[6 5]>
+	r4 <4>8 <3> r2 %74 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

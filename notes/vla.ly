@@ -348,3 +348,84 @@ QuoniamViola = {
 		<c, c' e> <g' d' h'> <c, g' e' c'> r\fermata \bar "|." %264 FINIS
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoCredo
+		c8\f d e d c e g c
+		a c a f e g e c
+		d d' d, c h d g h
+		c g e c g d' g h
+		a a, a' g fis a d, fis %5
+		g a h a g d h h'
+		a a, a' g fis a d, fis
+		g a h a g d h h'
+		c c, c' h a d, d' c
+		h d h g fis a d d, %10
+		g fis e d c a d d,
+		g a h g' e c a d
+		g, a h a g h d g
+		e g e c h d g h
+		e, c a c a' c, d fis %15
+		g d h g d' fis a d
+		a e c a e' gis h e
+		c g e c g h d g
+		d' a f! d a c e a
+		fis fis, g g' a g a d, %20
+		g a h a g a g f
+		e g e c h d h g
+		c c' e c a, a' c a
+		e h' g e a, a' c a
+		h h, g' e h' a h h, %25
+		e fis g e c a h h
+		e fis g fis e g h e
+		c e c a g h g e
+		c fis a g fis a h, dis
+		e a, h e dis h' fis dis %30
+		e h' gis e a e' c a
+		gis h e, gis a e c a
+		g! g' h g c g e c
+		h d g, h c e g c
+		a c a f c' g e c %35
+		f g a f c e g c
+		d a f d a' g a a,
+		d e f d b g a a
+		d e f e d f a d
+		b d b g f a f d %40
+		b e g f e g cis, e
+		a, f' a d cis a e cis
+		d a' fis d g b g d
+		a' c a d, b' d b g
+		e g e c f a f c %45
+		g' b g c, a' c a f
+		d e f d g g, g' f
+		e f g e a a, a' g
+		f a c c, d f a a,
+		b d f f, g b d d, %50
+		e e' a, a' e d e e,
+		a-\critnote h c a f' d h e
+		a, h c h a c e a
+		f a f d c e c a
+		h c d c h d gis h %55
+		a c, e a gis e h gis
+		a e' c a gis h e gis
+		a gis a a, e' e, e' d
+		c c' e c h d h g
+		c-\critnote h c c, g' d h g %60
+		a a' c a g, g' h g
+		f, f' a f e, e' g e
+		d c d e d e f e
+		d c h a g f e d
+		c e g c g g' h g %65
+		c, d e c a f d g
+		c d e d c e g c
+		a c a f e g e c
+		f a f e d f d h
+		c e g g, g' h g d %70
+		c f a, c e g g, h
+		a d f, a c e e, g
+		f f' f, e d h' d d,
+		c e g g' c,4 r\fermata \bar "||" %74 finis
+	}
+}

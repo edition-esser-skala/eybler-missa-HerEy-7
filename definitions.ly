@@ -661,6 +661,7 @@ tempoKyrie = \tempoMarkup "Andante sostenuto"
 tempoGloria = \tempoMarkup "Allegro vivace"
 	tempoQuiTollis = \tempoMarkup "Adagio"
 	tempoQuoniam = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

@@ -152,3 +152,63 @@ QuoniamClarinoII = {
 		c g e r\fermata \bar "|." %264 FINIS
 	}
 }
+
+CredoClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c4\f r c r
+		c r c r
+		r2 r4 g'
+		c8 g e c g'4 r
+		R1 %5
+		g,4 r r2
+		R1
+		g4 r r2
+		R1*4 %12
+		g'4 r r2
+		c g
+		e4 r r2 %15
+		g,4 r r2
+		e'4 r r2
+		c' g
+		d' c4 r
+		R1 %20
+		r2 g4 g
+		e e g g
+		c r r2
+		e,4 r r2
+		R1 %25
+		e4 r r2
+		e4 r r2
+		R1*5 %32
+		g2 c4 c
+		d2 c4 r
+		c,8 c16 c c8 c c c c c %35
+		c2 c4 r
+		R1*8 %44
+		c4 c8 c c4 c %45
+		c8 c16 c c8 c c4 r
+		R1*4 %50
+		e4 r r2
+		R1
+		e4 r r2
+		R1*2 %55
+		e8 e16 e e8 e e4 r
+		R1*2
+		e2 g4 g8 g
+		g4 c g r %60
+		R1*2
+		g1~
+		g4. g16 g g4 g
+		c c g2 %65
+		c4 c2 g4
+		c, r c r
+		c r c r
+		r2 r4 g'
+		c8 g e c g'4 r %70
+		R1*2
+		r2 g
+		c8 c g4 e r\fermata \bar "||" %74 finis
+	}
+}

@@ -611,6 +611,156 @@ QuoniamSopranoLyrics = \lyricmode {
 	men, a -- men. %264 FINIS
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr g'2\f^\tuttiE e
+		a g
+		r4 f' f f
+		e2 d4 r
+		c4 c r8 c c c %5
+		h4 d r d
+		c c a' fis8 c
+		h4 d r d8 d
+		e2 fis4 fis
+		g4. d8 d4 d8 c %10
+		h4 h a4. a8
+		g4 r r2
+		d' h
+		e d
+		R1 %15
+		r4 h8 h a4 a
+		c4. c8 h4 r
+		e e d d
+		f! f8 f e4 e
+		d e d( c8) c %20
+		h4 r h h
+		c c d2
+		e4 r fis4 fis
+		g2 fis4 e
+		dis e8 e e4 dis %25
+		e r r2
+		h2 g
+		c h
+		R1*2 %30
+		h2 c4 c
+		d2 c4 r
+		d2 e4 e
+		f4. f8 e4 r
+		f2 g %35
+		a g4 g
+		f f e2
+		d4 r r2
+		a2 f
+		b a %40
+		R1*2
+		d4. d8 d4 d
+		fis2 g4 r
+		c,4. c8 c c c c %45
+		e2 f4 r
+		f2 d
+		g4. f8 e4 r
+		a4. g8 f4. e8
+		d4. c8 b4. a8 %50
+		gis4 a8 a a4( gis8) gis
+		a4 r r2
+		e'2 c
+		f e
+		R1*2 %56
+		e2 e4 e8 d
+		d4( c8) c h4 r
+		g'! g8 g g4 g8 f
+		f4( e) d g %60
+		g f r e
+		e d r c
+		h8([ c d e]) f([ g)] a([ g)]
+		f([ e d c] h[ a g f])
+		e4 e' d2 %65
+		c4 r r2
+		g e
+		a g
+		R1*2 %70
+		c2 h
+		R1
+		r2 f'4 f
+		e8 e d4 c r\fermata \bar "||" %74 finis
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do
+	in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa --
+	cto -- rem coe -- li et
+	ter -- rae, vi -- si --
+	bi -- li -- um
+	o -- mni -- um et in -- %10
+	vi -- si -- bi -- li --
+	um.
+	Cre -- do,
+	cre -- do.
+	%15
+	Et in u -- num
+	Do -- mi -- num
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i
+	u -- ni -- ge -- ni -- %20
+	tum, et ex
+	Pa -- tre na --
+	tum an -- te
+	o -- mni -- a,
+	o -- mni -- a sae -- cu -- %25
+	la.
+	Cre -- do,
+	cre -- do.
+
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro.
+	Cre -- do,
+	cre -- do. %40
+
+	Ge -- ni -- tum non %43
+	fa -- ctum,
+	con -- sub -- stan -- ti -- a -- lem %45
+	Pa -- tri,
+	per quem
+	o -- mni -- a,
+	o -- _ _ _
+	_ _ _ _ %50
+	_ mni -- a fa -- cta
+	sunt.
+	Cre -- do,
+	cre -- do.
+
+	Qui pro -- pter nos %57
+	ho -- mi -- nes
+	et pro -- pter no -- stram sa --
+	lu -- tem de -- %60
+	scen -- dit, de --
+	scen -- dit de
+	coe -- lis, de --
+	scen --
+	dit de coe -- %65
+	lis.
+	Cre -- do,
+	cre -- do,
+
+	cre -- do, %71
+
+	cre -- do,
+	cre -- do, cre -- do. %74 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

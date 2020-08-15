@@ -623,6 +623,154 @@ QuoniamAltoLyrics = \lyricmode {
 	men, a -- men. %264 FINIS
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr g'2\f^\tuttiE e
+		a g
+		r4 a g g
+		g2 g4 r
+		e e r8 a a a %5
+		g4 g r g
+		a a c c8 a
+		g4 g r g8 g
+		g2 a4 a
+		g4. g8 a4 fis8 a %10
+		g4 g g fis
+		g r r2
+		d h
+		e d
+		R1 %15
+		r4 g8 g fis4 fis
+		a4. a8 gis4 r
+		g g g g
+		a a8 a a4 a
+		a g g fis %20
+		g r g g
+		g g g2
+		g4 r a a
+		h2 a4 a
+		a g8 g fis4. fis8 %25
+		e4 r r2
+		h'2 g
+		c h
+		R1*2 %30
+		e,2 e4 e
+		e2 e4 r
+		g!2 g4 g
+		g4. g8 g4 r
+		a2 e %35
+		f e4 e
+		d d d( cis)
+		d r r2
+		a'2 f
+		b a %40
+		R1*2
+		a4. a8 b4 b
+		c2 b4 r
+		b g a8 a a a %45
+		b2 a4 r
+		a2 h
+		h4. h8 c4 r
+		r c f, a
+		d, f b, d~ %50
+		d c8 c h4. h8
+		a4 r r2
+		e' c
+		f e
+		R1*2 %56
+		a2 e4 e8 e
+		e4. e8 e4 r
+		e e8 e g4 g8 g
+		g2 g4 r %60
+		r c h h,
+		r a' g g,
+		r g' g2
+		g4 g g2
+		g4 g g2 %65
+		g4 r r2
+		g2 e
+		a g
+		R1*3 %71
+		a2 g
+		r g4 g
+		g8 g g4 e r\fermata \bar "||" %74 finis
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do
+	in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa --
+	cto -- rem coe -- li et
+	ter -- rae, vi -- si --
+	bi -- li -- um
+	o -- mni -- um et in -- %10
+	vi -- si -- bi -- li --
+	um.
+	Cre -- do,
+	cre -- do.
+	%15
+	Et in u -- num
+	Do -- mi -- num
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i
+	u -- ni -- ge -- ni -- %20
+	tum, et ex
+	Pa -- tre na --
+	tum an -- te
+	o -- mni -- a,
+	o -- mni -- a sae -- cu -- %25
+	la.
+	Cre -- do,
+	cre -- do.
+
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro.
+	Cre -- do,
+	cre -- do. %40
+
+	Ge -- ni -- tum non %43
+	fa -- ctum,
+	con -- sub -- stan -- ti -- a -- lem %45
+	Pa -- tri,
+	per quem
+	o -- mni -- a,
+	o -- _ _
+	_ _ _ _ %50
+	mni -- a fa -- cta
+	sunt.
+	Cre -- do,
+	cre -- do.
+
+	Qui pro -- pter nos %57
+	ho -- mi -- nes
+	et pro -- pter no -- stram sa --
+	lu -- tem %60
+	de -- scen -- dit,
+	de -- scen -- dit
+	de -- scen --
+	dit, de -- scen --
+	dit de coe -- %65
+	lis.
+	Cre -- do,
+	cre -- do,
+
+	cre -- do, %72
+	cre -- do,
+	cre -- do, cre -- do. %74 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

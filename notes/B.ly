@@ -605,6 +605,154 @@ QuoniamBassoLyrics = \lyricmode {
 	men, a -- men. %264 FINIS
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr g'2\f^\tuttiE e
+		a g
+		r4 d8([ c)] h4 h'
+		c2 g4 r
+		a a r8 fis fis fis %5
+		g4 h r h
+		a a fis8([ a)] d, fis
+		g4 h r h8 h
+		c2 c4 c
+		h4. a16([ g)] fis4 d8 fis %10
+		g4 e c d
+		g, r r2
+		d' h
+		e d
+		R1 %15
+		r4 g8 g d4 d'
+		a4. a8 e4 r
+		c e g! g
+		d f!8 f a4 a
+		fis g a d, %20
+		g r g f
+		e c h2
+		c4 r a a
+		e'2 a4 a
+		h e,8 e h4. h8 %25
+		e4 r r2
+		h' g
+		c h
+		R1*2 %30
+		e,2 a4 a
+		gis2 a4 r
+		g2 c4 c
+		h4. h8 c4 r
+		a2 c %35
+		f, c4 c
+		d d a2
+		d4 r r2
+		a' f
+		b a %40
+		R1*2
+		fis4. fis8 g4 g
+		a2 b4 r
+		e, e f8 f f f %45
+		g2 a4 r
+		d,2 g
+		e4. e8 a4 r
+		f c' d a
+		b f g d^\critnote %50
+		e a,8 a e'4. e8
+		a,4 r r2
+		e' c
+		f e
+		R1*2 %56
+		a2 gis4 gis8 gis
+		a4. a,8 e'4 r
+		c c'8 c h4 h8 h
+		c4( c,) g' r %60
+		r a g g
+		r f e e
+		r h'8([ c)] d[ e f e]
+		d[ c h a] g[ f e d]
+		c4 c' g2 %65
+		c,4 r r2
+		g' e
+		a g
+		R1*3 %71
+		r2 g
+		f h4 h
+		c8 c, g'4 c, r\fermata \bar "||" %74 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Cre -- do,
+	cre -- do
+	in u -- num
+	De -- um,
+	Pa -- trem o -- mni -- po -- %5
+	ten -- tem, fa --
+	cto -- rem coe -- li et
+	ter -- rae, vi -- si --
+	bi -- li -- um
+	o -- mni -- um et in -- %10
+	vi -- si -- bi -- li --
+	um.
+	Cre -- do,
+	cre -- do.
+	%15
+	Et in u -- num
+	Do -- mi -- num
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i
+	u -- ni -- ge -- ni -- %20
+	tum, et ex
+	Pa -- tre na --
+	tum an -- te
+	o -- mni -- a,
+	o -- mni -- a sae -- cu -- %25
+	la.
+	Cre -- do,
+	cre -- do.
+
+	De -- um de %31
+	De -- o,
+	lu -- men de
+	lu -- mi -- ne,
+	De -- um %35
+	ve -- rum de
+	De -- o ve --
+	ro.
+	Cre -- do,
+	cre -- do. %40
+
+	Ge -- ni -- tum non %43
+	fa -- ctum,
+	con -- sub -- stan -- ti -- a -- lem %45
+	Pa -- tri,
+	per quem
+	o -- mni -- a,
+	o -- _ _ _
+	_ _ _ _ %50
+	_ mni -- a fa -- cta
+	sunt.
+	Cre -- do,
+	cre -- do.
+
+	Qui pro -- pter nos %57
+	ho -- mi -- nes
+	et pro -- pter no -- stram sa --
+	lu -- tem %60
+	de -- scen -- dit,
+	de -- scen -- dit
+	de -- scen --
+	_ _
+	dit de coe -- %65
+	lis.
+	Cre -- do,
+	cre -- do,
+
+	cre -- %72
+	do, cre -- do,
+	cre -- do, cre -- do. %74 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

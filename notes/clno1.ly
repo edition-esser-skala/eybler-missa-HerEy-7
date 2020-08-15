@@ -152,3 +152,63 @@ QuoniamClarinoI = {
 		e d c r\fermata \bar "|." %264 FINIS
 	}
 }
+
+CredoClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c4\f r c r
+		c r c r
+		r2 r4 d'
+		\partcombineChords e8 d c e \pd d4 r
+		R1 %5
+		g,4 r r2
+		R1
+		g4 r r2
+		R1*4 %12
+		d'4 r r2
+		e2 d
+		c4 r r2 %15
+		g4 r r2
+		\pao e4 r r2
+		e' d
+		f e4 r
+		R1 %20
+		r2 \pa g,4 g \pd
+		c c d2
+		e4 r r2
+		e4 r r2
+		R1 %25
+		e4 r r2
+		e4 r r2
+		R1*5 %32
+		d2 e4 e
+		f2 e4 r
+		c8 c16 c c8 c c c c c %35
+		c2 c4 r
+		R1*8 %44
+		c4 c8 c c4 c %45
+		c8 c16 c c8 c c4 r
+		R1*4 %50
+		\pao e,4 r r2
+		R1
+		\pao e4 r r2
+		R1*2 %55
+		e8 e16 e e8 e e4 r
+		R1*2
+		c'2 d4 d
+		d e d r %60
+		R1*2
+		\once \tieDashed d1~
+		d4. d16 d \pa g,4 g \pd
+		e' e d2 %65
+		e4 e d2
+		c4 r c r
+		c r c r
+		r2 r4 d
+		\partcombineChords e8 d c e \pd d4 r %70
+		R1*2
+		r2 d
+		e8 e d4 c r\fermata \bar "||" %74 finis
+	}
+}
