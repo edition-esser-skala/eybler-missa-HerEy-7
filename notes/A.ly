@@ -771,6 +771,114 @@ CredoAltoLyrics = \lyricmode {
 	cre -- do, cre -- do. %74 finis
 }
 
+EtIncarnatusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.*8 %82
+		\mvTr c4\pE^\solo d g
+		f8. g16 e4 r
+		e g8([ f)] b([ a)] %85
+		a8. g16 f4 r
+		f f f8 f
+		f4 f8 r r4
+		r8 c([ e)] f g f
+		a8. f16 e4 r %90
+		f d d
+		c8. d16 e4 r
+		f d8 d d4
+		c8.([ d16)] e4 r
+		f g f %95
+		e f e
+		e f8([ e)] d c
+		h4 c r
+		f4. e8 f e
+		f8. g16 a4 r8 as %100
+		g4 g r8 g
+		g16([ f)] a([ f)] e4 d
+		c(\sfpE b'!) b16([ a)] g([ f)]
+		e2 d4
+		cis2\sfpE cis16([ d)] e([ f)] %105
+		e2 \appoggiatura g8 f4
+		e r r
+		R2.*2
+		r4 \mvTrh c\ff^\tutti c %110
+		es c r
+		r c c
+		g' c, r
+		R2.
+		d'4. h8 g f %115
+		e!8. f16 g4 r
+		r8 c, f a! c a
+		f4 f f
+		d( g) g
+		g2( a!4) %120
+		d, r r
+		g2.
+		c,4 r r
+		f2.
+		b,4 r r %125
+		es2 r4
+		a!2 r4
+		r r d,\pE
+		es( d) c
+		h r r %130
+		R2.*4
+		R2.\fermataMarkup \bar "||" %132 finis
+	}
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+	Et in -- car -- %83
+	na -- tus est,
+	et in -- car -- %85
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto
+	ex __ Ma -- ri -- a
+	Vir -- gi -- ne, %90
+	et in -- car --
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto,
+	et in -- car -- %95
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et %100
+	ho -- mo, et
+	ho -- mo fa -- ctus
+	est, __ ho -- mo
+	fa -- ctus
+	est, ho -- mo %105
+	fa -- ctus
+	est.
+
+	Cru -- ci -- %110
+	fi -- xus,
+	cru -- ci --
+	fi -- xus,
+
+	cru -- ci -- fi -- xus %115
+	e -- ti -- am
+	sub Pon -- ti -- o Pi --
+	la -- to, pro
+	no -- bis
+	pas -- %120
+	sus,
+	pas --
+	sus,
+	pas --
+	sus, %125
+	et,
+	et
+	se --
+	pul -- tus
+	est. %130 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -429,3 +429,62 @@ CredoViola = {
 		c e g g' c,4 r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		\mvTr <c f>4\pE-\markup \remark "con sordino" d d
+		c2 r4
+		c2 d8 e
+		f c c4 r
+		\once \slurDashed <b d>4.(\sfp <d f>8 <c e> <b d>)
+		<a c>4 r8 \once \slurDashed a( b c) %80
+		d4 r r8 b
+		a4( g8) b( a g)
+		f4 r r
+		R2.*6 %89
+		r4 r8 g4\p g8 %90
+		g16\sfp g g g g g g g g g g g
+		g g g g g g g g g g g g
+		g\sfpE g g g g g g g g g g g
+		g g g g g g g g g g g g
+		f f f f a a a a a a a a %95
+		c c c c g g g g g g g g
+		f f f f a a a a h h c c
+		d d d d c c c c c^\critnote c c c
+		f f f f f f e e f f e e
+		f f f cis d d d d d d d d %100
+		d d d d c c c c c c c c
+		a a a a g-\critnote g g g g g g g
+		g\sfp c c c c c c c c  c a a
+		g g g g g g g g g g g g
+		b!\sfp b b b b b b b \once \slurDashed b( a g f) %105
+		g g g g g g g g h h h h
+		c <g e> q q q\pp q q q q q q q
+		q4 c16( h c h c h c h)
+		c(\crescE h c d es f g as g f es d)
+		c(\fE h c d es f g as g f es d) %110
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c es es es es es es es es es es es
+		d d d d d d d d d d d d %115
+		des des des des des des des des des des des des
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		h h h h g g g g g' g g g
+		g g g g g g g g a! a a a %120
+		d, d d d d d d d d d d d
+		des des des des des des des des des des des des
+		c c c c c c c c c c c c
+		ces ces ces ces ces ces ces ces ces ces ces ces
+		b b b b b b b b b b b b %125
+		ges'\fz ges ges ges ges ges ges ges ges ges ges ges
+		a!\fz a a a a a a a a a a a
+		\once \slurDashed h(\fzE g d h) g4 r
+		R2.*6 %134
+		R2.\fermataMarkup \bar "||" %135 finis
+	}
+}

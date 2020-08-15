@@ -346,3 +346,68 @@ CredoOboeII = {
 		c4 h c r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.
+		r4 r8 e\pE e e
+		e4 r r
+		r r8 f( g a)
+		b4 r r
+		R2. %80
+		r4 r r8 g
+		\once \slurDashed f4( e8) r r4
+		R2.
+		r4 r8 e e e
+		e4 r r %85
+		r r8 f( g a)
+		b4 r r
+		R2.
+		r8 c,[ e f g f]
+		a8. f16 e8 r r4 %90
+		d'2.\sfp
+		c8 r r4 r
+		d2.\sfp
+		c8 r r g4 g8
+		a4 cis d %95
+		g, h c
+		a2 d8 c
+		h4 c r
+		R2.*4 %102
+		b2\sfp b16 a g f
+		e2 d4
+		b'2\sfp b16 a g f %105
+		e2 g8 f
+		e4 r r
+		R2.*2
+		g2.~\f %110
+		g4 g-! g-!
+		c2.~
+		c4 c-! c-!
+		es2.
+		d %115
+		des
+		c
+		c
+		h
+		h4 c2 %120
+		h4 r r
+		des2.
+		c4 r r
+		ces2.
+		b4 r r %125
+		ces2\fz r4
+		es2\fz r4
+		h4\fz h d\p
+		c h a
+		g g f! %130
+		es f fis
+		g d' c
+		h r fis
+		g d8.[ es16 d8. es16]
+		d2.\fermata_\critnote \bar "|." %135 finis
+	}
+}

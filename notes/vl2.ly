@@ -435,3 +435,62 @@ CredoViolinoII = {
 		e g c e, d8 h' c,4 r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		\once \slurDashed \mvTr a'4(\pE-\markup \remark "con sordino" a, g')
+		\afterGrace f8.[ { \stemDown g32 f e f } g16] e4 r
+		e( g8 f b a)
+		a8. g16 f4 r
+		b4.(\sfp d8 c b)
+		a8 a'16-! g-! f-! e-! d-! c-! b-! a-! g-! f-! %80
+		d8 r r4 \once \slurDashed b8( d)
+		c4. d8( c b)
+		a4 r r
+		R2.*6 %89
+		r4 r8 g(\pE h c) %90
+		d16\sfp d d d d d d d d d d d
+		c c c c c c c c c c c c
+		d\sfp d d d d d d d d d d d
+		c c c c c c c c h h c c
+		c c c c cis cis cis cis d d d d %95
+		g, g g g h h h h c c c c
+		a a a a f' f e e d d c c
+		h h h h c c c c c' c c c
+		a a a a a a b! b a a b b
+		a a a a a a a a as as as as %100
+		g g g g g g g g g g g g
+		g f a f e e e e d d d d
+		b'!\sfp b b b b b b b b( a g f)
+		e e e e e e e e d d d d
+		cis\sfp cis cis cis cis cis cis cis cis( d e f) %105
+		e e e e e e e e g( f) \parOn f-\parenthesize-! \parOff f-\parenthesize-!
+		e c c c c\pp c c c c c c c
+		c4 c16( h c h c h c h)
+		c(\cresc h c d es f g as g f es d)
+		c(\f h c d es f g as g f es d) %110
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( es f g as b c des es f g as)
+		as( g fis g) fis( g cis, d) ais( h fis g) %115
+		b,!( des e! f g as b c des e! f g)
+		g( f e f) e( f h, c) gis( a e! f)
+		as,( c d e! f g as b c d e f)
+		f( es d es) f( es d c) h( as' g f)
+		es( d c h c h c d) es( d es c) %120
+		h( c d es f es d c h as g f)
+		e!( f g as b c des e f g as b)
+		c( b as g f es des c b as g f)
+		d!( es f ges as b ces d es f ges a)
+		b( as ges f es des c b as ges f es) %125
+		ces(\fz es ges b ces b ces des es des ces b)
+		a!(\fz fis es c) a( c es fis) a( c es fis)
+		g(\fz d h g) g,4 r
+		R2.*6 %134
+		R2.\fermataMarkup \bar "||" %135 finis
+	}
+}

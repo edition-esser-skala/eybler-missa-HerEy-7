@@ -409,98 +409,188 @@
 	% 		\midi { \tempo 4 = 100 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "C R E D O"
+	% 	}
+	% 	\tocSection "3" "Credo"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\partcombine \CredoOboeI \CredoOboeII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+	% 					\partcombine \CredoFagottoI \CredoFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff \with { \smallStaffDistance } <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					\partcombine \CredoClarinoI \CredoClarinoII
+	% 				>>
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "trb"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\CredoTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\CredoTromboneII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				\CredoTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\CredoViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\CredoViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\CredoViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \CredoAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \CredoBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\CredoOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \CredoBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 110 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "C R E D O"
+			subtitle = "E T   I N C A R N A T U S   E S T"
 		}
-		\tocSection "3" "Credo"
+		\tocSubsection "3.2" "Et incarnatus est"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-						\partcombine \CredoOboeI \CredoOboeII
+						\partcombine \EtIncarnatusOboeI \EtIncarnatusOboeII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-						\partcombine \CredoFagottoI \CredoFagottoII
+						\partcombine \EtIncarnatusFagottoI \EtIncarnatusFagottoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff \with { \smallStaffDistance } <<
-						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-						\partcombine \CredoClarinoI \CredoClarinoII
+						\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+						% \transpose c f,
+						\partcombine \EtIncarnatusCornoI \EtIncarnatusCornoII
 					>>
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "trb"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\CredoTromboneI
+							\EtIncarnatusTromboneI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\CredoTromboneII
+							\EtIncarnatusTromboneII
 						}
 					>>
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "timp"
-					\CredoTimpani
-				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\CredoViolinoI
+							\EtIncarnatusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\CredoViolinoII
+							\EtIncarnatusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\CredoViola
+						\EtIncarnatusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \CredoAltoLyrics
+					\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EtIncarnatusTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \EtIncarnatusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\CredoOrgano
+						\EtIncarnatusOrgano
 					}
 				>>
-				\new FiguredBass { \CredoBassFigures }
+				\new FiguredBass { \EtIncarnatusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

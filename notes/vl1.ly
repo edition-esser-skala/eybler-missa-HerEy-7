@@ -435,6 +435,64 @@ CredoViolinoI = {
 	}
 }
 
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		\mvTr c'4(\pE-\markup \remark "con sordino" f, b)
+		\afterGrace a8.[ { \stemDown b32 a g a } b16] g4 r
+		g( b8 a d c)
+		c8. b16 a4 r
+		d4.(\sfp f8 e d)
+		c c'16-! b-! a-! g-! f-! e-! d-! c-! b-! a-! %80
+		g16.( fis32 a16. g32 b16. a32 c16. b32) d8(\sfp c32 b a g)
+		f4( e8) r r4
+		R2.*7 %89
+		r4 r8 c(\p d e) %90
+		f16\sfp f f f f f f f f f f f
+		e e e e e e e e e e e e
+		f\sfp f f f f f f f f f f f
+		e e e e e e g g f f e e
+		a a a a g g g g f f f f %95
+		g g g g f f f f e e e e
+		f f f f f' f f f f f f f
+		f f f f e e e e e e e e
+		d d d d d d cis cis d d cis cis
+		d d d e f f f f f f f f %100
+		f f f f e e e e e e e e
+		e d f d c c c c h h h h
+		g'\sfp g g g g g g g g( f e d)
+		c c c c c c c c h-! h-! h( g')
+		g\sfp g g g g g g g g( f g a) %105
+		c, c c c c c c c e( d) d-! d-!
+		c4 g\pp e
+		c c16( h c h c h c h)
+		c(\cresc h c d es f g as g f es d)
+		c(\f h c d es f g as g f es d) %110
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( es f g as b c des es f g as)
+		as( g fis g) fis( g cis, d) ais( h fis g) %115
+		b,!( des e! f g as b c des e! f g)
+		g( f e f) e( f h, c) gis( a e! f)
+		as,( c d e! f g as b c d e f)
+		f( es d es) f( es d c) h( as' g f)
+		es( d c h c h c d) es( d es c) %120
+		h( c d es f es d c h as g f)
+		e!( f g as b c des e f g as b)
+		c( b as g f es des c b as g f)
+		d!( es f ges as b ces d es f ges a)
+		b( as ges f es des c b as ges f es) %125
+		ces(\fz es ges b ces b ces des es des ces b)
+		a!(\fz fis es c) a( c es fis) a( c es fis)
+		g(\fz d h g) g,4 r
+		R2.*6 %134
+		R2.\fermataMarkup \bar "||" %135 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

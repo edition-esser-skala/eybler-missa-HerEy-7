@@ -348,3 +348,68 @@ CredoOboeI = {
 		e4 d \pao c r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.
+		r4 r8 g'\pE g g
+		g4 r r
+		r r8 a( b c)
+		d4 r r
+		R2. %80
+		r4 r r8 b
+		\once \slurDashed a4( g8) r r4
+		R2.
+		r4 r8 g g g
+		g4 r r %85
+		r r8 \once \slurDashed a( b c)
+		\pa d4. f8 e d
+		d16 c b a a4 c8 a
+		f4 \pd g8 a b a
+		c8. a16 g8 \pa d'16 c h( c d e) \pd %90
+		f2.\sfp
+		\pa e4 r8 h16( c cis d dis e) \pd
+		f2.\sfp
+		\pa e4 r8 d16 c h c d e
+		a,8 a'4 g f8 %95
+		r g4 f e8
+		f,4 f'4. f8
+		\pd f4 e r
+		R2.*4 %102
+		g2\sfp g16 f e d
+		c2 h4
+		g'2\sfp \partcombineChords g16 f g a \pd %105
+		c,2 e8 d
+		c4 r r
+		R2.*2
+		\once \tieDashed c2.~\f %110
+		c4 \parOn c-\parenthesize-! \parOff c-\parenthesize-!
+		\once \tieDashed es2.~
+		es4 \parOn es-\parenthesize-! \parOff es-\parenthesize-!
+		as2.~
+		as4 g2 %115
+		g2.~
+		g4 f2
+		f2.~
+		f4. es?8 d4
+		es2. %120
+		d4 r r
+		e!2.
+		f4 r r
+		d2.
+		es4 r r %125
+		es2\fz r4
+		fis2\fz r4
+		g\fz d f\p
+		es d c
+		h \pa r r \pd %130
+		c2 d4
+		h f' es
+		d r \pa fis,
+		g \pd g8.[ fis16 g8. fis16]
+		g2.\fermata \bar "||" %135 finis
+	}
+}

@@ -976,6 +976,123 @@ CredoBassFigures = \figuremode {
 	r4 <4>8 <3> r2 %74 finis
 }
 
+EtIncarnatusOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		\mvTr f,4\p-\solo d' b
+		c2 r4
+		c'( e,8 f b, c)
+		d e f4 r
+		b\sfp b, d
+		f r8 f( g a) %80
+		b r r4 g8( b)
+		c4 c,8 r r4
+		R2.*7 %89
+		r4 r8 e(\p d c) %90
+		h16\sfp h h h h h h h h h h h
+		c c c c c c c c c c c c
+		h\sfp h h h h h h h h h h h
+		c c c c c c e e d d c c
+		f f f f e e e e d d d d %95
+		e e e e d d d d c c c c
+		d d d d d d c c h h a a
+		gis gis gis gis a a a' a a a g g
+		f f f f f f g g f f g g
+		f f f e d d d d c c c c %100
+		h h h h c c c c c c c c
+		f f d d g g g g g, g g g
+		e'\sfp e e e e e e e f f f f
+		g g g g g g g g f f f f
+		e\sfp e e e e e e e f f d d %105
+		g g g g g g g g g, g g g
+		c c c c c\pp c c c c c c c
+		c4 c16( h c h c h c h)
+		c(\cresc h c d es f g as g f es d)
+		\mvTr c(\f-\tutti h c d es f g as g f es d) %110
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c( h c d es f g as g f es d)
+		c c' c c c c c c c c c c
+		h, h' h h h h h h h h h h %115
+		b, b' b b b b b b b b b b
+		a,! a'! a a a a a a a a a a
+		as, as' as as as as as as as as as as
+		g, g' g g g g g g g g g g
+		g, g' g g g g g g g g g g %120
+		g, g' g g g g g g g g g g
+		b,! b'! b b b b b b b b b b
+		as, as' as as as as as as as as as as
+		as, as' as as as as as as as as as as
+		ges, ges' ges ges ges ges ges ges ges ges ges ges %125
+		ces,\fz ces' ces ces ces ces ces ces ces ces ces ces
+		c,\fzE c' c c c c c c c c c c
+		g4\fzE r r
+		R2.*3 %131
+		\mvTrr g,2.~\pp-\tastoE
+		g~
+		g4 g g
+		g2.\fermata \bar "||" %135 finis
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	r2 <6>4 %75
+	<6 4> <5 3>2
+	r4 <6 5> <10 8>8 <8 6>
+	<7 5> <\t \t>16 <5 3> r2
+	r <6>4
+	r2 <6>8 q %80
+	q2 r8 q
+	<6 4>4 <5 3>2
+	r2.*7 %89
+	r4. <6>8 <6!>4 %90
+	<6 5>2.
+	r
+	<6 5>
+	r4. <6>8 <6!>4
+	r <6\\>2 %95
+	<6>4 <6!>2
+	<9>4 <8>8 <4 3> <5> <2!>
+	<7 _!>4 <5 3>4. <\t \t>8
+	<6>4. <4\+ _->8 <6> <4\+ _->
+	<6>8. <6\\>16 <8>4 <6- 4 2> %100
+	<6 5>2.
+	<9 7>16 <8 6>8. <6 4>4 <7 _!>
+	<6 5->2 <5>8 <6>
+	<6 4>2 <4! 2>4
+	<6\\ 5->2 <6>4 %105
+	<6 4>2 <8 6>8 <7 _!>
+	r2.
+	r
+	r
+	<_->2 \bassFigureExtendersOn q8. q16 %110
+	<_-\!>2 <_->8. q16
+	<_-\!>2 <_->8. q16
+	<_-\!>2 <_->8. q16 \bassFigureExtendersOff
+	<6- _->2.
+	<7->4 <6>2 %115
+	<4! _->2.
+	<7>4 <6>2
+	q2.
+	<7 _!>4. \bassFigureExtendersOn <6- _!>8 <5 _!>4 \bassFigureExtendersOff
+	<6- _!> <6- 4> <9! 7+ \t \t> %120
+	<_!>2.
+	<4! _->
+	<6>
+	<4! _->
+	<6> %125
+	<5->
+	<6! 4\+ _->
+	<_!>
+	r2.*3 %131
+	r2.
+	r
+	r
+	r %135 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

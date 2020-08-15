@@ -416,3 +416,68 @@ CredoFagottoII = {
 		c c' g g, c4 r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusFagottoII = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.
+		r4 r8 c\p c c
+		c4 r r
+		r r8 f, f f
+		b,4 r r
+		R2. %80
+		r4 r r8 b''
+		c4( c,8) b'( a g)
+		f4 r r
+		r r8 c c c
+		c4 r r %85
+		r r8 f, f f
+		b,4 b' b8 d
+		f4 f, r
+		r8 a' g f e f
+		c4 c, r %90
+		h'2.\sfp
+		c8 r r4 r
+		h2.\sfp
+		c8 r r e d c
+		f4 e d %95
+		e d c
+		d d8 c h a
+		gis4 a r
+		R2.*4 %102
+		e'2\sfp f4
+		g2 f4
+		e2\sfp f8 d %105
+		g2 g,4
+		c r r
+		R2.*2
+		c2.~\f %110
+		c4 c-! c-!
+		c2.~
+		c4 c-! c-!
+		c2.
+		h %115
+		b
+		a!
+		as
+		g2.~
+		g2 g4 %120
+		g r r
+		b'!2.
+		as4 r r
+		as2.
+		ges4 r r %125
+		ces,2\fz r4
+		c2\fz r4
+		g\fzE g' g\pE
+		c,2 c4
+		g' g, g %130
+		as2 as4
+		g2.~
+		g~
+		g4 g g
+		g2.\fermata \bar "||" %135 finis
+	}
+}

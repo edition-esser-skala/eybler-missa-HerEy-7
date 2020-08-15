@@ -769,6 +769,114 @@ CredoTenoreLyrics = \lyricmode {
 	cre -- do, cre -- do. %74 finis
 }
 
+EtIncarnatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.*8 %82
+		\mvTr a4\p^\soloE a d
+		c8. c16 c4 r
+		c c d8([ e)] %85
+		f c c4 r
+		b b8([ d)] c b
+		b16([ a g f)] f8 r r4
+		r8 c'([ b)] a c c
+		c8. c16 c4 r %90
+		g g g
+		g8. g16 g4 r
+		g g g8. g16
+		g4 c r
+		c a a %95
+		c g g
+		f a h8 h
+		d4 c r
+		a4. b!8 a b
+		a8. g16 f4 r8 d' %100
+		d4 c r8 c
+		a a g4 g
+		b!(\sfpE c) c8 a
+		g2 g4
+		b!2\sfpE b16([ a)] g([ f)] %105
+		g2 h4
+		c r r
+		R2.*2
+		r4 \mvTrh c\ff^\tuttiE c %110
+		es c r
+		r c c
+		g' c, r
+		r es es
+		d2 d4 %115
+		des4. des8 des des
+		c4 c c
+		c4. c8 c c
+		h2 h4
+		h( c2) %120
+		h4 r r
+		e!2.
+		f4 r r
+		d!2.
+		es4 r r %125
+		es2 r4
+		es2 r4
+		r r h\p
+		c( d) es
+		d r r %130
+		R2.*4
+		R2.\fermataMarkup \bar "||" %135 finis
+	}
+}
+
+EtIncarnatusTenoreLyrics = \lyricmode {
+	Et in -- car -- %83
+	na -- tus est,
+	et in -- car -- %85
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto
+	ex __ Ma -- ri -- a
+	Vir -- gi -- ne, %90
+	et in -- car --
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto,
+	et in -- car -- %95
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto
+	ex Ma -- ri -- a
+	Vir -- gi -- ne, et %100
+	ho -- mo, et
+	ho -- mo fa -- ctus
+	est, __ ho -- mo
+	fa -- ctus
+	est, ho -- mo %105
+	fa -- ctus
+	est.
+
+	Cru -- ci -- %110
+	fi -- xus,
+	cru -- ci --
+	fi -- xus,
+	cru -- ci --
+	fi -- xus %115
+	e -- ti -- am pro
+	no -- bis sub
+	Pon -- ti -- o Pi --
+	la -- to,
+	pas -- %120
+	sus,
+	pas --
+	sus,
+	pas --
+	sus, %125
+	et,
+	et
+	se --
+	pul -- tus
+	est. %130 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

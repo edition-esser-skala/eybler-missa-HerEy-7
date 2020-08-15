@@ -325,3 +325,69 @@ CredoTromboneI = {
 		g8 g g4 e r\fermata \bar "||" %74 finis
 	}
 }
+
+EtIncarnatusTromboneI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #75
+		R2.
+		r4 r8 g\pE g g
+		g4 r r
+		r r8 \once \slurDashed f'( e es)
+		d4 r r
+		R2. %80
+		r4 r r8 d
+		c4. r8 r4
+		R2.
+		r4 r8 c c c
+		c4 r r %85
+		r r8 f f f
+		f4 r r
+		f r r
+		r8 c c c c c
+		c4 r r %90
+		g'2.~\sfpE
+		g4 r r
+		g2.~\sfpE
+		g4 r8 g f e
+		a2. %95
+		g
+		f4. e8 d c
+		h4 c r
+		R2.*4 %102
+		g'2\sfpE r4
+		R2.
+		g2\sfpE r4 %105
+		e2 d4
+		c c\ppE c
+		c r r
+		R2.
+		es2.~\fE %110
+		es4 es es
+		g2.~
+		g4 g g
+		as2.~
+		as4 d, g~ %115
+		g2.~
+		g4 c, \once \tieDashed f~
+		f2.
+		g
+		g2 c,4 %120
+		g' r r
+		g2.
+		as4 r r
+		f2.
+		ges4-\critnote r r %125
+		ges2\fzE r4
+		a!2\fzE r4
+		g2\fzE r4
+		g2\pE r4
+		R2. %130
+		es4 f fis
+		g r fis
+		g f es
+		d d8.[-\critnote es16 d8. es16]
+		d2.\fermata \bar "||" %135 finis
+	}
+}
