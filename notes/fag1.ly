@@ -488,3 +488,136 @@ EtIncarnatusFagottoI = {
 		h2.\fermata \bar "||" %135 finis
 	}
 }
+
+EtResurrexitFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #136
+		g'8\f fis g a h a h g
+		fis g fis e d e fis g
+		a gis a h c h c a
+		gis a gis fis e fis gis a
+		h ais h cis d cis d h %140
+		cis h ais4 r2
+		h1
+		cis
+		e
+		dis %145
+		r4 g, h e
+		r a, c e
+		r dis8 e fis2
+		e4 h d2
+		c!4 r r e %150
+		f d h a
+		gis8 h e4 r2
+		a,8 gis a b a g f e
+		d cis d e f d e f
+		g f e f g e f g %155
+		a gis a h cis a h cis
+		d cis d e d c h a
+		g fis g a g f e d
+		c h c d c h a g
+		fis g a h c d e fis %160
+		g h d h g d h g
+		c d e fis g a h c
+		h a g fis e d c h
+		a h c d e fis g a
+		g fis e d c h a g %165
+		c d e fis g a h c
+		c, fis a c cis, e g cis
+		d, g h d d, fis a d
+		g, a h e c a d d,
+		g, a h a g h d g %170
+		e g e c h d h g
+		a a' a, g fis a d fis
+		g e c d g,4 r8 \slurDashed g16(\ff a
+		b4) r8 \tuplet 3/2 8 { b16_( c d } es4) r
+		r2 as,4\ff r8 as16( b %175
+		c4) r8 \tuplet 3/2 8 { c16( d! e! } f4) r
+		r2 b,4\ff r8 b16( c
+		\once \stemUp d4) r8 \tuplet 3/2 8 { d16( e! fis } g4) \slurSolid r
+		r2 c,8\sf d es d
+		c\sf d es d c\sf d es d %180
+		c\sf d es d c\sf d es d
+		c\sf d es d c\sf d es d
+		c\sf d es d c\sf d es d
+		c\sf b as g \tempoEtMortuos f2\sfpE
+		as g %185
+		g\fermata \tempoCuiusRegni r
+		e'!8\f f g e a a, a' g
+		f e d f g g, g' f
+		e c h g c d e f
+		g a g f e d c e %190
+		f g f e d e f d
+		g a g f e f g e
+		a h a g f e d c
+		h h' c c, g' f g g,
+		c d e a f d g g, %195
+		c d e d c e g c
+		a c a f e g e c
+		d c h a gis h e gis
+		a e c a e' e, e' d
+		c d c h a h c a %200
+		d e f g a h c a
+		h a gis fis gis e a a,
+		e' e, e' d c h c a
+		d e f g a e c a
+		b c d e f c a f %205
+		c' e f b, c b c c,
+		f g a b c b c c,
+		f g a g f a c f
+		d f d b a c a f
+		g g' g, f e g c e %210
+		f c a f c' g' e c
+		f g a f e g c, e
+		f a c b a g a f
+		b f d b a c f a
+		b c b as g f g es %215
+		d c d b es b g es
+		b' c d c h a h g
+		c d es f g g, h d
+		g g, h g c es g es
+		c c' c, d es f g g, %220
+		as c es c as b c c'
+		d d, g g, d' c d d,
+		g a b es c a d d,
+		g a b a g b d g
+		es g es c b d b g %225
+		a c' a g fis a d, fis
+		g g, b d g g, g' f
+		e! g e c f a f c
+		e g e c f g f es
+		d a' fis d g h! g d %230
+		fis a fis d g a g f
+		e h' gis e a c a e
+		gis h gis e a c a a,
+		h h' c c, fis fis gis gis
+		a a, a' a d, d' dis, dis %235
+		e e' e, fis gis a h gis
+		a c h a g h a g
+		f a g f e d c h
+		a c e^\critnote a g, h e g
+		f, a c-\critnote f e, g c e %240
+		d, f a d h d g h
+		c g e c g' d h g
+		as1\p
+		g2 g'8\f f e d
+		c e g c g, h d g %245
+		h, d g h c g e c
+		a a' c a g, g' h g
+		f, f' a f e, e' g e
+		d g c, g' h, g' a, g'
+		g, h d g h d h g %250
+		c g e c g' f g g,
+		c d e a f d g g,
+		c d e d c e g c
+		a c a f e g e c
+		d d' d, c h d h g %255
+		c g' e c h d g h
+		a, c f a g, h e g
+		f, a d f e, g c e
+		d d' d, c h d g, h
+		c c' g g, c4 r\fermata \bar "|." %260 FINIS
+	}
+}

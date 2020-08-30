@@ -411,3 +411,125 @@ EtIncarnatusOboeII = {
 		d2.\fermata_\critnote \bar "|." %135 finis
 	}
 }
+
+EtResurrexitOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #136
+		g'1\fE
+		a
+		a
+		h
+		h %140
+		fis4 r r2
+		R1*12 %153
+		d'1_\critnote
+		e %155
+		g
+		fis2 r4 d
+		g1
+		e2 g
+		a1 %160
+		g2 r
+		g,1
+		g
+		fis
+		g2 r4 g %165
+		g1
+		a2_\critnote b
+		h a
+		h4 g2 fis4
+		g1 %170
+		g2. h4
+		a2. h8 a
+		g4. fis8 g4 r8 g\ff
+		b4 r8 b es4 r
+		r2 as,4\ff r8 as %175
+		c4 r8 c f4 r
+		r2 b,4\ff r8 b
+		d4 r8 d g4 r
+		r2 c,,4\ff r
+		c r c r %180
+		c r c r
+		c r c r8 c16 es
+		g8 g g g c,4 r
+		r2 \tempoEtMortuos r
+		R1 %185
+		r2\fermata \tempoCuiusRegni g'4\f g
+		e'2 c
+		d h
+		c4 g2 c4
+		h r r g %190
+		a2. a4
+		h2. h4
+		c2. d4
+		d c2 h4
+		c e, d2 %195
+		c e
+		a g
+		r4 d'2 c8 h
+		a2 gis
+		c1 %200
+		a4 d c2
+		gis8 a h2 a4
+		a gis a2
+		a c
+		f,_\critnote a %205
+		g4 f8 g f4 e
+		f2. e4
+		f1
+		f2. a4
+		d, g2 g4 %210
+		f2 e
+		f g
+		f4 r a2
+		b c
+		b4 r b2 %215
+		b2. es4
+		d1
+		c2 h!4 r
+		h2 c
+		c4 c2 b4 %220
+		as2 as4 as8 g
+		fis4 g2 fis4
+		g2. fis4
+		g1
+		g %225
+		es2 a
+		g1
+		g2 f
+		g f4_\critnote r
+		fis2 g %230
+		a g4 r
+		gis2 a
+		h a
+		g a4 h
+		e,2 f4 fis %235
+		e1
+		e
+		a2 gis
+		a_\critnote e
+		f g %240
+		a4 d2 d4
+		c2 h
+		R1
+		r2 r4 g\f
+		c2 h4 g %245
+		d'2 c4 r
+		c2 h
+		a g
+		f'4 e d c
+		h2. d4 %250
+		c c2 h4
+		c e, d2
+		e g
+		c1
+		a2 d %255
+		c g4 h
+		c a_\critnote h g
+		d'2 g,4 e
+		h'4. c8 d2
+		c4 h\trill c r\fermata \bar "|." %260 FINIS
+	}
+}

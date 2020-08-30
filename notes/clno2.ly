@@ -212,3 +212,61 @@ CredoClarinoII = {
 		c8 c g4 e r\fermata \bar "||" %74 finis
 	}
 }
+
+EtResurrexitClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #136
+		R1*26 %161
+		c'1\f
+		g4 r r2
+		R1*2 %165
+		c1
+		d2 g,
+		g d'
+		g,4 r r2
+		R1*3 %172
+		r2 g,4 r
+		R1*5 %178
+		r2 c4\ff r
+		c r c r %180
+		c r c r
+		c r c r8 c16 c
+		c8 c c c c4 r
+		r2 \tempoEtMortuos r
+		R1 %185
+		r2\fermata \tempoCuiusRegni r
+		R1*7 %193
+		g'4\fE c2 g4
+		e r r2 %195
+		c4 r c r
+		c r c r
+		R1*19 %216
+		r2 g4 g
+		g2 g4 r
+		R1*5 %223
+		g4 r r2
+		g4 r r2 %225
+		R1*2
+		c4 r r2
+		c4 r r2
+		R1*2 %231
+		e2 e4 e
+		e r r2
+		R1*11 %244
+		e2\f g4 r %245
+		g2 c4 r
+		R1*3
+		g2. g4 %250
+		c c2 g4
+		e r r2
+		c4 r c_\critnote r
+		c r c r
+		r2 r4 g' %255
+		c8 g e c g'4 r
+		R1*2
+		r2 g
+		c8 c g4 e r\fermata \bar "|." %260 FINIS
+	}
+}

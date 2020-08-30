@@ -869,6 +869,241 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	est. %130 finis
 }
 
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #136
+		\mvTr g'2\f^\tuttiE g4 g
+		d'2 d
+		a a4 a
+		e'2 e4 e
+		h2 h4 d %140
+		fis fis, r2
+		R1*12 %153
+		d'1
+		e %155
+		g
+		fis2 r4 d
+		g1
+		e2 g
+		a1 %160
+		g2 r
+		e1
+		d2 r4 d
+		c2. c4
+		h2 r4 d %165
+		e2 e4 e
+		fis2 g
+		g( fis)
+		g4 r r2
+		d2 h %170
+		e d
+		R1*2
+		r2 r4 g,\ffE
+		g4. g8 as4 r %175
+		r2 r4 a
+		a4. a8 b4 r
+		r2 r4 h
+		h4. h8 c4 r
+		r2 g %180
+		c es
+		c g'~
+		g c,
+		r \tempoEtMortuos r4 f,~\ppE
+		f es2 d8([ c)] %185
+		d2\fermata \tempoCuiusRegni g4\fE g
+		g'2 e4 c
+		f2 d4 h
+		c d e2
+		d4 g, c r %190
+		r a d r
+		r h e r
+		r c f2~
+		f4 e d2
+		c4 r r2 %195
+		g e
+		a g
+		R1
+		r2 e'4^\critnote e
+		e e8 e c4 e %200
+		f4. f8 e4 r
+		r d4. d8 d c
+		c4 h r e8 e
+		f2 e
+		d c %205
+		b4 a8 b a4( g)
+		f r r2
+		c' a
+		d c
+		R1 %210
+		r2 g4 g
+		a a8 a b4. b8
+		a4 r c c
+		d d es2
+		d4 r8 d es4 es %215
+		f f g2
+		f f4 f
+		es2 d4 r
+		d^\critnote d es4. es8
+		es4 es2 d4 %220
+		c4. c8 c4 c~
+		c b a!2
+		g4 r r2
+		d' b
+		es d %225
+		R1
+		r2 r4 r8 g,
+		c4 c c c8 c
+		c4. b8 a4 r8 a
+		d4 d d8 d d d %230
+		d4. c8 h!4 r8 h
+		e4 e8 e e4 e8 e
+		e2 c4 f~
+		f e dis d
+		cis c b a %235
+		a gis r2
+		c h
+		dis e
+		c h
+		a g %240
+		f4 f f' f
+		e2 d
+		r4 c2\p fis,4
+		g2 g4 g\f
+		e'!2 d4 g, %245
+		f'2 e4 g
+		g( f) f e
+		e( d) d c
+		h c d e8 e
+		f2 d4 \once \slurDashed f( %250
+		e) e d2
+		c4 r r2
+		g e
+		a g
+		R1*2 %256
+		c2 h
+		R1
+		r4 f'2 f4
+		e8 e d4 c r\fermata \bar "|." %260 FINIS
+	}
+}
+
+EtResurrexitSopranoLyrics = \lyricmode {
+	Et re -- sur -- %136
+	re -- xit
+	ter -- ti -- a
+	di -- e se --
+	cun -- dum Scri -- %140
+	ptu -- ras.
+
+	Et %154
+	a -- %155
+	scen --
+	dit in
+	coe --
+	lum, a --
+	scen -- %160
+	dit,
+	se --
+	det ad
+	dex -- te --
+	ram, ad %165
+	dex -- te -- ram
+	\xE De -- i \x
+	Pa --
+	tris.
+	Cre -- do, %170
+	cre -- do.
+
+	Et %174
+	i -- te -- rum %175
+	ven --
+	tu -- rus est
+	cum
+	glo -- ri -- a
+	iu -- %180
+	di -- ca --
+	re vi --
+	vos
+	et __
+	mor -- tu -- %185
+	os, cu -- ius
+	re -- gni non
+	e -- rit, non
+	e -- it fi --
+	nis, non, non, %190
+	non, non,
+	non, non,
+	non e --
+	rit fi --
+	nis. %195
+	Cre -- do,
+	cre -- do.
+
+	Et in
+	Spi -- ri -- tum San -- ctum, %200
+	Do -- mi -- num
+	et vi -- vi -- fi --
+	can -- tem, qui ex
+	Pa -- tre
+	Fi -- li -- %205
+	o -- que pro -- ce --
+	dit.
+	Cre -- do,
+	cre -- do.
+	%210
+	Qui cum
+	Pa -- tre et Fi -- li --
+	o si -- mul
+	ad -- o -- ra --
+	tur et con -- glo -- %215
+	ri -- fi -- ca --
+	tur, cre -- do,
+	cre -- do,
+	qui lo -- cu -- tus
+	est, qui lo -- %220
+	cu -- tus est per __
+	Pro -- phe --
+	tas.
+	Cre -- do,
+	cre -- do. %225
+
+	Et
+	u -- nam san -- ctam ca --
+	tho -- li -- cam et
+	a -- po -- sto -- li -- cam Ec -- %230
+	cle -- si -- am. Con --
+	fi -- te -- or u -- num ba --
+	ptis -- ma in __
+	re -- mis -- si --
+	o -- nem pec -- ca -- %235
+	to -- rum.
+	Cre -- do,
+	cre -- do.
+	Et ex --
+	pe -- cto %240
+	re -- sur -- re -- cti --
+	o -- nem
+	mor -- tu --
+	o -- rum, et
+	vi -- tam ven -- %245
+	tu -- ri, et
+	vi -- tam \xE ven --
+	tu -- ri, \x ven --
+	tu -- ri sae -- cu -- li,
+	a -- men, \xE a -- %250
+	men, a --
+	men. \x
+	Cre -- do,
+	cre -- do,
+
+	cre -- do, %257
+
+	\xE a -- men,
+	a -- men, \x a -- men. %260 FINIS
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

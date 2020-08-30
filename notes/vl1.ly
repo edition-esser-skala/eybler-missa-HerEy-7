@@ -493,6 +493,139 @@ EtIncarnatusViolinoI = {
 	}
 }
 
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #136
+		g'8\f h16 d g8 g g4\trill d8 h
+		a16 g fis g a8 a d4\trill a8 h
+		c16 a c e a8 a a4\trill e8 c
+		h16 a gis a h8 h e4\trill h8 cis
+		d!16 h d fis h8 h h4\trill fis8 d %140
+		cis16 h ais h cis8 cis fis4\trill fis,8 e'
+		d16 e fis g fis8 fis fis4\trill d8 h
+		g'16 fis e fis g8 g g4\trill e8 cis
+		ais16 cis fis ais cis8 cis cis4\trill ais8 e
+		dis16 e fis g! fis8 fis fis4\trill h,,8 a' %145
+		g16 a h c h8 h h4\trill g8 e
+		c'16 h a h c8 c c4\trill a8 fis
+		dis16 fis h dis fis8 fis fis4\trill dis8 a
+		gis16 a h c! d8 d d4\trill e,8 d'
+		c16 d e f e8 e e4\trill c8 a %150
+		f'16 e d e f8 f f4\trill d8 h
+		gis16 h e gis h8 h h4\trill gis8 d
+		cis16 d e f! g8 g g4\trill a,8 g'
+		f16 g a b a8 a a4\trill f8 d
+		b16 d g a b8 b b4\trill g8 e %155
+		cis16 d e f g8 g g4\trill a,8 g'
+		fis16 g a g fis8 g a4\trill d,,8 c'
+		h16 c d c h8 h g'4\trill h,8 g'
+		e16 c a c e8 e c'4\trill e,8 c'
+		d,,16 fis a d fis8 fis a4\trill fis8 c %160
+		h16 g d g h8 h d4\trill g8 h,
+		e16 f g e c8 c c'4\trill g8 e
+		d16 e d c h8 h h'4\trill g8 d
+		c16 d c h a8 a a'4\trill fis8 c
+		h16 c d h g8 g g'4\trill d8 h %165
+		c16 g e g c8 c e4\trill e,8 e'
+		fis16 d a d fis8 fis g16 e b e g8 g
+		h,16 d e fis g a h g c8 c c4\trill
+		h16 a g fis g d c h a8 g' d, fis'
+		g,16 a h c d8 d d4\trill h8 g %170
+		c16 d e fis? g8 g g4\trill d8 h
+		c16 h c d e8 e e4\trill d8 c
+		h16 fis g h, a8 fis' g,4 r8 g16\ff( a
+		b4) r8 \tuplet 3/2 8 { b16( c d } es4) r
+		r2 as,4\ff r8 as16( b %175
+		c4) r8 \tuplet 3/2 8 { c16( d! e! } f4) r
+		r2 b,4\ff r8 b16( c
+		d4) r8 \tuplet 3/2 8 { d16( e! fis } g4) r
+		r2 c,16\sf c d d es es d d
+		c\sf c d d es es d d c\sf c d d es es d d %180
+		c\sf c d d es es d d c\sf c d d es es d d
+		c\sf c d d es es d d c\sf c d d es es d d
+		c\sf c d d es es d d c\sf c d d es es d d
+		c\sf c b b as as g g \tempoEtMortuos as4 r
+		R1 %185
+		r2\fermata \tempoCuiusRegni g'4\fE g
+		g'16 a g f e8 e e4\trill c8 a
+		f'16 e d e f8 f d4\trill h8 g
+		c16 h c e d8 f e4\trill c'8 e,
+		d16 e d c h8 h c4\trill e8 g, %190
+		a16 b a g a8 a f'4\trill d8 a
+		h16 c h a h8 h g'4\trill e8 h
+		c16 h c d c8 c a'4\trill f8 a,
+		g16 h d f e c d e f8 f f4\trill
+		e16 d c h c g f e d8 c' g, h' %195
+		c16 d e f g8 g g4\trill e8 c
+		f16 g a h c8 c c4\trill g8 e
+		f16 e d e f8 f f4\trill e8 d
+		c16 h a gis a8 c h4\trill gis8 e
+		a16 h c d e8 e e4\trill a8 e %200
+		f16 e d cis d8 f e4\trill a,8 c
+		d16 c h c d8 d e,16 gis h c d h c a
+		c, e a c h8 h e4\trill a,16 c d e
+		f d a f d8 f' e4\trill a,16 c e c
+		d b f d b8 d' c4\trill f,16 a c a %205
+		b g' e b a f' d b a c f a b8 b
+		a4\trill f16 c d b a c f a, g8 e'
+		f,16 g a b c8 c c4\trill a8 f
+		b16 c d e f8 f f4\trill c8 a
+		b16 a b c d8 d d4\trill c8 b %210
+		a16 g f e f8 a g4\trill c8 b
+		a16 g f e f8 a b4\trillE g'8 b,
+		a16 g f g a8 b c4\trill f,8 es'
+		d16 c b a b8 d es4\trill c'8 es,
+		d16 c b c d8 b es4\trill b8 g' %215
+		f16 es d es f8 b g4\trill b,8 g'
+		f16 es d es f8 f f4\trill g,8 f'
+		es16 d c h! c8 es d4\trill g8 d
+		h16 a h c d8 d es4\trill c8 g
+		es16 g c d es8 es es4\trill d8 b %220
+		c16 as es as c8 c c4\trill as'8 g
+		fis16 g a fis g a b g c8 c c4\trill
+		b16 a g fis g d c b a8 g' d, fis'
+		g,16 a b c d8 d d4\trill b8 g
+		c16 d es f g8 g g4\trill d8 b %225
+		c16 a es a c8 c c4\trill a'8 c,
+		b16 c d b g8 g g4\trill a8 h
+		c16 h c d c8 c c4\trill a8 f
+		g16 c e g b8 b a4\trill a,8 g'
+		fis16 g a fis d8 d d4\trill h!8 g %230
+		a16 d fis a c8 c h4\trill h,8 a'
+		gis16 a h gis e8 e e4\trill c8 a
+		h16 e gis h d8 d c4\trill c,8 f
+		f16 e f g e8 e dis4\trillE f,!8-\critnote d'
+		cis16 d e cis a8 a b16 c d b a h? c a %235
+		e gis a c h8 h e4\trill e,16 gis h d
+		c h a h c8 c h4\trill e8 g!
+		a16 f c f a8 a gis4\trill a8 h
+		c16 a e a c8 c h4\trill g8 e
+		a16 f c f a8 a g4\trill e8 c %240
+		f16 d a d f8 f f4\trill d'8 f,
+		e16 f g e c8 c h16 c d h g8 g
+		fis(\p h c d) es( h c fis,)
+		g( es d c) h g' g4\trill\f
+		e'16 c g c e8 e d4\trill h8 g %245
+		f'16 e d e f8 f e4\trill g8 g,
+		c16 e f g f8 f f4\trill g,8 e'
+		a,16 c d e d8 d d4 e,8 c'
+		h16 g a h c8 e, d'16 h c d e8 c
+		h16 c d e f e f e f d h c d f, g f %250
+		e f g a h c d e f8 f f4\trill
+		e16 d c h c g f e d8 c' g, h'
+		c16 d e f g8 g g4\trill e8 c
+		f16 g a h c8 c c4\trill g8 e
+		f16 e f g a8 a a4\trill g16 f e d %255
+		e d c h c8 e d4\trill h8 g
+		f'16 g a h c8 c h4\trill g8 e
+		d16 e f g a8 a g4\trill e8 c
+		h16 c d e f8 f f16 e d c h a g f
+		e g c e, d8 h' c,4 r\fermata \bar "|." %260 FINIS
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
