@@ -614,3 +614,46 @@ EtResurrexitFagottoII = {
 		c c' g g, c4 r\fermata \bar "|." %260 FINIS
 	}
 }
+
+SanctusFagottoII = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		r4 c'2\f c4
+		r a2 a4
+		r f2 f4
+		c c' g e \noBreak
+		a d, g r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni R2. \noBreak
+		g
+		g
+		c4 r r
+		R2. %10
+		c
+		c
+		f,4 r r
+		R2.
+		a %15
+		a
+		d,4 r r
+		d2.
+		d
+		d %20
+		g4 r r
+		g2.
+		g
+		g
+		c, %25
+		f
+		e4 a fis
+		g2.
+		c4 r r
+		R2.*7 %36
+		g2 g,4
+		c8 c e g c e
+		g2.
+		c,4 r r %40
+		d2.
+		c4 c, r\fermata \bar "|." %42 FINIS
+	}
+}

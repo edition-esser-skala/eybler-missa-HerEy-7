@@ -626,6 +626,55 @@ EtResurrexitViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r4 <e c'>2\f q4
+		r <c' e>2 q4
+		r <c a'>2 q4
+		<c g'> e8 c d4 e \noBreak
+		a,4. h16 c h4 r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni g16 g g g h h h h d d d d \noBreak
+		f f f f d d d d h h h h
+		f f f f d' d d d f, f f f
+		e8 \tuplet 3/2 8 { g16 a h } c8 g e g
+		c16 c c c e e e e g g g g %10
+		b b b b g g g g e e e e
+		b b b b g' g g g b, b b b
+		a8 f16 g a8 f e d
+		a'16 a a a cis cis cis cis e e e e
+		g g g g e e e e cis cis cis cis %15
+		g g g g e' e e e g, g g g
+		fis8 \tuplet 3/2 8 { a16 h cis } d8 a fis a
+		d16 d d d fis fis fis fis a a a a
+		c c c c a a a a fis fis fis fis
+		c c c c a' a a a c, c c c %20
+		h8 \tuplet 3/2 8 { d,16 e fis } g8 d h d
+		g16 a h c h c d e d f! e d
+		c d e f e c c g g e e c'
+		h c d e d e f g f a g f
+		e f g a g e e c c e e g %25
+		a f c a f a c f a f c' a
+		a g fis g f e dis e d c h c
+		e d c h c d e f d e f g
+		e h c gis a e f d g8 <h d,>
+		c16 g a h c h c d e d c h %30
+		a4 f' r
+		r16 h, c d e d e f g f e d
+		c4 a' r
+		r16 d, e f g a f g e f d f
+		e c d e f g e f d e c d %35
+		h c d e f a g f e d c h
+		c c' c c c d,^\critnote d c' g,8 h'
+		c, c,16 e e g g c c e e g
+		g8 f16 e d c h a g f e d
+		e8 c16 e e g g c c e e g %40
+		g8 g,16 a h c d e f g a h
+		c4 r r\fermata \bar "|." %42 FINIS
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

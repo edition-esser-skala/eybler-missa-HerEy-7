@@ -533,3 +533,52 @@ EtResurrexitOboeII = {
 		c4 h\trill c r\fermata \bar "|." %260 FINIS
 	}
 }
+
+SanctusOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r4 e2\f e4
+		r c'2 c4
+		r f2 f4
+		e c h gis \noBreak
+		a8 g fis g16 a g4 r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni g2. \noBreak
+		h
+		h
+		c4 r r
+		c2. %10
+		e
+		e
+		f4 r r
+		a,2.
+		cis %15
+		cis
+		d4 r r
+		fis,2.
+		a
+		c %20
+		h4 r r
+		h2.
+		c
+		d
+		c8 d e4 r %25
+		f2.
+		c2 a4
+		c2 h4
+		c r r
+		r8 g c d e c %30
+		a4 f' r
+		r8 h, e f g e
+		c4 a' r
+		r8 d, g f e d
+		e4 f d %35
+		d2 c4
+		c c h
+		c r r
+		h2.
+		c8 c, e g c e %40
+		g2 h,4
+		c r r\fermata \bar "|." %42 FINIS
+	}
+}

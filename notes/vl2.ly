@@ -627,3 +627,52 @@ EtResurrexitViolinoII = {
 		e g c e, d8 h' c,4 r\fermata \bar "|." %260 FINIS
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r4 g'2\f g4
+		r a2 a4
+		r <c f>2 q4
+		<c e> g8 g g4 gis \noBreak
+		a8 g fis g16 a g4 r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni <d h>16 q q q q q q q q q q q \noBreak
+		q q q q q q q q q q q q
+		q q q q q q q q q q q q
+		c8 \tuplet 3/2 8 { g'16 a h } c8 g e g
+		g16 g g g g g g g g g g g %10
+		g g g g g g g g g g g g
+		g g g g g g g g g g g g
+		f8 f16 g a8 f-\critnote e d
+		<cis e>16 q q q q q q q q q q q
+		q q q q q q q q q q q q %15
+		q q q q q q q q q q q q
+		d8 \tuplet 3/2 8 { a'16 h cis } d8 a fis a
+		<fis a>16 q q q q q q q q q q q
+		q q q q q q q q q q q q
+		q q q q q q q q q q q q %20
+		g8 \tuplet 3/2 8 { d16 e fis } g8 d h d
+		g16 fis g a g a h c h d c h
+		c h c d c e e c c g g e
+		g a h c h c d e d f e d
+		c d e f e c c g g c c e %25
+		f c a f c f a c f c f a
+		a g fis g f e dis e d c h c
+		e d c h c d e f d e f g
+		e h c gis a e f d g8 <h d,>
+		<c e,>4 r r %30
+		r16 a h c d c d e f e d c
+		h4 g' r
+		r16 c, d e f e f g a g f e
+		d8^\critnote e16 f g a f g e f d f
+		e c d e f g e f d e c d %35
+		h c d e f a g f e d c h
+		c e e e d^\critnote c' c c g,8 h'
+		c, c,16 e e g g c c e e g
+		g8 f16 e d c h a g f e d
+		e8 c16 e e g g c c e e g %40
+		g8 g,16 a h c d e f g a h
+		c4 r r\fermata \bar "|." %42 FINIS
+	}
+}

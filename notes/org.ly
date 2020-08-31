@@ -1354,6 +1354,100 @@ EtResurrexitBassFigures = \figuremode {
 	r1 %260 FINIS
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		r4 \mvTr c'2\f-\tuttiE c4
+		r a2 a4
+		r f2 f4
+		c c' g e \noBreak
+		a d, g r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni g,8 g'16 fis g8 d h d \noBreak
+		g, g'16 fis g8 h d h
+		g g16 fis g8 d h g
+		c \parOn c'16-\parenthesize-! h-! c8-! g-! e-! \parOff g-\parenthesize-!
+		c, c'16 h c8 g e g %10
+		c, c'16 h c8 e, g e
+		c c'16 h c8 g e c
+		f \parOn f16-\parenthesize-! \parOff g-\parenthesize-! a8-! f-! e-! d-!
+		cis a'16 g a8 e cis e
+		a, a'16 g a8 cis e cis %15
+		a a16 g a8 e cis a
+		d \parOn d'16-\parenthesize-! \parOff cis-\parenthesize-! d8-! a-! fis-! a-!
+		d, d'16 cis d8 a fis a
+		d, d16 cis d8 fis a fis
+		d d'16 cis d8 a fis d^\critnote %20
+		g \parOn g16-\parenthesize-! fis-! g8-! d-! h-! \parOff d-\parenthesize-!
+		g, g'16 fis g8 g, g' f
+		e c'16 h c8 g e c
+		g g'16 fis g8 g, g' g,
+		c c'16 h c8 g e c %25
+		f, f'16 e f8 c a f
+		e e' a, a' fis,-\critnote fis'
+		g, g'16 f g8 g,-\critnote g g'
+		c, a'-! f-! d-! g-! g,-!
+		c g' e d c e %30
+		f a f e d f
+		g h g f e g
+		a c a g f a
+		h d h a g h
+		c h a g f e %35
+		d f g g, c d
+		e f g f g g,
+		c \clef "treble_8" c[-! e-! g-! c-! e]-!
+		g-! \clef bass g,[ g g g g]
+		e4 c r %40
+		r8 g' g g g g
+		c4 c, r\fermata \bar "|." %42 FINIS
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r1
+	r
+	r
+	r2. <_+>4
+	<8>8 <7> <8 _+> <7 \t> r2 %5
+	r2.
+	r
+	<7>
+	r
+	r %10
+	r
+	<7->
+	r
+	<6>
+	<_+> %15
+	<7 _+>
+	<_+>
+	q
+	q
+	<7 _+> %20
+	r
+	r
+	<[6]>
+	\bo <[5 3]>4. <6 4>8 \bc <[7 5]>4
+	r2. %25
+	r
+	\bo <6 [4]>8 \bc <\t [3]> <6> <5> <6> <7>
+	<6 4>2 <5 [3]>4
+	r2.
+	r %30
+	<5>4 <6>2
+	<5>4 <6>2
+	<5>4 <6>2
+	<5>4 <6>8 q q <6 5>
+	r4 <6>2 %35
+	q2.
+	<6>4 <4> <3>
+	r2.
+	r
+	<[6]> %40
+	r8 <7> r2
+	r2. %42 FINIS
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

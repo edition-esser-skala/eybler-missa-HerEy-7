@@ -618,3 +618,52 @@ EtResurrexitViola = {
 		c e g g' e4 r\fermata \bar "|." %260 FINIS
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoSanctus
+		r4 <c e>2\f q4
+		r q2 q4
+		r <c f>2 q4
+		<c e> q8 q <h d>4 <h e>-\critnote \noBreak
+		c8 h16 c d8 d <d g,>4 r\fermata \bar "||" %5
+		\time 3/4 \tempoPleni g,16 g g g g g g g g g g g \noBreak
+		g g g g g g g g g g g g
+		g g g g g g g g g g g g
+		g8 \tuplet 3/2 8 { g16 a h } c8 g e g
+		<c e>16 q q q q q q q q q q q %10
+		q q q q q q q q q q q q
+		q q q q q q q q q q q q
+		f8 f16 g a8 f e d
+		a16 a a a a a a a a a a a
+		a a a a a a a a a a a a %15
+		a a a a a a a a a a a a
+		d8 \tuplet 3/2 8 { a16 h cis } d8 a fis a
+		d16 d d d d d d d d d d d
+		d d d d d d d d d d d d
+		d d d d d d d d d d d d %20
+		g8 \tuplet 3/2 8 { d16 e fis } g8 d h d
+		g, g'16 fis g8 g, g' f
+		e c'16 h c8 g e c
+		g g'16 fis? g8 g, g' g,
+		c c'16 h c8 g e c %25
+		f, f'16 e f8 c a f
+		e e' a, a' fis, fis'
+		g, g'16 f g8 g, g' g,
+		c a' f d g g,
+		c4 g'8 f e g %30
+		a, f' a g f a
+		d, g h a g h
+		e, a c h a c
+		d, h' d c h d
+		c g c h a g %35
+		f e d g a h
+		c f, g f g g,
+		c4 r r
+		r8 <d f> q q q q
+		<c e>4 r r %40
+		r8 <g' h> q q q q
+		<e c'>4 c r\fermata \bar "|." %42 FINIS
+	}
+}
