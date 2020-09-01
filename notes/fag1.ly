@@ -670,3 +670,132 @@ SanctusFagottoI = {
 		e4 c r\fermata \bar "|." %42 FINIS
 	}
 }
+
+BenedictusFagottoI = {
+	\relative c {
+		\clef bass
+		\twofourtime \key g \major \time 2/4 \tempoBenedictus
+		R2*3
+		r4 d16(\f fis) fis( a)
+		a4 r %5
+		R2*2
+		r4 r8 h\p
+		\once \slurDashed c16( a) a8 r c
+		\once \slurDashed d16( h) h8 d16(\< e fis g) %10
+		g4\sf fis16( e g e)
+		d4 e16(\> d c h)
+		a\p r h r c r h r
+		a4 h16(\fE c a d)
+		g,4 r %15
+		R2*2
+		r4 d16(\f fis) fis( a)
+		a4 r
+		R2*2 %21
+		r4 \appoggiatura c32 h16(\p a h c)
+		a8 r \appoggiatura d32 c16( h c d)
+		h8 r d16(\< e fis g)
+		g4\sf fis16( e g e) %25
+		d4 e16(\> d c h)
+		a\p r h r c r h r
+		a8 r \pa gis16(\f a h a)
+		a4~ a16( cis d fis) \pd
+		\once \slurDashed fis8( e) \pa gis,16( a h a) %30
+		\once \tieDashed a4~ \slurDashed a16( cis e g) \pd
+		g8( fis) \slurSolid r d
+		h4~ h8 cis16 h
+		a4~ a8 h16 a
+		g4~ g8 a16 g %35
+		fis4. e8
+		a4. g8
+		g16( fis e d) \pa g8 gis
+		a4 \pd r
+		r8 fis'\p \once \slurDashed g16( e) e8 %40
+		r fis \once \slurDashed g16( e) e8
+		r a,4\fE c!8
+		h a g fis
+		e4 r
+		r16 d'-! g-! fis-! fis( e) d-! cis-! %45
+		d8 r d,16(\pE fis) fis( a)
+		a8 r r4
+		r d,16(\f fis) fis( a)
+		a8 r r4
+		r r8 d %50
+		h4~ h8 cis16 h
+		a4~ a8 h16 a
+		g4~ g8 a16 g
+		fis4. e8
+		a4. g8 %55
+		\slurDashed g16( fis) \parOn e-\parenthesize-! \parOff d-\parenthesize-! a'( g) \parOn fis-\parenthesize-! \parOff e-\parenthesize-! \slurSolid
+		\pao d4 r
+		d16(\p fis) fis( a) a8 r
+		d,16( g) g( h) h( a h c)
+		d( h g' fis) e( d c h) %60
+		a4 h16(\f c a d)
+		\sbOn g,4~ \tuplet 3/2 8 { g16 a h h c d }
+		d4~ \tuplet 3/2 8 { d16 e d c h a } \sbOff
+		g8 g a16( h c a)
+		\pa g8. a16 fis8 r %65
+		\sbOn a4~ \tuplet 3/2 8 { a16 h c c d e }
+		e4~ \tuplet 3/2 8 { e16 d h d c a } \sbOff
+		g8 g a16( h c fis,)
+		g8 r \pd \appoggiatura c32 h16(\p a h c)
+		a8 r \appoggiatura d32 c16( h c d) %70
+		h8 r d16(\< e fis g)
+		g4\sf fis16( e g e)
+		d4 e16(\> d c h)
+		a\p r h r c^\critnote r h r
+		a8 r cis16( d e d) %75
+		d4. h8
+		h( a) cis16( d e d)
+		d4. c8
+		\once \slurDashed c( h) r g'\f
+		e4~ e8 fis16 e %80
+		d4~ d8 e16 d
+		c4~ c8 d16 c
+		h4. a8
+		d4. c8
+		c16( h a g) c8 h %85
+		a4 r
+		r8 h\pE \once \slurDashed c16( a) a8
+		r h \once \slurDashed c16( a) a8
+		h d4\fE f8
+		e d c h %90
+		a4 r
+		r16 \parOn h-\parenthesize-! c-! d-! \once \slurDashed d( c) h-! \parOff a-\parenthesize-!
+		\pao g8 r g16(\pE h) h( d)
+		d4 r
+		r \slurDashed g,16(\f h) h( d) \slurSolid %95
+		d8 r r4
+		r r8 g
+		e4~ e8 fis16 e
+		d4~ d8 e16 d
+		c4~ c8 d16 c %100
+		h4. a8
+		d4. c8
+		c16( h a g) c8 h
+		a^\critnote r r a\p
+		\once \slurDashed h16( d) d8 r a %105
+		\once \slurDashed h16( d) d8 r a
+		h d4\f f8
+		e d c h
+		a4 r
+		r16 \parOn h-\parenthesize-! c-! d-! \once \slurDashed d( c) h-! \parOff a-\parenthesize-! %110
+		\pao g8 r g16(\pE h) h( d)
+		d4 r
+		r \slurDashed g,16(\f h) h( d) \slurSolid \noBreak
+		d8 r a a \bar "||"
+		\key c \major \time 3/4 \tempoOsanna \pao g r r4 r \noBreak %115
+		\pa r8 a d e f d \pd
+		h4 g' r
+		r8 c, f e d c
+		h4 d r
+		r r8 c d e %120
+		f4 h, c
+		g2 g,4
+		c8 c e g c e
+		g2.
+		c,4 r r %125
+		f2.
+		e4 c r\fermata \bar "|." %127 FINIS
+	}
+}

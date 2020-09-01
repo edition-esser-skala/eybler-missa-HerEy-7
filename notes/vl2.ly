@@ -676,3 +676,137 @@ SanctusViolinoII = {
 		c4 r r\fermata \bar "|." %42 FINIS
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \tempoBenedictus
+		r8 d\f c h
+		r a d fis
+		g h, c16( d e c)
+		h8.\trill c16 a8 r
+		r e' c a %5
+		r a d fis
+		g d \once \slurDashed e16( d c a)
+		h8 r \appoggiatura a'32 g16(\pE fis g a)
+		fis8 r \appoggiatura h32 a16( g a h)
+		g8 r h16(\< c d e) %10
+		e4\sf d16( c e c)
+		h4 c16(\> h a g)
+		fis\p r g r fis r g r
+		fis4 r
+		r8 d8\fE c h %15
+		r a d fis
+		g h, c16( d e c)
+		h8.\trill c16 a8 r
+		r e' c a
+		r a d fis %20
+		g h, e16( d c a)
+		h8 r \appoggiatura a'32 g16(\pE fis g a)
+		fis8 r \appoggiatura h32 a16( g a h)
+		g8 r h16(\< c d e)
+		e4\sf d16( c e c) %25
+		h4 c16(\> h a g)
+		fis\p r g r fis r g r
+		fis8 r r4
+		r8 a\f g fis
+		\once \slurDashed d'( cis) r4 %30
+		r8 e, d cis
+		\once \slurDashed e'( d) r4
+		h,16( d e g) g8( cis,)
+		a16( cis d fis) fis8( h,)
+		g16( h cis e) e8( a,) %35
+		a16( d fis a) cis,( e g cis)
+		d( a fis d) \once \slurDashed d( h' d g)
+		\once \slurDashed g( fis e d) h8 h
+		a r \appoggiatura a32 g16(\p fis g a)
+		fis8 r \appoggiatura a32 g16( fis g a) %40
+		fis8 r \appoggiatura a32 g16( fis g a)
+		fis( d fis a) d(\f c! h a)
+		h( cis) cis( dis) dis( e) e( fis)
+		g8.( a32 g) fis16( e d cis)
+		\once \slurDashed d( fis) \parOn e-\parenthesize-! \parOff d-\parenthesize-! \once \slurDashed a( g) \parOn fis-\parenthesize-! \parOff e-\parenthesize-! %45
+		fis8 r r4
+		r \mvTr <cis e>8\pE-\pizz q
+		<d fis> r r4
+		r \mvTr <a e' cis'>8\fE-\arco q
+		<a fis' d'>4 r %50
+		h16( dis e g) g8( cis,)
+		a16( cis d fis) fis8( h,)
+		g16( h cis e) e8( a,)
+		a16( d fis a) cis,( e g cis)
+		d( a fis d) d( h' d g) %55
+		g( fis) e-! d-! a( g) fis-! e-!
+		fis8 r \appoggiatura c'!32 h16(\p a h c)
+		a8 r \appoggiatura h32 a16( g a h)
+		g8 r \appoggiatura a32 g16( fis g a)
+		h( g e' d) c( h a g) %60
+		fis4 r
+		r8 d\fE c h
+		r a d fis
+		g h, c16( d e c)
+		h8.\trill c16 a8 r %65
+		r e' c a
+		r a d fis
+		g h, e16( d c a)
+		h8 r \appoggiatura a'32 g16(\pE fis g a)
+		fis8 r \appoggiatura h32 a16( g a h) %70
+		g8 r h16(\< c d e)
+		e4\sf d16( c e c)
+		h4 c16(\> h a g)
+		fis\p r g r fis r g r
+		fis4-\critnote r %75
+		r8 d c h
+		g'( fis) r4
+		r8 a g fis
+		fis( g) r4
+		e16(\f g a c) c8( fis,) %80
+		d16( fis g h) h8( e,)
+		c16( e fis a) \once \slurDashed a8( d,)
+		d16( g h d) fis,( a c fis)
+		\slurDashed g( d h g) g( e' g c)
+		c( h a g) \slurSolid e8 e %85
+		d r \appoggiatura h32 a16(\pE gis a h)
+		g4-\critnote \appoggiatura h32 a16( gis a h)
+		g4 \appoggiatura h32 a16( gis a h)
+		\once \slurDashed g( h) h8 h16(\f g h d)
+		e( fis!) fis( gis) gis( a) a( h) %90
+		c8.( d32 c) \slurDashed h16( a g fis)
+		g( h) \parOn a-\parenthesize-! \parOff g-\parenthesize-! d( c) \parOn h-\parenthesize-! \parOff a-\parenthesize-! \slurSolid
+		h8 r r4
+		r \mvTr <fis a>8\pE-\pizz q
+		<g h> r r4 %95
+		r \mvTr <d c'>8\f-\arco q
+		<g, d' h'>4 r
+		e'16( g a c) c8( fis,)
+		d16( fis g h) h8( e,)
+		c16( e fis a) a8( d,) %100
+		d16( g h d) fis,( a c fis)
+		g( d h g) g( e' g c)
+		c( h a g) e8 e
+		d r \appoggiatura h32 a16(\p gis a h)
+		g8 r \appoggiatura h32 a16( gis a h) %105
+		g8 r \appoggiatura h32 a16( gis a h)
+		g( h) h8 h16(\fE g h d)
+		e( fis!) fis( gis) gis( a) a( h)
+		c8.( d32 c) h16( a g fis)
+		g( h) a-! g-! d( c) h-! a-! %110
+		h4^\critnote r
+		r \mvTr <fis a>8\pE-\pizz q
+		<g h> r r4 \noBreak
+		r \mvTr <d c'>8\f-\arco q \bar "||"
+		\key c \major \time 3/4 \tempoOsanna <d h'>8 r r4 r \noBreak %115
+		r16 a' h c d c d e f e d c
+		h4 g' r
+		r16 c, d e f e f g a g f e
+		d8 e16 f g a f g e f d f
+		e c d e f g e f d e c d %120
+		h c d e f a g f e d c h
+		c e e e d c' c c g,8 h'
+		c, c,16 e e g g c c e e g
+		g8 f16 e d c h a g f e d
+		e8 c16 e e g g c c e e g %125
+		g8 g,16 a h c d e f g a h
+		c4 r r\fermata \bar "|." %127 FINIS
+	}
+}

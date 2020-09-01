@@ -1186,7 +1186,7 @@ SanctusAltoLyrics = \lyricmode {
 	tu --
 	a.
 	%30
-	O -- san -- na in ex -- %30
+	O -- san -- na in ex --
 	cel -- sis,
 	o -- san -- na in ex --
 	cel -- sis,
@@ -1198,6 +1198,190 @@ SanctusAltoLyrics = \lyricmode {
 	cel -- sis, %40
 	o -- san -- na in ex --
 	cel -- sis. %42 FINIS
+}
+
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
+		R2*14 %14
+		\mvTr d4.\f^\tuttiE d8 %15
+		d4 fis8 fis
+		g4 e8 e
+		d4 d8 r
+		r4 r8 a'
+		a4 fis8 fis %20
+		g4( e8) d
+		d4 r8 g\pE
+		fis16([ a)] a8 r a
+		g16([ h]) h8 g\f g
+		g4 g8 g %25
+		g4 c16([ h)] a([ g)]
+		fis8\p g16 g fis8 g
+		fis4 gis16([\f a)] h([ a)]
+		a2
+		a4 gis16([ a)] h[( a)] %30
+		a2
+		a4 a
+		a g8 g
+		g4 fis8 fis
+		fis4 e %35
+		e16([ d)] fis8 fis16([ e)] g8
+		g16([ fis)] a8 a16([ g)] h([ g)]
+		g([ fis)] e d h'4
+		a8 r g16([\p fis)] g([ a)]
+		fis4 g16([ fis)] g([ a)] %40
+		fis4 g16([ fis)] g([ a)]
+		fis8 a a\f a
+		g([ a)] h h
+		a4 a8 a
+		a16([ fis)] g a a([ g)] fis([ e)] %45
+		fis4 r
+		r cis8.\p cis16
+		d8 fis r4
+		r g8.\f g16
+		fis8 d r4 %50
+		R2*11 %61
+		d4. d8
+		d4 fis8 fis
+		g4 e8 e
+		d4^\critnote d8 r %65
+		r4 r8 a'
+		a4 fis8 fis
+		g4( e8) d
+		d r r g\p
+		fis16([ a)] a8 r a %70
+		g16([ h)] h8 g\f g
+		g4 g8 g
+		g4 c16([ h)] a([ g)]
+		fis8\p g16 g fis8 g
+		fis4 r %75
+		r8 d([ fis)] g
+		g fis r4
+		r8 a([ g)] fis
+		a g r g\f
+		g4 a8 a %80
+		fis4 g8 g
+		e4 a
+		d, c
+		g' g8 g
+		g a16 h c8 h %85
+		a r a16([\p gis)] a([ h)]
+		g4 a16([ gis)] a([ h)]
+		g4 a16([ gis)] a([ h)]
+		g8 h g\f f
+		e([ d)] c h %90
+		a([ d)] fis a
+		g g16 g e8 d
+		d4 r
+		r fis8.\p fis16
+		g([ d)] d8 r4 %95
+		r c'8.\f c16
+		h8 g r4
+		R2*17 \bar "||" %114
+		\key c \major \time 3/4 \tempoOsanna R2. %115
+		r8 a a a a a
+		h4 h r
+		r8 c c c c c
+		d4 d r
+		r8 g, c h a g %120
+		f([ e)] d g a h
+		c c c4( h)
+		c r r
+		r8 d, d d d d
+		e4 g r %125
+		r8 h h h h h
+		c4 c, r\fermata \bar "|." %127 FINIS
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- %15
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit
+	in
+	no -- mi -- ne %20
+	Do -- mi --
+	ni, qui
+	ve -- nit, qui
+	ve -- nit, be -- ne --
+	di -- ctus, qui %25
+	ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni, be -- ne --
+	di --
+	ctus, be -- ne -- %30
+	di --
+	ctus, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- %35
+	ni, qui ve -- nit,
+	ve -- nit, be -- ne --
+	di -- ctus, qui ve --
+	nit, be -- ne --
+	di -- ctus, qui %40
+	ve -- nit, qui
+	ve -- nit, be -- ne --
+	di -- ctus, qui
+	ve -- nit in
+	no -- mi -- ne Do -- mi -- %45
+	ni,
+	be -- ne --
+	di -- ctus,
+	be -- ne --
+	di -- ctus. %50
+
+	Be -- ne -- %62
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit %65
+	in
+	no -- mi -- ne
+	Do -- mi --
+	ni, qui
+	ve -- nit, qui %70
+	ve -- nit, be -- ne --
+	di -- ctus, qui
+	ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni, %75
+	be -- ne --
+	di -- ctus,
+	be -- ne --
+	di -- ctus, qui
+	ve -- nit in %80
+	no -- mi -- ne
+	Do -- mi --
+	ni, in
+	no -- mi -- ne,
+	no -- mi -- ne Do -- mi -- %85
+	ni, be -- ne --
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit, be -- ne --
+	di -- ctus, qui %90
+	ve -- nit in
+	no -- mi -- ne Do -- mi --
+	ni,
+	be -- ne --
+	di -- ctus, %95
+	be -- ne --
+	di -- ctus.
+
+	O -- san -- na in ex -- %116
+	cel -- sis,
+	o -- san -- na in ex --
+	cel -- sis,
+	o -- san -- na in ex -- %120
+	cel -- sis, o -- san -- na
+	in ex -- cel --
+	sis,
+	o -- san -- na in ex --
+	cel -- sis, %125
+	o -- san -- na in ex --
+	cel -- sis. %127 FINIS
 }
 
 % AltoNotes = {

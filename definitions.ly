@@ -331,6 +331,8 @@ scriptOut = \once \override Script.avoid-slur = #'outside
 pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
+hairpinDashed = \override Hairpin.style = #'dashed-line
+hairpinSolid = \override Hairpin.style = #'solid
 
 sbOn = {
 	\set subdivideBeams = ##t
@@ -668,6 +670,8 @@ tempoCredo = \tempoMarkup "Allegro"
 		tempoCuiusRegni = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Maestoso"
 	tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andante, piuttosto allegretto"
+	tempoOsanna = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

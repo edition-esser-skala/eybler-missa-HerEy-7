@@ -554,3 +554,128 @@ SanctusTromboneI = {
 		c4 c, r\fermata \bar "|." %42 FINIS
 	}
 }
+
+BenedictusTromboneI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \tempoBenedictus
+		R2*3
+		r4 d8\fE fis
+		a4 r %5
+		R2*2
+		r4 r8 g\pE
+		a4 r8 a
+		h4 \once \hairpinDashed g8\< g %10
+		g2~\sf
+		g4 r
+		R2*2
+		g2\pE %15
+		a
+		g4 r
+		r d8 fis
+		a4 r
+		a r %20
+		r r8 a
+		g4 r8 g\pE
+		a4 r8 a
+		h4 \once \hairpinDashed g8\< g
+		g2~\sfE %25
+		g4 r
+		R2*2
+		a2~\pE
+		a~ %30
+		a~
+		a4 a~
+		a g~
+		g fis~
+		fis e~ %35
+		e8 d r g~
+		g fis r d
+		d4 r
+		r e\pE
+		fis e %40
+		fis e
+		fis8 d4\fE d8
+		d4 r
+		e2
+		fis4 r %45
+		r d8\pE fis
+		a4 r
+		r d,8\fE fis
+		a4 r
+		r a~ %50
+		a g~
+		g fis~
+		fis e~
+		e8 d r g~
+		g fis r d %55
+		d4 r
+		R2
+		r8 a'\pE r4
+		r8 h r4
+		g r %60
+		R2*4
+		r4 d8\fE fis %65
+		a4 r
+		a r
+		r r8 a
+		g4 r8 g\pE
+		a4 r8 a %70
+		h4 \once \hairpinDashed g8\< g
+		g2~\sfE
+		g4 r
+		R2*2 %75
+		d2~\pE
+		d~
+		d~
+		d4 r8 d\fE
+		e2 %80
+		d
+		c
+		h4 c
+		d e
+		g r %85
+		r a,\p
+		h a
+		h a
+		h8 g'4\fE g8
+		g4 r %90
+		a2
+		h4 r
+		r g,8\pE h
+		d4 r
+		r g,8\fE h %95
+		d4 r
+		r r8 d
+		e2
+		d
+		c %100
+		h4 c
+		d e
+		g r
+		R2
+		r8 g\pE a4 %105
+		r8 g a4
+		r8 g\fE g4
+		g r
+		a2
+		h4 r %110
+		r g,8\pE h
+		d r r4
+		r g,8\fE h \noBreak
+		d4 a'8 a \bar "||"
+		\key c \major \time 3/4 \tempoOsanna g8-\critnote r r4 r \noBreak %115
+		r8 a a a a a
+		h4 h r
+		r8 c c c c c
+		d4 d r
+		r8 g, c h a g %120
+		f e d g a h
+		c c c4 h
+		c r r
+		r8 d, d d d d
+		e4 g r %125
+		r8 h h h h h
+		c4 c, r\fermata \bar "|." %127 FINIS
+	}
+}

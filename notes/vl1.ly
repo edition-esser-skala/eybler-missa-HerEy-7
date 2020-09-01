@@ -675,6 +675,140 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \tempoBenedictus
+		g'4\f g16( h) h( d)
+		d4 \appoggiatura d32 \once \slurDashed c16( h c a)
+		g8 g a16( h c a)
+		g8.\trill a16 fis8 r
+		a4 a16( c) c( e) %5
+		e4 \once \slurDashed d16( h c a)
+		g8 g a16( h c fis,)
+		g8 r \appoggiatura c32 h16(\pE a h c)
+		a8 r \appoggiatura d32 c16( h c d)
+		h8 r d16(\< e fis g) %10
+		g4\sf fis16( e g e)
+		d4 e16(\> d c h)
+		a\p r g r \appoggiatura d'32 c16 r h r
+		a4 h16(\f c a d)
+		g,4 g16( h) h( d) %15
+		d4 \appoggiatura d32 c16( h c a)
+		g8 g a16( h c a)
+		\afterGrace g8.[ { a32 g fis g } a16] fis8 r
+		a4 a16( c) c( e)
+		e4 d16( h c a) %20
+		g8 g a16( h c fis,)
+		g8 r \appoggiatura c32 h16(\pE a h c)
+		a8 r \appoggiatura d32 c16( h c d)
+		h8 r d16(\< e fis g)
+		g4\sf fis16( e g e) %25
+		d4 e16(\> d c h)
+		a\p r g r \appoggiatura d'32 c16 r h r
+		a8 r gis16(\f a h a)
+		a4~ a16( cis d fis)
+		\once \slurDashed fis8( e) gis,16( a h a) %30
+		a4~ a16( cis e g)
+		g8( fis) a,16( d fis a)
+		a8( h,) g16( cis e g)
+		g8( a,) fis16( h d fis)
+		\once \slurDashed fis8( g,) e16( g cis e) %35
+		fis,( a d fis) g,( cis e g)
+		a,( d fis a) h,( d g h)
+		h( a g fis) fis( e fis d)
+		cis8 r r4
+		\appoggiatura h32 a16(\p gis a h) a4 %40
+		\appoggiatura h32 a16( gis a h) a4
+		a16( d, fis a) d(\f c! h a)
+		h( cis) cis( dis) dis( e) e( fis)
+		g8.( a32 g) fis16( e d cis)
+		h'( a) g-! fis-! fis( e) d-! cis-! %45
+		d8 r d,16(\p fis) fis( a)
+		a8 r e16( fis g a)
+		fis8 r d'16(\f fis) fis( a)
+		a8 r cis,16( d e fis)
+		d8 r a16( d fis a) %50
+		a8( h,) g16( cis e g)
+		g8( a,) fis16( h d fis)
+		fis8( g,) e16( g cis e)
+		fis,( a d fis) g,( cis e g)
+		a,( d fis a) h,( d g h) %55
+		h( a) g-! fis-! fis( e) d-! cis-!
+		d8 r \appoggiatura e32 d16(\p c d e)
+		c8 r \appoggiatura d32 c16( h c d)
+		h8 r \appoggiatura c32 h16( a h c)
+		d( h g' fis) e( d c h) %60
+		a4 h16(\fE c a d)
+		\sbOn g,4~ \tuplet 3/2 8 { g16 a h h c d }
+		d4~ \tuplet 3/2 8 { d16 e d c h a } \sbOff
+		g8 g a16( h c a)
+		\afterGrace g8.[ { a32 g fis g } a16] fis8 r %65
+		\sbOn a4~ \tuplet 3/2 8 { a16 h c c d e }
+		e4~ \tuplet 3/2 8 { e16 d h d c a } \sbOff
+		g8 g a16( h c fis,)
+		g8 r \appoggiatura c32 h16(\pE a h c)
+		a8 r \appoggiatura d32 c16( h c d) %70
+		h8 r d16(\< e fis g)
+		g4\sf fis16( e g e)
+		d4 e16(\> d c h)
+		a\p r g r \appoggiatura d'32 c16 r h r
+		a4 cis16( d e d) %75
+		d4~ d16( fis g h)
+		h8( a) cis,16( d e d)
+		d4~ d16( fis a c)
+		c8( h) d,16(\f g h d)
+		d8( e,) c16( fis a c) %80
+		c8( d,) h16( e g h)
+		h8( c,) a16( c fis a)
+		h,( d g h) c,( fis a c)
+		d,( g h d) e,( g c e)
+		e( d c h) h( a h g) %85
+		fis8 r \appoggiatura d32 c16(\p h c d)
+		h4 \appoggiatura d32 c16( h c d)
+		h4 \appoggiatura d32 c16( h c d)
+		h16( g') g8 g16(\fE f e d)
+		e( fis) fis( gis) gis( a) a( h) %90
+		c8.( d32 c) h16( a g fis)
+		e'( d) c-! h-! h( a) g-! fis-!
+		g8 r g,16(\p h) h( d)
+		d8 r a16( h c d)
+		h8 r g'16(\f h) h( d) %95
+		d8 r fis,16( g a h)
+		g8 r d16( g h d)
+		d8( e,) c16( fis a c)
+		c8( d,) h16( e g h)
+		h8( c,) a16( c fis a) %100
+		h,( d g h) c,( fis a c)
+		d,( g h d) e,( g c e)
+		e( d c h) h( a h g)
+		fis8 r \appoggiatura d32 c16(\p h c d)
+		h8 r \appoggiatura d32 c16( h c d) %105
+		h8 r \appoggiatura d32 c16( h c d)
+		h16( g') g8 g16(\f f e d)
+		e( fis) fis( gis) gis( a) a( h)
+		c8.( d32 c) h16( a g fis)
+		e'( d) c-! h-! \once \slurDashed h( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! %110
+		g4 g,16(\p h) h( d)
+		d8 r a16( h c d)
+		h8 r g'16(\f h) h( d) \noBreak
+		d8 r fis,16( g a h) \bar "||"
+		\key c \major \time 3/4 \tempoOsanna g16 g, a h c h c d e d c h \noBreak %115
+		a4 f' r
+		r16 h, c d e d e f g f e d
+		c4 a' r
+		r16 d, e f g a f g e f d f
+		e c d e f g e f d e c d %120
+		h c d e f a g f e d c h
+		c c' c c c d, d c' g,8 h'
+		c, c,16 e e g g c c e e g
+		g8 f16 e d c h a g f e d
+		e8 c16 e e g g c c e e g %125
+		g8 g,16 a h c d e f g a h
+		c4 r r\fermata \bar "|." %127 FINIS
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
