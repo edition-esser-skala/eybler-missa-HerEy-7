@@ -1384,6 +1384,66 @@ BenedictusAltoLyrics = \lyricmode {
 	cel -- sis. %127 FINIS
 }
 
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr c4.\p^\tuttiE c8 c4 c
+		g'4. g8 g8.([ e16)] f8 f\f
+		f4 f8 g e([ f)] f e
+		f f f4 e r
+		e4.\p e8 e([ f)] f4 %5
+		ges4.\f ges8 ges([ f)] f4
+		ges4.\pp ges8 as4 ges
+		ges( f) ges r
+		R1
+		r2 des4.\p des8 %10
+		des4 des as'4. as8
+		as8.([ f16)] ges8 ges\f ges4 ges8 as
+		f([ ges)] ges f ges ges ges4
+		f r f4.\p d8
+		d([ es)] es4 f4. f8 %15
+		f([ ges)] ges4 a4.\f a8
+		b4 ges f4.(\p es8)
+		des4 r r2
+		R1
+		f4.\f f8 f4 f %20
+		f4. f8 f4 f8 f
+		f4 es8 d d c r es
+		es([ as)] as g g([ f)] f es!
+		es([ d)] d([ c)] c h r4
+		R1 %25
+		R\fermataMarkup \bar "||" %26 finis
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus De -- i,
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re, %5
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis.
+
+	A -- gnus %10
+	De -- i, A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+
+	A -- gnus De -- i, %20
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta, pec --
+	ca -- ta, qui tol -- lis pec --
+	ca -- ta __ mun -- di: %24 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

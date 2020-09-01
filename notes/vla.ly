@@ -801,3 +801,36 @@ BenedictusViola = {
 		<e c'>4 c r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\key f \minor \time 4/4 \tempoAgnusDei
+		\mvTr c16\p-\markup \remark "con sordino" c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		b\< b b b b b b\fE b g g as as as as g g
+		f f f f d' d d d \once \hairpinDashed g,\> c c c c c c c
+		des\p des des des des des des des des\< des c c c c c c %5
+		es!\f es es es es es es es es es des des des des des des
+		des\pp des des des des des des des des des des des des des des des
+		des des des des des des ces ces b b b b des des des des
+		es es es es des des des des des des des des des des des des
+		ges, ges as as b b f f ges\p des' des des des des des des %10
+		des des des des des des des des des des des des des des des des
+		des des des des des des des des ces\< ces ces ces ces ces ces\fE ces
+		ces ces b b b b as as ges ges ges ges es' es es es
+		des\> des des des des des des des d\p d d d d d d d
+		d d es es b b b b f' f f f f f f f %15
+		f\< f ges ges des des des des a'\f a a a a a a a
+		b b f f es es des des c\p c c c c c c c
+		b b b b f f f f ges ges ges ges f f f f
+		f f f f f f f f es es ges ges f f es es
+		des\fE b' b b b b b b c c c c c c c c %20
+		c c c c c c c c d d d d d d h h
+		d d d d g, g g g g g g g g' g g g
+		es es es es c c c c c c c c c c c c
+		g g g g g g fis fis g g g g g\p g g g
+		g g g g c c c c c c c c c c b b %25
+		c8 as4 a8 g2\fermata \bar "||" %26 finis
+	}
+}

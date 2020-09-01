@@ -1712,6 +1712,68 @@ BenedictusBassFigures = \figuremode {
 	r2. %127 FINIS
 }
 
+AgnusDeiOrgano = {
+	\relative c {
+		\clef "treble_8"
+		\key f \minor \time 4/4 \tempoAgnusDei
+		\mvTr f16\pE-\tuttiE-\vlc f f f f f f f e e e e e e e e
+		e e e e e e e e f f f f f f f f
+		b\< b b b b[ b] \clef bass \mvTr e,8\fE-\bassi f g as c,
+		des f h,4 c16\> c c c c c c c
+		b\p b b b b b b b as\< as as as as as as as %5
+		c\f c c c c c c c des des des des des des des des
+		b\pp b b b b' b b b f f f f ges ges ges ges
+		des des des des des, des des des ges-\tasto ges ges ges b b b b
+		ces ces ces ces des des des des ges ges ges ges b b b b
+		ces ces ces ces des des des, des ges\p \clef "treble_8"  ges[-\vlc ges ges] ges ges ges ges %10
+		f f f f f f f f f f f f f f f f
+		ges ges ges ges ges ges ges ges ces\< ces ces ces ces[ ces] \clef bass \mvTr f,8\f-\bassi
+		ges as b des, es ges c,!4
+		des16\> des des des des des des des b\p b b b b b b b
+		es es es es es es es es des! des des des des des des des %15
+		ges\< ges ges ges ges ges ges ges f\f f f f f f f f
+		b b b b es, es es es f\p f f f f, f f f
+		b-\tasto b b b des des des des es es es es f f f f
+		b b b b des, des des des es es es es f f f, f
+		b\f b' b b b b b b a a a a a a a a %20
+		as as as as as as as as g! g g g g g g g
+		h, h h h h h h h c c c c g' g g g
+		as as as as e e e e f f f f c c c c
+		h h h h c c c c g' g g g \mvTr h,\p-\tasto h h h
+		c c c c es es es es f f f f f f g g %25
+		as8 f,4 fis8 g2\fermata \bar "||" %26 finis
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2 <[6]>
+	\bo <[6 5]> <9 4>4 \bc <[8 3]>
+	<_->4. <7>8 <7! 6 4> <7 4 2> <\t \t \t> <7 [_!]>
+	<5> <\t> <7 _!>4 <_!>2
+	<4! _-> <[\t \t]>8 <6>4. %5
+	<6! 5->2 <[\t \t]>8 <6>4.
+	<6->2 <6 5->
+	<4->4 <3>2.
+	r1
+	r %10
+	<6>2 <6 5->
+	<9 4->4 <8 3> <[5-]>4. <7 5->8
+	<7 6 4-> <7- 4 2> <\t \t \t> <7-> <_->4 <7-- 5->
+	r2 <7 _!>
+	<[\t \t]>8 <8 _->4. <7->2 %15
+	<[\t \t]>8 <8 [3]>4. <7 5! _!>2
+	\bo <[9 4 \l]>8 <8 3> <8 6 _-> <7 5 \t> <4>4 \bc <[_! \l \l]>
+	r1
+	r
+	<_->2 <6> %20
+	q \bo <7 5! [4]>8 \bc <\t \t [_!]>4.
+	<7- _!>4 <6 4>8 <5 _!> <9! 4> <8 3> <6 _!>4
+	<4! 2!>8 <[5] 3> <6 4> <5 3> <9 4> <8 3> <6 4> <5 _!>
+	<6 4> <5 3> <9 4> <6! 4+> <6 4> <5 _!> r4
+	r1 %25
+	r %26 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

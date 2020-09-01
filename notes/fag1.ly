@@ -799,3 +799,27 @@ BenedictusFagottoI = {
 		e4 c r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiFagottoI = {
+	\relative c {
+		\clef bass
+		\key f \minor \time 4/4 \tempoAgnusDei
+		R1*5 %5
+		ges''2\fE ges8 f f4
+		R1*2
+		as,2\pE ges4 ges'~
+		ges8[ es16 ces] b8 as ges r r4 %10
+		R1*5 %15
+		r2 f'~\f
+		f4 r r2
+		r c\p
+		b4 f' es des8 c
+		b4.\f b8 c4 c %20
+		c4. c8 d4 d8 h
+		\partcombineChordsOnce d4 g, g es'~
+		es c2 c4
+		g4. fis8 g4 r
+		r8 \once \tieDashed g'~\pE g16 es c g b!8( as) as( b) %25
+		c8. b16 as8 a \pa g2\fermata \bar "||" %26 finis
+	}
+}

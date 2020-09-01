@@ -777,3 +777,28 @@ BenedictusFagottoII = {
 		c4 c, r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiFagottoII = {
+	\relative c {
+		\clef bass
+		\key f \minor \time 4/4 \tempoAgnusDei
+		R1*5 %5
+		es'2\fE es8 des des4
+		R1
+		r2 ges,~\pE
+		ges4 f ges b
+		ces8. as16 ges8 f ges r r4 %10
+		R1*5 %15
+		r2 c\f
+		b4 r r2
+		b2.\pE a4
+		b2~ b8 c b a
+		b4.\f b8 a4 a %20
+		as4. as8 g!4 g
+		h, h c g'
+		as e f c
+		h c g8 \once \tieDashed d''~\pE d16( h g f)
+		d8 es r4 r8 f4 g8 %25
+		as8. g16 f8 fis g4 g,\fermata \bar "||"
+	}
+}

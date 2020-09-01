@@ -707,3 +707,21 @@ BenedictusOboeII = {
 		c r r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \minor \time 4/4 \tempoAgnusDei
+		R1*15 %15
+		r2 a'\fE
+		b4 r r2
+		R1*2
+		f4.\f f8 f4. f8 %20
+		f4. f8 f4 f
+		f es8 d d c h'4~
+		h8 c as g g f f es!
+		g f f es es d r4
+		r2 r8 c'4\pE c8 %25
+		\slurDashed c8.( b16) as( g f es) es4 d\fermata \bar "||" %26 finis
+	}
+}

@@ -809,6 +809,39 @@ BenedictusViolinoI = {
 	}
 }
 
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \minor \time 4/4 \tempoAgnusDei
+		\mvTr as'16\p-\markup \remark "con sordino" as as as as as as as g g g g g g g g
+		b b b b b b b b b b b b as as as as
+		des\< des des des des des des\fE des des des c c c c b b
+		as as as as as as as as g\> g g g g g g g
+		g\p g g g g g g g \once \hairpinDashed g\< g as as as as as as %5
+		a\f a a a a a a a a a b b b b b b
+		b\pp b b b b b b b ces ces ces ces b b b b
+		as as as as as as as as ges8 ges-\dolce ges16( des' ces b)
+		b8( as) r4 r8 des~ des16( ges f fes)
+		fes( es) des32( ces b as) ges16. as32 as8\trill ges16\p b b b b b b b %10
+		as as as as as as as as ces ces ces ces ces ces ces ces
+		ces ces ces ces b b b b es\< es es es es es es\fE es
+		es es des des des des ces ces b b b b heses heses heses heses
+		as\> as as as as as as as as\p as as as as as as as
+		as as ges ges ges ges ges ges ces ces ces ces ces ces ces ces %15
+		ces\< ces b b b b b b es\fE es es es es es es es
+		es es des des c c b b b\p b b b a a a a
+		b8 b,-\dolce b16( f' es des) des8( c) r4
+		r8 f' f16( des b f) \once \slurDashed as( ges) f32( es des c) b16. c32 c8\trill
+		b16\f des' des des des des des des c c c c c c c c %20
+		c c c c c c c c c c h h h h d d
+		d d as! as g g f f f f es es es' es es es
+		d d c c c c b! b b b as as as as g g
+		g g f f f f es es es8 d16 \once \tieDashed d'~-\dolce d16( h g f)
+		\once \slurDashed d8( es) r4 r8 c''~ c16 g( as e) %25
+		g( f as g) f( es d c) c4\trill h\fermata \bar "||" %26 FINIS
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

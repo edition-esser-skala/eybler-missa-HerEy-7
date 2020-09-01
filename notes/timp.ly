@@ -300,3 +300,10 @@ BenedictusTimpani = {
 		c4 r r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+	}
+}

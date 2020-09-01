@@ -325,3 +325,10 @@ BenedictusClarinoII = {
 		e4 r r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+	}
+}

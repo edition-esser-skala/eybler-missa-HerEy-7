@@ -810,3 +810,36 @@ BenedictusViolinoII = {
 		c4 r r\fermata \bar "|." %127 FINIS
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \minor \time 4/4 \tempoAgnusDei
+		\mvTr f16\p-\markup \remark "con sordino" f f f f f f f g g g g g g g g
+		g g g g g g g g g g g g f f f f
+		\once \hairpinDashed f\< f f f f f g?\fE g e e f f f f e e
+		f f f f f f f f e\> e e e e e e e
+		e\p e e e e e e e e\< e f f f f f f %5
+		ges\f ges ges ges ges ges ges ges ges ges f f f f f f
+		ges\pp ges ges ges ges ges ges ges as as as as ges ges ges ges
+		ges ges ges ges f f f f ges4 r
+		r8 as-\dolce as16( es' des ces) a8( b) r ges~
+		ges \once \slurDashed f32( es des ces) b8 as b16\p ges' ges ges ges ges ges ges %10
+		as as as as as as as as as as as as as as as as
+		as as as as ges ges ges ges ges\< ges ges ges ges ges as\fE as
+		f f ges ges ges ges f f ges ges ges ges ges ges ges ges
+		f\> f f f f f f f f\p f f f f f f f
+		f f es es es es es es as as as as as as as as %15
+		as\< as ges ges ges ges ges ges c!\f c c c c c c c
+		b b b b ges ges ges ges f\p f f f f f es es
+		des4 r r8 c'-\dolce c16( a f es)
+		c8( des) r b4 b a8
+		b16\f f' f f f f f f f f f f f f f f %20
+		f f f f f f f f f f f f f f f f
+		f f f f es es d d d d c c h' h h h
+		h h c c as as g g g g f f f f es! es
+		es es d d d d c c c8 h r4
+		r8 g''~-\dolceE g16 es c g b!8 as~ as16 \slurDashed e( f b) %25
+		as8( c16 b) as( g f es) es4 d\fermata \bar "||" %26 finis
+	}
+}
