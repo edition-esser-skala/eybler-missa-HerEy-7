@@ -311,7 +311,7 @@ SanctusClarinoI = {
 BenedictusClarinoI = {
 	\relative c' {
 		\clef treble
-		\twofourtime \key c \major \time 2/4 \tempoBenedictus
+		\twofourtime \key c \major \time 2/4
 		R2*114 \bar "||" %114
 		\time 3/4 \tempoOsanna R2.*4 %118
 		d'2.\f

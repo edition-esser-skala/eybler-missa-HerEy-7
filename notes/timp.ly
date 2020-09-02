@@ -286,7 +286,7 @@ SanctusTimpani = {
 BenedictusTimpani = {
 	\relative c {
 		\clef bass
-		\twofourtime \key c \major \time 2/4 \tempoBenedictus
+		\twofourtime \key c \major \time 2/4
 		R2*114 \bar "||" %114
 		\time 3/4 \tempoOsanna R2.*4 %118
 		g8\f g16 g g8 g g g
