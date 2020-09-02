@@ -725,3 +725,84 @@ AgnusDeiOboeII = {
 		\slurDashed c8.( b16) as( g f es) es4 d\fermata \bar "||" %26 finis
 	}
 }
+
+DonaOboeII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		c'4\f d
+		e d
+		d c
+		h r
+		a2 %35
+		g
+		a
+		g
+		R
+		a4. g8 %40
+		fis e d4
+		g4. fis8
+		e4 a
+		g4. e8
+		d2 %45
+		d4 r
+		a'2
+		h4 r
+		R2*2 %50
+		a2\f
+		h4 r
+		R2*2
+		g2~\fE %55
+		g~
+		g
+		a4 r
+		g2
+		g4 e %60
+		d2
+		d4 r
+		a'2\p
+		g4 r
+		es2 %65
+		d4 r
+		fis4. fis8
+		fis g fis g
+		es2
+		d4 r %70
+		fis2\sfp
+		g4 r
+		R2*10 %82
+		c4\f d
+		e d
+		d c %85
+		h r
+		r g\ff
+		r g
+		r g
+		r a %90
+		r a
+		r a
+		r a
+		r a
+		r gis %95
+		r e
+		r e
+		r f
+		r f
+		r f %100
+		e r
+		as2\p
+		g4 r
+		as2
+		g4 r %105
+		as2
+		g4 g
+		as2
+		g4 r
+		h2\sfp %110
+		c4 r
+		R2*3
+		R2\fermataMarkup \bar "|." %115 FINIS
+	}
+}

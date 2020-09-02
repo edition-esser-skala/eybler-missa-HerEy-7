@@ -842,9 +842,99 @@ AgnusDeiViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+DonaViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		d'8\p d d( c)
+		c( h) h( d)
+		f f f e
+		e d d4 %30
+		<g c, e,>4\f <g d g,>
+		<g e g,>~ g16 a g f
+		f e d c h c d e
+		d e fis g fis g a h
+		a h a g fis e d c %35
+		h c d e d e fis? g
+		a h a g fis e d c
+		h c d e d e fis g
+		e e, e' e e fis fis gis
+		a h c h a g fis e %40
+		d d, d' d d e e fis
+		g a h a g fis e d
+		c a' a a a c, c c
+		h d c e d g e c
+		h d g h a fis d c %45
+		h c d e d e fis g
+		fis g a h c a fis a
+		g d h' a g fis e d
+		d\pE cis d e d c h a
+		c h a g fis g h g %50
+		fis\fE a d fis a g fis a
+		g d h' a g fis e d
+		d\p cis d e d c h a
+		c h a g fis g h d
+		g\f g, g' g fis fis, fis' fis %55
+		e e, e' e d d, d' d
+		cis d e d cis e fis g
+		a h a g fis e d c
+		h g a h c a h c
+		d h c d e c a g %60
+		fis g a h c h c d
+		h8 h\p h h
+		c c c c
+		h h h h
+		fis fis fis fis %65
+		g g g g
+		c c c c
+		c( h a g)
+		fis fis fis fis
+		g g g g %70
+		fis fis fis fis
+		g g g g
+		fis fis fis fis
+		g g g g
+		g4. g8 %75
+		g4 g
+		g2~
+		g
+		f'!4. f8
+		f( e d c) %80
+		h4 c8 e
+		e4 d
+		<g c, e,>\f <g d g,>
+		<g e g,>~ g16 a g f
+		f e d c h c d e %85
+		d c h a g f e d
+		\mvTr c\ff-\critnote c e' e d d c c
+		h h a a g g f f
+		e e d d c c h h
+		a a g' g f f e e %90
+		d d e e f f e e
+		f f g g a a g g
+		a a h h c c h h
+		c c d, d e e d d
+		e e fis fis gis? gis fis fis %95
+		gis gis a a h h gis-\critnote gis
+		a a h h a a g g
+		f f g g f f e e
+		d d c c h h a a
+		g g h h c c d d %100
+		e8 e\p e e
+		f f f f
+		e e e e
+		f f f f
+		e e e e %105
+		f f f f
+		f( e d c)
+		h h h h
+		c\decrescE c c c
+		d d d d %110
+		e e e e
+		d\pp d d d
+		e4 r
+		e r
+		e2\fermata \bar "|." %115 FINIS
+	}
+}

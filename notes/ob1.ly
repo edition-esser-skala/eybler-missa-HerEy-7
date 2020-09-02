@@ -733,3 +733,92 @@ AgnusDeiOboeI = {
 		g( f as g) f( es d c) c4\trill h\fermata \bar "||"
 	}
 }
+
+DonaOboeI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		g''4\f g
+		g f
+		f e
+		d r
+		c2 %35
+		h
+		c
+		h
+		\pa e4. d8 \pd
+		c h a4 %40
+		d4. c8
+		h a g4
+		c4. c8
+		h[ c d e]
+		g,4 h8 a %45
+		g4 r
+		fis'2
+		g4 r
+		R2*2 %50
+		fis2\f
+		g4 r
+		R2*2
+		g4\f fis %55
+		e d
+		cis2
+		c4 r
+		h c
+		d e %60
+		fis,2
+		g4 r
+		c2\p
+		h4 r
+		fis2 %65
+		g4 r
+		c4. c8
+		c[ h a g]
+		fis2
+		g4 r %70
+		d'4.\sfp c8
+		h4 r
+		R2*2
+		g2~\p %75
+		g~
+		g~
+		g
+		f'!4. f8
+		f e d c %80
+		h4 c8 e
+		e4 d
+		g\f g
+		g f
+		f e %85
+		d r
+		r c\ff
+		r d
+		r e
+		r c %90
+		r f
+		r f
+		r e
+		r e
+		r d %95
+		r e
+		r c
+		r a
+		r h
+		r h %100
+		c r
+		f2\p
+		e4 r
+		h2
+		c4 r %105
+		f4. f8
+		f e d c
+		h2
+		c4 r
+		g'4.\sfp f8 %110
+		e4 r
+		R2*3
+		R2\fermataMarkup \bar "|." %115 FINIS
+	}
+}

@@ -843,3 +843,100 @@ AgnusDeiViolinoII = {
 		as8( c16 b) as( g f es) es4 d\fermata \bar "||" %26 finis
 	}
 }
+
+DonaViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		a'8\p a a a
+		a( g) g( h)
+		d d d c
+		c h h4 %30
+		c16\f d e c d e f d
+		e f g e d f e d
+		d c f e d c h c
+		h8 d4 d8
+		d16 fis a g fis e d c %35
+		h a h c d e fis g
+		a h a g fis e d c
+		h c d e d e fis g
+		e e, e' e e fis fis gis
+		a h c h a g fis e %40
+		d d, d' d d e e fis
+		g a h a g fis e d
+		c a' a a a c, c c
+		h d c e d g e c
+		h d g h a fis d c %45
+		h c d e d e fis g
+		fis g a h c a fis a
+		g d h' a g fis e d
+		d\p cis d e d c h a
+		c h a g fis g h g %50
+		fis\f a d fis a g fis a
+		g d h' a g fis e d
+		d\p cis d e d c h a
+		c h a g fis g h d
+		g\f g, g' g fis fis, fis' fis %55
+		e e, e' e d d, d' d
+		cis d e d cis^\critnote e fis g
+		a h a g fis e d c
+		h g a h c a h c
+		d h c d e c a g %60
+		fis g a h c h c d
+		h8 g\p g g
+		<fis a> q q q
+		g g g g
+		<c, es> q q q %65
+		<h d> q q q
+		es es es es
+		d d d d
+		a a a a
+		h h h h %70
+		d d d d
+		d d d d
+		d d d d
+		d d d d
+		f!4. f8 %75
+		f( e d c)
+		h d c e
+		e4 d
+		d4. d8
+		d( c f e) %80
+		d4 e8 g
+		g4 g
+		c16\f d e c d e f d
+		e f g e d f e d
+		d c f e d c h c %85
+		d c h a g f e d
+		c\ff c e' e d d c c
+		h h a a g g f f
+		e e d d c c h h
+		a a g' g f f e e %90
+		d d e e f f e e
+		f f g g a a g g
+		a a h h c c h h
+		c c d, d e e d d
+		e e fis fis gis gis fis fis %95
+		gis gis a a h h gis gis
+		a a h h a a g g
+		f f g g f f e e
+		d d c c h h a a
+		g g h h c c d d %100
+		e8 c\p c c
+		<h d> q q q
+		<c e> q q q
+		<h d> q q q
+		<c e> q q q %105
+		<h d> q q q
+		h( c d e)
+		f f f f
+		e\decrescE e e e
+		h h h h %110
+		c c c c
+		h\pp h h h
+		c4 r
+		c r
+		c2\fermata \bar "|." %115 FINIS
+	}
+}

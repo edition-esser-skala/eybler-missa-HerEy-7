@@ -1444,13 +1444,185 @@ AgnusDeiAltoLyrics = \lyricmode {
 	ca -- ta __ mun -- di: %24 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+DonaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
+			\set Score.currentBarNumber = #27
+		\mvTr a'4.\p^\tuttiE a8
+		a8([ g)] g4
+		g4. g8
+		g4 g %30
+		g\f g
+		g g
+		g2
+		g4 r
+		a4. a8 %35
+		g4 g
+		a4. a8
+		g4 g
+		R2
+		a4. g8 %40
+		fis8([ e)] d4
+		g4. fis8
+		e4 a
+		g4.( e8
+		d2) %45
+		d4 r
+		d4. d8
+		d([ g)] g4
+		a4.\p a8
+		a([ g)] g4 %50
+		a4.\f a8
+		g4 g
+		a4.\p a8
+		a([ g)] g4
+		g\fE g %55
+		g g
+		g2
+		a4 r
+		g g
+		g e %60
+		d2
+		d4 r
+		es2\p
+		d4 r
+		es2 %65
+		d4 r
+		es4. es8
+		d4 d
+		es2
+		d4 r %70
+		R2*2
+		fis2
+		g4 r
+		f!4. f8 %75
+		f([ e)] d([ c)]
+		h4 c8([ e)]
+		e4 d
+		d4. d8
+		d([ c)] f([ e)] %80
+		d4 e8([ g)]
+		g4 g
+		g\f g
+		g g
+		g2 %85
+		g4 r
+		c,2\ffE
+		d
+		e
+		c %90
+		f~
+		f
+		e
+		R
+		d %95
+		e
+		c
+		a
+		h~
+		h %100
+		c
+		as'\p
+		g4 r
+		as2
+		g4 r %105
+		as4. as8
+		g4 g
+		as2
+		g4 r
+		R2*2 %111
+		h,2\pp
+		c4 r
+		R2
+		R\fermataMarkup \bar "|." %115 FINIS
+	}
+}
+
+DonaAltoLyrics = \lyricmode {
+	Do -- na %27
+	no -- bis,
+	no -- bis
+	pa -- cem, %30
+	do -- na
+	no -- bis
+	pa --
+	cem,
+	do -- na %35
+	no -- bis,
+	no -- bis
+	pa -- cem,
+
+	do -- na %40
+	no -- bis,
+	do -- na
+	no -- bis
+	pa --
+	%45
+	cem,
+	do -- na
+	no -- bis,
+	\xE no -- bis
+	pa -- cem, \x %50
+	do -- na
+	no -- bis,
+	no -- bis
+	pa -- cem,
+	do -- na %55
+	no -- bis
+	pa --
+	cem,
+	do -- na
+	no -- bis %60
+	pa --
+	cem,
+	do --
+	na
+	pa -- %65
+	cem,
+	do -- na
+	no -- bis
+	pa --
+	cem, %70
+
+	pa -- %73
+	cem,
+	do -- na %75
+	no -- bis,
+	no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis, %80
+	no -- bis
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa -- %85
+	cem,
+	do --
+	na
+	no --
+	bis %90
+	pa --
+
+	cem,
+
+	do -- %95
+	na
+	no --
+	bis
+	pa --
+	%100
+	cem,
+	do --
+	na
+	pa --
+	cem, %105
+	do -- na
+	no -- bis
+	pa --
+	cem,
+
+	pa -- %112
+	cem. %113 FINIS
+}

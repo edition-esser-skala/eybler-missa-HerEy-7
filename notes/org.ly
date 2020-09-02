@@ -1774,13 +1774,157 @@ AgnusDeiBassFigures = \figuremode {
 	r %26 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+DonaOrgano = {
+	\relative c {
+		\clef "treble_8"
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		\mvTr fis8\p-\solo fis fis fis
+		g g g g
+		h, h h c
+		g' g, g' f! %30
+		\clef bass \mvTr e\f-\tutti c h g
+		c e g h
+		c h c c,
+		g' g, h' g
+		fis d e fis %35
+		g g, h' g
+		fis d e fis
+		g g, h' g
+		c c, c' h
+		a g fis g16 a %40
+		h8 h, h' a
+		g fis e fis16 g
+		a8 g e fis
+		g e h c
+		d d' d, d, %45
+		g g' h d
+		c a fis c
+		h d g h
+		fis\p a d, fis
+		g, g' h d %50
+		c\f a fis c
+		h d g h
+		fis\p a d, fis
+		g d h g
+		e'\f e' d d, %55
+		c c' h h,
+		b b' a g
+		fis g a d,
+		g g, a a'
+		h h, c c' %60
+		d a fis d
+		g \mvTr g,\p-\tasto g g
+		g g g g
+		g g g g
+		g g g g %65
+		g g g g
+		g g g g
+		g g g g
+		g g g g
+		g g g g %70
+		g g g g
+		g g g g
+		g g g g
+		g g' g g
+		g g g g %75
+		g g g g
+		g g g g
+		g g g g
+		g g g g
+		g g g g %80
+		g g g g
+		g g, g' f
+		e\f c h g
+		c e g h
+		c h c c, %85
+		g' g, g' f
+		e\ff e' d c
+		h a g f
+		e d c h
+		a g f e %90
+		d e f e
+		f g a g
+		a h c h
+		c d e d
+		e fis gis fis %95
+		gis a h gis
+		a h a g
+		f g f e
+		d c h a
+		g f e d %100
+		c \mvTr c'\p-\tasto c c
+		c c c c
+		c c c c
+		c c c c
+		c c c c %105
+		c c c c
+		c c c c
+		c c c c
+		c\decresc c c c
+		c c c c %110
+		c c c c
+		c\pp c c c
+		c4 r
+		c r
+		c2\fermata \bar "|." %115 FINIS
+	}
+}
+
+DonaBassFigures = \figuremode {
+	\bo <[6]>4. \bc <[5]>8 %27
+	\bo <[9 4]>4 \bc <[8 3]>
+	<[6 5]>2
+	\bo <[6 4]>4 \bc <[5 3]> %30
+	<[6]> <6>
+	r <7>8 <\t>
+	<9 4>4 <8 3>
+	r2
+	<[6 5]> %35
+	r
+	<[6 5]>
+	r
+	r4 <6 4+ 3>8 <6\\ 4 3>
+	r4 <5> %40
+	<5+> <6 4! 3>8 <6\\ 4 3>
+	r2
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r8 \bo <[6]> \bc q4
+	<6 4> <[7] _+> %45
+	r2
+	<4+>
+	<[6]>
+	<6>4. <5>8
+	<9 4> <8 3>4. %50
+	<4+>2
+	<[6]>
+	<6>4. <5>8
+	<9 4>8 <6 4>4.
+	<3>4 <_+> %55
+	<3> <6>
+	<6 4 2+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 5!>2
+	<8 3>4 <\t 3>
+	<6>2 %60
+	<7 _+>2
+	r2*21 %82
+	<[6]>4 q
+	r <7>
+	<9 4> <8 3> %85
+	r2
+	<6>
+	q
+	q
+	r %90
+	r
+	<6>
+	r
+	<6>
+	<7 _+> %95
+	<6>
+	r
+	r
+	<6>
+	<7> %100
+	r2*15 %115 FINIS
+}

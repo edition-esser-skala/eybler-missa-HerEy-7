@@ -301,9 +301,40 @@ BenedictusTimpani = {
 	}
 }
 
-AgnusDeiTimpani = {
+DonaTimpani = {
 	\relative c {
 		\clef bass
-		\key c \major \time 4/4 \tempoAgnusDei
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		c4\f g
+		c g
+		c8 c16 c c8 c
+		g4 r
+		R2 %35
+		g4 r
+		R2
+		g4 r
+		c r
+		R2*6 %45
+		g4 r
+		R2*8 %54
+		g4\fE r %55
+		R2*3
+		g4 r
+		R2*23 %82
+		c4\f g
+		c g
+		c8 c16 c c8 c %85
+		g4 r
+		r c\ffE
+		r g
+		r c
+		r c %90
+		R2*9 %99
+		g4 g8. g16 %100
+		c4 r
+		R2*13 %114
+		R2\fermataMarkup \bar "|." %115 FINIS
 	}
 }

@@ -326,9 +326,47 @@ BenedictusClarinoI = {
 	}
 }
 
-AgnusDeiClarinoI = {
+DonaClarinoI = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 4/4 \tempoAgnusDei
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		c'4\f d
+		e d
+		d^\critnote e
+		d r
+		\pao d2 %35
+		d4 r
+		\pao d2
+		d4 r
+		e r
+		R2*6 %45
+		d4 r
+		R2*8 %54
+		g,4\fE r %55
+		R2*3
+		g4 r
+		R2*23 %82
+		c4\f d
+		e d
+		d e %85
+		d r
+		r c\ff
+		r d
+		r e
+		r c %90
+		r \pao d
+		r \pao d
+		r c
+		r c
+		r \pao e, %95
+		r e'
+		r c
+		R2*2
+		g4 g8. g16 %100
+		e4 r
+		R2*13 %114
+		R2\fermataMarkup \bar "|." %115 FINIS
 	}
 }

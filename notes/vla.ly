@@ -834,3 +834,100 @@ AgnusDeiViola = {
 		c8 as4 a8 g2\fermata \bar "||" %26 finis
 	}
 }
+
+DonaViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		d8\p d d d
+		d d d d
+		g g g g
+		g g g g %30
+		g\f e d f
+		e c h d
+		g, g' g g
+		g h, d g
+		a fis g a %35
+		h g d h
+		a' fis g a
+		h g d h
+		c c'4 h8
+		a g fis g16 a %40
+		h8 h, h' a
+		g fis e fis16 g
+		a8 g e fis
+		g e h c
+		d4 d, %45
+		g8 h' g h,
+		a fis' a d,
+		d, g h g
+		a\p fis fis' d
+		g d h g %50
+		e\f fis' d a'
+		d, g h g
+		a\p fis4 a8
+		d, h d h
+		g\fE g'4 g8~ %55
+		g g4 g8~
+		g e g e
+		d d4 fis8
+		g g4 g8~
+		g g4 e8 %60
+		d d d d
+		d d\p d d
+		es es es es
+		d d d d
+		a a a a %65
+		h d d d
+		<a fis> q q q
+		q <g h> <a c> <h d>
+		<c es> q q q
+		<h d> q q q %70
+		<a c> q q q
+		<g h> q q q
+		<a c> q q q
+		<g h> q q q
+		q4. q8 %75
+		\once \slurDashed h( c d e)
+		f!4 e8 c
+		c4 h
+		h4. h8
+		\once \slurDashed h( c d e) %80
+		f4 e8 c
+		c4 h
+		g'8\f e d f
+		e c h d
+		g, g' g g %85
+		g g, g' f
+		e \ff e' d c
+		h a g f
+		e d c h
+		a g f e %90
+		d e f e
+		f g a g
+		a h c h
+		c d e d
+		e fis gis fis %95
+		gis a h gis
+		a h a g
+		f g f e
+		d c h a
+		g f e d %100
+		c g'\p g g
+		as as as as
+		g g g g
+		as as as as
+		g g g g %105
+		as as as as
+		g g g g
+		as as as as
+		g\decrescE g g g
+		g g g g %110
+		g g g g
+		<f g>\pp q q <d g>
+		<c g'>4 r
+		<e g> r
+		q2\fermata \bar "|." %115 FINIS
+	}
+}

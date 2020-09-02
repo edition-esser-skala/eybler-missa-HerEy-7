@@ -823,3 +823,93 @@ AgnusDeiFagottoI = {
 		c8. b16 as8 a \pa g2\fermata \bar "||" %26 finis
 	}
 }
+
+DonaFagottoI = {
+	\relative c {
+		\clef bass
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		c'4\f h
+		c h
+		\pa c c,
+		g' \pd r
+		d'2~ %35
+		d~
+		d~
+		d
+		\pa r8 e, fis gis
+		a h c4 %40
+		r8 d, e fis
+		g a h4
+		c4. d8
+		d e d c \pd
+		h4 c %45
+		h r
+		c2
+		h4 r
+		R2*2 %50
+		c2\f
+		h4 r
+		R2*3 %55
+		\pao c4\f d
+		e2
+		d4 r
+		\pa d c
+		h e \pd %60
+		a,2
+		g4 r
+		fis'2\p
+		g4 r
+		c,2 %65
+		d4 r
+		es4. es8
+		d4 c8 h
+		a2
+		d4 r %70
+		c2\sfp
+		d4 r
+		R2*2
+		f!4.\p f8 %75
+		f e d c
+		h4 c8 e
+		e4 d
+		d4. d8
+		d c h c %80
+		f4 e
+		e d
+		c\f h
+		c h
+		\pa c c, %85
+		g' \pd r
+		r e'\ffE
+		r h
+		r c
+		r c %90
+		r d
+		r d
+		r c
+		r c
+		r h %95
+		r h
+		r a
+		r c
+		r d
+		r d %100
+		c r
+		d2\p
+		e4 r
+		f2
+		\pao e4 r %105
+		d4. d8
+		d e h c
+		d2
+		\pao e4 r
+		g4.\sfp f8 %110
+		e4 r
+		g4.\pp f8
+		e4 r
+		R2
+		R\fermataMarkup \bar "|." %115 FINIS
+	}
+}

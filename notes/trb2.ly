@@ -718,3 +718,73 @@ AgnusDeiTromboneII = {
 		R\fermataMarkup \bar "||" %26 finis
 	}
 }
+
+DonaTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key c \major \time 2/4 \tempoDona
+			\set Score.currentBarNumber = #27
+		R2*4 %30
+		c4\f d
+		e d
+		d c
+		h r
+		c4. c8 %35
+		h d d4
+		c4. c8
+		h d d4
+		r8 e, fis? gis
+		a h c4 %40
+		r8 d, e fis
+		g a h4
+		c4. d8
+		d e d c
+		h4 c %45
+		h r
+		a4. a8
+		h4 h
+		R2*2 %50
+		d4.\f d8
+		d4^\critnote d
+		d4.\pE d8
+		d4 d
+		R2 %55
+		c4\fE d
+		e2
+		d4 r
+		d c
+		h g %60
+		c2
+		h4 r
+		R2*20 %82
+		c4\fE d
+		e d
+		d c %85
+		h r
+		r e\ffE
+		r h
+		r c
+		r c %90
+		r d
+		r d
+		r c
+		r c
+		r h %95
+		r h
+		r a
+		r c
+		r d
+		r d %100
+		c^\critnote r
+		h2\p
+		c4 r
+		f2
+		e4 r %105
+		h4. h8
+		h c d e
+		f2
+		e4 r
+		R2*5 %114
+		R2\fermataMarkup \bar "|." %115 FINIS
+	}
+}
