@@ -5,8 +5,8 @@
 
 # change the following variables according to your project
 project = Eybler_Missa_HerEy_7
-notes = ob1 ob2 fag1 fag2 clno1 clno2 trb1 trb2 timp vl1 vl2 vla S A T B org
-scores = full_score ob1 ob2 fag1 fag2 ottoni trb1 trb2 vl1 vl2 vla coro b org
+notes = ob1 ob2 fag1 fag2 cor1 cor2 clno1 clno2 trb1 trb2 timp vl1 vl2 vla S A T B org
+scores = full_score ob1 ob2 fag1 fag2 cor12 ottoni trb1 trb2 vl1 vl2 vla coro b org
 
 # general definitions
 zipname = $(project:%=%_engraving_files)
