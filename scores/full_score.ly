@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
@@ -17,7 +17,7 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -108,7 +108,7 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -199,7 +199,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -296,7 +296,7 @@
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
@@ -392,7 +392,7 @@
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -483,7 +483,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -571,7 +571,7 @@
   \bookpart {
     \subsection "Et resurrexit"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -656,13 +656,13 @@
         \new FiguredBass { \EtResurrexitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 120 } % 60 – 120
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
@@ -748,13 +748,13 @@
         \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 140 }
+      \midi { \tempo 4 = 60 } % 130
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
@@ -847,13 +847,13 @@
         \new FiguredBass { \BenedictusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 75 }
+      \midi { \tempo 4 = 65 } % 130
     }
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -950,7 +950,7 @@
   \bookpart {
     \subsection "Dona nobis pacem"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
