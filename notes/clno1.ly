@@ -4,7 +4,8 @@ KyrieClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2.*13 %13
+    R2. \segnoMark \default
+    R2.*12 %13
     e'2.\fE
     d2 r4 %15
     R2.
@@ -25,12 +26,51 @@ KyrieClarinoI = {
     R2.*12 %52
     c8\f c16 c c8 c c c
     c4 r r
-    R2.*2 %56
-    r4 d\pp d
-    e e c
-    g2.~
-    g4 r r %60
+    R2.*6 %60
     R2.\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.*26 %26
+    g'4\f r r
+    g r r
+    R2.*9 %37
+    g4\f r8 g g g
+    g4 r8 g g g
+    g4 r8 g g g %40
+    g4 r r
+    R2.*3
+    d'4 r8 \pa d d d \pd %45
+    d4 r8 \pa d d d \pd
+    d4 r r
+    R2.*12 %59
+    d8\f d16 d d8 d d d %60
+    e4 r r
+    R2.*25 %86
+    g,2.\p\cresc
+    e4 r r
+    e'2\f e4
+    e r r %90
+    d2 \pa d4
+    d \pd r r
+    c2 c4
+    g r r
+    R2.*34 %128
+    c4 r r
+    c r r %130
+    R2.
+    g4 r r
+    g r r
+    R2.*18 %151
+    r8 g\f g g g g
+    g4 r r
+    r8 g\pp g g g g
+    g4 r r %155
+    R2.*5 \segnoMark \default \bar "|" %160 finis
   }
 }
 

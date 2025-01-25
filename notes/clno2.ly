@@ -4,13 +4,14 @@ KyrieClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2.*13 %13
+    R2. \segnoMark \default
+    R2.*12 %13
     c'2.~\fE
     c4 g r %15
     R2.
     c,2 c4
-    c r r
-    c' g r
+    c r c'
+    c g r
     c, r r %20
     c r r
     R2.*9 %30
@@ -25,12 +26,51 @@ KyrieClarinoII = {
     R2.*12 %52
     c8\f c16 c c8 c c c
     c4 r r
-    R2.*2 %56
-    r4 g'\pp g
-    c e, c
-    g r g'
-    e r r %60
+    R2.*6 %60
     R2.\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.*26 %26
+    g4\f r r
+    g r r
+    R2.*9 %37
+    g4\f r8 g g g
+    g4 r8 g g g
+    g4 r8 g g g %40
+    g4 r r
+    R2.*3
+    g'4 r8 g d' d %45
+    g,4 r8 g d' d
+    g,4 r r
+    R2.*12 %59
+    g8\f g16 g g8 g g g %60
+    c4 r r
+    R2.*25 %86
+    g,2.\p\cresc
+    c4 r r
+    e2\f e4
+    e r r %90
+    g2 d'4
+    d r r
+    c,2 c4
+    c r r
+    R2.*34 %128
+    c4 r r
+    c r r %130
+    R2.
+    g4 r r
+    g r r
+    R2.*18 %151
+    r8 g\f g g g g
+    g4 r r
+    r8 g\pp g g g g
+    g4 r r %155
+    R2.*5 \segnoMark \default \bar "|" %160 finis
   }
 }
 

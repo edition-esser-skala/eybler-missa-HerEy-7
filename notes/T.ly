@@ -1,18 +1,19 @@
 \version "2.24.0"
 
-KyrieTenoreNotes = {
+KyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2.*2
+    R2. \segnoMark \default
+    R
     \mvTr a2\p^\tuttiE a4
     a2.
     b2 b4 %5
     b2.
     a2 a4
-    fis(\crescE d') d
-    d8([\f c)] h4 r
-    g2 h4 %10
+    fis(\cresc d') d
+    d8([ c)] h4 r
+    g2\f h4 %10
     h2 h4
     fis2( a4)
     a2 a4
@@ -54,7 +55,7 @@ KyrieTenoreNotes = {
     c r r
     b2\f b4
     a r a\p
-    g2( h4) %55
+    g2( h!4) %55
     c r r
     d2\pp f8[( e)]
     e4 r a,8([ g)]
@@ -122,7 +123,281 @@ KyrieTenoreLyrics = \lyricmode {
   son. %60 finis
 }
 
-GloriaTenoreNotes = {
+KyrieOldTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoKyrieOld
+    R2.*5 %5
+    \mvTr c2\p^\tuttiE c4
+    es2\cresc es4
+    des\f des r
+    R2.*5 %13
+    cis2\p cis4
+    e2\cresc e4 %15
+    d d r
+    d2\f h4
+    cis2 fis4
+    cis2 a!4
+    h2 e4 %20
+    h2 g!4
+    a2 r4
+    d2 e4
+    f!2 c4
+    d e e %25
+    d d r
+    h2 h4
+    h2 d4
+    e d8([ c)] h([ a)]
+    g([ a)] h4 r %30
+    g( c) c
+    c r c
+    h2.
+    h4 r r
+    a2\p b4 %35
+    a2 g4
+    c( h! a)
+    g r8 h\f c d
+    e4 r8 c d e
+    f!4 r8 d e f %40
+    g4 e( d)
+    c c h
+    a2 g4
+    e' d4.( c8)
+    h4 r8 h a c %45
+    h4 r8 h a c
+    h4 r r
+    R2.*4 %51
+    cis2\p cis4
+    d r r
+    e2 e4
+    d r r %55
+    d2 d4
+    d2 e8([ c)]
+    h2( c4)
+    h r r
+    d2\f d4 %60
+    c r c\p
+    h2( c4)
+    h r r
+    a2\pp c8([ h)]
+    h4 r r %65
+    a2 c8([ h)]
+    h4 r r
+    R2.*6 %73
+    b2\p b4
+    b r r %75
+    b2 b4
+    b r r
+    b2\cresc b4
+    des2 des4
+    ces\f ces r %80
+    R2.
+    h!\p
+    h4 r r
+    h2.
+    h4 r r %85
+    h2\cresc h4
+    d! d d
+    c c r
+    c2\f a4
+    h2 e4 %90
+    h2( g!4)
+    a2 d4
+    a2( f!4)
+    g2 r4
+    c2 d4 %95
+    es2 b4
+    c d d
+    c c r
+    R2.*4 %102
+    c2 c4
+    c2 c4
+    d e f %105
+    g8([ f)] e4 r
+    r f f
+    f2 f4
+    f e8([ d)] c([ b)]
+    a([ g)] f a g([ f')] %110
+    e4 e e
+    e2 g4
+    a, g8([ f')] e([ d)]
+    c([ d)] e c d([ e)]
+    f4 r r %115
+    R2.*3
+    d2.~
+    d4 c b %120
+    c2.~
+    c4 b a
+    b2.~
+    b4 c b
+    a r r %125
+    R2.*3
+    c2.
+    c2 c4 %130
+    d e f
+    g8([ f)] e h! c([ d)]
+    e4 r r
+    R2.*2 %135
+    r4 a, a
+    a a a
+    a gis h
+    a8([ h)] c4 r
+    r8 a d([ c h a)] %140
+    g4 r r
+    r8 g c([ h a g)]
+    f4 r r
+    r8 d d'([ c h a)]
+    gis4 r r %145
+    r r c8([ a)]
+    f2( d'8[ h)]
+    g!2 e'8([ c)]
+    a2( f'8[ d)]
+    h2 g'8([ e)] %150
+    c4( f e)
+    d r r
+    d2\p d4
+    d r r
+    c2 c8([ h)] %155
+    h4 r r
+    R2.*4 \segnoMark \default \bar "|" %160 finis
+  }
+}
+
+KyrieOldTenoreLyrics = \lyricmode {
+  Ky -- ri -- %6
+  e e --
+  lei -- son,
+
+  Ky -- ri -- %14
+  e e -- %15
+  lei -- son,
+  Ky -- ri --
+  e e --
+  le -- i --
+  son, e -- %20
+  le -- i --
+  son,
+  Ky -- ri --
+  e e --
+  lei -- son, e -- %25
+  lei -- son,
+  Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, %30
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %35
+  e e --
+  lei --
+  son, e -- le -- i --
+  son, e -- le -- i --
+  son, e -- le -- i -- %40
+  son, e --
+  lei -- son, e --
+  lei -- son,
+  e -- lei --
+  son, e -- le -- i -- %45
+  son, e -- le -- i --
+  son.
+
+  Ky -- ri -- %52
+  e,
+  Ky -- ri --
+  e, %55
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %60
+  e e --
+  lei --
+  son,
+  Ky -- ri --
+  e, %65
+  Ky -- ri --
+  e.
+
+  Ky -- ri -- %74
+  e, %75
+  Ky -- ri --
+  e,
+  Ky -- ri --
+  e e --
+  lei -- son, %80
+
+  Chri --
+  ste,
+  Chri --
+  ste, %85
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+  Ky -- ri --
+  e e -- %90
+  lei --
+  son, e --
+  lei --
+  son,
+  Chri -- ste, %95
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+
+  Ky -- ri -- %103
+  e e --
+  lei -- son, e -- %105
+  lei -- son,
+  Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- %110
+  son, Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son, %115
+
+  Chri -- %119
+  ste e -- %120
+  lei --
+  son, e --
+  lei --
+  _ _
+  son, %125
+
+  Chri -- %129
+  ste e -- %130
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son,
+
+  Chri -- ste, %136
+  Chri -- ste e --
+  lei -- son, e --
+  lei -- son,
+  e -- lei -- %140
+  son,
+  e -- lei --
+  son,
+  e -- lei --
+  son, %145
+  e --
+  lei --
+  son, e --
+  lei --
+  son, e -- %150
+  lei --
+  son,
+  Ky -- ri --
+  e,
+  Ky -- ri -- %155
+  e. %156 finis
+}
+
+GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
@@ -337,7 +612,7 @@ GloriaTenoreLyrics = \lyricmode {
   tris. %120 finis
 }
 
-QuiTollisTenoreNotes = {
+QuiTollisTenore = {
   \relative c' {
     \clef "treble_8"
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
@@ -401,7 +676,7 @@ QuiTollisTenoreLyrics = \lyricmode {
   bis. %161 finis
 }
 
-QuoniamTenoreNotes = {
+QuoniamTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
@@ -604,7 +879,7 @@ QuoniamTenoreLyrics = \lyricmode {
 
 }
 
-CredoTenoreNotes = {
+CredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
@@ -754,7 +1029,7 @@ CredoTenoreLyrics = \lyricmode {
   cre -- do, cre -- do. %74 finis
 }
 
-EtIncarnatusTenoreNotes = {
+EtIncarnatusTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
@@ -862,7 +1137,7 @@ EtIncarnatusTenoreLyrics = \lyricmode {
   est. %130 finis
 }
 
-EtResurrexitTenoreNotes = {
+EtResurrexitTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
@@ -1111,7 +1386,7 @@ EtResurrexitTenoreLyrics = \lyricmode {
   a -- men, a -- men. %260 FINIS
 }
 
-SanctusTenoreNotes = {
+SanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
@@ -1191,7 +1466,7 @@ SanctusTenoreLyrics = \lyricmode {
   cel -- sis. %42 FINIS
 }
 
-BenedictusTenoreNotes = {
+BenedictusTenore = {
   \relative c' {
     \clef "treble_8"
     \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
@@ -1375,7 +1650,7 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- sis. %127 FINIS
 }
 
-AgnusDeiTenoreNotes = {
+AgnusDeiTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
@@ -1435,7 +1710,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
   ca -- ta mun -- di: %24 finis
 }
 
-DonaTenoreNotes = {
+DonaTenore = {
   \relative c' {
     \clef "treble_8"
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona

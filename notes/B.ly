@@ -1,26 +1,26 @@
 \version "2.24.0"
 
-KyrieBassoNotes = {
+KyrieBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2.
-    \mvTr c4(\p^\soloE d) e
+    R2. \segnoMark \default
+    \mvTr c4(\p^\tuttiE d) e
     f2.
     d4( e) f
     g2. %5
     e4( f) g
     a2 a4
     d,\cresc d d
-    g\f g, r
-    e'2 g4 %10
+    g g, r
+    e'2\f g4 %10
     h2 h4
     d,2( fis4)
     a2 a4
     c,!2( e4)
     g2 r4 %15
     e2 d4
-    c2 f4^\critnote
+    c2 f4
     c f fis
     g g, r
     c( e) gis %20
@@ -30,7 +30,7 @@ KyrieBassoNotes = {
     f,( a) cis
     d r d, %25
     e( g h)
-    c r r
+    c! r r
     d2\p c4
     h( gis) a
     f( g g,) %30
@@ -63,6 +63,278 @@ KyrieBassoNotes = {
     c r r %60
     R2.\fermata \bar "|." %61 finis
   }
+}
+
+KyrieOldBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoKyrieOld
+    R2.*5 %5
+    \mvTr as'2\p^\tuttiE as4
+    as2\cresc as4
+    des,\f des r
+    R2.*5 %13
+    a'!2\p a4
+    a2\cresc a4 %15
+    d, d r
+    h2\f d4
+    fis2 fis4
+    a,!2 cis4
+    e2 e4 %20
+    g,!2 h4
+    d2 r4
+    h'2 a4
+    g!2 c4
+    h c cis %25
+    d d, r
+    g,( h) dis
+    e( g) h,
+    cis d d
+    g g, r %30
+    c!( e) gis
+    a r a,
+    h( d fis)
+    g! r r
+    a2\p g4 %35
+    fis( dis) e
+    c \once \tieDashed d~ d
+    g, r8 g'\f a h
+    c4 r8 a h c
+    d4 r8 h c d %40
+    e4 c( h)
+    a a g
+    fis( dis) e
+    c d2
+    g4 r8 g d4 %45
+    g r8 g d4
+    g, r r
+    R2.*4 %51
+    e'2\p e4
+    d r r
+    cis2 cis4
+    d r r %55
+    c!2 c4
+    h2 c4
+    d2( dis4)
+    e r r
+    h'2\f h4 %60
+    c r c,\p
+    d2.
+    g,4 r r
+    d'2\pp d4
+    g r e8([ d)] %65
+    d2.
+    g,4 r r
+    R2.*6 %73
+    es'2\p es4
+    es r r %75
+    f2 f4
+    f r r
+    ges2\cresc ges4
+    fis2 fis4
+    h,!\f h r %80
+    R2.
+    e\p
+    e4 r r
+    fis2.
+    fis4 r r %85
+    g!2\cresc g4
+    g g g
+    c, c r
+    a2\f c4
+    e2 e4 %90
+    g,!2( h4)
+    d2 d4
+    f,!2( a4)
+    c2 r4
+    a'2 g4 %95
+    f!2 b4
+    a b h
+    c c, r
+    R2.*8 %106
+    f2.
+    f2 f4
+    g a b
+    c8([ b)] a4 r %110
+    r c c
+    c c c
+    c h!8([ a)] g([ f])
+    e([ d)] c e f([ g)]
+    a4 a a %115
+    a2 c4
+    d, c8([ b')] a([ g)]
+    f([ g)] a4 r
+    r8 d, d'([ c b a)]
+    g4 r r %120
+    r8 c, c'([ b a g)]
+    f4 r r
+    r8 b, b'([ a g f)]
+    e4 r r
+    r r f8([ e)] %125
+    d2 g8[ f]
+    e2 a8[ g]
+    f4 d h!
+    c c' r
+    R2.*2 %131
+    g2 g4
+    g2 g4
+    a h! c
+    d8([ c)] h d c([ h)] %135
+    a4 r r
+    R2.*2
+    e2.~
+    e4 d c %140
+    d2.~
+    d4 c h
+    c2.~
+    c4 h a
+    h2.~ %145
+    h4 a8[( h]) c4~
+    c h8([ c)] d4
+    d c8([ d)] e4~
+    e d8([ e)] f4
+    f e8([ f)] g4 %150
+    g( f fis)
+    g r r
+    c2\p a8([ h)]
+    h4 r r
+    a2 fis8([ g)] %155
+    g4 r r
+    R2.*4 \segnoMark \default \bar "|" %160 finis
+  }
+}
+
+KyrieOldBassoLyrics = \lyricmode {
+  Ky -- ri -- %6
+  e e --
+  lei -- son,
+
+  Ky -- ri -- %14
+  e e -- %15
+  lei -- son,
+  Ky -- ri --
+  e e --
+  le -- i --
+  son, e -- %20
+  le -- i --
+  son,
+  Ky -- ri --
+  e e --
+  lei -- son, e -- %25
+  lei -- son,
+  Ky -- ri --
+  e __ e --
+  lei -- son, e --
+  lei -- son, %30
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %35
+  e __ e --
+  lei -- _
+  son, e -- le -- i --
+  son, e -- le -- i --
+  son, e -- le -- i -- %40
+  son, e --
+  lei -- son, e --
+  lei -- son,
+  e -- lei --
+  son, e -- lei -- %45
+  son, e -- lei --
+  son.
+
+  Ky -- ri -- %52
+  e,
+  Ky -- ri --
+  e, %55
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %60
+  e e --
+  lei --
+  son,
+  Ky -- ri --
+  e e -- %65
+  lei --
+  son.
+
+  Ky -- ri -- %74
+  e, %75
+  Ky -- ri --
+  e,
+  Ky -- ri --
+  e e --
+  lei -- son, %80
+
+  Chri --
+  ste,
+  Chri --
+  ste, %85
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+  Ky -- ri --
+  e e -- %90
+  lei --
+  son, e --
+  lei --
+  son,
+  Chri -- ste, %95
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+
+  Chri -- %107
+  ste e --
+  lei -- son, e --
+  lei -- son, %110
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son, Ky -- ri -- %115
+  e e --
+  lei -- son, e --
+  lei -- son,
+  e -- lei --
+  son, %120
+  e -- lei --
+  son,
+  e -- lei --
+  son,
+  e -- %125
+  lei -- _
+  _ _
+  _ son, e --
+  lei -- son,
+
+  Ky -- ri -- %132
+  e e --
+  lei -- son, e --
+  lei -- son, e -- lei -- %135
+  son,
+
+  Chri -- %139
+  ste e -- %140
+  lei --
+  son, e --
+  lei --
+  son, e --
+  lei -- %145
+  son, Chri --
+  ste e --
+  lei -- son, Chri --
+  ste e --
+  lei -- son, e -- %150
+  lei --
+  son,
+  Ky -- ri --
+  e,
+  Ky -- ri -- %155
+  e. %156 finis
 }
 
 KyrieBassoLyrics = \lyricmode {
@@ -117,14 +389,14 @@ KyrieBassoLyrics = \lyricmode {
   Ky -- ri --
   e e --
   lei -- %55
-  son, e --
-  lei --
-  son, e --
-  lei --
-  son. %60 finis
+  son,
+  Ky -- ri --
+  e,
+  Ky -- ri --
+  e. %60 finis
 }
 
-GloriaBassoNotes = {
+GloriaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
@@ -339,7 +611,7 @@ GloriaBassoLyrics = \lyricmode {
   tris. %120 finis
 }
 
-QuiTollisBassoNotes = {
+QuiTollisBasso = {
   \relative c {
     \clef bass
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
@@ -403,7 +675,7 @@ QuiTollisBassoLyrics = \lyricmode {
   bis. %161 finis
 }
 
-QuoniamBassoNotes = {
+QuoniamBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
@@ -601,7 +873,7 @@ QuoniamBassoLyrics = \lyricmode {
   men, a -- men. %264 FINIS
 }
 
-CredoBassoNotes = {
+CredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
@@ -749,7 +1021,7 @@ CredoBassoLyrics = \lyricmode {
   cre -- do, cre -- do. %74 finis
 }
 
-EtIncarnatusBassoNotes = {
+EtIncarnatusBasso = {
   \relative c {
     \clef bass
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
@@ -859,7 +1131,7 @@ EtIncarnatusBassoLyrics = \lyricmode {
   est. %132 finis
 }
 
-EtResurrexitBassoNotes = {
+EtResurrexitBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
@@ -1100,7 +1372,7 @@ EtResurrexitBassoLyrics = \lyricmode {
   a -- men, a -- men. %260 FINIS
 }
 
-SanctusBassoNotes = {
+SanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
@@ -1188,7 +1460,7 @@ SanctusBassoLyrics = \lyricmode {
   cel -- sis. %42 FINIS
 }
 
-BenedictusBassoNotes = {
+BenedictusBasso = {
   \relative c {
     \clef bass
     \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
@@ -1372,7 +1644,7 @@ BenedictusBassoLyrics = \lyricmode {
   cel -- sis. %127 FINIS
 }
 
-AgnusDeiBassoNotes = {
+AgnusDeiBasso = {
   \relative c {
     \clef bass
     \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
@@ -1425,7 +1697,7 @@ AgnusDeiBassoLyrics = \lyricmode {
   ca -- ta mun -- di: %24 finis
 }
 
-DonaBassoNotes = {
+DonaBasso = {
   \relative c {
     \clef bass
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona

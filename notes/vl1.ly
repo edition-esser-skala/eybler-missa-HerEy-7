@@ -4,66 +4,223 @@ KyrieViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2.*2
-    d8\p d d d d d
-    d d d d d d
-    e e e e e e %5
-    e e e e e e
-    f f f f f f
-    c'\cresc c c c c c
-    h4\f <g, d' h' g'> r
-    h''8 h h h h h %10
-    fis fis fis fis gis gis
-    a a a a a a
-    e e e e fis fis
-    g g g g g g
-    d d d d d d %15
-    e e e e f f
-    g g g g a a
+    R2. \segnoMark \default
+    R
+    d2.:8\p
+    d
+    e %5
+    e
+    f
+    c'\cresc
+    h4 <g, d' h' g'> r
+    h''2.:\f %10
+    fis2: gis8 gis
+    a2.:
+    e2: fis8 fis
+    g!2.:
+    d: %15
+    e2: f!8 f
+    g2: a8 a
     g g f f e e
     e4\trill d r
     c'8 c4 c c8~ %20
-    c c4 c c8
+    c c4 c c8~
     c c h a g f
-    e f g \slurDashed e16( f) f( g) g( a) \slurSolid
+    e f g e16 f f g g a
     a8 a,16 a' a a, a' a a a, a' a
     f8 f16( e) e( d) d( c) c( h) h( a) %25
     g8 g16 g' g g, g' g g g, g' g
     e8 e16( d) d( c) c( h) h( a) a( g)
-    f8\p e'16 f \slurDashed g( f e f) b( as g as) \slurSolid
+    f8\pp e'16( f) g( f e f) b( as g \hA as)
     as( g fis g) g( f e f) f( e dis e)
-    e d f d c8 c h h %30
-    c'16\f c, c' c c c c c c c c c
-    c c, c' c c c c c c c c c
-    c c, c' c c c c c c c c c
-    c c, c' c c c c c c c c c
-    c h d c h d, h' h h c a h %35
+    e( d f d) c8 c h h %30
+    c'16\f c, c' c c2:16
+    c16 c, c' c c2:
+    c16 c, c' c c2:
+    c16 c, c' c c2:
+    c16 h d c h d, h' h h c a h %35
     g a h c d f, g f e c' h c
     a, a' g f e c g e d8 h'
     c16 g c e g8 g h,4\trill
     c16 g c e g8 g h,4\trill
-    c e' e16 d c h %40
+    c e'\f e16 d c h %40
     c8 a, c'4 c16 b a g
     a8 f, a'4 a16 g f e
-    f8 \slurDashed a16( g) g( f) f( e) e( d) d( c) \slurSolid
-    h8\p h h h h h
-    c c c c c c %45
-    h h h h h h
-    c c c c c c
-    h h h h h h
-    d d d d d d
-    e e e e d d %50
-    c c c c d d
+    f8 a16 g g f f e e d d c
+    h2.:8\p
+    c: %45
+    h:
+    c:
+    h:
+    d:
+    e2: d8 d %50
+    c2: d8 d
     c4 r r
     <c b'>8\f q4 q q8
-    <c a'>-! cis( d e f\p d)
+    <c a'> cis(\p d e f d)
     c2 \appoggiatura e8 d4 %55
     c r r
     h2\pp d8 c
     c4 r r
-    d,2( f8 e)
+    d,2 f8 e
     e r e r e r %60
     e4 r r\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.
+    d2.:8\p
+    d:
+    es:
+    es: %5
+    f:
+    ges:\cresc
+    f4\f des r
+    R2.
+    es: %10
+    es:
+    f:
+    f:
+    fis:
+    g:\cresc %15
+    fis4 d r
+    fis'2.:\f
+    cis2: dis8 dis
+    e2.:
+    h2: cis8 cis %20
+    d!2.:
+    a:
+    h2: c!8 c
+    d2: e8 e
+    d d c c h h %25
+    h4\trill a r
+    g'8 g4 g g8~
+    g g4 g g8~
+    g g fis e d c
+    h c d h16 c c d d e %30
+    e8 e,16 e' e e, e' e e e, e' e
+    c8 c'16 h h a a g g fis fis e
+    d8 d,16 d' d d, d' d d d, d' d
+    h8 h'16( a) a( g) g( fis) fis( e) e( d)
+    d(\pp c h c) d( c h c) f( es d \hA es) %35
+    es( d cis d) d( c h c) c( h ais h)
+    h a c a g8 g fis fis
+    g'16\f g, g' g g2:16
+    g16 g, g' g g2:16
+    g16 g, g' g g2:16 %40
+    g16 g, g' g g2:16
+    g16 fis a g \hA fis a, \hA fis' fis fis g e \hA fis
+    d e fis g a h c a g a h g
+    e c' h a g d h g a8 fis'
+    g16 d g h d8 d fis,4\trill %45
+    g16 d g h d8 d fis,4\trill
+    g8 g, h'4 h16 a g fis
+    g8 e, g'4 g16 f e d
+    e8 c, e'4 e16 d c h
+    c8 e16 d d c c h h a a g! %50
+    fis2.:8\p
+    g:
+    fis:
+    g:
+    fis: %55
+    a:
+    h2: a8 a
+    g2: a8 a
+    g4 r r
+    g'8\f g4 g g8 %60
+    g( dis\p e h c e)
+    g,2 \appoggiatura h8 a4
+    g r e'8\pp d
+    d2.~
+    d4 r r %65
+    fis,2 a8 g
+    g r g r g r
+    g2.:8
+    b:
+    es: %70
+    <c a'>:\ff
+    <b b'>4 r r
+    R2.
+    c,:\pE
+    c: %75
+    des:
+    des:
+    es:\cresc
+    e:
+    dis4\f r r %80
+    R2.
+    cis:\p
+    cis:
+    dis:
+    dis: %85
+    e:\cresc
+    f!:
+    e4 r r
+    e''2.:\f
+    h2: cis8 cis %90
+    d2.:
+    a2: h8 h
+    c!2.:
+    g:
+    a2: b8 b %95
+    c2: d8 d
+    c c b b a a
+    a4\trill g r
+    R2.*12 %110
+    c,2 c4
+    c2 c4
+    d e f
+    g8 f e e,16 d' d c c b
+    a f' f f f2:16 %115
+    f16 a, f' f f2:
+    f16 e g f e f d e c d b c
+    a b g a f g a b c d e f
+    d d' d d d d, d' c b c a \hA b
+    g d b' a a g g f f e e d %120
+    c c' c c c c, c' b a \hA b g a
+    f c a' g g f f e e d d c
+    b b' b b b \hA b, \hA b' a g a f g
+    e c g' f f e e d d c c b
+    a a' a a a g g f f e e d %125
+    d b' b b b a a g g f f e
+    e c' c c c b b a a g g f
+    f d' d d d c b a g f e d
+    e c' c c c2:16
+    c16 e, c' c c2: %130
+    c16 h! d c h c a h g a f g
+    e f d e c8 h!16 c c d d e
+    e g g g g2:
+    g16 fis a g \hA fis g e\hA fis d e c d
+    h c c d d f f e e d d c %135
+    c d d e e d d c c h h a
+    a a' a a a2:
+    a16 h, d f f e e d d c c h
+    c d h c a h c d e c h a
+    a f' f f f g e f d e c d %140
+    h c a h g a h c d e f d
+    e e, e' e e f d e c d h c
+    a h g a f g a h c d e c
+    d d, f' f f e e d d c c h
+    h a a gis gis a h c d c h d %145
+    c8 c16 h h a a g g f f e
+    d8 d'16 c c h h a a g g f
+    e8 e'16 d d c c h h a a g
+    f8 f'16 e e d d c c h h a
+    g8 g'16 f f e e d d c c h %150
+    a8 a'16 g g f f e e d d c
+    h8 g,( g') g-! g-! g-!
+    g4 r r
+    r8 g,(\p g') g-! g-! g-!
+    g4 r r %155
+    r8 g\ff g' g g g
+    g( gis a e f fis)
+    g( d dis e f d)
+    h( g gis a b h)
+    c4 r r \segnoMark \default \bar "|" %160 finis
   }
 }
 

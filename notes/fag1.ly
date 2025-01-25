@@ -1,28 +1,28 @@
 \version "2.24.0"
 
-KyrieFagottoI = {
+KyrieFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoKyrie
-    R2.
+    R2. \segnoMark \default
     c4(\p d e)
     f4 r r
     d( e f)
     g r r %5
     e( f g)
-    a8 a a a a a
-    d,\cresc d d d d d
-    g4\f g, r
-    e'8 e e e g g %10
-    h h h h h h
-    d, d d d fis fis
-    a a a a a a
-    c,! c c c e e
-    g g g g f f %15
-    e e e e d d
-    c c c c f f
+    a2.:8
+    d,:\cresc
+    g4 g, r
+    e'2:\f g8 g %10
+    h2.:
+    d,2: fis8 fis
+    a2.:
+    c,!2: e8 e
+    g2: f8 f %15
+    e2: d8 d
+    c2: f8 f
     c c' f,, f' fis, fis'
-    g, g' g f e d
+    g, g' g f-! e-! d-!
     c c e e gis gis %20
     a a c c e, e
     fis fis g g g, g
@@ -46,25 +46,207 @@ KyrieFagottoI = {
     c c' c, c e e %40
     a a a, a c c
     f f f, f a a
-    d^\critnote d d e f fis
-    g\p g g g g g
-    a a a a a a %45
-    g g g g g g
-    fis fis fis fis fis fis
-    g g g g g g
-    f! f f f f f
-    e e e e f f %50
-    g g g g gis gis
-    a\cresc c h a g f
-    e\f e e e e e
+    d d d e f fis
+    g2.:\p
+    a: %45
+    g:
+    fis:
+    g:
+    f!:
+    e2: f8 f %50
+    g2: gis8 gis
+    a-!\cresc c-! h-! a-! g-! f-!
+    e2.:\f
     f4 r f\p
     g2 g,4 %55
-    c \pa e' c
-    g'2.~
-    g4 \pd e c
-    g2.
-    c,8 r c r c r %60
-    c4 r r\fermata \bar "|." %61 finis
+    << {
+      c e' c
+      g'2.~\pp
+      g4 e c
+      g2.
+      c,8 \once \oneVoice r c \once \oneVoice r c \once \oneVoice r
+      c4
+    } \\ {
+      c4 r r
+      R2.
+      r4 e c
+      g2.
+      c8 s c s c s
+      c4
+    } >> r r\fermata \bar "|."
+  }
+}
+
+KyrieOldFagottoIeII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoKyrieOld
+    c4(\p d es)
+    f r r
+    d( es f)
+    g r r
+    es( f g) %5
+    as2.:8
+    as,:\cresc
+    des4\f des' r
+    des,(\p es f)
+    ges r r %10
+    es( f ges)
+    as r r
+    f( ges as)
+    a2.:8
+    a:\cresc %15
+    d,4 d' r
+    h,2:\f d8 d
+    fis2.:
+    a,!2: cis8 cis
+    e2: e8 e %20
+    g,!2: h8 h
+    d2: c!8 c
+    h h h' h a a
+    g! g g, g c c
+    h h' c, c' cis, cis' %25
+    d, d' d, c-! h-! a-!
+    g g h h dis dis
+    e e g g h, h
+    cis cis d d d, d
+    g g' g g, a h %30
+    c c e e gis gis
+    a a c c a, a
+    h h d d fis fis
+    g! g h h g, g
+    a\p a a' a g g %35
+    fis fis dis dis e e
+    c c d d d, d
+    g4 r8 g'\f a h
+    c4 r8 a h c
+    d4 r8 h c d %40
+    e e c c h h
+    a a, a' a g g
+    fis fis dis dis e e
+    c c' d! d d, d
+    g4 r8 g d' d, %45
+    g4 r8 g d' d,
+    g g g, g h h
+    e e e, e g g
+    c c c, c e e
+    a a a h c cis %50
+    d2.:8\p
+    e:
+    d:
+    cis:
+    d: %55
+    c!:
+    h2: c8 c
+    d2: dis8 dis
+    e g-!\f fis-! e-! d-! c-!
+    h h' h h h h %60
+    c4 r c,\p
+    d2 d,4
+    << {
+      g h' g
+      d'2.~
+      d4 h g %65
+      d2.
+      g,4
+    } \\ {
+      g4 r r
+      R2.
+      r4 h g %65
+      d'2.
+      g,4
+    } >> r r
+    R2.*3 %70
+    f'!2.:8\ff
+    b,4 r r
+    b4(\p c \once \stemUp des)
+    es r r
+    c( des es) %75
+    f r r
+    des( es f)
+    ges2.:8\cresc
+    fis:
+    h,!4\f r r %80
+    h(\p cis \once \stemUp dis)
+    e r r
+    cis( dis e)
+    fis r r
+    dis( e fis) %85
+    g!2.:\cresc
+    g:
+    c,4 r r
+    a2:\f c8 c
+    e2.: %90
+    g,!2: h8 h
+    d2.:
+    f,!2: a8 a
+    c2: b8 b
+    a a a' a g g %95
+    f! f f, f b b
+    a a' b, b' h, h'
+    c, c' c, b a g
+    f4 r r
+    R2.*3 %102
+    \clef "treble_8" c''2 c4
+    c2 c4
+    d e f %105
+    g8 f e4 r
+    r f f
+    f2 f4
+    f e8 d c b
+    a g f a g f' %110
+    e4 e e
+    e2 g4
+    a, g8 f' e d
+    c d e c d e
+    f4 r r %115
+    R2.*3
+    d2.~
+    d4 c b %120
+    c2.~
+    c4 b a
+    b2.~
+    b4 c b
+    a r r %125
+    R2.*3
+    c2.
+    c2 c4 %130
+    d e f
+    g8 f e h! c d
+    e4 r r
+    R2.*2 %135
+    r4 a, a
+    a a a
+    a gis h
+    a8 h c4 r
+    r8 a d c h a %140
+    g4 r r
+    r8 g c h a g
+    f4 r r
+    r8 d d' c h a
+    gis4 r r %145
+    r r c8 a
+    f2 d'8 h
+    g!2 e'8 c
+    a2 f'8 d
+    h2 g'8 e %150
+    c4 f e
+    d r r
+    \clef bass << {
+      d2.~
+      d4 \oneVoice r r \voiceOne
+      c2 c8 h %155
+      h g, g' g g g
+    } \\ {
+      c2\p a8 h %153
+      h4 s s
+      a2 fis8 g %155
+      g g,\ff g' g g g
+    } >>
+    g( gis a e f fis)
+    g( d dis e f d)
+    h( g gis a b h)
+    c4 r r \segnoMark \default \bar "|" %160 finis
   }
 }
 

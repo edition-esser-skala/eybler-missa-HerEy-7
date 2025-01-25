@@ -4,7 +4,8 @@ KyrieOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2.*6 %6
+    R2. \segnoMark \default
+    R2.*5 %6
     f'2.\p
     c'\cresc
     h4\f r r
@@ -18,11 +19,11 @@ KyrieOboeI = {
     g2 a4
     g f e
     e d r
-    \once \tieDashed e2.~ %20
+    e2. %20
     e
     d4 e f
     e8 f g4 r
-    a2.
+    a2.\f
     \pao f4 r \pao f %25
     g2.
     \pao e4 r r
@@ -30,7 +31,7 @@ KyrieOboeI = {
     c'2.~\f
     c~
     c~
-    c
+    c~
     c8 h h4. a8 %35
     g4 f e~
     e8 f e4 d
@@ -41,19 +42,145 @@ KyrieOboeI = {
     a4 a4. g8
     f4 r r
     R2.*5 %48
-    d'2\p d8 g
+    d'2\pE d8 g
     g2 f8 d %50
     c2 d4
     \pao c r r
-    b'2.\fz
+    b'2.\f
     a4 r r
     R2. %55
-    r4 e\p c
-    \once \tieDashed g'2.~
+    r4 e\pE c
+    g'2.~
     g4 e c
     \pao g2.
     e4 r r %60
     R2.\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.*5 %5
+    c'2.\p
+    c\cresc
+    des4\f r r
+    R2.*5 %13
+    cis2.\p
+    cis\cresc %15
+    d4\! r r
+    \pa fis2.\f
+    cis2 dis4
+    e2.
+    h2 cis4 %20
+    d!2.
+    a2 \pd r4
+    h2 c!4
+    d2 e4
+    d c h %25
+    h a r
+    g'2.
+    g
+    g4 \pa fis8 e d c
+    h c d4 \pd r %30
+    e2.
+    c4 r \pao c
+    d2.
+    h4 r r
+    R2.*3 %37
+    g'2.~\f
+    g~
+    g~ %40
+    g
+    g8 fis fis4. e8
+    d4 fis g~
+    g8 a g4 fis
+    g r8 g fis a %45
+    g4 r8 g fis a
+    g4 h4. a8
+    g4 g4. f8
+    e4 e4. d8
+    c4 r r %50
+    R2.*9 %59
+    f!2.\f %60
+    e4 r r
+    R2.
+    r4 h'\pE g
+    d'2.~
+    d4 h g %65
+    d2.
+    h4 r r
+    R2.*3 %70
+    es2.\ff
+    d4 r r
+    R2.*5 %77
+    ais2.\p\cresc
+    cis
+    h4\f r r %80
+    R2.*5 %85
+    h2.\p\cresc
+    d
+    c4\! r r
+    \pa e2.\f
+    h2 cis4 %90
+    d2.
+    a2 h4
+    c!2.~
+    c2 \pd r4
+    fis2 g4 %95
+    a2 b4
+    f g f
+    f e r
+    R2.*12 %110
+    c2.
+    c2 c4
+    d e f
+    g8 f e4 r
+    \pa r f f %115
+    f2 f4~
+    f e8 d c b
+    a g f4 r
+    d'2.~
+    d4 c b %120
+    c2.~
+    c4 b a
+    b2.~
+    b4 c b
+    a2. %125
+    b
+    c
+    d
+    g,4 r \pd r
+    R2.*2 %131
+    \pa g'2.
+    g
+    e4 d c
+    h!8 c d f e d %135
+    c d e d c h
+    a4 r r \pd
+    R2.*2 \pa
+    f'2.~ %140
+    f4 e d
+    e2.~
+    e4 d c
+    d2.~
+    d4 e d %145
+    c2.
+    d
+    e
+    f
+    g~ %150
+    g4 f8 e d c
+    h4 \pd r r
+    a2\p c8 h
+    h4 r r
+    fis2 a8 g %155
+    g4 r8 g'\ff g g
+    g( gis a e f fis)
+    g( d dis e f d)
+    h( g gis a b h)
+    c4 r r \segnoMark \default \bar "|" %160 finis
   }
 }
 

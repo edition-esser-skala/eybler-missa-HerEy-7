@@ -4,12 +4,13 @@ KyrieTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoKyrie
-    R2.*13 %13
-    c2.\trill\fE
-    g4 r r %15
+    R2. \segnoMark \default
+    R2.*12 %13
+    c2.\fE\startTrillSpan
+    g4\stopTrillSpan r r %15
     R2.
-    c2\trill c4
-    c r r
+    c2.~\startTrillSpan
+    c4\stopTrillSpan r r
     g r r
     c r r %20
     c r r
@@ -27,6 +28,48 @@ KyrieTimpani = {
     c4 r r
     R2.*6 %60
     R2.\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.*26 %26
+    g4\f r r
+    g r r
+    R2.*9 %37
+    g4\f r r
+    g r r
+    g r r %40
+    g r r
+    R2.*3
+    g4 r r %45
+    g r r
+    g r r
+    R2.*12 %59
+    g8\f g16 g g8 g g g %60
+    c4 r r
+    R2.*25 %86
+    g2.\p\cresc\startTrillSpan
+    c4\!\stopTrillSpan r r
+    R2.*2 %90
+    g4\f r r
+    R2.
+    c4 c8 c c c
+    c4 r r
+    R2.*34 %128
+    c4 r r
+    c r r %130
+    R2.
+    g4 r r
+    g r r
+    R2.*18 %151
+    r8 g\f g g g g
+    g4 r r
+    r8 g\pp g g g g
+    g4 r r %155
+    R2.*5 \segnoMark \default \bar "|" %160 finis
   }
 }
 

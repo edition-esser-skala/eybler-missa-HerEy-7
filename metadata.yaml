@@ -1,21 +1,28 @@
 composer:
   last: Eybler
   first: Joseph Leopold Edler von
-title: Missa in C
-id: HerEy 7
+title: Missa Sancti Benonis
+id: HerEy 7/8
 genre: mass
-scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (F/G),\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 fag,\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum: D-NATk
-    shelfmark: NA/SP (E-17)
-    date: 1813–1850
-    rism: 455039866
-    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E17/
+  A1:
+    siglum: A-Ws
+    shelfmark: 547
+    date: 1797
     license: public domain
     principal: true
+    notes: full score, XX pages
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.2033
+    date: 1820
+    url: https://data.onb.ac.at/rec/AC14265878
+    license: public domain
+    notes: 40 parts (S (5×), A (5×), T (5×), B (5×), ob 1, ob 2, fag 1/2, clno 1, clno 2, trb 1, trb 2, timp, vl 1 (3×), vl 2 (3×), vla, vlne (3×), org, mdc)
 imslp: Missa_in_C_HerEy_7_(Eybler,_Joseph)
 parts:
-  cor12: Corno I, II in F/G
   ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi

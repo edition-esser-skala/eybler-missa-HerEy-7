@@ -4,34 +4,44 @@ KyrieViola = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoKyrie
-    c4\p r r
+    c4\p r r \segnoMark \default
     R2.
-    <f, a>8 q q q q q
-    q q q q q q
-    <g b> q q q q q %5
-    q q q q q q
-    <f a> q q q q q
-    <a d>\cresc q q q q q
-    <g d'>4\f q r
-    g'8 g g g e e %10
-    fis fis fis fis h h
-    fis fis fis fis d d
-    e e e e a a
-    e e e e c c
-    d d d d g g %15
-    g g g g a a
+    << {
+      a2.:8
+      a:
+      b: %5
+      b:
+      a:
+      d:
+      d4 d
+    } \\ {
+      f,2.:8 %3
+      f:
+      g: %5
+      g:
+      f:
+      a:\cresc
+      g4 g\!
+    } >> r
+    g'2:\f e8 e %10
+    fis2: h8 h
+    fis2: d8 d
+    e2: a8 a
+    e2: c8 c
+    d2: g8 g %15
+    g2: a8 a
     b b g g f f
-    g g a a a a
+    g g a2:
     g4 g8 f e d
     c c e e gis gis %20
     a a c c g g
     a a g f e d
     c d e c d e
-    f a a a a a
-    a a a a f f %25
-    e g g g g g
-    g g g g e e
-    a,\p a a a f' f
+    f a a2:
+    a: f8 f %25
+    e g g2:
+    g: e8 e
+    a,2_\p f'8 f
     d d h h c c
     a' a g g g g %30
     g4 r8 e16\f e f f g g
@@ -43,18 +53,25 @@ KyrieViola = {
     c, a g g <g d'> q
     <g e'>4 r8 q <g d'> q
     <g e'>4 r8 q <g d'> q
-    <g e'> q q <g g'> <g e'> <c e> %40
-    <c e> q q q <c, c'> <c b'>
-    <c a'> q q q f <e g>
-    <f a> f' f g f e
-    d\p d d d d d
-    d d d d d d %45
-    d d d d d d
-    d d d d d d
-    d d d d d d
-    h h h h h h
-    c c c c f f %50
-    e e e e h h
+    << {
+      e' e e g e e %40
+      e2:8 c8 c
+      c2: a8 a
+      a f' f g f e
+    } \\ {
+      g,8 g g e' e d %40
+      c2:8 c8 b
+      a2: a8 g
+      f f' f g f e
+  } >>
+    d2.:\p
+    d: %45
+    d:
+    d:
+    d:
+    h:
+    c2: f8 f %50
+    e2: h8 h
     c\crescE c' h a g f
     <c e>\f q4 q q8
     <c f>4 r f\p
@@ -65,6 +82,174 @@ KyrieViola = {
     g2.~
     g8 r g r g r %60
     g4 r r\fermata \bar "|." %61 finis
+  }
+}
+
+KyrieOldViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoKyrieOld
+    R2.*3
+    g2.:8\p
+    g: %5
+    f:
+    <es as>:\cresc
+    <f as>4\f q r
+    R2.*3 %11
+    gis2.:\p
+    gis:
+    fis:
+    <e a>:\cresc %15
+    <fis a>4 q r
+    d'2:8\f h8 h
+    cis2: fis8 fis
+    cis2: a!8 a
+    h2: e8 e %20
+    h2: g!8 g
+    a2: d8 d
+    d2: e8 e
+    f!2: c8 c
+    d d e2: %25
+    d4 d8 c h a
+    g g h h dis dis
+    e e g g d d
+    e e d c h a
+    g a h g a h %30
+    c e e2:
+    e: c8 c
+    h d d2:
+    d: h8 h
+    a2:\p b8 b %35
+    a a fis fis g g
+    e' e d2:
+    d4 r8 <g g,>16\f q q4:16
+    q4 r8 q16 q q4:
+    q r8 q16 q q4: %40
+    q4 r8 q q q
+    c, c c c d e
+    a,2:8 g8 g
+    g' e d2:
+    d4 r8 <h d> <a d> q %45
+    <h d>4 r8 q <a d> q
+    << {
+      d h' h h h a
+      g g g g g f!
+      e e e e e d
+      c c c d c h %50
+    } \\ {
+      h8 d d d h h %47
+      h h h h g g
+      g g g g e e
+      e c' c d c h %50
+     } >>
+     a2.:8\p
+     a:
+     a:
+     a:
+     a: %55
+     fis:
+     g2: c8 c
+     h2: fis8 fis
+     g g'\f fis e d c
+     h\f <g g'>4 q q8 %60
+     q4 r c\p
+     h d fis,
+     g r r
+     a2\pp c8 h
+     h4 r r %65
+     a2 c8 h
+     h r h r h r
+     h r r4 r
+     R2.
+     g': %70
+     <f! a>:\ff
+     <f b>4 r r
+     R2.*3 %75
+     f,2.:\p
+     f:
+     es\cresc
+     cis8 cis' cis2:
+     h!4\f r r %80
+     R2.
+     gis2.:\p
+     gis:
+     fis:
+     fis: %85
+     e:\cresc
+     d!8 d' d2:
+     c4 r r
+     c'2:\f a8 a
+     h2: e,8 e %90
+     h'2: g!8 g
+     a2: d,8 d
+     a'2: f!8 f
+     g2: c8 c
+     c2: d8 d %95
+     es es c c b b
+     c c d2:
+     c8 c, c16 d b c a \hA b g \hA b
+     a8 a4 a a8~
+     a f'4 f f8~ %100
+     f f e d c b
+     a[ g] f c'4 h8
+     c2 c4
+     c2 c4
+     d e f %105
+     g8 f e c16 d d e e f
+     f8 f4 f f8~
+     f f4 f f8~
+     f f e d c b
+     a[ g] f c'4 h8 %110
+     c e4 e e8
+     e c4 c c8~
+     c c h! a g f
+     e d c e f g
+     a4 a a %115
+     a2 c4
+     d c8 b a g
+     f g a a f' f
+     f f f f d d
+     d d d d e e %120
+     e e e e c c
+     c c c c d d
+     d d d d b b
+     b b e e g g
+     c, c c c f, f %125
+     d' d d d g, g
+     e' e e e a, a
+     f' f f f g g
+     g f e d c h!
+     c d e f g g, %130
+     a a' g g, a h
+     c c g' g g, g
+     g g' g g g g
+     c, a h! h c c
+     d c h g e' e %135
+     e d c d e d
+     c h a h c e,
+     f d' h gis e \hA gis
+     a h c h a a'
+     f a, d c h a %140
+     g! d' g a f g
+     e g, c h a g
+     f c' f g e f
+     d d, d' c h a
+     gis h e d c h %145
+     e, e a a c c
+     f, f h h d d
+     g, g c c e e
+     a, a d d f f
+     h, h e e g g %150
+     c, c f f a a
+     d, g, g' g g g
+     g,4 r r
+     r8 g\p g' g g g
+     g,4 r r %155
+     r8 g\ff g' g g g
+     g( gis a e f fis)
+     g( d dis e f d)
+     h( g gis a b h)
+     c4 r r \segnoMark \default \bar "|" %160 finis
   }
 }
 

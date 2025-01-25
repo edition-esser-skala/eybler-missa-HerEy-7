@@ -13,25 +13,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
           }
           \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \KyrieAlto }
           }
           \new Lyrics \lyricsto Alto \KyrieAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
           }
           \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \KyrieBasso }
           }
           \new Lyrics \lyricsto Basso \KyrieBassoLyrics
         >>
@@ -51,25 +51,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
           }
           \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \GloriaAlto }
           }
           \new Lyrics \lyricsto Alto \GloriaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
           }
           \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \GloriaBasso }
           }
           \new Lyrics \lyricsto Basso \GloriaBassoLyrics
         >>
@@ -86,25 +86,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
           }
           \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuiTollisAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \QuiTollisAlto }
           }
           \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenore }
           }
           \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuiTollisBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \QuiTollisBasso }
           }
           \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
         >>
@@ -121,25 +121,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuoniamSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
           }
           \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuoniamAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
           }
           \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuoniamTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
           }
           \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuoniamBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \QuoniamBasso }
           }
           \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
         >>
@@ -156,25 +156,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \CredoSoprano }
           }
           \new Lyrics \lyricsto Soprano \CredoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \CredoAlto }
           }
           \new Lyrics \lyricsto Alto \CredoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \CredoTenore }
           }
           \new Lyrics \lyricsto Tenore \CredoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CredoBasso }
           }
           \new Lyrics \lyricsto Basso \CredoBassoLyrics
         >>
@@ -191,25 +191,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \EtIncarnatusSoprano }
           }
           \new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \EtIncarnatusAlto }
           }
           \new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenore }
           }
           \new Lyrics \lyricsto Tenore \EtIncarnatusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \EtIncarnatusBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \EtIncarnatusBasso }
           }
           \new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
         >>
@@ -226,25 +226,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
           }
           \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
           }
           \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
           }
           \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
           }
           \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
         >>
@@ -261,25 +261,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \SanctusSoprano }
           }
           \new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \SanctusAlto }
           }
           \new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \SanctusTenore }
           }
           \new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \SanctusBasso }
           }
           \new Lyrics \lyricsto Basso \SanctusBassoLyrics
         >>
@@ -297,25 +297,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \BenedictusSoprano }
           }
           \new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \BenedictusAlto }
           }
           \new Lyrics \lyricsto Alto \BenedictusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \BenedictusTenore }
           }
           \new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \BenedictusBasso }
           }
           \new Lyrics \lyricsto Basso \BenedictusBassoLyrics
         >>
@@ -332,25 +332,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \AgnusDeiSoprano }
           }
           \new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \AgnusDeiAlto }
           }
           \new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \AgnusDeiTenore }
           }
           \new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \AgnusDeiBasso }
           }
           \new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
         >>
@@ -368,25 +368,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DonaSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \DonaSoprano }
           }
           \new Lyrics \lyricsto Soprano \DonaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DonaAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \DonaAlto }
           }
           \new Lyrics \lyricsto Alto \DonaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DonaTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \DonaTenore }
           }
           \new Lyrics \lyricsto Tenore \DonaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DonaBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \DonaBasso }
           }
           \new Lyrics \lyricsto Basso \DonaBassoLyrics
         >>

@@ -1,10 +1,10 @@
 \version "2.24.0"
 
-KyrieAltoNotes = {
+KyrieAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2.
+    R2. \segnoMark \default
     \mvTr c2\p^\tuttiE c4
     c2.
     c2 c4
@@ -12,12 +12,12 @@ KyrieAltoNotes = {
     c2 c4
     c2 c4
     d\cresc fis a
-    g8([\f a)] h4 r
-    h2 h4 %10
+    g8([ a)] h4 r
+    h2\f h4 %10
     fis2 gis4
     a2.
     e2 fis4
-    g2.
+    g!2.
     d2 r4 %15
     e2 f4
     g2 a4
@@ -36,7 +36,7 @@ KyrieAltoNotes = {
     a( g f) %30
     e r8 e\f f([ g)]
     a4 r8 f g([ a)]
-    b4 r8 g a([ b)]
+    b4 r8 g a([ \hA b)]
     c4 a( g)
     f f e %35
     d2 c4~
@@ -54,7 +54,7 @@ KyrieAltoNotes = {
     e2( f4)
     e r r
     g2\f g4
-    f r f\pE
+    f r f\p
     e2( f4) %55
     e r a8([\pp g)]
     g2.
@@ -104,7 +104,7 @@ KyrieAltoLyrics = \lyricmode {
   e -- lei --
   son, e -- lei --
   son, e -- lei --
-  son, %40
+  son. %40
 
   Ky -- ri -- %45
   e,
@@ -124,7 +124,291 @@ KyrieAltoLyrics = \lyricmode {
   son. %60 finis
 }
 
-GloriaAltoNotes = {
+KyrieOldAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoKyrieOld
+    R2.*5 %5
+    \mvTr f2\p^\tuttiE f4
+    ges2\cresc ges4
+    f\f des r
+    R2.*5 %13
+    fis2\p fis4
+    g2\cresc g4 %15
+    fis d r
+    h'2\f h4
+    h( ais) a
+    a2.~
+    a4 gis g %20
+    g2.~
+    g4 fis r
+    gis2 a4
+    h2 c4
+    g! a g %25
+    g fis r
+    g2 g4
+    g2 g4
+    a h c
+    d8([ c)] h4 r %30
+    e,2 e4
+    e r e
+    d2.
+    d4 r r
+    c(\p e) g %35
+    a( fis) g
+    e( d c)
+    h r8 g'\f g g
+    g4 r8 g g g
+    g4 r8 g g g %40
+    g4 g2
+    a8([ c)] c4 r8 g
+    a4( fis) g~
+    g8 a g4( fis)
+    g r8 g fis a %45
+    g4 r8 g fis a
+    g4 r r
+    R2.*4 %51
+    g2\p g4
+    fis? r r
+    g2 g4
+    fis? r r %55
+    fis2 fis4
+    g2 e4
+    d2( fis4)
+    g r r
+    f!2\f f4 %60
+    e r e\p
+    d2( fis4)
+    g r r
+    fis2\pp a8([ g)]
+    g4 r r %65
+    d2 d4
+    d r r
+    R2.*6 %73
+    c2\p c4
+    c r r %75
+    des2 des4
+    des r r
+    es2\cresc es4
+    e2 e4
+    dis\f h! r %80
+    R2.
+    cis\p
+    cis4 r r
+    dis2.
+    dis4 r r %85
+    e2\cresc e4
+    f! f f
+    e c r
+    a'2\f a4
+    a( gis) g %90
+    g2.~
+    g4 fis f
+    f2.~
+    f4 e r
+    fis2 g4 %95
+    a2 b4
+    f! g f
+    f e r
+    f2.
+    f2 f4 %100
+    g a b
+    c8([ b)] a4 r
+    r c c
+    c c c
+    c h!8([ a)] g([ f)] %105
+    e([ d)] c e f([ g)]
+    a4 a a
+    a2 c4
+    d, c8([ b')] a([ g)]
+    f([ g)] a4 r %110
+    R2.*4
+    f2. %115
+    f2 f4
+    g a b
+    c8([ b)] a4 c
+    c b a
+    b2.~ %120
+    b4 a g
+    a2.~
+    a4 g f
+    g2.~
+    g4 f8([ g)] a4~ %125
+    a g8([ a)] b4
+    b a8([ b)] c4~
+    c b8([ a)] g([ f)]
+    e([ d)] c4 r
+    r c' c %130
+    c h!8([ a)] g([ f)]
+    e([ d)] c4 r
+    r g' g
+    g fis a
+    g8([ a)] h!4 r %135
+    a2.
+    a2 a4
+    f! e d
+    c8([ d)] e4 r
+    R2. %140
+    r8 d g([ a f g)]
+    e4 r r
+    r8 c f([ g e f)]
+    d4 r r
+    r8 h e([ d c h)] %145
+    c2 c4
+    d2.
+    e2 e4
+    f2.
+    g2 g4 %150
+    a2.
+    g4 r r
+    fis2\p fis8([ g)]
+    g4 r r
+    d2 d4 %155
+    d r r
+    R2.*4 \segnoMark \default \bar "|" %160 finis
+  }
+}
+
+KyrieOldAltoLyrics = \lyricmode {
+  Ky -- ri -- %6
+  e e --
+  lei -- son,
+
+  Ky -- ri -- %14
+  e e -- %15
+  lei -- son,
+  Ky -- ri --
+  e __ e --
+  lei --
+  son, e -- %20
+  lei --
+  son,
+  Ky -- ri --
+  e e --
+  lei -- son, e -- %25
+  lei -- son,
+  Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, %30
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %35
+  e __ e --
+  lei --
+  son, e -- le -- i --
+  son, e -- le -- i --
+  son, e -- le -- i -- %40
+  son, e --
+  lei -- son, e --
+  lei -- son, __
+  e -- lei --
+  son, e -- le -- i -- %45
+  son, e -- le -- i --
+  son.
+
+  Ky -- ri -- %52
+  e,
+  Ky -- ri --
+  e, %55
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %60
+  e e --
+  lei --
+  son,
+  Ky -- ri --
+  e, %65
+  Ky -- ri --
+  e.
+
+  Ky -- ri -- %74
+  e, %75
+  Ky -- ri --
+  e,
+  Ky -- ri --
+  e e --
+  lei -- son, %80
+
+  Chri --
+  ste,
+  Chri --
+  ste, %85
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+  Ky -- ri --
+  e __ e -- %90
+  lei --
+  son, e --
+  lei --
+  son,
+  Chri -- ste, %95
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+  Chri --
+  ste e -- %100
+  lei -- son, e --
+  lei -- son,
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son, e -- %105
+  lei -- son, e -- lei --
+  son, Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, %110
+
+  Chri -- %115
+  ste e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- %120
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, Chri -- %125
+  ste e --
+  lei -- son, Chri --
+  ste e --
+  lei -- son,
+  Chri -- ste, %130
+  Chri -- ste e --
+  lei -- son,
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son, %135
+  Chri --
+  ste e --
+  lei -- son, e --
+  lei -- son,
+  %140
+  e -- lei --
+  son,
+  e -- lei --
+  son,
+  e -- lei -- %145
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, e -- %150
+  lei --
+  son,
+  Ky -- ri --
+  e,
+  Ky -- ri -- %155
+  e. %156 finis
+}
+
+GloriaAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
@@ -356,7 +640,7 @@ GloriaAltoLyrics = \lyricmode {
   tris. %120 finis
 }
 
-QuiTollisAltoNotes = {
+QuiTollisAlto = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
@@ -420,7 +704,7 @@ QuiTollisAltoLyrics = \lyricmode {
   bis. %161 finis
 }
 
-QuoniamAltoNotes = {
+QuoniamAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
@@ -608,7 +892,7 @@ QuoniamAltoLyrics = \lyricmode {
   men, a -- men. %264 FINIS
 }
 
-CredoAltoNotes = {
+CredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
@@ -756,7 +1040,7 @@ CredoAltoLyrics = \lyricmode {
   cre -- do, cre -- do. %74 finis
 }
 
-EtIncarnatusAltoNotes = {
+EtIncarnatusAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
@@ -864,7 +1148,7 @@ EtIncarnatusAltoLyrics = \lyricmode {
   est. %130 finis
 }
 
-EtResurrexitAltoNotes = {
+EtResurrexitAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
@@ -1113,7 +1397,7 @@ EtResurrexitAltoLyrics = \lyricmode {
   a -- men, a -- men. %260 FINIS
 }
 
-SanctusAltoNotes = {
+SanctusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
@@ -1185,7 +1469,7 @@ SanctusAltoLyrics = \lyricmode {
   cel -- sis. %42 FINIS
 }
 
-BenedictusAltoNotes = {
+BenedictusAlto = {
   \relative c' {
     \clef treble
     \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
@@ -1369,7 +1653,7 @@ BenedictusAltoLyrics = \lyricmode {
   cel -- sis. %127 FINIS
 }
 
-AgnusDeiAltoNotes = {
+AgnusDeiAlto = {
   \relative c' {
     \clef treble
     \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
@@ -1429,7 +1713,7 @@ AgnusDeiAltoLyrics = \lyricmode {
   ca -- ta __ mun -- di: %24 finis
 }
 
-DonaAltoNotes = {
+DonaAlto = {
   \relative c' {
     \clef treble
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona

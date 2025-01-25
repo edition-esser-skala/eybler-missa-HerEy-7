@@ -1,21 +1,22 @@
 \version "2.24.0"
 
-KyrieSopranoNotes = {
+KyrieSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2.*2
+    R2. \segnoMark \default
+    R
     \mvTr d2\p^\tuttiE e8([ d)]
     d2.
     e2 f8([ e)] %5
     e2.
     f2 f4
     c'2\cresc c4
-    h8([\f c)] d4 r
-    e2 e4 %10
+    h8([ c)] d4 r
+    e2\f e4 %10
     e( dis) d
-    d2.
-    d4( cis) c
+    d2.~
+    d4 cis c
     c2.~
     c4 h r %15
     cis2 d4
@@ -33,7 +34,7 @@ KyrieSopranoNotes = {
     d2\p f4
     f2 e4
     \appoggiatura e8 d4 c h %30
-    c2.~\fE
+    c2.~\f
     c~
     c~
     c~
@@ -75,7 +76,7 @@ KyrieSopranoLyrics = \lyricmode {
   Ky -- ri -- %10
   e __ e --
   lei --
-  son, __ e --
+  son, e --
   lei --
   son, %15
   Ky -- ri --
@@ -100,7 +101,7 @@ KyrieSopranoLyrics = \lyricmode {
   e -- lei --
   son, e -- lei --
   son, e -- lei --
-  son, %40
+  son. %40
 
   Ky -- ri -- %45
   e,
@@ -120,7 +121,269 @@ KyrieSopranoLyrics = \lyricmode {
   e. %60 finis
 }
 
-GloriaSopranoNotes = {
+KyrieOldSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoKyrieOld
+    R2.*5 %5
+    \mvTr c'2\p^\tuttiE c4
+    c2\cresc c4
+    des\f des, r
+    R2.*5 %13
+    cis'2\p cis4
+    cis2\cresc cis4 %15
+    d d, r
+    fis'2\f fis4
+    cis2 dis4
+    e2 e4
+    h2 cis4 %20
+    d!2.
+    a2 r4
+    h2 c!4
+    d2 e4
+    d c h %25
+    h a r
+    g'2 g4
+    g2 g4
+    g fis8([ e)] d([ c)]
+    h([ c)] d4 r %30
+    e2 e4
+    c r c
+    d2.
+    h4 r r
+    c2\p es4 %35
+    d( c) h!
+    \appoggiatura h8 a4 g fis
+    g'2.~\f
+    g~
+    g~ %40
+    \once \tieDashed g~
+    g8[ fis] fis4. e8
+    d4( c) h~
+    h8 c h4( a)
+    g8 h d4. fis,8 %45
+    g h d4. fis,8
+    g4 r r
+    R2.*4 %51
+    a2\p h8([ a)]
+    a4 r r
+    a2 h8([ a)]
+    a4 r r %55
+    a2 a8([ d)]
+    d2 c8([ a)]
+    g2( \grace h8 a4)
+    g r r
+    g'2\f g4 %60
+    g8([ dis e h)] c([\p e)]
+    g,2( \grace h8 a4)
+    g r e'8([\pp d)]
+    d2.
+    d4 r r %65
+    fis,2 a8([ g)]
+    g4 r r
+    R2.*6 %73
+    b2\p b4
+    b r r %75
+    b2 b4
+    b r r
+    b2\cresc b4
+    b2 b4
+    h\f h, r %80
+    R2.
+    h'2.\p
+    h4 r r
+    h2.
+    h4 r r %85
+    h2\cresc h4
+    h h h
+    c c, r
+    e'2\f e4
+    h2 cis4 %90
+    d2.
+    a2 h4
+    c!2.
+    g2 r4
+    a2 b4 %95
+    c2 d4
+    c b a
+    a g r
+    R2.*12 %110
+    c2 c4
+    c2 c4
+    d e f
+    g8([ f)] e4 r
+    r f f %115
+    f2 f4
+    f e8([ d)] c([ b)]
+    a([ g)] f4 r
+    R2.
+    r8 g g'([ f e d)] %120
+    c4 r r
+    r8 f, f'([ e d c)]
+    b4 r r
+    r8 c, c'([ b a g)]
+    a2. %125
+    b
+    c2 c4
+    d2.
+    g,4 r r
+    R2.*2 %131
+    g'2.
+    g2 g4
+    e4 d c
+    h!8([ c)] d f! e([ d)] %135
+    c d e([ d c h)]
+    a4 r r
+    R2.*2
+    f'2.~ %140
+    f4 e d
+    e2.~
+    e4 d c
+    d2.~
+    d4 e d %145
+    c r a
+    a( g! f)
+    e r c'
+    c( h a)
+    g r e' %150
+    e( d c)
+    h r r
+    a2\p c8([ h)]
+    h4 r r
+    fis2 a8([ g)] %155
+    g4 r r
+    R2.*4 \segnoMark \default \bar "|" %160 finis
+  }
+}
+
+KyrieOldSopranoLyrics = \lyricmode {
+  Ky -- ri -- %6
+  e e --
+  lei -- son,
+
+  Ky -- ri -- %14
+  e e -- %15
+  lei -- son,
+  Ky -- ri --
+  e e --
+  le -- i --
+  son, e -- %20
+  lei --
+  son,
+  Ky -- ri --
+  e e --
+  lei -- son, e -- %25
+  lei -- son,
+  Ky -- ri --
+  e e --
+  lei -- son, e --
+  lei -- son, %30
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %35
+  e __ e --
+  lei -- son, e --
+  lei --
+
+  son, e -- %42
+  lei -- son, __
+  e -- lei --
+  son, e -- le -- i -- %45
+  son, e -- le -- i --
+  son.
+
+  Ky -- ri -- %52
+  e,
+  Ky -- ri --
+  e, %55
+  Ky -- ri --
+  e e --
+  lei --
+  son,
+  Ky -- ri -- %60
+  e __ e --
+  lei --
+  son, e --
+  lei --
+  son, %65
+  Ky -- ri --
+  e.
+
+  Ky -- ri -- %74
+  e, %75
+  Ky -- ri --
+  e,
+  Ky -- ri --
+  e e --
+  lei -- son, %80
+
+  Chri --
+  ste,
+  Chri --
+  ste, %85
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+  Ky -- ri --
+  e e -- %90
+  lei --
+  son, e --
+  lei --
+  son,
+  Chri -- ste, %95
+  Chri -- ste,
+  Chri -- ste e --
+  lei -- son,
+
+  Ky -- ri -- %111
+  e e --
+  lei -- son, e --
+  lei -- son,
+  Ky -- ri -- %115
+  e e --
+  lei -- son, e --
+  lei -- son,
+
+  e -- lei -- %120
+  son,
+  e -- lei --
+  son,
+  e -- lei --
+  son, %125
+  Chri --
+  ste e --
+  lei --
+  son,
+
+  Chri -- %132
+  ste e --
+  lei -- son, e --
+  lei -- son, e -- lei -- %135
+  son, e -- lei --
+  son,
+
+  Chri -- %140
+  ste e --
+  lei --
+  son, e --
+  lei --
+  _ _ %145
+  son, e --
+  lei --
+  son, e --
+  lei --
+  son, e -- %150
+  lei --
+  son,
+  Ky -- ri --
+  e,
+  Ky -- ri -- %155
+  e. %156 finis
+}
+
+GloriaSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoGloria
@@ -352,7 +615,7 @@ GloriaSopranoLyrics = \lyricmode {
   tris. %120 finis
 }
 
-QuiTollisSopranoNotes = {
+QuiTollisSoprano = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
@@ -416,7 +679,7 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %161 finis
 }
 
-QuoniamSopranoNotes = {
+QuoniamSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
@@ -596,7 +859,7 @@ QuoniamSopranoLyrics = \lyricmode {
   men, a -- men. %264 FINIS
 }
 
-CredoSopranoNotes = {
+CredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
@@ -746,7 +1009,7 @@ CredoSopranoLyrics = \lyricmode {
   cre -- do, cre -- do. %74 finis
 }
 
-EtIncarnatusSopranoNotes = {
+EtIncarnatusSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
@@ -854,7 +1117,7 @@ EtIncarnatusSopranoLyrics = \lyricmode {
   est. %130 finis
 }
 
-EtResurrexitSopranoNotes = {
+EtResurrexitSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoEtResurrexit
@@ -1089,7 +1352,7 @@ EtResurrexitSopranoLyrics = \lyricmode {
   a -- men, \x a -- men. %260 FINIS
 }
 
-SanctusSopranoNotes = {
+SanctusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
@@ -1183,7 +1446,7 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %42 FINIS
 }
 
-BenedictusSopranoNotes = {
+BenedictusSoprano = {
   \relative c' {
     \clef treble
     \twofourtime \key g \major \time 2/4 \autoBeamOff \tempoBenedictus
@@ -1368,7 +1631,7 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %127 FINIS
 }
 
-AgnusDeiSopranoNotes = {
+AgnusDeiSoprano = {
   \relative c' {
     \clef treble
     \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
@@ -1428,7 +1691,7 @@ AgnusDeiSopranoLyrics = \lyricmode {
   ca -- ta __ mun -- di: %24 finis
 }
 
-DonaSopranoNotes = {
+DonaSoprano = {
   \relative c' {
     \clef treble
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
