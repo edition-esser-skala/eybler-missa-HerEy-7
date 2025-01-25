@@ -219,34 +219,34 @@ GloriaTromboneI = {
     g8 g g4 r %40
     R2.*8 %48
     fis4\f g a
-    h e, cis %50
+    h e cis %50
     d2 d4
-    g r r
+    g, r r
     R2.*25 %77
-    r4 e\pE\crescE fis
-    g g g
+    r4 e\pE fis
+    g\cresc g g
     g-!\f g-! r %80
     c-!\ff h-! r
     R2.*10 %91
-    g4\fE g g
+    g4\f g g
     g2 g4
     g2 g4
     g g r %95
-    f g a
+    f\ff g a
     g g g
     g2 g4
     g r r
     R2. %100
     g4 g g
     f2 f4
-    d h d
+    d( h) d
     c8 d e4 r
     f2. %105
     g
     g2 g4
     g g r
     g f e
-    d g g %110
+    d( g) g %110
     g f e
     d g g
     a4. a8 g4

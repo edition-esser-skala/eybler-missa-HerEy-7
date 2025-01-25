@@ -417,7 +417,7 @@ GloriaBasso = {
     d r d
     cis2 cis4
     d r r %25
-    h'4.( ais8) h([ ais)]
+    h'4.( ais8) h([ \hA ais)]
     h([ ais h g)] c([ h)]
     a4 g r
     r c, c
@@ -436,7 +436,7 @@ GloriaBasso = {
     d2 dis4
     e r r
     cis cis cis %45
-    d2 d4
+    d!2 d4
     e e e
     d4. d8 d4
     d'\f cis c
@@ -453,7 +453,7 @@ GloriaBasso = {
     r dis dis8 dis
     e4 e r %65
     a,( h) c
-    d2 d4
+    d!2 d4
     h c d
     e2 e4
     c( d) e %70
@@ -464,20 +464,20 @@ GloriaBasso = {
     d4. d8 g4 %75
     R2.
     d4. d8 g4
-    fis(\crescE e) d
-    g e h
-    c\f h r %80
-    dis\ff e r
+    fis( e) d
+    g\cresc e h
+    c\f-! h-! r %80
+    dis\ff-! e-! r
     c2.~\pp
     c4 c c
-    \once \tieDashed d2~ d4
+    d2 d4
     g, r r %85
     R2.*6 %91
     c'4\f c c
     c2 c4
     h( g) h
     c c, r %95
-    a'( g) f
+    a'(\ff g) f
     e d c
     h2 c4
     g' r r
@@ -570,15 +570,15 @@ GloriaBassoLyrics = \lyricmode {
 
   gra -- ti -- as %75
 
-  \xE a -- gi -- mus \x
+  a -- gi -- mus,
   pro -- pter
   glo -- ri -- am
-  tu -- am, %80
+  tu -- am %80
   ma -- gnam
-  \xE glo --
-  ri -- am
-  tu --
-  am. \x %85
+  a --
+  gi -- mus
+  gra -- ti --
+  as. %85
 
   Do -- mi -- ne %92
   De -- us,

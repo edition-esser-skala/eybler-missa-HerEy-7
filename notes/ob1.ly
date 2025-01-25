@@ -199,7 +199,7 @@ GloriaOboeI = {
     e8 f g c, e g
     c4 r r
     R2.*3 %21
-    g2.\p
+    g2.\pp
     fis
     g
     fis8 fis g a h c %25
@@ -245,11 +245,11 @@ GloriaOboeI = {
     g4 h c
     d,2.
     g4 f8[ e f d]
-    c2 d4 %115
+    c2 \appoggiatura e8 d4 %115
     \pao c r r
     b'2.
     a4 g8 f e d
-    c2 d4
+    c2 \appoggiatura e8 d4
     c8 e, f g a h %120
     c g a h c d
     e h c d e f

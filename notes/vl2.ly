@@ -246,78 +246,78 @@ GloriaViolinoII = {
     g( d) d( g) g( d) d( g) g( e) e( g) %5
     g( d) d( g) g( d) d( g) g( d) d( g)
     g( d) d( g) a( d,) d( a') a( d,) d( a')
-    g8-! g16(\f a) a( g) g( f) f( e) e( d)
-    d8-! f16( g) g( f) f( e) e( d) d( c)
+    g8 g16(\f a) a( g) g( f) f( e) e( d)
+    d8 f16( g) g( f) f( e) e( d) d( c)
     c c' c c e, c' c c e c c c %10
-    f8 f,16 f' g8 g,16 g' a8 a, 16 a'
+    f8 f,16 f' g8 g,16 g' a8 a,16 a'
     d,8 d'16 c c h h a a g g f
     e8 c,16 e e g g c c e e g
     f a, a a a f' f f h, d d d
-    c d d e e8 e, 16 g g c c e %15
+    c d d e e8 e,16 g g c c e %15
     f a, a a a f' f f h, d d d
     c d d e e8 c,16 e e g g c
-    c8\p c c c c c
-    a a a a a a
-    e e e e e e %20
-    d d d d d d
-    e e e e e e
-    fis fis d d fis fis
-    g g g g g g
-    fis( d e fis g a) %25
-    g g g g g g
-    g g g g g g
-    a( a d, h' a g)
-    e e e e e e
-    a a a a a a %30
-    a a a a h h
-    c c c c e, e
-    d d d d d d
-    d-! g16(\f a) a( h) h( c) c( d) d( e)
-    e8 h16( c) c( d) d( e) e( fis) fis( g) %35
-    g4 <h, d, g,>\ff <c e, g,>
+    c2.:8\p
+    a:
+    e: %20
+    d:
+    e:
+    fis8 fis d d \hA fis fis
+    g2.:
+    fis8( d e \hA fis g a) %25
+    g2.:
+    g2.:
+    a8( a d, h' a g)
+    e2.:
+    a: %30
+    a2: h8 h
+    c2: e,8 e
+    d2.:
+    d8 g16\f a a h h c c d d e
+    e8 h16 c c d d e e fis fis g %35
+    g4 <h, d, g,>\f <c e, g,>
     <h d, g,> r r
     r q <c e, g,>
     <h d, g,> r r
     r q <c e, g,> %40
     <h d, g,>8 d[\p d d d d]
-    r c c c c c
-    r fis, fis fis fis fis
-    r g g g g g
-    r g g g g g %45
-    r fis fis fis fis fis
-    r g g g g g
-    r fis fis fis fis fis
-    fis16\f fis fis fis g g g g a a a a
-    h h h h e e e e cis cis cis cis %50
-    d g g g g g g g fis fis fis fis
+    r8 c c2:
+    r8 fis, fis2:
+    r8 g g2:
+    r8 g g2: %45
+    r8 fis fis2:
+    r8 g g2:
+    r8 fis fis2:
+    fis4:16\f g: a:
+    h: e: cis: %50
+    d16 g g g g4: fis:
     g8 e,16 d d g g fis fis h h a
     a c c h h e e d d c c h
     h a a g g fis fis e e d d c
     c h h g' a,8 g' a, fis' %55
     g c16 h h a a g g fis fis e
-    e8 e[\p e e e e]
-    e e e e e e
-    e e e e e e
-    e e e e e e %60
-    e e dis-\critnote dis dis dis
-    fis fis fis fis fis fis
-    fis fis fis fis fis fis
-    fis fis fis fis fis fis
-    e-! e-! e-! e( fis g) %65
-    g g g g g g
-    fis fis fis fis fis fis
-    fis fis fis fis fis fis
-    g g g g g g
-    g g fis fis g g %70
-    a a a a a a
-    g g a a g g
+    e8 e\p e e e e
+    e2.:8
+    e:
+    e: %60
+    e8 e dis2:
+    fis2.:
+    fis:
+    fis:
+    e8 e e e( fis g) %65
+    g2.:
+    fis:
+    fis:
+    g:
+    g8 g fis fis g g %70
+    a2.:
+    g8 g a a g g
     g4\trill fis r
     d fis g
     c,2 h4 %75
     r fis' g
     c,2 h4
-    d\cresc e fis
-    g2 g4
+    d( e fis)
+    g2\cresc g4
     g-!\f g-! r %80
     c-!\ff h-! r
     e,2.~\pp
@@ -334,7 +334,7 @@ GloriaViolinoII = {
     e c c c e, c' c c e c c c
     d g g g h, g' g g d g g g
     e c c c e, c' c c e c c c %95
-    f8.[\ffE c16 c8. c16 c8. c16]
+    f8.[\ff c16 c8. c16 c8. c16]
     c8.[ c16 f8. f16 e8. e16]
     d8.[ d16 d8. d16 c8. c16]
     h8 g16 a a g g f f e e d
@@ -357,13 +357,13 @@ GloriaViolinoII = {
     c e e d d c c h h a a g
     g c c c g' c, c c b' c, c c
     c a' a a a g g f f e e d
-    e g g g c e, e e d8 h'
+    e g g g c e, e e d8 h'!
     c, e,16 f f g g a a h h c %120
     c8 g16 a a h h c c d d e
     e8 h16 c c d d e e f f g
     g e e f f d d e e c c d
     d h h c c d d e e f f g
-    g c c e, d8 c' g,, h'' %125
+    g c c e, \kneeBeam d8 c' g,, h'' %125
     c4 c,, r\fermata \bar "||" %126 finis
   }
 }

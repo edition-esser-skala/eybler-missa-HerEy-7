@@ -96,7 +96,7 @@ GloriaClarinoI = {
     r d e %40
     d r r
     R2.*10 %51
-    g,4 r r
+    g,4\fE r r
     R2.*39 %91
     c8\f c16 c c8 c c c
     c c16 c c8 c c c

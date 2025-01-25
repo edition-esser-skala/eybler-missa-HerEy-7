@@ -412,7 +412,7 @@ GloriaSoprano = {
     r a a
     a2 h8([ a)]
     a4 r r %25
-    d4.( cis8) d([ cis)]
+    d4.( cis8) d([ \hA cis)]
     d([ cis d dis)] e([ d)]
     d([ c)] h4 r
     r a a
@@ -457,22 +457,22 @@ GloriaSoprano = {
     h a r
     d4. c8 h4
     h8([ a)] g([ fis)] g4 %75
-    d'4. c8 h4
+    d'4.( c8) h4
     h8([ a)] g([ fis)] g4
-    a(\cresc d) c
-    h c d
-    e\f d r %80
-    fis\ff g r
+    a( d) c
+    h\cresc c d
+    e\f-! d-! r %80
+    fis\ff-! g-! r
     e2.~\pp
     e4 d8([ c)] h([ a)]
-    g2( h8[ a)]
+    g2 h8[( a)]
     g4 r r %85
     R2.*6 %91
-    c4\fE c c
+    c4\f c c
     e2 c4
     g'2 g4
     e8([ d)] c4 r %95
-    c2 c4
+    c2\ff c4
     c d e
     f2 e4
     d r r
@@ -573,16 +573,16 @@ GloriaSopranoLyrics = \lyricmode {
   tu -- am,
   gra -- ti -- as
   a -- gi -- mus, %75
-  gra -- ti -- as
-  a -- gi -- mus
+  ti -- bi
+  a -- gi -- mus,
   pro -- pter
-  \xE glo -- ri -- am \x
-  tu -- am, %80
+  glo -- ri -- am
+  tu -- am %80
   ma -- gnam
-  glo --
-  ri -- am
-  tu --
-  am. %85
+  a --
+  gi -- mus
+  gra -- ti --
+  as. %85
 
   Do -- mi -- ne %92
   De -- us,

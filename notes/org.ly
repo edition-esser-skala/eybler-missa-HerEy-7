@@ -464,12 +464,12 @@ GloriaOrgano = {
   \relative c {
     \clef "treble_8"
     \key c \major \time 3/4 \tempoGloria
-    \mvTr c8\pE-\solo c c c c c
-    f f f f f f
-    e e e e e e
-    a a a a a a
-    g g g g c c %5
-    h h h h g g
+    \mvTr c2.:8\p-\solo
+    f:
+    e:
+    a:
+    g2: c8 c %5
+    h2: g8 g
     g g fis fis d d
     g \clef bass g[-!\f a-! g-! f-! e]-!
     d-! f-! g-! f-! e-! d-!
@@ -481,90 +481,90 @@ GloriaOrgano = {
     c, c' c c c, c' %15
     c, c'16 h c8 c c, c'
     c, c' c c,-! e-! g-!
-    c\p c c c c c
-    a a a a a a
-    e e c c a a %20
+    c-!\p c-! c-! c-! c-! c-!
+    a-! a-! a-! a-! a-! a-!
+    e-! e-! c-! c-! a a %20
     d d d' d d, d
-    cis cis a a cis cis
+    cis cis a a \hA cis cis
     d d fis fis d d
-    cis cis a a cis cis
+    cis cis a a \hA cis cis
     d d d' d c! c %25
-    h4. ais8 h ais
+    h4. ais8 h \hA ais
     h ais h g c h
     a4 g8 g, a h
-    c c c c c c
-    a a a a a a %30
-    c c c' c gis gis
+    c2.:
+    a: %30
+    c8 c c' c gis gis
     a a a, a c c
-    d d d d d, d
+    d2: d,8 d
     g g-!\f a-! h-! c-! d-!
-    e-! h-! c-! d-! e-! fis-! %35
-    g4 g\f << { c^\org } \\ { c,_\bassi } >>
+    e-! h-! c-! d-! e-! fis-! \segnoMark 1 %35
+    g4 g\f << { c^\org } \\ { c,_\markup \remark "vlc, b" } >> \segnoMark 1
     g' r r
-    r g << { c^\org } \\ { c,_\bassi } >>
+    r g << { c^\org } \\ { c,_\markup \remark "vlc, b" } >>
     g' r r
     r g c, %40
-    g'8 h,[\p h h h h]
-    r c c c c c
-    r d d d dis dis
-    r e e e e e
-    r cis cis cis cis cis %45
-    r d d d d d
-    r e e e e e
-    r d d d d d
+    g'8 h,\p h h h h
+    r c c2:
+    r8 d d d dis dis
+    r e e2:
+    r8 cis cis2: %45
+    r8 d! d2:
+    r8 e e2:
+    r8 d d2:
     << {
       d'4^\org cis c
       h e cis %50
-      d8[ d d d]
+      d8 d d d d, d
     } \\ {
-      \mvTr d,8\fE-\bassi d' cis, cis' c, c'
+      \mvTr d8\f-\markup \remark "vlc, b" d' cis, cis' c, c'
       h, h' e, e' cis, cis' %50
-      d,[ d' d d]
-    } >> d, d
+      d, d' d d d, d
+    } >>
     g-\solo c h e d g
     fis e d c h a
     g fis e d c h
     a g c a d d, %55
     g c' h a g fis
-    e e[\p e e e e]
-    e e e e e e
-    e e e e e e
-    e e e e e e %60
-    fis fis fis fis fis fis
-    dis dis dis dis dis dis
-    dis dis dis dis dis dis
-    dis dis dis dis dis dis
-    e e e e e e %65
-    a, a h h c c
-    d d d d d d
-    h h c c d d
-    e e e e e e
-    c c d d e e %70
-    fis fis fis fis fis fis
-    g g fis fis g g
+    e e\p e e e e
+    e2.:
+    e:
+    e: %60
+    fis:
+    dis:
+    dis:
+    dis:
+    e: %65
+    a,8 a h h c c
+    d!2.: \segnoMark 2
+    h8 h c c d d
+    e2.:
+    c8 c d d e e %70
+    fis2.:
+    g8 g fis fis g g \segnoMark 2
     d'4 d, r
     h' a g
     fis d g %75
     h a g
     fis d g
-    fis\crescE e d
-    g e h
-    c\f h r %80
-    dis\ff e r
+    fis e d
+    g\cresc e h
+    c-!\f h-! r %80
+    dis-!\ff e-! r
     \mvTrr c2.~\pp-\senzaOrg
-    c4 c-! c-!
-    d2-! d,4-!
+    c4 c c
+    d2 d,4
     g8 h'\f a c h g %85
     fis a g h a c
     h e d c h a
     g fis e d c h
     a g c a d d,
-    g \parOn g'-\parenthesize-! a-! g-! f!-! e-! %90
-    d-! f-! g-! f-! e-! \parOff d-\parenthesize-!
-    c-\tutti c'16 h c8 g e g
+    g g' a g f! e %90
+    d f g f e d
+    \mvTr c\f-\tutti c'16 h c8 g e g
     c, c'16 h c8 g e c
     h h'16 a h8 d g, h
-    c c16 h c8 g e c %95
+    c c16 h c8 g e c \segnoMark 3 %95
     a'8.[\ff a16 g8. g16 f8. f16]
     e8.[ e16 d8. d16 c8. c16]
     h8.[ h16 h'8. h16 c8. c16]
@@ -582,17 +582,17 @@ GloriaOrgano = {
     h, h' g, g' c, c' %110
     e, e' d d, c c'
     h, h' g, g' c, c'
-    fis, fis16 e fis8 fis, f f'
+    fis, fis16 e \hA fis8 fis, f f'
     e, e' a, a' f, f'
-    g, g'16 fis? g8 g, gis gis' %115
+    g, g'16 f g8 g, gis gis' %115
     a c h a g f
     e e16 d e8 c d e
     f f16 e f8 f, f f'
     g, g'16 f g8 g, g g'
-    c,-! c-! d-! e-! f-! g-! %120
+    c, c-! d-! e-! f-! g-! %120
     a-! e-! f-! g-! a-! h-!
-    \parOn c-\parenthesize-! g-! a-! h-! c-! d-!
-    e-! \parOff c-\parenthesize-! a h c a
+    c g a h c d
+    e c a h c a
     f g e h c d
     e a f d g g, %125
     c4 c' r\fermata \bar "||" %126 finis
@@ -602,36 +602,36 @@ GloriaOrgano = {
 GloriaBassFigures = \figuremode {
   r2.
   r
-  <[6]>
+  <6>
   r
   r %5
   <[6]>
-  r4 <6> <[_+]>
+  r4 <6>2
   r2.
   r
   r2 <[2]>4 %10
   <6> <6 4 _-> <6 5>
-  <4>2 <3>4
+  <4> <3[!]>2
   r2.
   <6 4>2 <7 2>4
-  <8 [3]>2. %15
+  <5>2. %15
   <6 4>2 <7 2>4
-  <8 [3]>2.
-  <[1]>
-  q
-  \bo <[6 4]>2 \bassFigureExtendersOn <6 4>8 \bc <[6 4]> \bassFigureExtendersOff %20
-  <6 4>4 <[5] _+>2
-  <6 5>2 \bassFigureExtendersOn q8 q
-  <_+>2.
-  <6 5>2 q8 q \bassFigureExtendersOff
-  <_+>2 <[\t]>4 %25
+  <8>2.
+  r
+  r
+  r2 <8>4 %20
+  <6 4> <[5] _+>2
+  <[6 5]>2.
+  <_+>
+  <[6 5]>
+  <_+> %25
   <6 3>4. \bassFigureExtendersOn <6 _+>8 <6 3> <6 _+>
-  <6 3> <6 _+> <6 3\!> <6 [5\+] 3\!> <6 3\!> q \bassFigureExtendersOff
-  <5 4> <6\\ 3> <5 3> <3> q q
+  <6 3> <6 _+> <6 3\!> q q q \bassFigureExtendersOff
+  <5 4> <6\\ 3> <8 3> <3> q q
   <6>2.
   r %30
   q2 q4
-  r2 <[6]>4
+  r2.
   <6 4>2 <[5] _+>4
   r2.
   r %35
@@ -640,32 +640,32 @@ GloriaBassFigures = \figuremode {
   r
   r
   r %40
-  r8 <[6]> r2
-  r2.
-  r8 <_+>4. <7 [_+]>4
-  r8 <5> r2
-  r8 <[6 5]> r2 %45
-  r8 <_+> r2
-  r8 <6\\ 4 3> r2
-  r8 <_+> r2
+  r
+  r
+  <_+>2 <7 [_+]>4
+  <5>2.
+  <[6 5]> %45
+  <_+>
+  <6\\ 4 3>
+  <_+>
   q4 <6 5> <4\+>
-  <6> <5> <8> %50
+  <6> <8> <8> %50
   <6 4>2 <[5] _+>4
-  r \bo <[6]> \bc <[_+]>
-  \bo <[6 _]>8 <6> <6 4> <4\+ 2> <6> \bc <[6\\ _]>
-  \bo <[3]> <3> q q q \bc <[3]>
-  \bo <[6\\ _]>4 <6 5> \bc <[_+ _]> %55
-  r4 \bo <[6]>8 <6\\> <6> \bc <[6\\]>
   r2.
+  r
+  r
+  r4 \bo <[6 5]> \bc <[_+ _]> %55
+  r2.
+  r
   r
   r
   r %60
-  <7>4 <6\\ [5]>2
-  <7 [_+]>2.
-  q
-  <6 [_+]>
+  <7>4 <6\\>2
+  \bo <7 [_+]>2.
+  <7 \t>
+  \bc <6 [\t]>
   r %65
-  <10 7>2 \bassFigureExtendersOn  q8 q \bassFigureExtendersOff
+  <10 7>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   <7 _+>2.
   <5\+>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   <7>2.
@@ -674,9 +674,9 @@ GloriaBassFigures = \figuremode {
   r <[6 5]>2
   <6 4>4 <[5] _+>2
   <6>4 <6\\>2
-  \bo <[6 5]>4 \bc <[7 _+]>2 %75
+  <[6 5]>2. %75
   <6>4 <6\\>2
-  \bo <[6 5]>4 \bc <[7 _+]>2
+  <[6 5]>2.
   <6>4 <7> <7 _+>
   r <6> q
   r q2 %80
@@ -684,11 +684,11 @@ GloriaBassFigures = \figuremode {
   r2.
   r
   r
-  r8 \bo <[6]> <6\\> <4\+> \bc <[6]>4 %85
-  \bo <[6]>8 <6\\> r <6> <6\\> \bc <[4\+]>
-  \bo <[6]> <3> q q q \bc <[3]>
-  \bo <[3]> <3> q q q \bc <[6]>
-  \bo <[6\\ _]>4 <6 5> \bc <[_+ _]>
+  r %85
+  r
+  r
+  r
+  r4 \bo <[6 5]> \bc <[_+ _]>
   r2. %90
   r
   r
@@ -702,7 +702,7 @@ GloriaBassFigures = \figuremode {
   r %100
   r
   r
-  r2 <[6 5]>8 <7>
+  r2 r8 <7>
   r2.
   r %105
   <6>
@@ -717,15 +717,15 @@ GloriaBassFigures = \figuremode {
   <6 4>2 <7>4 %115
   <3>8 q q q q q
   <6 [5-]>2.
-  <[5]>4 <6>2
-  <6 4> <7>4
+  r2 <6>4
+  <6 4>2 <7>4
   r2. %120
   r
   r
-  r4 \bo <[6]>8 <6> r \bc <[5]>
-  \bo <[6]>4 <6>8 q r \bc <[6]>
-  <6>4 <[6 5]> <4>8 <3> %125
-  r2. %130 finis
+  r
+  r
+  r %125
+  r %126 finis
 }
 
 QuiTollisOrgano = {

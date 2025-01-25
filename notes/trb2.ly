@@ -214,26 +214,26 @@ GloriaTromboneII = {
     R2.*8 %48
     fis4\f e d
     d e cis %50
-    d d d
+    d2 d4
     g, r r
     R2.*25 %77
-    r4 g\pE\crescE a
-    g e' d
+    r4 g\pE a
+    g\cresc e' d
     c-!\f d-! r %80
-    a-!\ffE e-! r
+    a-!\ff e-! r
     R2.*10 %91
     e'4\f e e
     c2 e4
     d h d
     c8 d e4 r %95
-    c2 c4
+    c2\ff c4
     c h c
     d2 c4
     h r r
     R2. %100
     c4 c c
     c2 c4
-    h g h
+    h( g) h
     c8 c c4 r
     c2. %105
     c

@@ -423,7 +423,7 @@ GloriaAlto = {
     R2.
     g4\f g8 g g g %10
     a4( c) c
-    c( h8[ a g f])
+    c_( h8[ a g f])
     e4 r r
     a a8 a h h
     c4 g r %15
@@ -456,9 +456,9 @@ GloriaAlto = {
     fis2 fis4
     g r r
     g g g %45
-    fis4.( g8) fis4
+    fis4.( g8) \hA fis4
     g g g
-    fis4. g8 fis4
+    fis4. g8 \hA fis4
     fis\f g a
     h e cis %50
     d2 d4
@@ -473,31 +473,31 @@ GloriaAlto = {
     r h h8 h
     h4 h r %65
     e2 e4
-    d2 d4
+    d!2 d4
     d4. d8 d4
     h( e) e
     e( fis) g %70
     a2 a4
-    g8([^\critnote a16 h]) a4 g
+    g8([ a16 h]) a4 g
     g fis r
     R2.
     c4. c8 h4 %75
     R2.
     c4. c8 h4
-    d(\crescE e) fis
-    g g g
-    g\f g r %80
-    c\ff h r
+    d( e) fis
+    g\cresc g g
+    g-!\f g-! r %80
+    c-!\ff h-! r
     e,2.~\pp
     e4 e e
-    d2( fis4)
+    d2 fis4
     g r r %85
     R2.*6 %91
     g4\f g g
     g2 g4
     g2 g4
     g g r %95
-    f( g) a
+    f(\ff g) a
     g g g
     g2 g4
     g r r
@@ -599,15 +599,15 @@ GloriaAltoLyrics = \lyricmode {
 
   gra -- ti -- as %75
 
-  a -- gi -- mus
+  a -- gi -- mus,
   pro -- pter
   glo -- ri -- am
-  tu -- am, %80
+  tu -- am %80
   ma -- gnam
-  glo --
-  ri -- am
-  tu --
-  am. %85
+  a --
+  gi -- mus
+  gra -- ti --
+  as. %85
 
   Do -- mi -- ne %92
   De -- us,

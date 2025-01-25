@@ -199,8 +199,8 @@ GloriaOboeII = {
     \clef treble
     \key c \major \time 3/4 \tempoGloria
     R2.*9 %9
-    c'2.~\f %10
-    \once \tieDashed c~
+    c'2.\f %10
+    c~
     c4 h8 a h4
     c r r
     a2 h4
@@ -209,7 +209,7 @@ GloriaOboeII = {
     c8 d e c, e g
     c4 r r
     R2.*3 %21
-    e2.\p
+    e2.\pp
     d
     e
     d8 d e fis g a %25
@@ -220,7 +220,7 @@ GloriaOboeII = {
     a~ %30
     a4 r r
     R2.*4 %35
-    r4 g\f c
+    r4 h\f c
     h r r
     r h c
     h r r
@@ -236,8 +236,8 @@ GloriaOboeII = {
     c
     d
     c4 c r %95
-    c2.\ffE
-    c4 h c
+    c2\ff c4
+    c h c
     d2 c4
     h r r
     R2. %100

@@ -250,37 +250,37 @@ KyrieOldFagottoIeII = {
   }
 }
 
-GloriaFagottoI = {
+GloriaFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoGloria
     R2.*7 %7
-    r8 g'-!\f a-! g-! f-! e-!
-    d-! f-! g-! f-! e-! d-!
+    r8 g'\f a g f e
+    d f g f e d
     c c c' c b b %10
     a a g g fis fis
     g g g g g, g
     c c'16 h c8 c c, c'
-    c,^\critnote c'16 h c8 c c, c'
-    c, c' c, c c c %15
-    c c'16 h c8 c c, c'
+    c, c'16 h c8 c c, c'
+    c, c' c c c, c' %15
+    c, c'16 h c8 c c, c'
     c, c' c c, e g
-    c\p c c c c c
-    a a a a a a
-    e e c c a a %20
+    c2.:8\p
+    a:
+    e8 e c c a a %20
     d d d' d d, d
-    cis cis a a cis cis
+    cis cis a a \hA cis cis
     d d fis fis d d
-    cis cis a a cis cis
+    cis cis a a \hA cis cis
     d d d' d c! c %25
-    h4.( ais8 h ais)
+    h4. ais8( h \hA ais)
     h( ais h g c h)
     a4 g8 g, a h
-    c c c c c c
-    a a a a a a %30
-    c c c' c gis gis
+    c2.:
+    a: %30
+    c8 c c' c gis gis
     a a a, a c c
-    d d d d d, d
+    d2: d,8 d
     g g\f a h c d
     e h c d e fis %35
     g4 g\f c,
@@ -288,47 +288,47 @@ GloriaFagottoI = {
     r g c,
     g' r r
     r g c, %40
-    g'8 h,[\p h h h h]
-    r c c c c c
-    r d d d dis dis
-    r e e e e e
-    r cis cis cis cis cis %45
-    r d d d d d
-    r e e e e e
-    r d d d d d
-    d\fE d' cis, cis' c, c'
+    g'8 h,\p h h h h
+    r c c2:
+    r8 d d d dis dis
+    r e e2:
+    r8 cis cis2: %45
+    r8 d! d2:
+    r8 e e2:
+    r8 d d2:
+    d8\f d' cis, cis' c, c'
     h, h' e, e' cis, cis' %50
-    d, d d d d d
+    d, d' d d d, d
     g c h e d g
     fis e d c h a
     g fis e d c h
     a g c a d d, %55
     g c' h a g fis
-    e e[\p e e e e]
-    e e e e e e
-    e e e e e e
-    e e e e e e %60
-    fis fis fis fis fis fis
-    dis dis dis dis dis dis
-    dis dis dis dis dis dis
-    dis dis dis dis dis dis
-    e e e e e e %65
-    a, a h h c c
-    d d d d d d
-    h h c c d d
-    e e e e e e
-    c c d d e e %70
-    fis fis fis fis fis fis
-    g g fis fis g g
+    e e\p e e e e
+    e2.:
+    e:
+    e: %60
+    fis:
+    dis:
+    dis:
+    dis:
+    e: %65
+    a,8 a h h c c
+    d!2.:
+    h8 h c c d d
+    e2.:
+    c8 c d d e e %70
+    fis2.:
+    g8 g fis fis g g
     d'4 d, r
-    h'( a g)
-    fis( d g) %75
-    h( a g)
-    fis( d g)
-    fis\cresc e d
-    g e h
-    c\f-! h-! r %80
-    dis\ff-! e-! r
+    h' a g
+    fis d g %75
+    h a g
+    fis d g
+    fis e d
+    g\cresc e h
+    c-!\f h-! r %80
+    dis-!\ff e-! r
     c2.~\pp
     c4 c c
     d2 d,4
@@ -339,16 +339,16 @@ GloriaFagottoI = {
     a g c a d d,
     g g' a g f! e %90
     d f g f e d
-    c c'16 h c8 g e g
+    c\f c'16 h c8 g e g
     c, c'16 h c8 g e c
     h h'16 a h8 d g, h
     c c16 h c8 g e c %95
-    a'8.[\ffE a16 g8. g16 f8. f16]
+    a'8.[\ff a16 g8. g16 f8. f16]
     e8.[ e16 d8. d16 c8. c16]
     h8.[ h16 h'8. h16 c8. c16]
     g8 g a g f e
     d f g f e d %100
-    c e16^\critnote d e8 c d e
+    c e16 d e8 c d e
     f f16 e f8 c a f
     g g'16 f g8 d h g
     c d e c d e
@@ -360,9 +360,9 @@ GloriaFagottoI = {
     h, h' g, g' c, c' %110
     e, e' d d, c c'
     h, h' g, g' c, c'
-    fis, fis16 e fis8 fis f f
-    e e a a f f
-    g, g'16 fis g8 g, gis gis' %115
+    fis, fis16 e \hA fis8 fis, f f'
+    e, e' a, a' f, f'
+    g, g'16 f g8 g, gis gis' %115
     a c h a g f
     e e16 d e8 c d e
     f f16 e f8 f, f f'

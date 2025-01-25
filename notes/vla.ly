@@ -257,89 +257,89 @@ GloriaViola = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoGloria
-    c8\p c c c c c
-    c c c c c c
-    c c c c c c
-    c c c c c c
-    d d d d e e %5
-    d d d d d d
-    d d d d fis fis
-    g g-!\f a-! g-! f-! e-!
-    \parOn d-\parenthesize-! f-! g-! f-! e-! \parOff d-\parenthesize-!
+    c2.:8\p
+    c:
+    c:
+    c:
+    d2: e8 e %5
+    d2.:
+    d2: fis8 fis
+    g g\f a g f e
+    d f g f e d
     c c e e g g %10
     c, c b b a a
     g g h h d d
-    c8 c16 h c8 c-\critnote c, c'
-    c c c c d d
+    c8 c16 h c8 c c, c'
+    c2: d8 d
     g, c c c c, c' %15
-    c c c c d d
+    c2: d8 d
     g, c c c, e g
-    c\p c c c c c
-    a a a a a a
-    e e a a c c %20
-    h h a a a a
-    a a cis cis a a
-    a a a a d d
-    e e e e e e
-    d d d d d d %25
-    d d d e d e
-    d e d h c d
-    e fis? g h, c d
-    c c c c c c
-    e e e e e e %30
-    e e e e e e
-    e e c c c c
-    h h h h c c
+    c2.:\p
+    a:
+    e8 e a a c c %20
+    h h a2:
+    a8 a cis cis a a
+    a2: d8 d
+    e2.:
+    d: %25
+    d8 d d e( d e)
+    d( e d h c! d)
+    e fis g h, c d
+    c2.:
+    e: %30
+    e:
+    e8 e c2:
+    h: c8 c
     h g\f a h c d
     e h c d e fis %35
-    g4 <d h g>\ff <e g, c,>
+    g4 <d h g>\f <e g, c,>
     <d h g> r r
     r q <e g, c,>
     <d h g> r r
     r q <e g, c,> %40
     <d h g>8 g[\p g g g g]
-    r g g g g g
-    r a, a a a a
-    r g g g g g
-    r e' e e e e %45
-    r d d d d d
-    r cis cis cis cis cis
-    r a d d d d
-    a'\f a a a a a
-    h h e e cis cis %50
-    d d d d d, d
+    r g g2:
+    r8 a, a2:
+    r8 g g2:
+    r8 e' e2: %45
+    r8 d d2:
+    r8 cis cis2:
+    r8 d d2:
+    a'2.:\f
+    h8 h e e cis cis %50
+    d2: d,8 d
     g c, h e d g
     fis e d c h a'
     g fis e d c h
     a g e' c a c %55
     h c h a g fis
-    e h'[\p h h h h]
-    h h h h h h
-    h h h h h h
-    h h h h h h %60
-    a h c c c c
-    c c c c c c
-    c c c c c c
-    h h h h h h
-    h h h h a g %65
+    e h'\p h h h h
+    h2.:
+    h:
+    h: %60
+    a8 h c2:
+    c2.:
+    c:
+    h:
+    h8 h h h( a g) %65
     c c d d e e
-    a, a a a a a
-    d d e e fis fis
-    h, h h h h h
-    c c c c c c %70
-    c c a a d d
-    d d d d d d
-    d4 r8 \once \slurDashed d,( g h)
+    a,2.:
+    d8 d e e fis fis
+    h,2.:
+    c: %70
+    c8 c a a d d
+    d2.:
+    d4 r8 d,( g h)
     d2.~
-    d %75
+    d~ %75
     d~
     d
-    r4 g,\crescE a
-    g e' d
+    r4 g,( a)
+    g(\cresc e' d)
     c\f-! d-! r %80
     a'-!\ff e-! r
     e,(\pp fis gis)
-    a h c
+    a( h c)
     h d c
     h8 h\f a c h g %85
     fis a g h a c
@@ -352,37 +352,37 @@ GloriaViola = {
     c, c'16 h c8 g e c
     h h'16 a h8 d g, h
     c c16 h c8 g e c %95
-    c8.[\ffE c16 e8. e16 f8. f16]
+    c8.[\ff c16 e8. e16 f8. f16]
     g8.[ g16 g8. g16 g8. g16]
     g8.[ g16 g8. g16 g8. g16]
-    g8. g16 a8 g f e
-    d8. f16 g8 f e d %100
+    g8 g a g f e
+    d f g f e d %100
     c e16 d e8 c d e
     f f16 e f8 c a f
-    g g'16 fis g8 d h g
+    g g'16 f g8 d h g
     c d e c d e
     f f'16 e f8 c a f %105
     e e'16 d e8 c g e
     d d'16 c h8 g c c,
     g' g16 f g8 g, g' f
-    e e' d d, c c'
-    h, h' g, g' c, c' %110
-    e, e' d d, c c'
-    h, h' g, g' c, c'
-    fis, fis16 e fis8 fis, f? f'
+    e g f f, e e'
+    d, d' h g c e %110
+    g, g' f f, e e'
+    d, d' h g c e
+    fis fis16 e \hA fis8 fis, f f'
     e, e' a, a' f, f'
-    g, g'16 fis g8 g, gis gis' %115
+    g, g'16 f g8 g, gis gis' %115
     a c h a g f
     e e16 d e8 c d e
-    f f16 e f8 f, f' f,
-    g g'16 f g8 g, g g'
-    c,-! c-! d-! e-! f-! g-! %120
-    a-! e-! f-! g-! a-! h-!
-    c-! g-! a-! h-! c-! d-!
-    e c a h c a
-    f g e h c d
-    e a f d g g, %125
-    <c c,>4 <c' c, c,> r\fermata \bar "||" %126 finis
+    f f16 e f8 f, f f'
+    g, g'16 f g8 g, g g'
+    e e, f g a h %120
+    c g a h c d
+    e h c d e f
+    g e c d e c
+    a g g' f e d
+    c c' a f d g
+    c,4 c, r\fermata \bar "||" %126 finis
   }
 }
 

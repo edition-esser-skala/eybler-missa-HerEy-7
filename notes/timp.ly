@@ -83,7 +83,7 @@ GloriaTimpani = {
     g4. g8 g g
     c c16 c c8 c c c
     c4 r r
-    c8 c c c c c %15
+    c8 c16 c c8 c c c %15
     c4 r r
     c8 c16 c c8 c c c
     c4 r r
@@ -95,7 +95,7 @@ GloriaTimpani = {
     r g c %40
     g r r
     R2.*10 %51
-    g4 r r
+    g4\fE r r
     R2.*39 %91
     c8\f c16 c c8 c c c
     c c16 c c8 c c c

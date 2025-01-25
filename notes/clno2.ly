@@ -96,14 +96,14 @@ GloriaClarinoII = {
     r g c %40
     g r r
     R2.*10 %51
-    g,4 r r
+    g,4\fE r r
     R2.*39 %91
     c8\f c16 c c8 c c c
     e e16 e e8 e e e
     g g16 g g8 g g g
     c4 c, r %95
     c8.[\ff c16 c8. c16 c8. c16]
-    c8.[ c16 g'8._\critnote g16 c8. c16]
+    c8.[ c16 g'8. g16 c8. c16]
     g8 g16 g g8 g c c
     g4 r r
     R2.*7 %106
