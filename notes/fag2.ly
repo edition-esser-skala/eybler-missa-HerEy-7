@@ -2,38 +2,38 @@
 
 QuiTollisFagottoII = {
   \relative c {
-    \clef bass
+    \clef "treble_8"
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
+      \set Score.currentBarNumber = #127
     e2\p fis
-    gis\cresc a~
-    a\f a8 fis g\decrescE a
-    g4\p c2 h4
-    h2^\critnote\fE c %135
-    cis h4 r
+    gis\cresc a
+    a~\f a8 fis g\decresc a
+    g4\p c2 h4 %130
+    h2\f c
+    cis\sf h4 r
     R1*2
-    r2 fis\p\crescE
-    gis h %140
-    ais4\fE h2\decrescE ais4
-    h\fE h g2
-    gis fis4 r
-    r8 cis'4 cis8 ais4(\sf cis8) r
-    r d4 d8 h4(\sf d8) r %145
-    r4 e\pp d d
-    cis d8 cis cis4 h
+    r2 fis\p %135
+    gis\cresc h
+    ais4\f \after 4 \decresc h2 ais4
+    h\f h g2\sf
+    gis fis!4 r
+    r8 cis'4 cis8 ais4(\sf cis8) r %140
+    r d4 d8 h4(\sf d8) r
+    r4 e(\pp d) d
+    cis d8 \hA cis cis4 h
     ais r r2
-    R1
-    r2 g %150
+    R1 %145
+    r2 g
     h1
-    a4\crescE g fis2
-    fis g4\fE h
-    c h a g
-    a fis g r %155
+    a4\cresc g fis2
+    fis g4\f h
+    c h a g %150
+    a fis g r
     R1
     gis4.\sfp gis8 gis a a4
-    R1*2
-    r4 gis,8 gis a h c d %169
-    e2 r\fermata \bar "||"
+    R1*2 %155
+    \clef bass r4 gis,8\pE gis a h c d
+    e2 r\fermata \bar "||" %157 finis
   }
 }
 

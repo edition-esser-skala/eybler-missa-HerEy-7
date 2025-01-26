@@ -390,38 +390,38 @@ QuiTollisViola = {
   \relative c' {
     \clef alto
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    h16\pE h h h h h h h h h h h h h h h
-    gis'\cresc gis gis gis gis gis gis gis e e e e e e e e
-    a\f a a a a a a a a a a a h\decresc h h h
-    h\p h h h c c c c c c c c h h a a
-    g\f g g g e e e e f f f f f f f f %135
-    fis\sfE fis fis fis e e e e e e dis dis dis dis dis dis
-    d\pp d d d d d d d c c c c c c c c
-    c c c c h h h h c\pE c c c c c c c
-    d\cresc d d d d d d d c c c c c c c c
-    h h h h h h h h d d d d d d d d %140
-    d\f d d d cis?\decrescE cis h h cis cis cis cis cis cis cis cis
-    h\f d d d d h h h c c c c c c c c
-    cis? cis cis cis h h h h h h ais ais ais ais ais ais
-    ais\sfp ais ais ais ais ais ais ais ais ais ais ais ais ais ais ais
-    h\sfp h h h h h h h h h h h d d d d %145
-    e e e e e e e e d d d d d d d d
-    cis cis cis cis d d cis cis cis cis cis cis h h h h
-    ais ais ais ais ais ais ais ais a\pp a a a a a a a
-    a a a a g g g g a a a a a a a a
-    h h h h c c c c h h h h h h h h %150
-    h h h h h h h h h h h h h h h h
-    a\crescE a a a g g g g fis fis fis fis fis fis fis fis
-    d' d d d d d d d d\f d d d d d d d
-    c c c c d d d d c c c c h h h h
-    a a a a a a a a g g h h d d h h %155
-    a\p a a a a a h c h h h h h h h h
-    gis\sfp gis gis gis gis gis gis gis gis gis a a a a a a
-    a\p a a a a a a a a a g g fis fis e e
-    h' h h h h h h h e,4 gis8 gis
-    a4 h2 a4 %160
-    gis2-\critnote r\fermata \bar "||" %161 finis
+      \set Score.currentBarNumber = #127
+    h2:16\p h:
+    gis':\cresc e:
+    a:\f a4: h:\decresc
+    h:\p c: c: h16 h a a %130
+    g4:\f e: f2:
+    f4:\sf e: e16 e dis dis dis4:
+    d2:\pp c:
+    c4: h: c2:
+    d: c: %135
+    h:\cresc d:
+    d4:\f cis?16 cis h h \hA cis2:\decresc
+    h16\f d d d d h h h c2:
+    c4: h: h16 h ais ais ais4:
+    ais2:\sfp ais: %140
+    h:\sfp h4: d:
+    e2: d:
+    cis4: d16 d \hA cis cis cis4: h:
+    ais2: a:\pp
+    a4: g: a2: %145
+    h4: c: h2:
+    h: h:
+    a4:\cresc g: fis2:
+    d': d:\f
+    c4: d: c: h: %150
+    a2: g16\p g h h d d h h
+    a4: a16 a h c h2:
+    gis:\sfp gis16 gis a a a4:
+    a2:\p a16 a g g fis! fis e e
+    h'2: e,4 gis8 gis %155
+    a4 h2 a4
+    gis2 r\fermata \bar "||" %157 finis
   }
 }
 

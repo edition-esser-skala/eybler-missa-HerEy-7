@@ -615,64 +615,64 @@ QuiTollisBasso = {
   \relative c {
     \clef bass
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    R1*3 %133
-    r2 r4 \mvTrh h'\ff^\tuttiE
-    g8 e r g a4 a8 a %135
+      \set Score.currentBarNumber = #127
+    R1*3
+    r2 r4 \mvTrh h'\ff^\tuttiE %130
+    g8 e r g a4 a8 a
     ais4. ais8 h h, r4
     r g'8\pp g a4 fis!
     g2 c,4 r
-    R1*2 %140
+    R1*2 %136
     r2 r4 fis\f
     d8 h r d e4 e8 e
     eis4. eis8 fis fis r4
-    e'!8.\sf e,16 e4 r2
-    d'8.\sf d,16 d4 h\pE h %145
+    e'!8.\sf e,16 e4 r2 %140
+    d'8.\sf d,16 d4 h\p h
     e2 g
-    g4 fis8([ ais,)] h4( eis)
-    fis r d\ppE d
-    dis e a, c
-    d2 g,4 r %150
+    g4 fis!8([ ais,)] h4( eis)
+    fis r d\pp d
+    dis e a, c %145
+    d2 g,4 r
     R1*2
-    r4 d''\f h8 g r h^\critnote
-    c4 h8 h a4 g8 g
-    fis4( d) g r %155
+    r4 d''\f h8 g r g
+    c4 h8 h a4 g8 g %150
+    fis4( d) g r
     dis\p dis d d
-    h\sfE h c c
-    a\pE a h h
-    h2 e4 e8 e
-    e4 e e2 %160
-    e r\fermata \bar "||" %161 finis
+    h\sf h c c
+    a\p a h h
+    h2 e4 e8 e %155
+    e4 e e2
+    e r\fermata \bar "||" %157 finis
   }
 }
 
 QuiTollisBassoLyrics = \lyricmode {
-  Qui %134
-  tol -- lis pec -- ca -- ta, pec -- %135
+  Qui %130
+  tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
   Mi -- se -- re -- re
   no -- bis.
 
-  Qui %141
+  Qui %137
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
-  Su -- sci -- pe,
-  su -- sci -- pe de -- pre -- %145
+  Su -- sci -- pe, %140
+  su -- sci -- pe de -- pre --
   ca -- ti --
   o -- nem no --
   stram, no -- stram
-  de -- pre -- ca -- ti --
-  o -- nem. %150
+  de -- pre -- ca -- ti -- %145
+  o -- nem.
 
-  Qui se -- des ad %153
-  dex -- te -- ram, dex -- te -- ram
-  Pa -- tris: %155
+  Qui se -- des ad %149
+  dex -- te -- ram, dex -- te -- ram %150
+  Pa -- tris:
   Mi -- se -- re -- re,
   mi -- se -- re -- re,
   mi -- se -- re -- re
-  no -- bis, mi -- se --
-  re -- re no -- %160
-  bis. %161 finis
+  no -- bis, mi -- se -- %155
+  re -- re no --
+  bis. %157 finis
 }
 
 QuoniamBasso = {

@@ -372,38 +372,38 @@ QuiTollisViolinoII = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    e16\p e e e e e e e fis fis fis fis fis fis fis fis
-    h\cresc h h h h h h h c c c c c c c c
-    f\f f f f f f e e dis dis a' a g\decresc g fis fis
-    fis\p fis e e e e e e e e e e dis dis dis dis
-    e\f h h h h h h h h h h h a a a a %135
-    g\sfE g g g g g g g g g fis fis fis fis fis fis
-    f\pp f f f f f f f e e e e es es es es
-    d d d d d d d d e\pE e e e e e e e
-    f\cresc f f f f f f f fis fis fis fis fis fis fis fis
-    e e e e e e e e eis eis eis eis eis eis eis eis %140
-    fis\f fis fis fis e\decresc e d d g g g g fis fis e e
-    d\f fis fis fis fis h h h g g g g g g g g
-    gis gis gis gis gis gis gis gis fis fis fis fis fis fis fis fis
-    g\sfp g g g g g g g g-\critnote g g g g g g g
-    fis\sfp fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis %145
-    g g g g g g g g f f f f f f f f
-    e e e e fis fis fis fis fis fis fis fis gis gis gis gis
-    cis, fis fis fis fis fis fis fis fis\pp fis fis fis fis fis fis fis
-    fis fis fis fis e e e e e e e e e e e e
-    d d d d d d d d d d d d d d d d %150
-    fis fis fis fis fis fis fis fis g g g g g g g g
-    c\crescE c c c c c c c c c c c c c c c
-    h h h h a a a a g\f g g g g g g g
-    g g g g g g g g a a a a h h g g
-    d d d d fis fis fis fis g g g g g g g g %155
-    fis\p fis fis fis fis fis fis fis f f f f f f f f
-    d\sfp d d d d d e f f f e e e e e e
-    f\p f f f f f e e dis dis dis dis e e e e
-    e e e e dis dis dis dis e4 h8 h
+      \set Score.currentBarNumber = #127
+    e2:16\p fis:
+    h:\cresc c:
+    f4:\f f16 f e e dis dis a' a g\decresc g fis fis
+    fis\p fis e e e4: e: dis: %130
+    e16\f h h h h4: h: a:
+    g2:\sf g16 g fis fis fis4:
+    f2:\pp e4: es:
+    d2: e:
+    f: fis: %135
+    e:\cresc eis:
+    fis4:\f e16 e d d g4:\decresc fis16 fis e e
+    d\f fis fis fis fis h h h g2:
+    gis: fis:
+    g:\sfp g: %140
+    fis:\sfp fis:
+    g: f:
+    e4: fis2: gis4:
+    cis,16 fis fis fis fis4: fis2:\pp
+    fis4: e: e2: %145
+    d: d:
+    fis: g:
+    c:\cresc c:
+    h4: a: g2:\f
+    g: a4: h16 h g g %150
+    d4: fis: g2:\p
+    fis: f:
+    d4:\sfp d16 d e f f f e e e4:
+    f:\p f16 f e e dis4: e:
+    e: dis: e4 h8 h %155
     c4 d c2
-    h r\fermata \bar "||"
+    h r\fermata \bar "||" %157 finis
   }
 }
 

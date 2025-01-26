@@ -644,64 +644,64 @@ QuiTollisAlto = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    R1*3 %133
-    r2 r4 \mvTrh h'\ff^\tuttiE
-    g8 e r h' h4 a8 a %135
-    g4. g8 g fis r4
+      \set Score.currentBarNumber = #127
+    R1*3
+    r2 r4 \mvTrh h'\ff^\tuttiE %130
+    g8 e r h' h4 a8 a
+    g4. g8 g fis! r4
     r f8\pp d c4 es
     d2 c4 r
-    R1*2 %140
+    R1*2 %136
     r2 r4 fis\f
     d8 h r h' g4 g8 g
-    gis4.^\critnote gis8 fis fis r4
-    e8.\sf e16 e4 r2
-    fis8.\sf fis16 d4 r fis(\p %145
+    gis4. gis8 fis fis r4
+    e8.\sf e16 e4 r2 %140
+    fis8.\sf fis16 d4 r fis(\p
     g) g f f
     e fis fis( gis)
-    cis, r fis\ppE fis
-    fis e e4. e8
-    d2 d4 r %150
+    cis, r fis\pp fis
+    fis e e4. e8 %145
+    d2 d4 r
     R1*2
     r4 d'\f h8 g r g
-    g4 g8 g a4 h8 g
-    d2 d4 r %155
+    g4 g8 g a4 h8 g %150
+    d2 d4 r
     fis4.\p fis8 f4 f
     d4.\sf e16([ f)] f8([ e)] e4
     f4.\p e8 dis4 e
-    e( dis) e e8 e
-    e4 e e2 %160
-    e r\fermata \bar "||" %161 finis
+    e( dis) e e8 e %155
+    e4 e e2
+    e r\fermata \bar "||" %157 finis
   }
 }
 
 QuiTollisAltoLyrics = \lyricmode {
-  Qui %134
-  tol -- lis pec -- ca -- ta, pec -- %135
+  Qui %130
+  tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
   Mi -- se -- re -- re
   no -- bis.
 
-  Qui %141
+  Qui %137
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
-  Su -- sci -- pe,
-  su -- sci -- pe de -- %145
+  Su -- sci -- pe, %140
+  su -- sci -- pe de --
   pre -- ca -- ti --
   o -- nem no --
   stram, no -- stram
-  de -- pre -- ca -- ti --
-  o -- nem. %150
+  de -- pre -- ca -- ti -- %145
+  o -- nem.
 
-  Qui se -- des ad %153
-  dex -- te -- ram, dex -- te -- ram
-  Pa -- tris: %155
+  Qui se -- des ad %149
+  dex -- te -- ram, dex -- te -- ram %150
+  Pa -- tris:
   Mi -- se -- re -- re,
   mi -- se -- re -- re,
   mi -- se -- re -- re
-  no -- bis, mi -- se --
-  re -- re no -- %160
-  bis. %161 finis
+  no -- bis, mi -- se -- %155
+  re -- re no --
+  bis. %157 finis
 }
 
 QuoniamAlto = {

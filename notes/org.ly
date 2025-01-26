@@ -732,73 +732,79 @@ QuiTollisOrgano = {
   \relative c {
     \clef bass
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    \mvTr e8(\p-\soloE g e g) dis( fis dis fis)
-    d(\cresc gis d gis) c,( a' c, a')
+      \set Score.currentBarNumber = #127
+    \mvTr e8(\p-\soloE g e g) dis( fis \hA dis fis)
+    d\cresc gis d \hA gis c, a' c, a'
     a,\f a' a, a' h, h' dis,\decresc dis'
-    e,\p e' c, c' a, a' h, h'
-    \mvTr e,16\f-\tuttiE e e e g g g g a a a a a a a a %135
-    ais ais ais ais ais ais ais ais h h h h h h h h
-    g\pp g g g g g g g a a a a fis! fis fis fis
-    g g g g g, g g g \mvTr c8(\pE-\solo e c e)
-    h(\cresc d h d) a( c a c)
-    gis( h gis h) g g' g, g' %140
-    fis,\f fis' g,\decresc g' e cis fis fis,
-    \mvTr h16\f-\tutti h h h d d d d e e e e e e e e
-    eis eis eis eis eis eis eis eis fis fis fis fis fis fis fis fis
-    \mvTrr e\sfp-\solo e e e e e e e e e e e e e e e
-    d\sfp d d d d d d d h h h h h h h h %145
-    e e e e e e e e g g g g g g g g
-    g g g g fis fis ais, ais h h h h eis eis eis eis
-    fis fis fis fis fis fis fis fis \mvTrr d\pp-\senzaOrg d d d d d d d
-    dis dis dis dis e e e e a, a a a c c c c
-    d d d d d, d d d g8( h' g h) %150
-    dis,( fis dis fis) e( g e g)
+    e,\p e' c, c' a, a' h,-\tuttiE h' %130
+    e,4:16\f g: a2:
+    ais: h:
+    g4:\pp g: a: fis!:
+    g: g,: c8(-\solo e c e)
+    h( d h d) a( c a c) %135
+    gis(\cresc h \hA gis h) g g' g, g'
+    fis,\f fis' g, g' e\decresc cis fis-\tutti fis,
+    h4:\f d: e2:
+    eis: fis:
+    e:\sfp e:-\solo %140
+    d:\sfp^\tuttiE h:
+    e: g:
+    g4: fis!16 fis ais, ais h4: eis:
+    fis2: \mvTrr d:\pp-\senzaOrg
+    dis4: e: a,: c: %145
+    d: d,: g8( h' g h)
+    dis,( fis \hA dis fis) e( g e g)
     a,(\cresc c a c) d( a' d, a')
-    fis( d' fis, d') \mvTr g,16\f-\tutti g g g h h h h
-    c c c c h h h h a a a a g g g g
-    fis fis fis fis d d d d g g g g g g g g %155
-    dis\p dis dis dis dis dis dis dis d d d d d d d d
-    h\sfp h h h h h h h c c c c c c c c
-    a\pE a a a a a a a h h h h h h h h
-    h h h h h h h h e,4-\tasto e
-    << { r gis8^\vlc gis a h c d e2 } \\ { e,1_\bassi~ e2 } >> %160
-    r\fermata \bar "||" %161 finis
+    fis d' \mvTr fis,\f-\tutti d' g,4: h:
+    c: h: a: g: %150
+    fis: d: g2:
+    dis:\p d:
+    h:\sfp c:
+    a:\p h:
+    h: << {
+      e,4^\vlc r %155
+      r gis8 gis a h c d
+      e2
+    } \\ {
+      e,2~_\markup \remark "org, b"_\tasto %155
+      e1~
+      e2
+    } >> r\fermata \bar "||" %157 finis
   }
 }
 
 QuiTollisBassFigures = \figuremode {
-  r2 <6> %131
+  r2 <6> %127
   <4\+> <6>
-  <6!>4. <5>8 <9 7 _+>4 <6 4>8 <5 3>
-  <9> <[8]> <3> <6> <6 5>4 <8 _+>8 <7 \t>
-  r4 <6> <10 9 6!> <\t 8 \t> %135
-  <10+ 7 6\\> <\t \t 5> <6 4>8 <[5] _+>4.
+  <6!>4 \once \bassFigureExtendersOn q8 <5> <9 7 _+> <\t \t> <6 4> <5 3>
+  <9> <8> <3> <6> <6 5>4 <8 _+>8 <7 \t> %130
+  r4 <6> <_ 9 6!> <_ 8 \t>
+  <10+ 7 \t> <\t \t 5> <6 4>8 <[5\+] _+>4.
   <7!>2. <7->4
   <8 4> <\t 3>8. <7! \t>16 r2
-  <6\\ 5!> <[6\+] 4\+ _!>
-  <6> <6\\> %140
-  <6 _+>4 <6 4\+>8 <5 3> <6\\ 5>4 <8 _+>8 <7 \t>
+  <6\\ 5!> <6\+ 4\+ _!> %135
+  <6> <6\\>
+  <6 _+>4 <6[!] 4\+ 3>8 <_ 5 \t> <6\\ 5>4 \bo <8 [5\+] _+>8 \bc <7 [\t] \t>
   r4 <6> <9\\ 6! _!> <8 \t \t>
-  <7 6\\ _+> <\t 5 \t> <6 4>8 <5 _+>4.
-  <6\\ 4\+ _!>1
-  <6> %145
-  <7>4 <6!> <7 4!> <\t 3>
-  <4\+ 2\+> <6 4>8 <6 5\+> <9\\ 4>4 <7 _+>
-  <_+>1
+  <7 \t _+> <\t 5 \t> <6 4>8 <5\+ _+>4.
+  <6\\ 4\+ _!>1 %140
+  <6>
+  <7>4 <6!> <7! 4!> <\t 3>
+  <[6\\] 4\+ 2\+> <6 4>8 <6 5 _+> <9\\ 4>4 <7 _+>
+  <[5\+] _+>1
+  r %145
   r
-  r %150
   <6>2 <6 5>
   <8>4 <7> <9 7>2
-  <6 [4]>4 <6 5> r <6>
-  r <6> q <5>8 <6>
-  <6>4 <\t>8 <7> r2 %155
-  <7> \bo <6 [5] _!>8 \bc <\t [4\+] \t>4.
+  <6 4>4 <6 5>2 <6>4
+  r q q <5>8 <6> %150
+  <6>4 <\t>8 <7> r2
+  <7> <6 4\+ _!>
   <6\\ 5!>2 <9 5\+ 4!>8 <8 6 3>4.
-  <6!>4. <[5]>8 <9 7 _+> <8 6 \t> <7 5 4> <6 4 \t>
-  <4>4 <_+>2.
-  r1 %160
-  r %161 finis
+  <6!>4. <5>8 <9 7 _+> <8 6 \t> <7 5\+> <6 4>
+  <4>4 <_+>2. %155
+  r1
+  r %157 finis
 }
 
 QuoniamViolone = {

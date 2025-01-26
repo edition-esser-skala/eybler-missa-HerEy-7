@@ -264,36 +264,36 @@ QuiTollisOboeI = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
+      \set Score.currentBarNumber = #127
     R1
     e'2\p\cresc a
-    c~\f c4 h8\decrescE a
-    g4.\pE a8 fis2\trill
-    e4\fE h'2 a4 %135
-    g2 g8 fis r4
-    \pa R1
+    c~\f c4 \pa h8\decresc a
+    g4.\p a8 fis!2\trill %130
+    e4\f h'2 a4
+    g2~ g8 fis \pd r4
+    R1
     r2 c\p
-    d\cresc \pd dis
-    e eis %140
-    fis4\f e8\decresc d cis2
+    d dis %135
+    \pa e\cresc eis
+    fis4\f e8 d cis2\trill\decresc
     h4\f fis'2 e4
-    d2 d8 cis r4
-    r8 cis cis16(\< d e fis) g8.\sf e16 cis8 r
-    r h \once \slurDashed h16(\< cis d e) fis8.\sf d16 \pao h8 r %145
+    d2~ d8 cis \pd r4
+    r8 cis~ cis16(\cresc d e fis) g8.\sf e16 cis8 r %140
+    r \pa h~ h16(\cresc cis d e) fis8.\sf d16 h8 \pd r
     \pa r4 c2\pp \pd h4
-    ais h8 cis16 e e4 d
+    ais \pa h8 cis16 e \pd e4 d\trill
     cis r r2
-    \pa R1
-    r2 g %150
-    h \pd c
+    R1 %145
+    r2 g
+    h c
     e1\cresc
-    d4 c h\fE d
-    e d fis g8 e
-    d4. c8 h4 r %155
+    d4 c\! \pa h\f d
+    e d fis g8 e %150
+    d4. c8 \pd h4 r
     R1
     f'4.\sfp e16 d d8 c c4
-    R1*3 %160
-    R1\fermata \bar "||" %161 finis
+    R1*3 %156
+    R1\fermata \bar "||" %157 finis
   }
 }
 

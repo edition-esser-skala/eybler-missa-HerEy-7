@@ -274,34 +274,34 @@ QuiTollisOboeII = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    \pa g'2\p h \pd
+      \set Score.currentBarNumber = #127
+    g'2\p h
     h\cresc c
     a'~\f a4 g8\decresc fis~
-    fis\p e e2 dis4
-    e2\f f~ %135
-    f4 e e8 dis r4
+    fis\p e e2 dis4 %130
+    e2\f f~
+    f4 \once \tieDashed e~ e8 dis r4
     R1*2
-    r2 c\p\cresc
-    h d %140
-    d4\f cis8\decrescE h g4 fis8 e
-    d4\f d' c2
-    cis?4 h h8 ais r4
-    r8 ais ais16(\< h cis d) e8.\sf cis16 ais8 r
-    r h h16(\< ais h cis) d8.\sf h16 h8 r %145
+    r2 c!\p %135
+    h\cresc d~
+    d4\f cis8 h g4\decresc fis!8 e
+    d4\f d' c2~\sf
+    c4 h~ h8 ais r4
+    r8 ais~ ais16(\cresc h cis d) e8.\sf cis16 ais8 r %140
+    r h~ h16(\cresc ais h cis) d8.\sf h16 h8 r
     r2 r4 d,\pp
-    e fis8 ais16 cis cis4 h
+    e fis8. cis'16 cis4 h\trill
     ais r r2
-    R1*2 %150
+    R1*2 %146
     r2 g
     c1\cresc
-    h4 a g2~\f
-    g c4 h
-    a2 g4 r %155
+    h4 a\! g2~\f
+    g c4 h %150
+    a2 g4 r
     R1
     d'4.\sfp c16 h h8 a a4
-    R1*3 %160
-    R1\fermata \bar "||" %161 finis
+    R1*3 %156
+    R1\fermata \bar "||" %157 finis
   }
 }
 

@@ -132,7 +132,7 @@ QuiTollisClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #131
+      \set Score.currentBarNumber = #127
     R1*30 %160
     R1\fermata \bar "||" %161 finis
   }

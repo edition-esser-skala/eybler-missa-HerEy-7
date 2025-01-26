@@ -619,64 +619,64 @@ QuiTollisSoprano = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    R1*3 %133
-    r2 r4 \mvTrh h'\ff^\tuttiE
-    g8 e r e' c4 c8 c %135
+      \set Score.currentBarNumber = #127
+    R1*3
+    r2 r4 \mvTrh h'\ff^\tuttiE %130
+    g8 e r e' c4 c8 c
     cis4. cis8 h h r4
     r d8\pp f, e4 a
-    g4..( f?16) e4 r
-    R1*2 %140
+    g4..( f16) e!4 r
+    R1*2 %136
     r2 r4 fis'\f
     d8 h r fis' fis4 e8 e
     d4. d8 d cis r4
-    g'8.\sf e16 cis4 r2
-    fis8.\sf d16 h4 r d~\p %145
+    g'8.\sf e16 cis4 r2 %140
+    fis8.\sf d16 h4 r d~\p
     d c! c h
     ais h8([ cis)] e4( d)
     cis r c\pp c
-    h h8([ c)] c4. a8
-    g4( \grace h16 a4) g r %150
+    h h8([ c)] c4. a8 %145
+    g4( \grace h8 a4) g r
     R1*2
     r4 d'\f h8 g r g
-    e'4 d8 d fis4 g8 e
-    d4.( c8) h4 r %155
+    e'4 d8 d fis4 g8 e %150
+    d4.( c8) h4 r
     c4.\p h16([ a)] a8([ gis)] gis4
-    f'4.\sfE e16([ d)] d8([ c)] c4
+    f'4.\sf e16([ d)] d8([ c)] c4
     c4.\p c8 c ([ h)] a8[( g)]
-    fis2 e4 e8 e
-    e4 e e2 %160
-    e r\fermata \bar "||" %161 finis
+    fis!2 e4 e8 e %155
+    e4 e e2
+    e r\fermata \bar "||" %157 finis
   }
 }
 
 QuiTollisSopranoLyrics = \lyricmode {
-  Qui %134
-  tol -- lis pec -- ca -- ta, pec -- %135
+  Qui %130
+  tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
   Mi -- se -- re -- re
   no -- bis.
 
-  Qui %141
+  Qui %137
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
-  Su -- sci -- pe,
-  su -- sci -- pe de -- %145
+  Su -- sci -- pe, %140
+  su -- sci -- pe de --
   pre -- ca -- ti --
   o -- nem no --
   stram, no -- stram
-  de -- pre -- ca -- ti --
-  o -- nem. %150
+  de -- pre -- ca -- ti -- %145
+  o -- nem.
 
-  Qui \xE se -- des, qui %153
-  se -- des \x ad dex -- te -- ram
-  Pa -- tris: %155
+  Qui se -- des ad %149
+  dex -- te -- ram, dex -- te -- ram %150
+  Pa -- tris:
   Mi -- se -- re -- re,
   mi -- se -- re -- re,
   mi -- se -- re -- re
-  no -- bis, mi -- se --
-  re -- re no -- %160
-  bis. %161 finis
+  no -- bis, mi -- se -- %155
+  re -- re no --
+  bis. %157 finis
 }
 
 QuoniamSoprano = {

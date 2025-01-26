@@ -616,64 +616,64 @@ QuiTollisTenore = {
   \relative c' {
     \clef "treble_8"
     \key e \minor \time 4/4 \autoBeamOff \tempoQuiTollis
-      \set Score.currentBarNumber = #131
-    R1*3 %133
-    r2 r4 \mvTrh h\ff^\tuttiE
-    g8 e r e' f4 f8 f %135
-    fis4( e8) e e dis r4
+      \set Score.currentBarNumber = #127
+    R1*3
+    r2 r4 \mvTrh h\ff^\tuttiE %130
+    g8 e r e' f4 f8 f
+    f4( e8) e e dis r4
     r h8\pp h c4 c
     c( h) c r
-    R1*2 %140
+    R1*2 %136
     r2 r4 fis\f
     d8 h r h c!4 c8 c
-    cis4( h8) h h ais r4
-    cis8.\sf e16 g4 r2
-    h,8.\sf d16 fis4 r d(\p %145
+    c4( h8) h h ais r4
+    cis8.\sf e16 g4 r2 %140
+    h,8.\sf d16 fis4 r d(\p
     e) e d d
-    cis d8([ cis)] cis4( h)
+    cis d8([ \hA cis)] cis4( h)
     ais r a\pp a
-    a g a4. a8
-    h4( c) h r %150
+    a g a4. a8 %145
+    h4( c) h r
     R1*2
     r4 d\f h8 g r4
-    r r8 g c4 h8 h
-    a2 g4 r %155
+    r r8 g c4 h8 h %150
+    a2 g4 r
     a4.\p h16([ c)] h4 h
     gis4.\sf gis8 gis8([ a)] a4
-    a4.\p a8 a([ g)] fis([ e)]
-    h'2 e,4  e8 e
-    e4 e e2 %160
+    a4.\p a8 a([ g)] fis!([ e)]
+    h'2 e,4 e8 e %155
+    e4 e e2
     e4 r r2\fermata \bar "||" %161 finis
   }
 }
 
 QuiTollisTenoreLyrics = \lyricmode {
-  Qui %134
-  tol -- lis pec -- ca -- ta, pec -- %135
+  Qui %130
+  tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
   Mi -- se -- re -- re
   no -- bis.
 
-  Qui %141
+  Qui %137
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
-  Su -- sci -- pe,
-  su -- sci -- pe de -- %145
+  Su -- sci -- pe, %140
+  su -- sci -- pe de --
   pre -- ca -- ti --
   o -- nem no --
   stram, no -- stram
-  de -- pre -- ca -- ti --
-  o -- nem. %150
+  de -- pre -- ca -- ti -- %145
+  o -- nem.
 
-  Qui se -- des %153
-  ad dex -- te -- ram
-  Pa -- tris: %155
+  Qui se -- des %149
+  ad dex -- te -- ram %150
+  Pa -- tris:
   Mi -- se -- re -- re,
   mi -- se -- re -- re,
   mi -- se -- re -- re
-  no -- bis, mi -- se --
-  re -- re no -- %160
-  bis. %161 finis
+  no -- bis, mi -- se -- %155
+  re -- re no --
+  bis. %157 finis
 }
 
 QuoniamTenore = {
