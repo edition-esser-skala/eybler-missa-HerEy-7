@@ -680,202 +680,202 @@ QuoniamTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*4 %165
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*4 %161
     \mvTr d8.\f^\tuttiE d16 d8 d c8.([ h16)] c8 c
     f e d4 c r8 c
     f e d8. d16 c4 r8 c
-    c4 c8 c c4 c8 c
-    h16([ c] d4) c8 c h r4 %170
+    c4 c8 c c4 c8 c %165
+    h16([ c] d4) c8 c h r4
     d8. d16 d8 d c16([ d)] e8 r4
     d d8 d c16 d e8 r4
     r8 cis d e a,4 a
-    r8 h c d g,8. g16 g4
-    f8([ f')] f e d([ g)] g g %175
-    f f e([ f)] e4 \once \tieDashed c~
+    r8 h c d g,8. g16 g4 %170
+    f8([ f')] f e d([ g)] g g
+    f f e([ f)] e4 c~
     c8[ cis] d([ c)] h c c([ h)]
     c4 r r2
-    R1
-    g4\p c8 e g2~ %180
+    R1 %175
+    g4\p c8 e g2~
     g2. g4
-    g, c8 e \tieDashed g2~
-    g~ \tieSolid g8. g16 g4
-    r2 f,4\f a8 c
-    f1~ %185
+    g, c8 e g2~
+    g~ g8. g16 g4
+    r2 f,4\f a8 c %180
+    f1~
     f4 e8 f c2\p
     d c(
-    d4) a \once \tieDashed g2~
-    g4 h c r
-    R1*3 %192
+    d4) a g2~
+    g4 h c r %185
+    R1*3
     r2 r8 g\fE g g
-    a8. a16 a4 r8 a a a16 a
-    h4 h r8 h h h16 h %195
-    c4 h a2
+    a8. a16 a4 r8 a a a16 a %190
+    h4 h r8 h h h16 h
+    c4\trill h a2
     g4 a( f d)
     h' h( g e)
-    c' c a8[ h] c4~
-    c h c r %200
+    c' c a8[ h] c4~ %195
+    c h c r
     r c8.([ h16 a8. g16)] fis4
     r d'8.([ c16 h8. a16)] g4
     r e'( c d)
-    g, r r2
-    R1*3 %207
+    g, r r2 %200
+    R1*3
     r2 r8 a a a
-    h8. h16 h4 r8 h h h16 h
-    c4 c r8 c c c16 c %210
+    h8. h16 h4 r8 h h h16 h %205
+    c4 c r8 c c c16 c
     d4 c h2
     a g
     f e
-    d4 b'( g e)
-    c' c( a f) %215
+    d4 b'( g e) %210
+    c' c( a f)
     d' d b8[ c] d4~
     d c2 b4~
     b a b r
-    r b8.([ a16 g8. f16)] e!4
-    r c'8.([ b16 a8. g16)] f4 %220
-    r d'8[ c] b?[ a16 b] c8[ b]
+    r b8.([ a16 g8. f16)] e!4 %215
+    r c'8.([ b16 a8. g16)] f4
+    r d'8[ c] b[ a16 \hA b] c8[ \hA b]
     a[ g] f4 r2
     R1
-    r4 g'8[ f] es8[ d16 es] f8[ es]
-    d[ c] b4 r es8.([ d16] %225
+    r4 g'8[ f] es8[ d16 \hA es] f8[ \hA es] %220
+    d[ c] b4 r es8.([ d16]
     c8.[ b16)] a4 r f'8.([ es16]
     d8.[ c16)] b4 r g'8.([ f16]
     e!8.[ d16)] c4 r2
-    f8.([ e16 d8. c16)] b4 r
-    e8.([^\critnote d16 c8. b16)] a4 r %230
+    f8.([ e!16 d8. c16)] b4 r %225
+    e!8.([ d16 c8. b16)] a4 r
     r4 e'8.([ d16)] c8 a a a
-    h8. h16 h4 r8 h h h16 h
+    h!8. h16 h4 r8 h h h16 h
     c4 c r8 c c c16 c
-    d4 c c( h)
-    c r r2 %235
+    d4 c c( h) %230
+    c r r2
     r8 a a a b8. b16 b4
     r8 b b b16 b c4 c
     r8 c c c16 c d4 c
-    b8([ a16 b] c8) b a[ f b a]
-    g[ f16 g] a8[ g] f[ g a h] %240
+    b8([ a16 \hA b] c8) \hA b a[ f \hA b a] %235
+    g[ f16 g] a8[ g] f[ g a h]
     c[ g] c2 h4
     c a2( gis4)
     a r r f'8.([ e16]
-    d8.[ c16)] h4 r g'8.([ f16]
-    e8.[ d16)] c4 r r8 c( %245
+    d8.[ c16)] h4 r g'8.([ f16] %240
+    e8.[ d16)] c4 r r8 c(
     d[ c16 d] e8[ d]) c4 r8 c
     h[ a16 h] c8[ h] a2
     g4 r r8 c c c
-    d8. d16 d4 r8 h h h16 h
-    c4 c r8 a a a16 a %250
+    d8. d16 d4 r8 h h h16 h %245
+    c4 c r8 a a a16 a
     h4 h g2
     a4 r r d(
-    h g) c c8.([ h16]
-    a8.[ g16)] f4 r h8.([ a16]
-    g8.[ f16)] e4 r e'8.[( d16] %255
+    h g) c c8.(^[ h16]
+    a8.[ g16)] f4 r h8.([ a16] %250
+    g8.[ f16)] e4 r e'8.[( d16]
     c8.[ h16)] a4 r2
     R1
     r2 r8 g g g
-    a8. a16 a4 r8 a a a16 a
-    h4 h r8 h4 h8 %260
-    c4 c^\critnote r f8.[( e16]
+    a8. a16 a4 r8 a a a16 a %255
+    h4 h r8 h4 h8
+    c4 c r f8.[( e16]
     d8.[ c16 h8. a16] g4) g
     g2 g4 h
-    c h c r\fermata \bar "|." %264 FINIS
+    c h c r\fermata \bar "|." %260 finis
   }
 }
 
 QuoniamTenoreLyrics = \lyricmode {
-  Quo -- ni -- am tu so -- lus, tu %166
+  Quo -- ni -- am tu so -- lus, tu %162
   so -- lus san -- ctus, tu
   so -- lus Do -- mi -- nus, tu
-  so -- lus al -- tis -- si -- mus,
-  Je -- su Chri -- ste, %170
+  so -- lus al -- tis -- si -- mus, %165
+  Je -- su Chri -- ste,
   quo -- ni -- am tu so -- lus,
   tu so -- lus Do -- mi -- nus,
   tu so -- lus san -- ctus,
-  tu so -- lus Do -- mi -- nus,
-  so -- lus al -- tis -- si -- mus, %175
+  tu so -- lus Do -- mi -- nus, %170
+  so -- lus al -- tis -- si -- mus,
   Je -- su Chri -- ste, Je --
-  su Chri -- ste, Chri --
+  su, Je -- su Chri --
   ste,
-
-  tu so -- lus san -- %180
+  %175
+  tu so -- lus san --
   ctus,
   tu so -- lus Do --
   mi -- nus,
-  so -- lus al -- tis --
-  %185
+  so -- lus al -- tis -- %180
+
   si -- mus, Je --
   su, Je --
   su Chri --
-  _ ste.
+  _ ste. %185
 
-  Cum San -- cto %193
-  Spi -- ri -- tu in glo -- ri -- a
-  De -- i, in glo -- ri -- a %195
+  Cum San -- cto %189
+  Spi -- ri -- tu in glo -- ri -- a %190
+  De -- i, in glo -- ri -- a
   De -- i Pa --
   tris, a --
   men, a --
-  men, a -- _ _
-  _ men, %200
+  men, a -- _ _ %195
+  _ men,
   a -- men,
   a -- men,
   a --
-  men,
+  men, %200
 
-  cum San -- cto %208
-  Spi -- ri -- tu in glo -- ri -- a
-  De -- i, in glo -- ri -- a %210
+  cum San -- cto %204
+  Spi -- ri -- tu in glo -- ri -- a %205
+  De -- i, in glo -- ri -- a
   De -- i Pa --
   tris, a --
   men, a --
+  men, a -- %210
   men, a --
-  men, a -- %215
   men, a -- _ _
   _ _
   _ men,
+  a -- men, %215
   a -- men,
-  a -- men, %220
   a -- _ _
   _ men,
 
-  a -- _ _
-  _ men, a -- %225
+  a -- _ _ %220
+  _ men, a --
   men, a --
   men, a --
   men,
+  a -- men, %225
   a -- men,
-  \xE a -- men, \x %230
   a -- men, cum San -- cto
   Spi -- ri -- tu in glo -- ri -- a
   De -- i, in glo -- ri -- a
-  De -- i Pa --
-  tris, %235
+  De -- i Pa -- %230
+  tris,
   cum San -- cto Spi -- ri -- tu
   in glo -- ri -- a De -- i,
   in glo -- ri -- a De -- i
-  Pa -- tris, a --
-  _ _ _ %240
+  Pa -- tris, a -- %235
+  _ _ _
   _ _ _
   men, a --
   men, a --
+  men, a -- %240
   men, a --
-  men, a -- %245
   men, a --
   _ _ _
   men, cum San -- cto
-  Spi -- ri -- tu in glo -- ri -- a
-  De -- i, in glo -- ri -- a %250
+  Spi -- ri -- tu in glo -- ri -- a %245
+  De -- i, in glo -- ri -- a
   De -- i Pa --
   tris, a --
   men, a --
+  men, a -- %250
   men, a --
-  men, a -- %255
   men,
 
   cum San -- cto
-  Spi -- ri -- tu in glo -- ri -- a
-  De -- i Pa -- tris, %260
+  Spi -- ri -- tu in glo -- ri -- a %255
+  De -- i Pa -- tris,
   a -- men, a --
   men,
   a -- men, a --
-  men, a -- men. %264 FINIS
+  men, a -- men. %260 finis
 
 }
 
@@ -1260,7 +1260,7 @@ EtResurrexitTenore = {
     r2 h
     a r
     r4 h2 d4
-    c8 c h4 c r\fermata \bar "|." %260 FINIS
+    c8 c h4 c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -1383,7 +1383,7 @@ EtResurrexitTenoreLyrics = \lyricmode {
   cre -- %257
   do,
   \xE a -- men,
-  a -- men, a -- men. %260 FINIS
+  a -- men, a -- men. %260 finis
 }
 
 SanctusTenore = {
@@ -1424,7 +1424,7 @@ SanctusTenore = {
     g2.
     c,4 r r %40
     r8 d d d d d
-    e4 c r\fermata \bar "|." %42 FINIS
+    e4 c r\fermata \bar "|." %42 finis
   }
 }
 
@@ -1463,7 +1463,7 @@ SanctusTenoreLyrics = \lyricmode {
   cel --
   sis, %40
   o -- san -- na in ex --
-  cel -- sis. %42 FINIS
+  cel -- sis. %42 finis
 }
 
 BenedictusTenore = {
@@ -1557,7 +1557,7 @@ BenedictusTenore = {
     g2.
     c,4 r r %125
     r8 d d d d d
-    e4 c r\fermata \bar "|." %127 FINIS
+    e4 c r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1647,7 +1647,7 @@ BenedictusTenoreLyrics = \lyricmode {
   cel --
   sis, %125
   o -- san -- na in ex --
-  cel -- sis. %127 FINIS
+  cel -- sis. %127 finis
 }
 
 AgnusDeiTenore = {
@@ -1801,7 +1801,7 @@ DonaTenore = {
     d2\pp
     g,4 r
     R2
-    R\fermata \bar "|." %115 FINIS
+    R\fermata \bar "|." %115 finis
   }
 }
 
@@ -1890,5 +1890,5 @@ DonaTenoreLyrics = \lyricmode {
   cem,
 
   pa -- %112
-  cem. %113 FINIS
+  cem. %113 finis
 }

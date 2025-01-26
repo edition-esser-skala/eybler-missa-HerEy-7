@@ -128,64 +128,54 @@ GloriaClarinoII = {
   }
 }
 
-QuiTollisClarinoII = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #127
-    R1*30 %160
-    R1\fermata \bar "||" %161 finis
-  }
-}
-
 QuoniamClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*5 %166
-    r4 r8 g'\f c g e c
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*5 %162
+    r4 r8 g'\fE c g e c
     g'4 r8 g c g e c
-    c c16 c c c c c c4 r8 e
-    g4. c8 c g r4 %170
+    c c16 c c c c c c4 r8 e %165
+    g4. c8 c g r4
     g r8 g c4 r8 c
     g4 r8 g c4 r
-    R1*2
-    r2 g4 g8 c %175
+    R1*2 %170
+    r2 g4 g8 c
     r d c g e4 r
-    R1*9 %185
+    R1*9 %181
     c4\f c8 c c4 r
     R1*2
-    r2 c4 r
-    R1*7 %196
+    r2 c4 r %185
+    R1*7 %192
     c4 r r2
     R1
-    r2 r4 c'
-    c g e r %200
+    r2 r4 c'~ %195
+    c g e r
     R1*3
-    c4 r r2
-    R1*27 %231
+    c4 r r2 %200
+    R1*27 %227
     r2 g'
     c4 r r2
-    R1*9 %242
+    R1*9 %238
     c4 r r2
-    R1
-    c,4 r r2 %245
+    R1 %240
+    c,4 r r2
     R1*2
+    g4 r r2
+    g4 r r2 %245
+    g4 r r2
+    g4 r r2
     g4 r r2
     g4 r r2
     g4 r r2 %250
     g4 r r2
     g4 r r2
-    g4 r r2
-    g4 r r2
-    g4 r r2 %255
-    g4 r r2
-    R1*4 %260
+    R1*4 %256
     r4 c c r
     r d'2 c4~
     c g e g
-    c g e r\fermata \bar "|." %264 FINIS
+    c g e r\fermata \bar "|." %260 finis
   }
 }
 
@@ -303,7 +293,7 @@ EtResurrexitClarinoII = {
     c8 g e c g'4 r
     R1*2
     r2 g
-    c8 c g4 e r\fermata \bar "|." %260 FINIS
+    c8 c g4 e r\fermata \bar "|." %260 finis
   }
 }
 
@@ -340,7 +330,7 @@ SanctusClarinoII = {
     r8 g g g g g
     c c, e g c e %40
     g, g g g g g
-    e4 r-\critnote r\fermata \bar "|." %42 FINIS
+    e4 r-\critnote r\fermata \bar "|." %42 finis
   }
 }
 
@@ -358,7 +348,7 @@ BenedictusClarinoII = {
     r8 g_\critnote g g g g
     c c, e g c e %125
     g, g g g g g
-    e4 r r\fermata \bar "|." %127 FINIS
+    e4 r r\fermata \bar "|." %127 finis
   }
 }
 
@@ -403,6 +393,6 @@ DonaClarinoII = {
     g,4 g8. g16 %100
     c4 r
     R2*13 %114
-    R2\fermata \bar "|." %115 FINIS
+    R2\fermata \bar "|." %115 finis
   }
 }

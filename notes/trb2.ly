@@ -288,96 +288,96 @@ QuoniamTromboneII = {
   \relative c' {
     \clef tenor
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*4 %165
-    \mvTr d8.\f d16 d8 d c8.([ h16)] c8 c
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*4 %161
+    d8.\f d16 d8 d c8. h16 c8 c
     f e d4 c r8 c
     f e d8. d16 c4 r8 c
-    c4 c8 c c4 c8 c
-    h16 c d4 c8 c h r4 %170
+    c4 c8 c c4 c8 c %165
+    h16 c d4 c8 c h r4
     d8. d16 d8 d c16 d e8 r4
     d d8 d c16 d e8 r4
     r8 cis d e a,4 a
-    r8 h c d g,8. g16 g4
-    f8 f' f e d g g g %175
+    r8 h c d g,8. g16 g4 %170
+    f8 f' f e d g g g
     f f e f e4 c~
     c8 cis d c h c c h
     c4 r r2
-    R1*5 %183
-    r2 f,4\f a8 c
-    f1~ %185
+    R1*5 %179
+    r2 f,4\f a8 c %180
+    f1~
     f4 e8 f r2
-    R1*6 %192
-    r2 r8 g,\fE g g
-    a8. a16 a4 r8 a a a16 a
-    h4 h r8 h h h16 h %195
-    c4 h a2\trill
+    R1*6 %188
+    r2 r8 g,\f g g
+    a8. a16 a4 r8 a a a16 a %190
+    h4 h r8 h h h16 h
+    c4\trill h a2
     g4 a f d
     h' h g e
-    c' c a8 h c4~
-    c h c r %200
+    c' c a8 h c4~ %195
+    c h c r
     r c8. h16 a8. g16 fis4
     r d'8. c16 h8. a16 g4
     r e' c d
-    g, r r2
-    R1*3 %207
+    g, r r2 %200
+    R1*3
     r2 r8 a a a
-    h8. h16 h4 r8 h h h
-    c4 c r8 c c c %210
+    h8. h16 h4 r8 h h h16 h %205
+    c4 c r8 c c c16 c
     d4 c h2
     a g
     f e
-    d4 b' g e
-    c' c a f %215
+    d4 b' g e %210
+    c' c a f
     d' d b8 c d4~
     d c2 b4~
     b a b r
-    r b8. a16 g8. f16 e!4
-    r c'8. b16 a8. g16 f4 %220
-    r d'8 c b a16 b c8 b
+    r b8. a16 g8. f16 e!4 %215
+    r c'8. b16 a8. g16 f4
+    r d'8 c b a16 \hA b c8 \hA b
     a g f4 r2
     R1
-    r4 g'8 f es8 d16 es f8 es
-    d c b4 r es8. d16 %225
+    r4 g'8 f es8 d16 \hA es f8 \hA es %220
+    d c b4 r es8. d16
     c8. b16 a4 r f'8. es16
     d8. c16 b4 r g'8. f16
     e!8. d16 c4 r2
-    f8.[ e16 d8. c16] b4 r
-    e8.[ d16 c8. b16] a4 r %230
+    f8. e!16 d8. c16 b4 r %225
+    e!8. d16 c8. b16 a4 r
     r4 e'8. d16 c8 a a a
-    h8. h16 h4 r8 h4 h8
-    c4 c r8 c c c
-    d4 c c h
-    c r r2 %235
+    h!8. h16 h4 r8 h h h16 h
+    c4 c r8 c c c16 c
+    d4 c c h %230
+    c r r2
     r8 a a a b8. b16 b4
-    r8 b b b c4 c
-    r8 c c c d4 c
-    b8 a16 b c8 b a f b a
-    g f16 g a8 g f g a h %240
+    r8 b b b16 b c4 c
+    r8 c c c16 c d4 c
+    b8 a16 \hA b c8 \hA b a f \hA b a %235
+    g f16 g a8 g f g a h
     c g c2 h4
     c a2 gis4
     a r r f'8. e16
-    d8. c16 h4 r g'8. f16
-    e8. d16 c4 r r8 c %245
+    d8. c16 h4 r g'8. f16 %240
+    e8. d16 c4 r r8 c
     d c16 d e8 d c4 r8 c
     h a16 h c8 h a2
     g4 r r8 c c c
-    d8. d16 d4 r8 h h h
-    c4 c r8 a a a %250
+    d8. d16 d4 r8 h h h16 h %245
+    c4 c r8 a a a16 a
     h4 h g2
     a4 r r d
     h g c c8. h16
-    a8. g16 f4 r h8. a16
-    g8. f16 e4 r e'8. d16 %255
+    a8. g16 f4 r h8. a16 %250
+    g8. f16 e4 r e'8. d16
     c8. h16 a4 r2
     R1
     r2 r8 g g g
-    a8. a16 a4 r8 a a a
-    h4 h r8 h4 h8 %260
-    c4 c^\critnote r f8. e16
-    d8.[ c16 h8. a16] g4 g
+    a8. a16 a4 r8 a a a16 a %255
+    h4 h r8 h4 h8
+    c4 c r f8. e16
+    d8. c16 h8. a16 g4 g
     g2 g4 h
-    c h c r\fermata \bar "|." %264 FINIS
+    c h c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -645,7 +645,7 @@ EtResurrexitTromboneII = {
     r2 h
     a r
     r4 h2 d4
-    c h c r\fermata \bar "|." %260 FINIS
+    c h c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -687,7 +687,7 @@ SanctusTromboneII = {
     g2.
     c,4 r r %40
     r8 d d d d d
-    e4 c r\fermata \bar "|." %42 FINIS
+    e4 c r\fermata \bar "|." %42 finis
   }
 }
 
@@ -812,7 +812,7 @@ BenedictusTromboneII = {
     g2.
     c,4 r r %125
     r8 d d d d d
-    e4 c r\fermata \bar "|." %127 FINIS
+    e4 c r\fermata \bar "|." %127 finis
   }
 }
 
@@ -910,6 +910,6 @@ DonaTromboneII = {
     f2
     e4 r
     R2*5 %114
-    R2\fermata \bar "|." %115 FINIS
+    R2\fermata \bar "|." %115 finis
   }
 }

@@ -411,110 +411,110 @@ QuoniamViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 g'8\f c8.\trill d16 e8 e,-\critnote a8.\trill h16 c8 c,
-    f-! e-! d-! c-! g'-! g,-! r a'
-    d8.\trill e16 f8 f, b8.\trill c16 d8 d,
-    g-! f-! e-! d-! a'-! a,-! r4 %165
-    \appoggiatura e''32 d16 cis d e f d c h \appoggiatura d32 c16 h c d e c g c
+      \set Score.currentBarNumber = #158
+    \partial 8 g'8\f c8.\trill d16 e8 e, a8.\trill h16 c8 c,
+    f-! e-! d-! c-! g' g, r a'
+    d8.\trill e16 f8 f, b8.\trill c16 d8 d, %160
+    g f e d a' a, r4
+    \appoggiatura e''16 d cis d e f d c h \appoggiatura d c h c d e c g c
     h d c e f8\trill g16 f e c g e c e g c
     h d c e f8\trill g16 f e c g e c e g c
-    a f a c f a c a g e a g f e d c
-    h c d e f d e c e, c' d, h' g h d g %170
+    a f a c f a c a g e a g f e d c %165
+    h c d e f d e c e, c' d, h' g h d g
     g f d h g f g, f' e c e g c e g g
     g f d h g f g, f' e c e g c e g g,
     a a' a a, h d cis e d f e g f e d c
-    h g' g g, a c h d c e d f e g, c e
-    f e d e f g a a, g d' d d h d d c %175
+    h g' g g, a c h d c e d f e g, c e %170
+    f e d e f g a a, g d' d d h d d c
     g f g a e8 \appoggiatura g16 f8 e4 r
-    r2 r4 r8 g
+    r2 r4 r8 g\f
     c8.\trill d16 e8 e, a8.\trill h16 c8 c,
-    f-! e-! d-! c-! g'-! g,-! r4
-    R1 %180
-    r4 \mvTr <g f' d'>\pE-\pizz r <g e' c'>
+    f e d c g' g, r4 %175
     R1
-    r4 <g f' d'>-\critnote r <g e' c'>
-    \mvTr c4\f-\arco f8 a c2~
-    \once \tieDashed c1~ %185
+    r4 \mvDl <g f' d'>\pE-\pizz r <g e' c'>
+    R1
+    r4 \mvDl <g f' d'>-\critnote r <g e' c'>
+    \mvTr c4\f-\arco f8 a c2~ %180
+    c1~
     c4 c8 c r8 c\p r c
     r h r h r c r c
     r a r f r e r e
-    r e r f e4 e'16\ff f e d
-    c d c h a h a g f4 f'16 g f e %190
+    r e r f e4 e'16\f f e d %185
+    c d c h a h a g f4 f'16 g f e
     d e d c h c h a g4 g'16 a g f
     e f e d c d c h a c h d c d e c
     f e d c h a g f e g c e g a g f
-    e f e d c d c h a4 a'16 h a g
-    fis g fis e d e d c h4 h'16 c h a %195
-    g a g fis e fis e d c a h c d c a h
-    c8 e16 d c d c h a h a g f g f e
+    e f e d c d c h a4 a'16 h a g %190
+    fis g \hA fis e d e d c h4 h'16 c h a
+    g a g fis e \hA fis e d c a h c d c a h
+    c8 e16 d c d c h a h a g f! g f e
     d8 f'16 e d e d c h c h a g a g f
-    e8 g'16 f e f e d c^\critnote h c d e d e c
-    a' f d c h c d h c g c e g a g f %200
+    e8 g'16 f e f e d c h c d e d e c %195
+    a' f d c h c d h c g c e g a g f
     e f e d c d c h a8 a'~ a16 h a g
-    fis g fis e d e d c h8 h'~ h16 c h a
+    fis g \hA fis e d e d c h8 h'~ h16 c h a
     g a g fis e d c h a h c h a d f a
-    g a g f e d c h a h a g f g f e
-    d8 f'16 e d e d c h c h a g a g f %205
+    g a g f e d c h a h a g f g f e %200
+    d8 f'16 e d e d c h c h a g a g f
     e8 g'16 f e f e d c h c d e c d e
     f d e f g a f g e c d e f g e f
     d h c d e f d e c8 c16 h a h a g
-    f g f e d e d c h8 d'16 c h c h a
-    g a g f e f e d c8 e'16 d c d c h %210
+    f g f e d e d c h8 d'16 c h c h a %205
+    g a g f e f e d c8 e'16 d c d c h
     a c h d c d e c d h c d e f d e
-    c a h c d e c d b g a b c d b c
-    a f' g a b f b a g e f g a e a g
-    f8 f16 e d e d c b c b a g a g f
-    e8 g'16 f e f e d c d c b a b a g %215
+    c a h c d e c d b g a \hA b c d \hA b c
+    a f' g a b f \hA b a g e f g a e a g
+    f8 f16 e d e d c b c \hA b a g a g f %210
+    e8 g'16 f e f e d c d c b a \hA b a g
     f8 a'16 g f g f e d c d e f g a f
     b a g f e f g e a g f e d e f d
-    g f es d c b a c b8 f'16 es d es d c
-    b c b a g a g f e!8 g'16 f e f e d
-    c d c b a b a g f8 a'16 g f g f e %220
+    g f es d c b a c \hA b8 f'16 es d \hA es d c
+    b c \hA b a g a g f e!8 g'16 f e f e d %215
+    c d c b a \hA b a g f8 a'16 g f g f e
     d f e g f g a f b a g f e d c b
-    a g a b c d c b a b a g f g f es
-    d f b c d es d c b c b a g a g f
-    es f g a b c d b es c d es f g es f
-    d8 b~ b16 c b a g a g f es f es d %225
-    c8 c'~ c16 d c b a b a g f g f es
-    d8 d'~ d16 es d c b c b a g a g f
-    e!8 g'16 f e f e d c d c b a b a g
-    f8 f'16 e d e d c b c b a g a g f
-    e8 e'16 d c d c b a b a g f g f e %230
-    d8 h'16 a gis a h gis a8 a'~ a16 b a g
+    a g a b c d c \hA b a \hA b a g f g f es
+    d f b c d es d c b c \hA b a g a g f
+    es f g a b c d \hA b es c d \hA es f g \hA es f %220
+    d8 b~ b16 c \hA b a g a g f es f \hA es d
+    c8 c'~ c16 d c b a \hA b a g f g f es
+    d8 d'~ d16 es d c b c \hA b a g a g f
+    e!8 g'16 f e f e d c d c b a \hA b a g
+    f8 f'16 e d e d c b c \hA b a g a g f %225
+    e8 e'16 d c d c b a \hA b a g f g f e
+    d8 h'16 a gis a h \hA gis a8 a'~ a16 b a g
     f g f e d e d c h!8 h'~ h16 c h a
     g a g f e f e d c8 c'~ c16 d c h
-    a g a h c h a g f d e f g a f g
-    e c d e f g a f g a f g a b g a %235
-    f8 a16 g f g f e d e d c b c b a
+    a g a h c h a g f d e f g a f g %230
+    e c d e f g a f g a f g a b g a
+    f8 a16 g f g f e d e d c b c \hA b a
     g8 b'16 a g a g f e f e d c d c b
-    a8 c'16 b a b g a f e f g a f g a
-    b c a b c d b c a f g a b c a b
-    g a f g a b g a f g e f d f e d %240
-    c d e d c d h! c d e h c h c d h
-    c d h c a h c a h c a h gis a h gis
+    a8 c'16 b a \hA b g a f e f g a f g a
+    b c a \hA b c d \hA b c a f g a \hA b c a \hA b %235
+    g a f g a b g a f g e f d f e d
+    c d e d c d h! c d e c d h c d h
+    c d h c a h c a h c a h gis a h \hA gis
     a8 e'16 d c d c h a h a g f g f e
-    d8 f'16 e d e d c h c h a g a g f
-    e8 g'16 f e f e d c h c d e f g e %245
+    d8 f'16 e d e d c h c h a g a g f %240
+    e8 g'16 f e f e d c h c d e f g e
     f g e f g a f g e c d e f g e f
     d e c d e f d e c a h c d e c d
     h8 g'16 f e f e d c d c h a h a g
-    f8 f'16 e d e d c h c h a g a g f
-    e8 e'16 d c d c h a h a g f g f e %250
+    f8 f'16 e d e d c h c h a g a g f %245
+    e8 e'16 d c d c h a h a g f g f e
     d8 d'16 c h c h a g a g f e f e d
     c8 c'16 h a h a g f g f e d e d c
     h8 h'16 a g a g f e f e d \kneeBeam c8 c''16 h
-    a h a g f g f e d e d c h8 h'16 a
-    g a g f e f e d c d c h a8 a'16 g %255
-    fis g fis e d e d c h c h a g a g f
+    a h a g f g f e d e d c h8 h'16 a %250
+    g a g f e f e d c d c h a8 a'16 g
+    fis g \hA fis e d e d c h c h a g a g f
     e4 c'16 d c h a h a g f e d c
     h4 d'16 e d c h c h a g f e d
-    c4 a'16 h a g f8 f'~ f16 g f e
-    d e d c h c h a g8 g'~ g16 a g f %260
+    c4 a'16 h a g f8 f'~ f16 g f e %255
+    d e d c h c h a g8 g'~ g16 a g f
     e f e d c d c h a8 a'16 g f g f e
     d e d c h c h a g a g f e d e f
-    g a h c g,8 f' e4 <g, d' h'>
-    <g e' c'> <g d' h' g'> <c g' c e> r\fermata \bar "|." %264 FINIS
+    g a h c g,8 f' e4 <g, g' h>
+    <g e' c'> <g d' h' g'> <c e c' e> r\fermata \bar "|." %260 finis
   }
 }
 
@@ -787,7 +787,7 @@ EtResurrexitViolinoII = {
     f'16 g a h c8 c h4\trill g8 e
     d16 e f g a8 a g4\trill e8 c
     h16 c d e f8 f f16 e d c h a g f
-    e g c e, d8 h' c,4 r\fermata \bar "|." %260 FINIS
+    e g c e, d8 h' c,4 r\fermata \bar "|." %260 finis
   }
 }
 
@@ -836,7 +836,7 @@ SanctusViolinoII = {
     g8 f16 e d c h a g f e d
     e8 c16 e e g g c c e e g %40
     g8 g,16 a h c d e f g a h
-    c4 r r\fermata \bar "|." %42 FINIS
+    c4 r r\fermata \bar "|." %42 finis
   }
 }
 
@@ -970,7 +970,7 @@ BenedictusViolinoII = {
     g8 f16 e d c h a g f e d
     e8 c16 e e g g c c e e g %125
     g8 g,16 a h c d e f g a h
-    c4 r r\fermata \bar "|." %127 FINIS
+    c4 r r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1100,6 +1100,6 @@ DonaViolinoII = {
     h\pp h h h
     c4 r
     c r
-    c2\fermata \bar "|." %115 FINIS
+    c2\fermata \bar "|." %115 finis
   }
 }

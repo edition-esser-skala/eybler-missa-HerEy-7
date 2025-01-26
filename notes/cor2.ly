@@ -139,6 +139,6 @@ BenedictusCornoII = {
     r c,8\f e \noBreak
     g4 r \bar "||"
     \time 3/4 \tempoOsanna R2.*12 %126
-    R2.\fermata \bar "|." %127 FINIS
+    R2.\fermata \bar "|." %127 finis
   }
 }

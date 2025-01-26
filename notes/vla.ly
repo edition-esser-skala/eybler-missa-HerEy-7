@@ -429,104 +429,104 @@ QuoniamViola = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
+      \set Score.currentBarNumber = #158
     \partial 8 g8\f c8.\trill d16 e8 e, a8.\trill h16 c8 c,
     f e d c g' g' r a,
-    d8.\trill e16 f8 f, b8.\trill c16 d8 d,
-    g f e d a' a' r4 %165
+    d8.\trill e16 f8 f, b8.\trill c16 d8 d, %160
+    g f e d a' a' r4
     f8. g16 a8 d, e f g c,
     f e d g, c c'16 h c8 g
     f e d g, c c'16 h c8 g
-    a c, f a g c, e g
-    f d c c' g g, h d %170
+    a c, f a g c, e g %165
+    f d c c' g g, h d
     g h, d h g c g e
-    d g d' h g c g e
+    d h' d h g c g e
     a a'4 a8 a g f16 a, h c
-    d8 g4 g8 g h, c e
-    f, f'4 e8 d g4 g8 %175
+    d8 g4 g8 g h, c e %170
+    a, f'4 e8 d g4 g8
     a a g4 g r
-    r2 r4 r8 g,
+    r2 r4 r8 g,\f
     c8.\trill d16 e8 e, a8.\trill h16 c8 c,
-    f e d c g' g' r4
-    R1 %180
-    r4 \mvTr <g, h d>\pE-\pizz r <c, g' e'>
+    f e d c g' g' r4 %175
     R1
-    r4 <g' h d> r <c, g' e'>
-    r2 \mvTr f4\f-\arco a8 c
-    f1~ %185
+    r4 \mvDl <g, h d>\pE-\pizz r <c, c' e>
+    R1
+    r4 <g' h d> r <c, c' e>
+    r2 \mvTr f4\fE-\arco a8 c %180
+    f1~
     f4 e8 f r g\p r g
     r d r d r c r c
     r d r a r g r g
-    r g r g g c' c4\trill\fE
-    a8 a, a'4 r8 d d4\trill %190
+    r g r g g c'\f c4\trill %185
+    a8 a, a'4 r8 d d4\trill
     h8 h, h'4 r8 e e4\trill
     c8 c, c'4 r8 g4 g8
     a f d h c4 r
-    R1*3 %196
+    R1*3 %192
     r8 c c c d8. d16 d4
-    r8 d d d e8. e16 e8 r
-    r e e e f4 e
-    d2\trill c4 e %200
+    r8 d d d16 d e4 e
+    r8 e e e16 e f4 e %195
+    d2\trill c4 e
     c a fis' fis
     d h g' g
-    e8 fis g2 \once \tieDashed f4~
-    f e r f8. e16
-    d8. c16 h4 r g'8. f16 %205
-    e8. d16 c4 r a'8.-\critnote g16
-    f8 e16 f g8 f e c f e
+    e8 fis g2 f4~
+    f e r f8. e16 %200
+    d8. c16 h4 r g'8. f16
+    e8. d16 c4 r a'8 g
+    f e16 f g8 f e c f e
     d c16 d e8 d c h a4
-    R1*5 %213
-    r8 d d d e8. e16 e4
-    r8 e e e f8. f16 f4 %215
-    r8 f f f g4 f
+    R1*5 %209
+    r8 d d d e8. e16 e4 %210
+    r8 e e e16 e f4 f
+    r8 f f f16 f g4 f
     e2 d
     c b4 d
-    b g e'! e
-    c a f' f %220
+    b g e'! e %215
+    c a f' f
     d8 e f2 e4
     f r c' a
     f d'2 b4
-    g8 a b4 g f
-    f r r g8. f16 %225
+    g8 a b4 g f %220
+    f r r g8. f16
     es8. d16 c4 r a'8. g16
     f8. es16 d4 r b'8. a16
-    g8. f16 e4 c'8.-\critnote b16 a8. g16
-    f4 r b8. a16 g8. f16
-    e4 r a8. g16 f8. e16 %230
-    d8. c16 h!8 gis? a4 a
-    f' d-\critnote h h
+    g8. f16 e4 c'8. b16 a8. g16
+    f4 r b8. a16 g8. f16 %225
+    e!4 r a8. g16 f8. e16
+    d8. c16 h!4 a a
+    f' d h h
     g' e c c'
-    a8 h c a f e16 f g8 f
-    e c f2 e4 %235
-    f4 d b g
+    a8 h c a f e16 f g8 f %230
+    e c f2 e4
+    f d b g
     e' e c a
     f' f d8 e f4~
-    f e2 d4~
-    d cis d8 e f4~ %240
+    f e2 d4~ %235
+    d cis d8 e f4~
     f e d2
     c!4 r r2
     r8 c c c d8. d16 d4
-    r8 d d d e4 e
-    r8 e e e f4 e %245
+    r8 d d d16 d e4 e %240
+    r8 e e e16 e f4 e
     d g c, r
     R1
-    r8 g' g g a8. a16 a4
-    r8 f f f g8. g16 g4
-    r8 e e e f8. f16 f4 %250
+    r8 g' g g a8. a16 a8 r
+    r f f f16 f g4 g %245
+    r8 e e e16 e f4 f
     d2 e4 r
     r a f d
     g r r2
-    r4 a8. g16 f8 e d4
-    r g8. f16 e8 d c4 %255
+    r4 a8. g16 f8. e16 d4 %250
+    r g8. f16 e8. d16 c4
     R1
     r8 c c c d8. d16 d4
-    r8 d d d e8. e16 e4
-    r8 e4 e8 f4 f
-    r8 f f4\trill g8 g, g'4 %260
+    r8 d d d16 d e4 e
+    r8 e4 e8 f4 f %255
+    r8 f f4\trill g8 g, g'4
     r8 g g4\trill a8 a, a'4
-    r8 a4 a8 g g, c c'
+    r8 a a4\trill g8 g, c c'
     g f g g, c4 <g h d>
-    <c, c' e> <g' d' h'> <c, g' e' c'> r\fermata \bar "|." %264 FINIS
+    <c, c' e> <g' f' h> <c, g' e' c'> r\fermata \bar "|." %260 finis
   }
 }
 
@@ -796,7 +796,7 @@ EtResurrexitViola = {
     c f a, c e g g, h
     a d f, a c e e, g
     f f' f, e d h' d d,
-    c e g g' e4 r\fermata \bar "|." %260 FINIS
+    c e g g' e4 r\fermata \bar "|." %260 finis
   }
 }
 
@@ -845,7 +845,7 @@ SanctusViola = {
     r8 <d f> q q q q
     <c e>4 r r %40
     r8 <f h> q q q q
-    <e c'>4 c r\fermata \bar "|." %42 FINIS
+    <e c'>4 c r\fermata \bar "|." %42 finis
   }
 }
 
@@ -979,7 +979,7 @@ BenedictusViola = {
     r8 <d f> q q q q
     <c e>4 r r %125
     r8 <f h> q q q q
-    <e c'>4 c r\fermata \bar "|." %127 FINIS
+    <e c'>4 c r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1109,6 +1109,6 @@ DonaViola = {
     <f g>\pp q q <d g>
     <c g'>4 r
     <e g> r
-    q2\fermata \bar "|." %115 FINIS
+    q2\fermata \bar "|." %115 finis
   }
 }

@@ -683,180 +683,180 @@ QuoniamSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*4 %165
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*4 %161
     \mvTr d'8.\f^\tuttiE e16 f8 d c8.([ d16)] e8 c
     d e f4 e r8 c
     d e f8. f16 e4 r8 c
-    c4 c8 c g'4 f16([ e)] d([ c)]
-    d([ e] f4) e8 e d r4 %170
+    c4 c8 c g'4 f16([ e)] d([ c)] %165
+    d([ e] f4) e8 e d r4
     g8. d16 d8 f e16([ f)] g8 r4
     g d8 f e16 f g8 r4
     r8 a, h cis d8.([ e16)] f8 r
-    r g, a h c8. d16 e4
-    f f8 a g4 f8 e %175
+    r g, a h c8. d16 e4 %170
+    f f8 a g4 f8 e
     e16([ d)] e([ f)] c8([ \grace e16 d8)] c4 g'(
     a,) f' f8 e d4
     c r r2
-    R1*2 %180
+    R1*2 %176
     d4\p d8 d d8.([ e16)] c4
     R1
     d4 d8 d d8. e16 c4
-    R1
-    r2 f,4\f a8 c %185
+    R1 %180
+    r2 f,4\f a8 c
     f4 g8 a g2\p
     f e(
     g8[ f]) e([ d)] c2~
-    c4 \appoggiatura e8 d4 c r
-    R1*10 %199
-    r2 r8 g\fE g g %200
+    c4 \appoggiatura e8 d4 c r %185
+    R1*10 %195
+    r2 r8 g\fE g g
     a8. a16 a4 r8 a a a16 a
     h4 h r8 h h h16 h
-    c4 h a2
-    g4 a( f d)
-    h' h( g e) %205
+    c4 h a2\trill
+    g4 a( f d) %200
+    h' h( g e)
     c' c a8[ h] c4~
     c h2 a4~
     a gis a r
-    r d8.([ c16] h8.[ a16)] g4
-    r e'8.([ d16] c8.[ h16)] a4 %210
+    r d8.([ c16] h8._[ a16)] g4 %205
+    r e'8.([ d16] c8.[ h16)] a4
     r f'8[ e] d[ c16 d] e8[ d]
-    c[ a d c] b[ a16 b] c8[ b]
+    c[ a d c] b[ a16 \hA b] c8[ \hA b]
     a[ f b a] g[ f16 g] a8[ g]
-    f[ e] d4 r2
-    R1*3 %217
+    f[ e] d4 r2 %210
+    R1*3
     r2 r8 f f f
-    g8. g16 g4 r8 g g g16 g
-    a4 a r8 a a a16 a %220
+    g8. g16 g4 r8 g g g16 g %215
+    a4 a r8 a a a16 a
     b4 a g2\trill
     f4 c'( a f)
     d' d( b g
-    es') d c2
-    b4 b( g es) %225
+    es') d c2 %220
+    b4 b( g es)
     c' c( a f)
     d' d( b) g
-    r2 r4 f'8.([ e16]
-    d8.[ c16)] b4 r e8.([ d16]
-    c8.[ b16)] a4 r d8.([ c16] %230
-    h8.[ a16)] gis4 r8 c c c
+    r2 r4 f'8.([ e!16]
+    d8.[ c16)] b4 r e!8.([ d16] %225
+    c8.[ b16)] a4 r d8.([ c16]
+    h8._[ a16)] gis4 r8 c c c
     d8. d16 d4 r8 d d d16 d
     e4 e r8 e e e16 e
-    f4 e d2
-    c4 d8[( c] b[ a16 b] c8[ b]) %235
+    f4 e d2 %230
+    c4 d8[( c] b_[ a16 \hA b] c8[ \hA b])
     a4 r r b8.([ a16]
-    g8.[ f16)] e4 r c'8.([ b16]
+    g8.[ f16)] e4 r c'8.(^[ b16]
     a8.[ g16]) f4 r2
-    R1*4 %242
+    R1*4 %238
     r8 e' e e f8. f16 f4
-    r8 f f f16 f g4 g
-    r8 g g g16 g a4 g %245
-    f8([ e16 f)] g8([ f)] e[ c f e]
+    r8 f f f16 f g4 g %240
+    r8 g g g16 g a4 g
+    f8([ e16 f] g8) f e[ c f e]
     d[ c16 d] e8[ d] c[ a d c]
     h4 r r2
-    R1
-    r8 g' g g a8. a16 a4 %250
+    R1 %245
+    r8 g' g g a8. a16 a4
     r8 f f f16 f g4 g
-    r8 e e e16 e f4 e
+    r8 e e e16 e f4 f
     d2 e4 e8.([ d16]
-    c8.[ h16)] a4 r d8.([ c16]
-    h8.[ a16)] g4 r c8.([ h16] %255
+    c8.[ h16)] a4 r d8.([ c16] %250
+    h8._[ a16)] g4 r c8.(^[ h16]
     a8.[ g16]) fis4 r8 g g g
     a8. a16 a4 r8 a a a16 a
     h4 h r8 h4 h8
-    c4 c r f(
-    d h) g' g( %260
+    c4 c r f( %255
+    d h) g' g(
     e c) a' a8.([ g16]
     f8.[ e16 d8. c16] h4) c
     c( h) c d
-    e d c r\fermata \bar "|." %264 FINIS
+    e d c r\fermata \bar "|." %260 finis
   }
 }
 
 QuoniamSopranoLyrics = \lyricmode {
-  Quo -- ni -- am tu so -- lus, tu %166
+  Quo -- ni -- am tu so -- lus, tu %162
   so -- lus san -- ctus, tu
   so -- lus Do -- mi -- nus, tu
-  so -- lus al -- tis -- si -- mus,
-  Je -- su Chri -- ste, %170
+  so -- lus al -- tis -- si -- mus, %165
+  Je -- su Chri -- ste,
   quo -- ni -- am tu so -- lus,
   tu so -- lus Do -- mi -- nus,
   tu so -- lus san -- ctus,
-  tu so -- lus Do -- mi -- nus,
-  so -- lus al -- tis -- si -- mus, %175
+  tu so -- lus Do -- mi -- nus, %170
+  so -- lus al -- tis -- si -- mus,
   Je -- su Chri -- ste, Je --
-  su Chri -- ste, Chri --
+  su, Je -- su Chri --
   ste,
 
-  tu so -- lus san -- ctus, %181
+  tu so -- lus san -- ctus, %177
 
   tu so -- lus Do -- mi -- nus,
-
-  so -- lus al -- %185
+  %180
+  so -- lus al --
   tis -- si -- mus, Je --
   su, Je --
   su Chri --
-  _ ste.
+  _ ste. %185
 
-  Cum San -- cto %200
+  Cum San -- cto %196
   Spi -- ri -- tu in glo -- ri -- a
   De -- i, in glo -- ri -- a
   De -- i Pa --
-  tris, a --
-  men, a -- %205
+  tris, a -- %200
+  men, a --
   men, a -- _ _
   _ _
   _ men,
+  a -- men, %205
   a -- men,
-  a -- men, %210
   a -- _ _
   _ _ _
   _ _ _
-  _ men,
+  _ men, %210
 
-  cum San -- cto %218
-  Spi -- ri -- tu in glo -- ri -- a
-  De -- i, in glo -- ri -- a %220
+  cum San -- cto %214
+  Spi -- ri -- tu in glo -- ri -- a %215
+  De -- i, in glo -- ri -- a
   De -- i Pa --
   tris, a --
   men, a --
+  men, a -- %220
   men, a --
-  men, a -- %225
   men, a --
   men, a -- men,
   a --
+  men, a -- %225
   men, a --
-  men, a -- %230
   men, cum San -- cto
   Spi -- ri -- tu in glo -- ri -- a
   De -- i, in glo -- ri -- a
-  De -- i Pa --
-  tris, a -- %235
+  De -- i Pa -- %230
+  tris, a --
   men, a --
   men, a --
   men,
 
-  cum San -- cto Spi -- ri -- tu %243
-  in glo -- ri -- a De -- i,
-  in glo -- ri -- a De -- i %245
+  cum San -- cto Spi -- ri -- tu %239
+  in glo -- ri -- a De -- i, %240
+  in glo -- ri -- a De -- i
   Pa -- tris, a --
   _ _ _
   men,
-
-  cum San -- cto Spi -- ri -- tu %250
+  %245
+  cum San -- cto Spi -- ri -- tu
   in glo -- ri -- a De -- i,
   in glo -- ri -- a De -- i
   Pa -- tris, a --
+  men, a -- %250
   men, a --
-  men, a -- %255
   men, cum San -- cto
   Spi -- ri -- tu in glo -- ri -- a
   De -- i Pa -- tris,
-  a -- men, a --
-  men, a -- %260
+  a -- men, a -- %255
+  men, a --
   men, a --
   men,
   a -- men, a --
-  men, a -- men. %264 FINIS
+  men, a -- men. %260 finis
 }
 
 CredoSoprano = {
@@ -1233,7 +1233,7 @@ EtResurrexitSoprano = {
     c2 h
     R1
     r4 f'2 f4
-    e8 e d4 c r\fermata \bar "|." %260 FINIS
+    e8 e d4 c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -1349,7 +1349,7 @@ EtResurrexitSopranoLyrics = \lyricmode {
   cre -- do, %257
 
   \xE a -- men,
-  a -- men, \x a -- men. %260 FINIS
+  a -- men, \x a -- men. %260 finis
 }
 
 SanctusSoprano = {
@@ -1397,7 +1397,7 @@ SanctusSoprano = {
     R2.
     r8 c, e g c e %40
     g2.
-    c,4 r r\fermata \bar "|." %42 FINIS
+    c,4 r r\fermata \bar "|." %42 finis
   }
 }
 
@@ -1443,7 +1443,7 @@ SanctusSopranoLyrics = \lyricmode {
 
   o -- san -- na in ex -- %40
   cel --
-  sis. %42 FINIS
+  sis. %42 finis
 }
 
 BenedictusSoprano = {
@@ -1537,7 +1537,7 @@ BenedictusSoprano = {
     R2.
     r8 c, e g c e %125
     g2.
-    c,4 r r\fermata \bar "|." %127 FINIS
+    c,4 r r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1628,7 +1628,7 @@ BenedictusSopranoLyrics = \lyricmode {
 
   o -- san -- na in ex -- %125
   cel --
-  sis. %127 FINIS
+  sis. %127 finis
 }
 
 AgnusDeiSoprano = {
@@ -1782,7 +1782,7 @@ DonaSoprano = {
     g4.(\pp f8)
     e4 r
     R2
-    R\fermata \bar "|." %115 FINIS
+    R\fermata \bar "|." %115 finis
   }
 }
 
@@ -1871,5 +1871,5 @@ DonaSopranoLyrics = \lyricmode {
   cem,
 
   pa -- %112
-  cem. %113 FINIS
+  cem. %113 finis
 }

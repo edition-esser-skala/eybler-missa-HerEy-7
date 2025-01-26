@@ -708,188 +708,188 @@ QuoniamAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*4 %165
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*4 %161
     \mvTr a'8.\f^\tuttiE g16 f8 f g8.([ f16)] e8 g
     f g g4 g r8 g
     g g g8. g16 g4 r8 g
-    a4 a8 a g4 g8 g
-    g4. g8 g g r4 %170
+    a4 a8 a g4 g8 g %165
+    g4. g8 g g r4
     g8. g16 g8 g g g r4
     g g8 g g16 f e8 r4
     r8 e a a a8.([ g16)] f4
-    r8 d g g g8. f16 e4
-    d8([ d')] a c d4 d8^\critnote c %175
+    r8 d g g g8. f16 e4 %170
+    d8([ d')] a c d4 d8 c
     a a g4 g g~
     g f8([ a)] g g g4
     e r r2
-    R1*2 %180
+    R1*2 %176
     f4\p f8 f f8.([ g16)] e4
     R1
     f4  f8 f f8. g16 e4
-    c\f f8 a \tieDashed c2~
-    c1~ \tieSolid %185
+    c\f f8 a c2~ %180
+    c1~
     c4 c8 c c2\p
     h c(
     a4) f e2~
-    e4 f e r
-    R1*7 %196
+    e4 f e r %185
+    R1*7 %192
     r8 c\fE c c d8. d16 d4
     r8 d d d16 d e4 e
-    r8 e e e16 e f4 e
-    d2 c4 e( %200
+    r8 e e e16 e f4 e %195
+    d2\trill c4 e(
     c a) fis' fis(
     d h) g' g
-    e8[ fis] g2 \once \tieDashed f4~
-    f e r f8.([ e16]
-    d8.[ c16)] h4 r g'8.[( f16] %205
-    e8.[ d16)] c4 r a'8.[ g16]
-    f8[ e16 f] g8[ f] e[ c f e]
+    e8[ fis] g2 f4~
+    f e r f8.([ e16] %200
+    d8.[ c16)] h4 r g'8.[( f16]
+    e8.[ d16)] c4 r a'8[ g]
+    f[ e16 f] g8[ f] e[ c f e]
     d[ c16 d] e8[ d] c[ h] a4
-    R1*5 %213
-    r8 d d d e8. e16 e4
-    r8 e e e16 e f4 f %215
+    R1*5 %209
+    r8 d d d e8. e16 e4 %210
+    r8 e e e16 e f4 f
     r8 f f f16 f g4 f
     e2 d
     c b4 d(
-    b g) e'! e(
-    c a) f' f %220
+    b g) e'! e( %215
+    c a) f' f
     d8[ e] f2 e4
-    f r c' a
+    f r c'( a)
     f d'2 b4
-    g8[ a] b4 g( f)
-    f r r g8.([ f16] %225
+    g8[( a]) b4 g( f) %220
+    f r r g8.([ f16]
     es8.[ d16)] c4 r a'8.([ g16]
     f8.[ es16)] d4 r b'8.[( a16]
     g8.[ f16)] e4 c'8.([ b16 a8. g16)]
-    f4 r b8.([ a16 g8. f16)]
-    e4 r a8.[ g16 f8. e16] %230
+    f4 r b8.([ a16 g8. f16)] %225
+    e!4 r a8.[ g16 f8. e16]
     d8.[ c16] h!4 a a(
     f' d) h h(
     g' e) c c'
-    a8[ h c a] f[ e16 f] g8[ f]
-    e[ c] f2 e4 %235
+    a8[ h c a] f[ e16 f] g8[ f] %230
+    e[ c] f2 e4
     f d( b g)
     e' e( c a)
     f' f d8[ e] f4~
-    f e2 \once \tieDashed d4~
-    d cis d8[ e] \once \tieDashed f4~ %240
+    f e2 d4~ %235
+    d cis d8[ e] f4~
     f e d2
     c!4 r r2
     r8 c c c d8. d16 d4
-    r8 d d d16 d e4 e
-    r8 e e e16 e f4 e %245
+    r8 d d d16 d e4 e %240
+    r8 e e e16 e f4 e
     d( g) c, r
     R1
     r8 g' g g a8. a16 a8 r
-    r f f f16 f g4 g
-    r8 e e e16 e f4 f %250
+    r f f f16 f g4 g %245
+    r8 e e e16 e f4 f
     d2 e4 r
     r a( f d)
     g r r2
-    r4 a8.([ g16 f8. e16)] d4
-    r g8.([ f16 e8. d16)] c4 %255
+    r4 a8.([ g16 f8. e16)] d4 %250
+    r g8.([ f16 e8. d16)] c4
     R1
     r8 c c c d8. d16 d4
     r8 d d d16 d e4 e
-    r8 c4 c8 d4 d
-    r h'( g e) %260
+    r8 e4 e8 f4 f %255
+    r h( g e)
     c' c( a f)
-    d' f,2( e4
-    d2) e4 g
-    g g e r\fermata \bar "|." %264 FINIS
+    d' f,2 e4
+    d2 e4 g
+    g g e r\fermata \bar "|." %260 finis
   }
 }
 
 QuoniamAltoLyrics = \lyricmode {
-  Quo -- ni -- am tu so -- lus, tu %166
+  Quo -- ni -- am tu so -- lus, tu %162
   so -- lus san -- ctus, tu
   so -- lus Do -- mi -- nus, tu
-  so -- lus al -- tis -- si -- mus,
-  Je -- su Chri -- ste, %170
+  so -- lus al -- tis -- si -- mus, %165
+  Je -- su Chri -- ste,
   quo -- ni -- am tu so -- lus,
   tu so -- lus Do -- mi -- nus,
   tu so -- lus san -- ctus,
-  tu so -- lus Do -- mi -- nus,
-  so -- lus al -- tis -- si -- mus, %175
+  tu so -- lus Do -- mi -- nus, %170
+  so -- lus al -- tis -- si -- mus,
   Je -- su Chri -- ste, Je --
-  su Chri -- ste, Chri --
+  su, Je -- su Chri --
   ste,
 
-  tu so -- lus san -- ctus, %181
+  tu so -- lus san -- ctus, %177
 
   tu so -- lus Do -- mi -- nus,
-  so -- lus al -- tis --
-  %185
+  so -- lus al -- tis -- %180
+
   si -- mus, Je --
   su, Je --
   su Chri --
-  _ ste.
+  _ ste. %185
 
-  Cum San -- cto Spi -- ri -- tu %197
+  Cum San -- cto Spi -- ri -- tu %193
   in glo -- ri -- a De -- i,
-  in glo -- ri -- a De -- i
-  Pa -- tris, a -- %200
+  in glo -- ri -- a De -- i %195
+  Pa -- tris, a --
   men, a --
   men, a --
   _ _ _
+  men, a -- %200
   men, a --
-  men, a -- %205
   men, a --
   _ _ _
   _ _ _ men,
 
-  cum San -- cto Spi -- ri -- tu %214
-  in glo -- ri -- a De -- i, %215
+  cum San -- cto Spi -- ri -- tu %210
+  in glo -- ri -- a De -- i,
   in glo -- ri -- a De -- i
   Pa -- tris,
   a -- men, a --
+  men, a -- %215
   men, a --
-  men, a -- %220
   _ _ _
-  men, a -- _
-  _ _ _
-  _ men, a --
+  men, a --
+  man, a -- men,
+  a -- men, a -- %220
+  men, a --
+  men, a --
+  men, a --
+  men, a --
   men, a -- %225
   men, a --
-  men, a --
-  men, a --
-  men, a --
-  men, a -- %230
   _ _ men, a --
   men, a --
-  \xE men, a -- \x
+  men, a --
+  _ _ _ %230
   _ _ _
-  _ _ _ %235
   men, a --
   men, a --
   men, a -- _ _
-  _ _
-  _ _ _ %240
+  _ _ %235
+  men, a -- _
   _ _
   men,
   cum San -- cto Spi -- ri -- tu
-  in glo -- ri -- a De -- i,
-  in glo -- ri -- a De -- i %245
+  in glo -- ri -- a De -- i, %240
+  in glo -- ri -- a De -- i
   Pa -- tris,
 
   cum San -- cto Spi -- ri -- tu
-  in glo -- ri -- a De -- i,
-  in glo -- ri -- a De -- i %250
+  in glo -- ri -- a De -- i, %245
+  in glo -- ri -- a De -- i
   Pa -- tris,
   a --
   men,
+  a -- men, %250
   a -- men,
-  a -- men, %255
 
   cum San -- cto Spi -- ri -- tu
   in glo -- ri -- a De -- i
-  Pa -- tris, a -- men,
-  a -- %260
+  Pa -- tris, a -- men, %255
+  a --
   men, a --
-  men, a --
-  men, a --
-  men, a -- men. %264 FINIS
+  men, a -- men,
+  a -- men, a --
+  men, a -- men. %260 finis
 }
 
 CredoAlto = {
@@ -1271,7 +1271,7 @@ EtResurrexitAlto = {
     R1*3 %257
     a2 g
     r4 g2 g4
-    g8 g g4 e r\fermata \bar "|." %260 FINIS
+    g8 g g4 e r\fermata \bar "|." %260 finis
   }
 }
 
@@ -1394,7 +1394,7 @@ EtResurrexitAltoLyrics = \lyricmode {
 
   cre -- do, %258
   \xE a -- men,
-  a -- men, a -- men. %260 FINIS
+  a -- men, a -- men. %260 finis
 }
 
 SanctusAlto = {
@@ -1431,7 +1431,7 @@ SanctusAlto = {
     r8 d, d d d d
     e4 g r %40
     r8 h h h h h
-    c4 c, r\fermata \bar "|." %42 FINIS
+    c4 c, r\fermata \bar "|." %42 finis
   }
 }
 
@@ -1466,7 +1466,7 @@ SanctusAltoLyrics = \lyricmode {
   o -- san -- na in ex --
   cel -- sis, %40
   o -- san -- na in ex --
-  cel -- sis. %42 FINIS
+  cel -- sis. %42 finis
 }
 
 BenedictusAlto = {
@@ -1560,7 +1560,7 @@ BenedictusAlto = {
     r8 d, d d d d
     e4 g r %125
     r8 h h h h h
-    c4 c, r\fermata \bar "|." %127 FINIS
+    c4 c, r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1650,7 +1650,7 @@ BenedictusAltoLyrics = \lyricmode {
   o -- san -- na in ex --
   cel -- sis, %125
   o -- san -- na in ex --
-  cel -- sis. %127 FINIS
+  cel -- sis. %127 finis
 }
 
 AgnusDeiAlto = {
@@ -1804,7 +1804,7 @@ DonaAlto = {
     h,2\pp
     c4 r
     R2
-    R\fermata \bar "|." %115 FINIS
+    R\fermata \bar "|." %115 finis
   }
 }
 
@@ -1893,5 +1893,5 @@ DonaAltoLyrics = \lyricmode {
   cem,
 
   pa -- %112
-  cem. %113 FINIS
+  cem. %113 finis
 }

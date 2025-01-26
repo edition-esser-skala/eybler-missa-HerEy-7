@@ -811,110 +811,110 @@ QuoniamViolone = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
+      \set Score.currentBarNumber = #158
     \partial 8 g'8\f c8.\trill d16 e8 e, a8.\trill h16 c8 c,
     f e d c g' g, r a'
-    d8.\trill e16 f8 f, b8.\trill c16 d8 d,
-    g f e d a' a, r4 %165
+    d8.\trill e16 f8 f, b8.\trill c16 d8 d, %160
+    g f e d a' a, r4
     f'8 e d f e d c e
     d c h g c c'16 h c8 e,
     d c h g c c'16 h c8 e,
-    f c' a f e g c e
-    d h c c, g g' d h %170
+    f c' a f e g c e %165
+    d h c c, g g' d h
     g d'' h g c g e c
-    g^\critnote d'' h g c g e c
+    h d' h g c g e c
     a a'16 g a8 g f e d16 c h a
-    g8 g'16 f g8 f e d c16 e g c
-    d8 d, d' c h d g, c %175
+    g8 g'16 f g8 f e d c16 e g c %170
+    d8 d, d' c h d g, c
     f, d g g, c4 r
-    r2 r4 r8 g'
+    r2 r4 r8 g'\f
     c8.\trill d16 e8 e, a8.\trill h16 c8 c,
-    f e d c g' g, r4
-    R1 %180
-    \mvTr g'4\pE-\pizz r c, r
+    f e d c g' g, r4 %175
     R1
-    g'4 r c, r
-    r2 \clef "treble_8" \mvTr f4\fE-\arco a8 c
-    \clef bass a,4 c8 f a2~ %185
-    a4 g8 f e\pE r e r
+    r4 \mvTr g'\pE-\pizz r c,
+    R1
+    r4 g' r c,
+    r2 \clef "treble_8" \mvTr f4\f-\arco a8 c %180
+    \clef bass a,4 c8 f a2~
+    a4 g8 f e\p r e r
     gis r gis r a r a r
     d, r f r g r g r
-    g, r g r c4 r
-    r8 c'\fE c4\trill d8 d, d'4 %190
+    g, r g r c4 r %185
+    r8 c'\fE c4\trill d8 d, d'4
     r8 d d4\trill e8 e, e'4
     r8 e e4\trill f8 f, e' e,
     d' d, g g, c e e4\trill
-    c8 a a'4\trill r8 fis8 fis4\trill
-    d8 h h'4\trill r8 g g4\trill %195
+    c8 a a'4 r8 fis8 fis4\trill %190
+    d8 h h'4 r8 g g4\trill
     e8 fis g2 f4
-    e4 \clef "treble_8" a f \clef bass f8. e16
+    e4 r r f8. e16
     d8. c16 h4 r g'8. f16
-    e8. d16 c4 \clef "treble_8" a'8 h \clef bass a[ g]
-    f e16 f g8 f e d c4 %200
+    e8. d16 c4 \clef "treble_8" a'8 h \clef bass a[ g] %195
+    f e16 f g8 f e d c4
     \clef "treble_8" r c'8. h16 a8. g16 fis4
     r d'8. c16 h8. a16 g4
     r e' c d
-    g,8 \noBeam \clef bass c c4\trill d8 d, d'4\trill
-    r8 d d4\trill e8 e, e'4 %205
+    g,8 \noBeam \clef bass c c4\trill d8 d, d'4 %200
+    r8 d d4\trill e8 e, e'4
     r8 e e4\trill f8 f, e' e,
     d d' d4\trill c,8 c' c4\trill
     h,8 h' h4\trill a,8 a' f4\trill
-    d8 h h4\trill g8 g' g4\trill
-    e8 c c4\trill a8 a' a4\trill %210
+    d8 h h4\trill g8 g' g4\trill %205
+    e8 c c4\trill a8 a' a4\trill
     f8 g a2 g4~
     g8 c, f2 e4~
     e8 a, d2 cis4
-    d \clef "treble_8" b' g \clef bass g8. f16
-    e8. d16 c4 r a'8. g16 %215
-    f8. e16 d4 \clef "treble_8" b'8[ c] \clef bass b a
+    d \clef "treble_8" b' g \clef bass g8. f16 %210
+    e8. d16 c4 r a'8. g16
+    f8. e16 d4 r b'8 a
     g f16 g a8 g f d g f
-    es d16 es f8 es d c b4
-    \clef "treble_8" r4 b'8. a16 g8. f16 e4
-    r c'8. b16 a8. g16 f4 %220
+    es d16 \hA es f8 \hA es d c b4
+    \clef "treble_8" r4 b'8. a16 g8. f16 e4 %215
+    r c'8. b16 a8. g16 f4
     r d'8. c16 b8 \noBeam \clef bass g g4\trill
     a8 a, a'4 r8 a a4\trill
-    b8 b, b'4 r8 b b4\trill
-    c8 c, b' b, a a' a4\trill
-    b,8 b' g, g' es c c4\trill %225
+    b8 b, \hA b'4 r8 \hA b b4\trill
+    c8 c, b' b, a a' a4\trill %220
+    b,8 b' g, g' es c c4\trill
     a'8 a, a'4\trill f8 d d4\trill
-    b'8 b, b'4\trill g8 e! e4\trill
-    c'8 c, c' b a8. g16 f4
-    r b8. a16 g8. f16 e!4
-    r a8. g16 f8. e16 d4~ %230
+    b'8 b, \hA b'4\trill g8 e! e4\trill
+    c'8 c, c'8. b16 a8. g16 f4
+    r b8. a16 g8. f16 e!4 %225
+    r a8. g16 f8. e16 d4~
     d e a, f'
     d8 h h4\trill g' g
     e8 c c4\trill a' \clef "treble_8" c
-    d c2 h4
-    c r r2 %235
+    d c2 h4 %230
+    c r r2
     \clef bass r8 f, f4\trill g8 g, g'4
     r8 g g4\trill a8 a, a'4
     r8 a a4\trill b8 b, a' a,
-    g g' g4\trill f,8 f' f4\trill
-    e,8 e' e4\trill d,8 d' d4\trill %240
+    g g' g4\trill f,8 f' f4\trill %235
+    e,8 e' e4\trill d,8 d' d4\trill
     e a8 g f e16 f g8 f
     e c f e d c16 d e8 d
     c a a'4 f8 d d4\trill
-    h'8 h, h'4 g8 e e4\trill
-    c'8 c, c'4 a8 h c4~ %245
-    c h2 a4~
+    h'8 h, h'4 g8 e e4\trill %240
+    c'8 c, c'4 a8 h c4~
+    c h4. e,8 a4~
     a g2 fis4
-    <g g,>1~
-    q~
-    q~ %250
-    q~
-    q~
-    q~
-    q~
-    \tieDashed q~ %255
-    q2~ q8 \tieSolid r r4
+    <g g,>1
+    q %245
+    q
+    q
+    q
+    q
+    q %250
+    q
+    q2~ q8 r r4
     R1
     r2 r8 \clef "treble_8" g g4\trill
-    a8 \noBeam \clef bass c c4\trill d8 d, d'4
-    r8 d d4\trill e8 e, e'4 %260
+    a8 \noBeam \clef bass c c4\trill d8 d, d'4 %255
+    r8 d d4\trill e8 e, e'4
     r8 e e4\trill f8 f, f'4
-    r8 f f4\trillE g8 g, c c,
+    r8 f f4\trill g8 g, c c,
     g' f g g, c4 g'
-    c g c, r\fermata \bar "|." %264 FINIS
+    c g c, r\fermata \bar "|." %260 finis
   }
 }
 
@@ -922,230 +922,230 @@ QuoniamOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 \mvTr g'8\f-\tuttiE-\unisono c8.\trill d16 e8 e, a8.\trill h16 c8 c,
+      \set Score.currentBarNumber = #158
+    \partial 8 \mvTr g'8\f-\soloE-\unisono c8.\trill d16 e8 e, a8.\trill h16 c8 c,
     f e d c g' g, r a'
-    d8.\trill e16 f8 f, b8.\trill c16 d8 d,
-    g f e d a' a, r4 %165
+    d8.\trill e16 f8 f, b8.\trill c16 d8 d, %160
+    g f e d a' a, r4
     f'8-\tutti e d f e d c e
     d c h g c c'16 h c8 e,
     d c h g c c'16 h c8 e,
-    f c' a f e g c e
-    d h c c, g g' d h %170
+    f c' a f e g c e \segnoMark 4 %165
+    d h c c, g g' d h
     g d'' h g c g e c
-    g d'' h g c g e c
+    h d' h g c g e c
     a a'16 g a8 g f e d16 c h a
-    g8 g'16 f g8 f e d c16 e g c
-    d8 d, d' c h d g, c %175
+    g8 g'16 f g8 f e d c16 e g c %170
+    d8 d, d' c h d g, c
     f, d g g, c4 r
-    r2 r4 r8 g'-\solo-\unisonoE
+    r2 r4 r8 \mvTr g'\f-\solo-\unisonoE
     c8.\trill d16 e8 e, a8.\trill h16 c8 c,
-    f e d c g' g, r4
-    \clef "treble_8" g'4-!\p c8-! e-! g2-! %180
+    f e d c g' g, r4 %175
+    \clef "treble_8" g'4-!\p c8-! e-! g2-!
     \clef bass g,4 r c, r
-    \clef "treble_8" g'4-! c8-! e-! g2-!
+    \clef "treble_8" g'4 c8 e g2
     \clef bass g,4 r c, r
-    \clef treble \mvTr c'4\f-\tuttiE f8 a \clef "treble_8" f,4 a8 c
-    \clef bass a,4 c8 f a2~ %185
+    \clef treble \mvTr c'4\f-\tuttiE f8 a \clef "treble_8" f,4 a8 c %180
+    \clef bass a,4 c8 f a2~
     a4 g8 f e\p r e r
     gis r gis r a r a r
     d, r f r g r g r
-    g, r g r c4 r
-    r8 c-!\fE c-! c-! d8.-! d16-! d8-! r %190
+    g, r g r c4 r %185
+    r8 c-!\fE c-! c-! d8.-! d16-! d8-! r
     r d-! d-! d16-! d-! e4-! e-!
     r8 e-! e-! e16-! e-! f4-! e-!
     d2\trill << {
       r8 g g g
-      a8. a16 a4 r8 a a a16 a
-      h4 h r8 h h h16 h %195
+      a8. a16 a4 r8 a a a16 a %190
+      h4 h r8 h h h16 h
       c4 h a2\trill
       g4 \clef "treble_8" c d
     } \\ {
       c,4 e
-      c a fis' fis
-      d h g' g %195
+      c a fis' fis %190
+      d h g' g
       e8 fis g2 f4
       e a f
     } >> \clef bass f8. e16
     d8. c16 h4 r g'8. f16
-    e8. d16 c4 \clef "treble_8" << { f' } \\ { a,8[ h] } >> \clef bass a g
-    f e16 f g8 f e d c4 %200
+    e8. d16 c4 \clef "treble_8" << { f' } \\ { a,8[ h] } >> \clef bass a g %195
+    f e16 f g8 f e d c4
     \clef "treble_8" r c'8. h16 a8. g16 fis4
     r d'8. c16 h8. a16 g4
     \clef treble << { c' } \\ { e,8[ fis] } >> \clef "treble_8" e4 c d
-    \clef bass r8 c, c c d8. d16 d4
-    r8 d d d16 d e4 e %205
+    \clef bass r8 c, c c d8. d16 d4 %200
+    r8 d d d16 d e4 e
     r8 e e e16 e f4 e
     d2 c
     h a4 f'
-    d h g' g
-    e c a' a %210
+    d h g' g %205
+    e c a' a
     f8 g a2 g4~
     g f2 e4~
     e d2 cis4
-    d \clef "treble_8" b' g \clef bass g8. f16
-    e8. d16 c4 r a'8. g16 %215
+    d \clef "treble_8" b' g \clef bass g8. f16 %210
+    e8. d16 c4 r a'8. g16
     f8. e16 d4 \clef "treble_8" << { g'4 } \\ { b,8[ c] } >> \clef bass b a
     g f16 g a8 g f d g f
-    es d16 es f8 es d c b4
-    \clef "treble_8" r4 b'8. a16 g8. f16 e4
-    r c'8. b16 a8. g16 f4 %220
-    \clef treble << { b' } \\ { d,8[ e] } >> \clef "treble_8" d c b \clef bass g,[ g g]
+    es d16 \hA es f8 \hA es d c b4
+    \clef "treble_8" r4 b'8. a16 g8. f16 e4 %215
+    r c'8. b16 a8. g16 f4
+    \clef treble << { b' <f a> <f g>8 } \\ { d8 e d c b } >> \clef bass g,[ g g]
     a8. a16 a4 r8 a a a16 a
-    b4 b r8 b b b16 b
-    c4 b a2
-    b4 g' es c %225
+    b4 b r8 \hA b b b16 b
+    c4 b a2 %220
+    b4 g' es c
     a' a f d
     b' b g e!
     c' c8. b16 a8. g16 f4
-    r b8. a16 g8. f16 e!4
-    r a8. g16 f8. e16 d4~ %230
-    d e a, f'
+    r b8. a16 g8. f16 e!4 %225
+    r a8. g16 f8. e16 d4~ \segnoMark 5
+    d e a, f' \segnoMark 5
     d h g' g
     e c a' \clef "treble_8" c
-    d c2 h4
-    c \clef treble << { d'8 c b a16 b c8 b a } \\ { f2 e4 f8 } >> %235
+    d c2 h4 %230
+    c \clef treble << { d'8 c b a16 b c8 b a } \\ { f2 e4 f8 } >>
     \clef bass f,, f f g8. g16 g4
     r8 g g g16 g a4 a
     r8 a a a16 a b4 a
-    g2 f
-    e d4 d' %240
+    g2 f %235
+    e d4 d'
     e a8 g f e16 f g8 f
     e c << { a'2 gis4 } \\ { f8 e d c16 d e8 d } >>
     c4 a' f d
-    h' h g e
-    c' c a8 h c4~ %245
+    h' h g e %240
+    c' c a8 h c4~
     c h2 a4~
     a g2 fis4
-    << { g4 r r2 } \\ { g,1~
-    \oneVoice g~
+    << { g4 s2. } \\ { g,1~-\tasto
+    \oneVoice g~ %245
+    g~
+    g~
+    g~ \segnoMark 6
+    g~
     g~ %250
     g~
-    g~
-    g~
-    g~
-    \tieDashed g~ %255
-    g2~ g8 \tieSolid } >> \clef treble g''[ g g]
+    g2~ g8 } >> \clef treble g''[ g g]
     << {
-      a8. a16 a4 r8 a a a16 a
+      a8. a16 a4 r8 a a a16 a %253
       h4 h r8
     } \\ {
-      r8 c, c c d8. d16 d4
+      r8 c, c c d8. d16 d4 %253
       r8 d d d16 d e8
     } >> \clef "treble_8" g, g g
-    a \clef bass c,[ c c] d8. d16 d4
-    r8 d d d16 d e4 e %260
+    a \clef bass c,[ c c] d8. d16 d4 %255
+    r8 d d d16 d e4 e
     r8 e4 e8 f4 f
     r8 f4 f8 g4 c
     g2 c,4 g'
-    c g c, r\fermata \bar "|." %264 FINIS
+    c g c, r\fermata \bar "|." %260 finis
   }
 }
 
 QuoniamBassFigures = \figuremode {
-  r8 r1 %162
+  r8 r1 %158
   r
+  r %160
   r
-  r %165
-  <6>2 q
-  q8 <5> <6 5> <[7]> r4. <6>8
-  q <5> <6 5> <[7]> r4. <6>8
-  r2 <6>
-  r8 <6 5> <\t \t> <[5 3]> <6 4> <5 [3]>4. %170
-  r4. <[7]>8 r2
-  r4. q8 r2
-  <8 _+>4 <4 2>8 <6 4\+> <6>2
-  r4 <4! 2>8 <6 4> <6>2
-  <5>4. \bo <[6]>8 \bc q4 <7> %175
+  <6>4. <4 2>8 <6>2
+  q8 <5> <6 5>4 r4. <6>8
+  q <5> <6 5>4 r4. <6>8
+  r2 <6> %165
+  r8 <6 5> <\t \t> <[5 3]> <6 4> <5 [3]>4.
+  r1
+  <[6]>
+  <8 3>8 <\t _+> <4 2> <6 4\+> <6>4.. \once \bassFigureExtendersOn q16
+  r4 <4[!] 2>8 <6 4> <6>2 %170
+  <5>4. \bo <[6]>8 \bc q4 <7>
   <6> <6 4>8 <7 [3]> r2
   r1
   r
+  r %175
   r
-  r %180
-  <7>2 \bo <[9 4]>4 \bc <[8 3]>
+  <7>2 \bo <[9 4]>4 <8 3>
   r1
-  <7>2 \bo <[9 4]>4 \bc <[8 3]>
-  r2 <5>
-  <6>1 %185
-  r4 <6 4>8 <5> <6>2
+  <7>2 <9 4>4 \bc <[8 3]>
+  r2 <5>4. \bassFigureExtendersOn q8 %180
+  <6>1
+  q4 \bassFigureExtendersOff <6 4>8 <5> <6>2
   <7>1
-  \bo <[4]>8 <3> <7> \bc <[6]> <6 4>4 <\t \t>
-  <\t \t> <7 [3]>2.
-  r1 %190
+  r2 <6 4>4 <\t \t>
+  <\t \t> <7 [3]>2. %185
+  r1
   r
   r
   r
+  r %190
   r
-  r %195
   r
   r2. <6>4
   q2. <6>4
-  q2. \bo <[5 3]>8 \bc <[\t \t]>
-  \bo <[6 5]>2 \bc <[6 _]> %200
-  r4 <6> <6\\>2
-  r4 <6 _+> <6>2
+  q1 %195
+  \bo <[6 5]>2 \bc <[6 _]>
+  <6>4.. \once \bassFigureExtendersOn q16 <6\\>2
+  <6 _>4.. \once \bassFigureExtendersOn q16 <6>2
   r2 <[6 5]>4 <_!>
-  <4>8 <\t> <6>4 <3>2
-  r8 <6>4. <3>2 %205
-  r8 <6>4. <3>8 <4> <6 4>8. <\t 3>16
+  <4>8 <\t> <6>4 <3>2 %200
+  r8 <6>4. <3>2
+  <6>4. \once \bassFigureExtendersOn q8 <3> <4> <6 4> <\t 3>
   <7>4 <6> <7> <6>
   <7> <6\\>2.
-  <6>1
-  <6> %210
-  <6>8 <\t> <6> <5> <2>4 <6>8 <5>
-  <[2]>4 <6>8 <5> <4- 2>4 <6>8 <5->
+  <6>1 %205
+  q
+  q8 <\t> <6> <5> <2>4 <6>8 <5>
+  <2>4 <6>8 <5> <4- 2>4 <6>8 <5->
   <2>4 <6->8 <5> <2>4 <6>8 <5>
-  r4 <3> <6 _-> <\t \t>
-  <6>2. q4 %215
-  q2. <5>8 <[\t]>
+  r4 <3> <6> <6 _-> %210
+  <6>2 q4.. \once \bassFigureExtendersOn q16
+  q2. <5>4
   <6 5 [_-]>4 <3> <6 5> <_->
-  <6 5-> r <6->2
-  r4 <6> <6! [_-]> <[5-]>
-  r <6> q2 %220
-  r4 \bo <[5 3]>8 <\t \t> \bc <[6 5]> <7 _-> <6 \t>4
+  <6 5[-]>2 <6->
+  <6>4.. \bassFigureExtendersOn q16 \bo <6! [_-]>4.. \bc q16 %215
+  <6>4.. q16 \bassFigureExtendersOff <6>2
+  r2 r8 <7 _-> <6 \t>4
   <6>1
-  r2. <6>4
-  <_->4 \bo <[6]>8 \bc <[5]> <7 5->4 <6 \t>
-  r \bo <[_-]> <5-> \bc <[_-]> %225
+  r2. q4
+  <5 _->8 <6 \t> <8 6> <_ 5> <7 5->4 <6 \t> %220
+  r \bo <[_-]> <5-> \bc <[_-]>
   <5->1
   r2 <[_-]>4 <5->
   r2 <6>
-  r4 <10 5> <6! [_-]>2
-  r4 <10 5!> <6>2 %230
+  <10 5>4.. \once \bassFigureExtendersOn q16 <6! [_-]>2 %225
+  <10 5!>4.. \once \bassFigureExtendersOn q16 <6>2
   <6!>4 <_+>2 <5>4
   <6>1
-  <6>
-  <5>8 <6> <8> <6> <2>4 \bo <[6]>8 \bc <[5]>
-  r1 %235
-  r8 <6>4. <_->2
-  r8 <6 _->4. r2
-  r8 <6>4. <3>8 <4> <6>4
-  <7 _-> <6 \t> <7> <6>
-  <7> <6\\> <5 3>4. <6! \t>8 %240
+  q
+  <5>8 <6> <8> <6> <2>4 \bo <[6]>8 \bc <[5]> %230
+  r1
+  r4 <6> <_->2
+  <6 _->4.. \once \bassFigureExtendersOn q16 r2
+  <6>4.. \once \bassFigureExtendersOn q16 <3>8 <4> <6>4
+  <7 _-> <6 \t> <7> <6> %235
+  <7> <6\\> <5 3>4. <6! \t>8
   <9 6>2 <[6 5]>
   <6>1
-  <6>2 q
-  r <6>
-  r <6> %245
+  q2 q
+  r q %240
+  r q
   <2>4 \bo <6 [4]>8 \bc <5 [3]> <2>4 <6>8 <5>
   <2>4 \bo <6 [4]>8 \bc <5 [3]> <2>4 <6>8 <5>
   r1
+  r %245
+  r
+  r
+  r
   r
   r %250
   r
   r
   r
-  r
-  r %255
-  r
-  r
   r2 r8 <6 3>4.
-  r8 <6>2..
-  r8 <6>4. <5>2 %260
-  r8 <6>2..
-  r8 <6 3> <\t 4>4 <7>2
+  r8 <6>2.. %255
+  <6>4.. \once \bassFigureExtendersOn q16 <5>2
+  <6>4. \once \bassFigureExtendersOn q8 r2
+  <6>8 \bassFigureExtendersOn <6 3> <6 4>4 \bassFigureExtendersOff <7>2
   <4>4 <3>2.
-  r1 %264 FINIS
+  r1 %260 finis
 }
 
 CredoOrgano = {
@@ -1552,7 +1552,7 @@ EtResurrexitOrgano = {
     a, c f a g, h e g
     f, a d f e, g c e
     d d' d, c h d g, h
-    c c' g g, c4 r\fermata \bar "|." %260 FINIS
+    c c' g g, c4 r\fermata \bar "|." %260 finis
   }
 }
 
@@ -1681,7 +1681,7 @@ EtResurrexitBassFigures = \figuremode {
   q q
   q q
   q <[6 5]>
-  r1 %260 FINIS
+  r1 %260 finis
 }
 
 SanctusOrgano = {
@@ -1729,7 +1729,7 @@ SanctusOrgano = {
     g-! \clef bass g,[ g g g g]
     e4 c r %40
     r8 g' g g g g
-    c4 c, r\fermata \bar "|." %42 FINIS
+    c4 c, r\fermata \bar "|." %42 finis
   }
 }
 
@@ -1775,7 +1775,7 @@ SanctusBassFigures = \figuremode {
   r
   <[6]> %40
   r8 <7> r2
-  r2. %42 FINIS
+  r2. %42 finis
 }
 
 BenedictusOrgano = {
@@ -1908,7 +1908,7 @@ BenedictusOrgano = {
     g-! \clef bass g,[ g g g g]
     e4 c r %125
     r8 g' g g g g
-    c4 c, r\fermata \bar "|." %127 FINIS
+    c4 c, r\fermata \bar "|." %127 finis
   }
 }
 
@@ -2039,7 +2039,7 @@ BenedictusBassFigures = \figuremode {
   r8 <7> r2
   <[6]>2. %125
   r8 <7> r2
-  r2. %127 FINIS
+  r2. %127 finis
 }
 
 AgnusDeiOrgano = {
@@ -2197,7 +2197,7 @@ DonaOrgano = {
     c\pp c c c
     c4 r
     c r
-    c2\fermata \bar "|." %115 FINIS
+    c2\fermata \bar "|." %115 finis
   }
 }
 
@@ -2256,5 +2256,5 @@ DonaBassFigures = \figuremode {
   r
   <6>
   <7> %100
-  r2*15 %115 FINIS
+  r2*15 %115 finis
 }

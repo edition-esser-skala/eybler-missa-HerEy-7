@@ -414,110 +414,117 @@ QuiTollisFagottoI = {
   }
 }
 
-QuoniamFagottoI = {
+QuoniamFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 g'8\f c8.\trillE d16 e8 e, a8.\trillE h16 c8 c,
+      \set Score.currentBarNumber = #158
+    \partial 8 g'8\f c8.\trill d16 e8 e, a8.\trill h16 c8 c,
     f e d c g' g, r a'
-    d8.\trillE e16 f8 f, b8.\trillE c16 d8 d,
-    g f e d a' a, r4 %165
+    d8.\trill e16 f8 f, b8.\trill c16 d8 d, %160
+    g f e d a' a, r4
     f'8 e d f e d c e
     d c h g c c'16 h c8 e,
     d c h g c c'16 h c8 e,
-    f c' a f e g c e
-    d h c c, g g' d h %170
+    f c' a f e g c e %165
+    d h c c, g g' d h
     g d'' h g c g e c
-    g d'' h g c g e c
+    h d' h g c g e c
     a a'16 g a8 g f e d16 c h a
-    g8 g'16 f g8 f e d c16 e g c
-    d8 d, d' c h d g, c %175
+    g8 g'16 f g8 f e d c16 e g c %170
+    d8 d, d' c h d g, c
     f, d g g, c4 r
-    r2 r4 r8 g'
-    c8.\trillE d16 e8 e, a8.\trillE h16 c8 c,
-    f e d c g' g, r4
-    \pa g'4\p c8 e g2 %180
-    f f4 e
-    g, c8 e g2
-    f f4 e \pd
-    r2 f,4\f a8 c
-    a,4 c8 f a2~ %185
+    r2 r4 r8 g'\f
+    c8.\trill d16 e8 e, a8.\trill h16 c8 c,
+    f e d c g' g, r4 %175
+    \clef "treble_8" << {
+      g'4\p c8 e g2
+      f~ f4 r
+      g, c8 e g2
+      f~ f4 e
+    } \\ {
+      R1 %176
+      h2\p c4 c,
+      R1
+      h'2 c4 c,
+    } >>
+    \clef bass r2 f4\f a8 c %180
+    a,4 c8 f a2~
     a4 g8 f e\p r e r
     gis r gis r a r a r
     d, r f r g r g r
-    g, r g r c4 r
-    R1*3 %192
-    r2 r8 g'\f g g
-    a8. a16 a4 r8 a a a16 a
-    h4 h r8 h h h16 h %195
-    c4 h a2\trill
+    g, r g r c4 r %185
+    R1*3
+    r2 \clef "treble_8" r8 g'\fE g g
+    a8. a16 a4 r8 a a a16 a %190
+    h4 h r8 h h h16 h
+    c4\trill h a2
     g4 a f d
     h' h g e
-    c' c a8 h c4~
-    c h c r %200
+    c' c a8 h c4~ %195
+    c h c r
     r c8. h16 a8. g16 fis4
     r d'8. c16 h8. a16 g4
     r e' c d
-    g, r r2
-    R1*3 %207
+    g, r r2 %200
+    R1*3
     r2 r8 a a a
-    h8. h16 h4 r8 h h h16 h
-    c4 c r8 c c c16 c %210
-    d4 c^\critnote h2
+    h8. h16 h4 r8 h h h16 h %205
+    c4 c r8 c c c16 c
+    d4 c h2
     a g
     f e
-    d4 b' g e
-    c' c a f %215
+    d4 b' g e %210
+    c' c a f
     d' d b8 c d4~
     d c2 b4~
     b a b r
-    r b8. a16 g8. f16 e!4
-    r c'8. b16 a8. g16 f4 %220
-    r d'8 c b a16 b c8 b
+    r b8. a16 g8. f16 e!4 %215
+    r c'8. b16 a8. g16 f4
+    r d'8 c b a16 \hA b c8 \hA b
     a g f4 r2
     R1
-    r4 g'8 f es d16 es f8 es
-    d c b4 r es8. d16 %225
+    r4 g'8 f es8 d16 \hA es f8 \hA es %220
+    d c b4 r es8. d16
     c8. b16 a4 r f'8. es16
     d8. c16 b4 r g'8. f16
     e!8. d16 c4 r2
-    f8. e16 d8. c16 b4 r
-    e8. d16 c8. b16 a4 r %230
-    r e'8. d16 c8 a a a
-    h8. h16 h4 r8 h h h16 h
+    f8. e!16 d8. c16 b4 r %225
+    e!8. d16 c8. b16 a4 r
+    r4 e'8. d16 c8 a a a
+    h!8. h16 h4 r8 h h h16 h
     c4 c r8 c c c16 c
-    d4 c2 h4
-    c r r2 %235
+    d4 c c h %230
+    c r r2
     r8 a a a b8. b16 b4
     r8 b b b16 b c4 c
     r8 c c c16 c d4 c
-    b8 a16 b c8 b a f b a
-    g f16 g a8 g f g a h %240
+    b8 a16 \hA b c8 \hA b a f \hA b a %235
+    g f16 g a8 g f g a h
     c g c2 h4
     c a2 gis4
     a r r f'8. e16
-    d8. c16 h4 r g'8. f16
-    e8. d16 c4 r r8 c %245
+    d8. c16 h4 r g'8. f16 %240
+    e8. d16 c4 r r8 c
     d c16 d e8 d c4 r8 c
     h a16 h c8 h a2
     g4 r r8 c c c
-    d8. d16 d4 r8 h h h16 h
-    c4 c r8 a a a16 a %250
+    d8. d16 d4 r8 h h h16 h %245
+    c4 c r8 a a a16 a
     h4 h g2
     a4 r r d
     h g c c8. h16
-    a8. g16 f4 r h8. a16
-    g8. f16 e4 r e'8. d16 %255
+    a8. g16 f4 r h8. a16 %250
+    g8. f16 e4 r e'8. d16
     c8. h16 a4 r2
     R1
     r2 r8 g g g
-    a8. a16 a4 r8 a a a16 a
-    h4 h r8 h4 h8 %260
+    a8. a16 a4 r8 a a a16 a %255
+    h4 h r8 h4 h8
     c4 c r f8. e16
     d8. c16 h8. a16 g4 g
-    g2 g4 \pa h
-    c h c \pd r\fermata \bar "|." %264 FINIS
+    g2 g4 h
+    c h c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -796,7 +803,7 @@ EtResurrexitFagottoI = {
     a, c f a g, h e g
     f, a d f e, g c e
     d d' d, c h d g, h
-    c c' g g, c4 r\fermata \bar "|." %260 FINIS
+    c c' g g, c4 r\fermata \bar "|." %260 finis
   }
 }
 
@@ -845,7 +852,7 @@ SanctusFagottoI = {
     g2.
     c,4 r r %40
     f2.
-    e4 c r\fermata \bar "|." %42 FINIS
+    e4 c r\fermata \bar "|." %42 finis
   }
 }
 
@@ -974,7 +981,7 @@ BenedictusFagottoI = {
     g2.
     c,4 r r %125
     f2.
-    e4 c r\fermata \bar "|." %127 FINIS
+    e4 c r\fermata \bar "|." %127 finis
   }
 }
 
@@ -1088,6 +1095,6 @@ DonaFagottoI = {
     g4.\pp f8
     e4 r
     R2
-    R\fermata \bar "|." %115 FINIS
+    R\fermata \bar "|." %115 finis
   }
 }

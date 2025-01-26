@@ -127,67 +127,57 @@ GloriaTimpani = {
   }
 }
 
-QuiTollisTimpani = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \tempoQuiTollis
-      \set Score.currentBarNumber = #127
-    R1*30 %160
-    R1\fermata \bar "||" %161 finis
-  }
-}
-
 QuoniamTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoQuoniam
-      \set Score.currentBarNumber = #162
-    \partial 8 r8 R1*5 %166
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 R1*5 %162
     r4 r8 g\fE c4 r8 c
     g4 r8 g c4 r
-    c8 c16 c c c c c c4 r
-    g8 g16 g g8 c g4 r %170
+    c8 c16 c c c c c c4 r %165
+    g8 g16 g g8 c g4 r
     g r8 g c4 r8 c
     g4 r8 g c4 r
-    R1*2
-    r2 g4 g8 c %175
+    R1*2 %170
+    r2 g4 g8 c
     r4 r8 g c4 r
-    R1*4 %180
+    R1*4 %176
     g4\p r c r
     R1
     g4 r c r
-    R1*2 %185
+    R1*2 %181
     c4\f c8 c c r r4
     R1*2
-    r2 c4 r
-    R1*7 %196
+    r2 c4 r %185
+    R1*7 %192
     c4 r r2
-    R1*2
-    r4 g c r %200
+    R1*2 %195
+    r4 g c r
     R1*3
-    c4 r r2
-    R1*27 %231
+    c4 r r2 %200
+    R1*27 %227
     r2 g
     c4 r r2
-    R1*9 %242
+    R1*9 %238
     c4 r r2
-    R1
-    c4 r r2 %245
+    R1 %240
+    c4 r r2
     R1*2
+    g4 r r2
+    g4 r r2 %245
+    g4 r r2
+    g4 r r2
     g4 r r2
     g4 r r2
     g4 r r2 %250
     g4 r r2
     g4 r r2
-    g4 r r2
-    g4 r r2
-    g4 r r2 %255
-    g4 r r2
-    R1*4 %260
+    R1*4 %256
     r4 c c r
     r2 g4 c
     g8 g16 g g8 g c4 g
-    c g c r\fermata \bar "|." %264 FINIS
+    c g c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -281,7 +271,7 @@ EtResurrexitTimpani = {
     c8 g c4 g r
     R1*2
     r2 g4 g8 g
-    c c g4 c r\fermata \bar "|." %260 FINIS
+    c c g4 c r\fermata \bar "|." %260 finis
   }
 }
 
@@ -318,7 +308,7 @@ SanctusTimpani = {
     r8 g g g g g
     c4 r r %40
     r8 g16 g g8 g g g
-    c4 r r\fermata \bar "|." %42 FINIS
+    c4 r r\fermata \bar "|." %42 finis
   }
 }
 
@@ -336,7 +326,7 @@ BenedictusTimpani = {
     r8 g g g g g
     c4 r r %125
     r8 g16 g g8 g g g
-    c4 r r\fermata \bar "|." %127 FINIS
+    c4 r r\fermata \bar "|." %127 finis
   }
 }
 
@@ -374,6 +364,6 @@ DonaTimpani = {
     g4 g8. g16 %100
     c4 r
     R2*13 %114
-    R2\fermata \bar "|." %115 FINIS
+    R2\fermata \bar "|." %115 finis
   }
 }
