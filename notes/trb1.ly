@@ -4,7 +4,7 @@ KyrieTromboneI = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*6 %7
     d4\pE\cresc fis a
     g8 a h4 r
@@ -195,7 +195,7 @@ KyrieOldTromboneI = {
     d r r
     c2 c8 h %155
     h4 r r
-    R2.*4 \segnoMark \default \bar "|" %160 finis
+    R2.*4 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -430,15 +430,15 @@ CredoTromboneI = {
     b g a8 a a a %45
     b2 a4 r
     a2 h
-    h4.^\critnote h8 c4 r
+    h4. h8 c4 r
     r c f, a
-    d, f b, \once \tieDashed d~ %50
+    d, f b, d~ %50
     d c8 c h4. h8
     a4 r r2
     e' c
     f e
     R1*2 %56
-    a2 e4 e
+    a2 e4 e8 e
     e4. e8 e4 r
     e e8 e g4 g8 g
     g2 g4 r %60
@@ -465,7 +465,7 @@ EtIncarnatusTromboneI = {
     R2.
     r4 r8 g\pE g g
     g4 r r
-    r r8 \once \slurDashed f'( e es)
+    r r8 f'( e es)
     d4 r r
     R2. %80
     r4 r r8 d
@@ -474,34 +474,34 @@ EtIncarnatusTromboneI = {
     r4 r8 c c c
     c4 r r %85
     r r8 f f f
+    f2.~
     f4 r r
-    f r r
     r8 c c c c c
     c4 r r %90
-    g'2.~\sfpE
-    g4 r r
-    g2.~\sfpE
-    g4 r8 g f e
+    g'2.~\sfp
+    g8 r r4 r
+    g2.~\sfp
+    g8 r r g f e
     a2. %95
     g
     f4. e8 d c
     h4 c r
     R2.*4 %102
-    g'2\sfpE r4
+    g'2\sfp r4
     R2.
-    g2\sfpE r4 %105
-    e2 d4
-    c c\ppE c
+    g2\sfp r4 %105
+    e2\p d4
+    c c c
     c r r
     R2.
-    es2.~\fE %110
+    es2.~\f %110
     es4 es es
     g2.~
     g4 g g
     as2.~
-    as4 d, g~ %115
+    as4 d, g %115
     g2.~
-    g4 c, \once \tieDashed f~
+    g4 c, f
     f2.
     g
     g2 c,4 %120
@@ -509,16 +509,16 @@ EtIncarnatusTromboneI = {
     g2.
     as4 r r
     f2.
-    ges4-\critnote r r %125
-    ges2\fzE r4
-    a!2\fzE r4
-    g2\fzE r4
-    g2\pE r4
-    R2. %130
-    es4 f fis
+    ges4 r r %125
+    ges2\sfz r4
+    a!2\sfz r4
+    g2\sfz r4
+    R2.
+    r4 g\pE f %130
+    es f fis
     g r fis
     g f es
-    d d8.[-\critnote es16 d8. es16]
+    d d8.[ es16 d8. es16]
     d2.\fermata \bar "||" %135 finis
   }
 }
@@ -529,8 +529,8 @@ EtResurrexitTromboneI = {
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
     d2\fE d4 d
-    d4. e8 fis4 fis
-    e2 e4 e
+    d4. e8 fis2
+    e e4 e
     e4. fis8 gis4 gis
     fis2 fis4 fis %140
     fis fis r2
@@ -539,15 +539,15 @@ EtResurrexitTromboneI = {
     fis
     a
     gis
-    r4 c, e a %150
-    r d, f a
+    r4 c,! e a %150
+    r d, f! a
     r gis8 a h2
     a4 e g2
     f!4 r r a
     b g e d %155
     cis8 e a4 r2
     R1
-    g
+    g1
     a
     c %160
     h2 r
@@ -562,25 +562,25 @@ EtResurrexitTromboneI = {
     d' h %170
     e d
     R1*2
-    r2 r4 es,\ff
+    r2 r4 es,\f
     des4. des8 c4 r %175
-    r2 r4 f-\critnote
-    es4. es8 d4 r
-    r2 r4 g-\critnote
+    r2 r4 es
+    es4. es8 d!4 r
+    r2 r4 f
     f4. f8 es4 r
     r2 g %180
     c es
-    c \once \tieDashed g~
+    c g~
     g c,
-    r2 \tempoEtMortuos r
+    r \tempoEtMortuos r
     R1 %185
     r2\fermata \tempoCuiusRegni r
     e!4\fE e e2
-    d4 f g2-\critnote
-    g g
+    d4 f g2~
+    g4 g g2
     g4 d e g %190
     a2 f4 a
-    d2 g,4 h
+    h2 g4 h
     c2 a4 a
     g g g2
     g4 r r2 %195
@@ -590,8 +590,8 @@ EtResurrexitTromboneI = {
     r2 gis4 gis
     a a8 a a4 a %200
     a4. a8 a4 r
-    r e4. e8 e4
-    e e r e8 a
+    r e4. e8 e e
+    e4 e r e8 a
     a2 a
     f f %205
     g4 f8 g f4 e
@@ -600,9 +600,9 @@ EtResurrexitTromboneI = {
     d c
     R1 %210
     r2 e,4 e
-    f f g4. g8
+    f f8 f g4. g8
     f4 r f f
-    f-\critnote f f2
+    f f f2
     f4 r8 f g4 g %215
     f f es2
     d g4 g
@@ -616,27 +616,27 @@ EtResurrexitTromboneI = {
     es d %225
     R1
     r2 r4 r8 g
-    c4 c c c
+    c4 c c c8 c
     c4. b8 a4 r8 a
-    d4 d d2 %230
+    d4 d d8 d d d %230
     d4. c8 h!4 r8 h
-    e4 e e2
-    e c4 r
+    e4 e8 e e4 e8 e
+    e2 c4 r
     R1*3 %236
-    e,2 e
-    a gis
+    e,2\f e
+    a gis \segnoMark 1
     a e
     f c %240
     d4 d g g
-    g1
-    R
+    g2 g
+    R1
     r2 r4 g\f
     g2 g4 g %245
-    g1
-    a2 h4 e,
-    f2 g
-    g4 g2 g4
-    g g2 g4 %250
+    g2 g4 g
+    a2 h4 e,4
+    f2 g4 g
+    g g g g8 g
+    g2 g4 g %250
     g g g2
     e4 r r2
     g e
@@ -644,7 +644,298 @@ EtResurrexitTromboneI = {
     R1*3 %257
     a2 g
     r4 g2 g4
-    g g e r\fermata \bar "|." %260 finis
+    g8 g g4 e r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1
+    a'2 g %240
+    r g4 g
+    g8 g g4 e r
+    g2 e
+    a g
+    d4. e16 f g a h c d8 h \noBreak %245
+    g4 g r2\fermata
+    \tempoMortuorum r4 g2 f8 es \noBreak
+    d es f2 \hA es8 d
+    c d es2 d8 c
+    h! c d4 g, c8 d \noBreak %250
+    es4 d8 c d4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 R2 \noBreak
+    r4 f~\fE
+    f d
+    r g~ %255
+    g e
+    R2*2
+    r4 c
+    g'2 %260
+    e4 e
+    a2
+    fis4 fis
+    h h
+    g a8 h %265
+    a2\trill
+    g4 r
+    r8 c, d e
+    f!4. e8
+    d d e f %270
+    g4. f8
+    e e f g
+    a g f e
+    f e16 f g8 f
+    e d c4 %275
+    r g'
+    c, r
+    r a'
+    d, r r
+    h' %280
+    e,8 fis g4~
+    g fis
+    g r
+    r8 e fis g
+    a4. g8 %285
+    fis d e \hA fis
+    g4. fis8
+    e4 r
+    r h
+    e2 %290
+    c4 c
+    fis2
+    d4 d
+    g g
+    e fis8 g %295
+    a2
+    fis4 r
+    R2
+    r8 e f! g
+    a4. g8 %300
+    f f g a
+    h4. a8
+    g g a h
+    c h a4~
+    a h8 a %305
+    gis2
+    a8 c, d e
+    f4. e8
+    d h c d
+    e4. d8 %310
+    c a h c
+    d e f4~
+    f8 h, e d
+    c4 r
+    r a'~ %315
+    a f
+    d r
+    g2
+    e4 c
+    r f~ %320
+    f d
+    h r
+    e2
+    c4 a
+    r d %325
+    g2
+    e4 e
+    a2
+    f4 f
+    b b %330
+    g a8 b
+    c4. b8
+    a f g a
+    b4. a8
+    g g a b %335
+    c4. b8
+    a a b c
+    d c b a
+    b a16 \hA b c8 \hA b
+    a g16 a b8 a %340
+    g f16 g a8 g
+    f d8 e f
+    g4. f8
+    e e f g
+    a4. g8 %345
+    f f g a
+    b a g f
+    g f16 g a8 g
+    f g a4~
+    a gis %350
+    a8 c, d e
+    f4. e8
+    d d e f
+    g4. f8
+    e e f g %355
+    a g f e
+    d2
+    c4 r
+    r f~
+    f d %360
+    r g~
+    g e
+    R2*4 %366
+    r8 e f g
+    a4. g8
+    f d e f
+    g4. f8 %370
+    e c d e
+    f4. e8
+    d4 r
+    r8 c d e
+    f4. e8 %375
+    d d e f
+    g4. f8
+    e e f g
+    a h c4~
+    c h~ %380
+    h a~
+    a g~
+    g f~
+    f e8 d
+    c h16 c d8 c %385
+    h h c d
+    e4. d8
+    c c d e
+    fis4. e8
+    d d e fis %390
+    g4. fis8
+    e4. fis16 g
+    a8 g fis e
+    d4. e16 fis
+    g8 fis e d %395
+    c4 a'~
+    a8 d, g4~
+    g fis~
+    fis8 h, e4~
+    e d %400
+    c8 e f! g
+    a4. g8
+    f f g a
+    h4. a8
+    g g a h %405
+    c g c4~
+    c h
+    c r
+    r8 a h c
+    d4. c8 %410
+    h g a h
+    c4. h8
+    a f g a
+    h4. a8
+    gis4 a~ %415
+    a gis
+    a r
+    R2*2
+    r4 h, %420
+    e2
+    c4 c
+    fis2
+    d4 d
+    g g %425
+    e f!8 g
+    a2~
+    a8 g f4
+    e2
+    d4 f %430
+    b2
+    g4 g
+    c2
+    a4 a
+    d d %435
+    b a8 \hA b
+    g e f g
+    a f g a
+    b a g4~
+    g8 a16 b c8 \hA b %440
+    a g f4~
+    f e
+    f8 e d4~
+    d cis
+    d r %445
+    R2
+    r4 b~
+    b es~
+    es c~
+    c f~ %450
+    f d~
+    d g
+    c, c'8 c
+    c4 b
+    a2 %455
+    g4 r
+    r8 c, d e
+    f!4. e8
+    d d e f
+    g4. f8 %460
+    e e f g
+    a c, d e
+    f a, h! cis
+    d e f4
+    e2 %465
+    d4 d
+    g2
+    e4 e
+    a2
+    f4 f %470
+    h! h
+    g a8 h
+    c2
+    a4 r
+    R2*2 %476
+    r4 c~
+    c a
+    f r
+    h!2 %480
+    g4 e
+    r a~
+    a f
+    d r
+    g2 %485
+    e4 c
+    r f~
+    f d~
+    d g~
+    g e %490
+    R2*2
+    r4 g
+    d2
+    f4 f %495
+    c2
+    e4 e
+    h h
+    d d8 d
+    a2 %500
+    c4 r
+    r8 e d c
+    h4. d8
+    f f e d
+    c4. e8 %505
+    g4 r
+    R2
+    r8 a g f
+    e4. f8
+    g g f e %510
+    d h c d
+    e c d e
+    f d e f
+    g4 a
+    a g %515
+    g r
+    r c,\f
+    f2
+    d4 d
+    g2 %520
+    e4 e
+    a a
+    f e8 e
+    f2~
+    f %525
+    e~
+    e\fermata \bar "|." %527 finis
   }
 }
 

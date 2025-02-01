@@ -4,7 +4,7 @@ KyrieClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*12 %13
     c'2.~\fE
     c4 g r %15
@@ -70,7 +70,7 @@ KyrieOldClarinoII = {
     g4 r r
     r8 g\pp g g g g
     g4 r r %155
-    R2.*5 \segnoMark \default \bar "|" %160 finis
+    R2.*5 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -201,8 +201,8 @@ CredoClarinoII = {
     d' c4 r
     R1 %20
     r2 g4 g
-    e e g g
-    c r r2
+    e e g2
+    c4 r r2
     e,4 r r2
     R1 %25
     e4 r r2
@@ -211,7 +211,7 @@ CredoClarinoII = {
     g2 c4 c
     d2 c4 r
     c,8 c16 c c8 c c c c c %35
-    c2 c4 r
+    c2~ c4 r
     R1*8 %44
     c4 c8 c c4 c %45
     c8 c16 c c8 c c4 r
@@ -226,7 +226,7 @@ CredoClarinoII = {
     g4 c g r %60
     R1*2
     g1~
-    g4. g16 g g4 g
+    g4 g8. g16 g4 g
     c c g2 %65
     c4 c2 g4
     c, r c r
@@ -245,7 +245,7 @@ EtResurrexitClarinoII = {
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
     R1*26 %161
-    c'1\f
+    c'1\fE
     g4 r r2
     R1*2 %165
     c1
@@ -255,7 +255,7 @@ EtResurrexitClarinoII = {
     R1*3 %172
     r2 g,4 r
     R1*5 %178
-    r2 c4\ff r
+    r2 c4\f r
     c r c r %180
     c r c r
     c r c r8 c16 c
@@ -280,20 +280,123 @@ EtResurrexitClarinoII = {
     R1*2 %231
     e2 e4 e
     e r r2
-    R1*11 %244
+    R1*5 \segnoMark 1 %238
+    R1*6 %244
     e2\f g4 r %245
     g2 c4 r
     R1*3
     g2. g4 %250
     c c2 g4
     e r r2
-    c4 r c_\critnote r
+    c4 r c r
     c r c r
     r2 r4 g' %255
     c8 g e c g'4 r
     R1*2
     r2 g
     c8 c g4 e r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1*2 %240
+    r2 g'
+    c4 g e r
+    c r c r
+    c r c r
+    r2 r4 g' \noBreak %245
+    c, r r2\fermata
+    \tempoMortuorum R1*4 \noBreak %250
+    r2 r4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 R2*23 %274
+    r4 c %275
+    g'2
+    e4 r
+    R2*5 %282
+    g,4 r
+    c r
+    R2*13 %297
+    g'4 g8 g
+    c4 r
+    R2*26 %325
+    r4 g,
+    c r
+    R2*22 %349
+    r4 e8. e16 %350
+    e4 r
+    R2*5 %356
+    r4 g
+    c r
+    R2*7 %365
+    r4 g
+    c r
+    R2*5 %372
+    g2
+    c4 r
+    R2*11 %385
+    g,4 r
+    R2*13 %399
+    r4 g %400
+    e' r
+    R2*5 %406
+    r4 g
+    c r
+    R2*8 %416
+    r4 c~
+    c g
+    c r
+    R2*6 %425
+    r4 c,
+    c r
+    R2*9 %436
+    c4 c8. c16
+    c4 r
+    R2*17 %455
+    g2
+    c4 r
+    R2*17 %474
+    g'2 %475
+    c4 r
+    R2*7 %483
+    g,4 g8. g16
+    g4 r %485
+    R2*7 %492
+    g4 r
+    R2
+    g4 r %495
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %500
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %505
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %510
+    g4 r
+    g r
+    g g8 g
+    e' g c4~
+    c g %515
+    e r
+    c\f r
+    R2*5 %522
+    c4 c
+    c4. c16 c
+    c8 c c c %525
+    c2~
+    c\fermata \bar "|." %527 finis
   }
 }
 

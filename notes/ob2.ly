@@ -4,7 +4,7 @@ KyrieOboeII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*5 %6
     c'2.\p
     fis\cresc
@@ -190,7 +190,7 @@ KyrieOldOboeII = {
     g( gis a e f fis)
     g( d dis e f d)
     h( g gis a b h)
-    c4 r r \segnoMark \default \bar "|" %160 finis
+    c4 r r \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -415,8 +415,8 @@ CredoOboeII = {
     h c %10
     h a
     g4 g2 fis4
-    g2 g4 h
-    c2 h
+    g2 g
+    g2. h4
     a2. h8 a %15
     g2 fis
     a gis
@@ -426,7 +426,7 @@ CredoOboeII = {
     g1
     g
     g2 a
-    h a
+    h a~
     a4 g fis2 %25
     e4 e'2 dis4
     e2 g,
@@ -446,7 +446,7 @@ CredoOboeII = {
     b e4 a,
     a1
     a2 b
-    c b4 g
+    c! b4 g
     g2 a %45
     b a
     d h
@@ -460,13 +460,13 @@ CredoOboeII = {
     f2 h4 e, %55
     e1
     e4 a h gis8[ h]
-    h4 a gis r
+    h4 a\trill gis r
     e'2 d
-    d4 c h h %60
+    d4 c\trill h h %60
     c2 h
     a g
-    g1
-    g2 g8 h c d
+    g1~
+    g2~ g8 h c d
     e4 c2 h4 %65
     c e, d2
     e g
@@ -492,7 +492,7 @@ EtIncarnatusOboeII = {
     b4 r r
     R2. %80
     r4 r r8 g
-    \once \slurDashed f4( e8) r r4
+    f4 e8 r r4
     R2.
     r4 r8 e e e
     e4 r r %85
@@ -510,16 +510,16 @@ EtIncarnatusOboeII = {
     a2 d8 c
     h4 c r
     R2.*4 %102
-    b2\sfp b16 a g f
+    b!2\sfp b16 a g f
     e2 d4
     b'2\sfp b16 a g f %105
-    e2 g8 f
+    e2 \appoggiatura g8 f4
     e4 r r
     R2.*2
     g2.~\f %110
-    g4 g-! g-!
+    g4 g g
     c2.~
-    c4 c-! c-!
+    c4 c c
     es2.
     d %115
     des
@@ -532,16 +532,16 @@ EtIncarnatusOboeII = {
     c4 r r
     ces2.
     b4 r r %125
-    ces2\fz r4
-    es2\fz r4
-    h4\fz h d\p
-    c h a
+    ces2\sfz r4
+    es2\sfz r4
+    h4\sfp h d
+    c h a!
     g g f! %130
     es f fis
     g d' c
     h r fis
     g d8.[ es16 d8. es16]
-    d2.\fermata_\critnote \bar "|." %135 finis
+    d2.\fermata \bar "|." %135 finis
   }
 }
 
@@ -557,7 +557,7 @@ EtResurrexitOboeII = {
     h %140
     fis4 r r2
     R1*12 %153
-    d'1_\critnote
+    d'1
     e %155
     g
     fis2 r4 d
@@ -570,19 +570,19 @@ EtResurrexitOboeII = {
     fis
     g2 r4 g %165
     g1
-    a2_\critnote b
+    a2 b
     h a
     h4 g2 fis4
     g1 %170
     g2. h4
     a2. h8 a
-    g4. fis8 g4 r8 g\ff
-    b4 r8 b es4 r
-    r2 as,4\ff r8 as %175
+    g4. fis8 g4\f r8 g
+    b4 r8 \hA b es4 r
+    r2 as,4 r8 \hA as %175
     c4 r8 c f4 r
-    r2 b,4\ff r8 b
+    r2 b,4 r8 \hA b
     d4 r8 d g4 r
-    r2 c,,4\ff r
+    r2 c,,4\f r
     c r c r %180
     c r c r
     c r c r8 c16 es
@@ -603,12 +603,12 @@ EtResurrexitOboeII = {
     a g
     r4 d'2 c8 h
     a2 gis
-    c1 %200
+    a1 %200
     a4 d c2
     gis8 a h2 a4
     a gis a2
     a c
-    f,_\critnote a %205
+    f, a %205
     g4 f8 g f4 e
     f2. e4
     f1
@@ -618,10 +618,10 @@ EtResurrexitOboeII = {
     f g
     f4 r a2
     b c
-    b4 r b2 %215
+    b4 r \hA b2 %215
     b2. es4
-    d1
-    c2 h!4 r
+    d2 d
+    c h!4 r
     h2 c
     c4 c2 b4 %220
     as2 as4 as8 g
@@ -632,17 +632,17 @@ EtResurrexitOboeII = {
     es2 a
     g1
     g2 f
-    g f4_\critnote r
+    g f4 r
     fis2 g %230
     a g4 r
     gis2 a
-    h a
+    h \after 4 \p a
     g a4 h
     e,2 f4 fis %235
-    e1
-    e
-    a2 gis
-    a_\critnote e
+    \after 2 \cresc e1
+    e\f
+    a2 gis \segnoMark 1
+    r e
     f g %240
     a4 d2 d4
     c2 h
@@ -660,10 +660,290 @@ EtResurrexitOboeII = {
     c1
     a2 d %255
     c g4 h
-    c a_\critnote h g
+    c r h g
     d'2 g,4 e
     h'4. c8 d2
     c4 h\trill c r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    r2 e
+    f g %240
+    a d
+    c4 h c4. h8
+    c2 e,
+    a g
+    f4. g16 a h c d c h4 \noBreak %245
+    c4 r r2\fermata
+    \tempoMortuorum r r4 c~ \noBreak
+    c b8 as g \hA as \hA b4~
+    b as8 g f g \hA as4~
+    as g8 f es f g4~ \noBreak %250
+    g f g\fermata \tempoEtVitam g\f
+    \twofourtime \time 2/4 c2 \noBreak
+    a4 a
+    d2
+    h4 h %255
+    e e
+    c d8 e
+    d2\trill
+    c4 r
+    r8 g a h %260
+    c4. h8
+    a a h c
+    d4. c8
+    h h c d
+    e d c h %265
+    c h16 c d8 c
+    h a g4
+    r c
+    f,! r
+    r d' %270
+    g, r
+    r e'
+    a,8 h c4~
+    c h
+    c r %275
+    R2
+    r4 c~
+    c a
+    r d~
+    d h %280
+    R2*2
+    r8 h c d
+    e4. d8
+    c a h c %285
+    d4. c8
+    h g a h
+    c4. h8
+    a g16 a h8 a
+    g4 e %290
+    a2
+    fis4 fis
+    h2
+    g4 g
+    c c %295
+    a h8 c
+    d2
+    h4 r
+    r8 c d e
+    f!4. e8 %300
+    d d e f
+    g4. f8
+    e e f g
+    a4. g8
+    f e d c %305
+    h2
+    c8 a h c
+    d4. c8
+    h g a h
+    c4. h8 %310
+    a f g a
+    h4. a8
+    gis2
+    a4 r
+    R2 %315
+    r4 d~
+    d h
+    g r
+    c2
+    a4 f %320
+    r h~
+    h g
+    e r
+    c'2
+    a4 f %325
+    r8 h c d
+    e4. d8
+    c c d e
+    f4. e8
+    d d e f %330
+    g4. f8
+    e f g4
+    c, r
+    R2*7 %340
+    r4 a
+    d2
+    b4 b
+    e2
+    c4 c %345
+    f f
+    d e8 f
+    e2~
+    e4 d8 c!
+    h!2 %350
+    a4 r
+    r d~
+    d h
+    r e~
+    e c %355
+    R2*2
+    r4 e,
+    a2
+    f4 f %360
+    h2
+    g4 g
+    c c
+    a h8 c
+    d2 %365
+    g,8 h c d
+    e4. d8
+    c a h c
+    d4. c8
+    h g a h %370
+    c4 r
+    R2
+    r4 h
+    e2
+    c4 c %375
+    f2
+    d4 d
+    g g
+    e e8 e
+    d2 %380
+    c
+    h
+    a
+    g~
+    g4 fis %385
+    h2
+    g4 g
+    c2
+    a4 a
+    d d %390
+    h c8 d
+    e d c h
+    a4. h16 c
+    d8 c h a
+    g4. a16 h %395
+    c8 h16 c d8 c
+    h g c h
+    a g16 a h8 a
+    g e a g
+    f! e16 f g8 f %400
+    e c' d e
+    f4. e8
+    d d e f
+    g4. f8
+    e e f g %405
+    a g f e
+    f e16 f g8 f
+    e d c4
+    R2*8 %416
+    r4 c~
+    c h
+    c e~
+    e dis %420
+    e g,
+    c2
+    a4 a
+    d2
+    h4 h %425
+    e e
+    c d8 e
+    f e d4~
+    d cis
+    d r %430
+    R2*2
+    r4 a~
+    a d~
+    d b~ %435
+    b e~
+    e c~
+    c f
+    d g8 f
+    e2 %440
+    f8 e d c
+    b a16 \hA b c8 \hA b
+    a f b a
+    g f16 g a8 g
+    f d g f %445
+    es d16 \hA es f8 \hA es
+    d b' c d
+    es4. d8
+    c c d es
+    f4. es8 %450
+    d d es f
+    g f es d
+    es d16 \hA es f8 \hA es
+    d c16 d es8 d
+    c b16 c d8 c %455
+    b a g4
+    R2*2
+    r8 f g a
+    b4. a8 %460
+    g g a b
+    c4. b8
+    a4. g8
+    f e! d4~
+    d cis %465
+    d r
+    r g
+    c!2
+    a4 a
+    d2 %470
+    h!4 h
+    e e
+    c d8 e
+    f2
+    d4 g~ %475
+    g e
+    c r
+    f2
+    d4 h
+    r e~ %480
+    e c
+    a r
+    d2
+    h4 g
+    r c~ %485
+    c a
+    f d'~
+    d h
+    g e'~
+    e c %490
+    a a'8 g
+    f e d c
+    h4 r
+    R2*2 %495
+    r4 c~
+    c e~
+    e h~
+    h d~
+    d a~ %500
+    a c
+    c f8 e
+    d2
+    c4 r
+    R2 %505
+    r8 g' f e
+    d4. e8
+    f f e d
+    c4. d8
+    e e d c %510
+    h f' e d
+    c g' f e
+    d a' g f
+    e d c4~
+    c h %515
+    c e,\f
+    a2
+    f4 f
+    h2
+    g4 g %520
+    c2
+    a
+    c4 e
+    f2~
+    f %525
+    e~
+    e\fermata \bar "|." %527 finis
   }
 }
 

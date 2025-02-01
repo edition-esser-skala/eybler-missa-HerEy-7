@@ -376,101 +376,101 @@
   %     \midi { \tempo 4 = 50 }
   %   }
   % }
-  \bookpart {
-    \subsection "Quoniam"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \QuoniamOboeI \QuoniamOboeII
-          >>
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \QuoniamFagottoIeII
-          >>
-        >>
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \QuoniamClarinoI \QuoniamClarinoII
-          >>
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "trb"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuoniamTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuoniamTromboneII
-            }
-          >>
-        >>
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = "timp"
-          \QuoniamTimpani
-        }
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \QuoniamViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \QuoniamViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \QuoniamViola
-          }
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
+  % \bookpart {
+  %   \subsection "Quoniam"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \QuoniamOboeI \QuoniamOboeII
+  %         >>
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \QuoniamFagottoIeII
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine #'(0 . 10) \QuoniamClarinoI \QuoniamClarinoII
+  %         >>
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuoniamTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuoniamTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = "timp"
+  %         \QuoniamTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuoniamViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuoniamViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuoniamViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuoniamSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuoniamSopranoLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
-          }
-          \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \QuoniamAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuoniamAltoLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
-          }
-          \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \QuoniamTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \QuoniamTenoreLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuoniamBasso }
-          }
-          \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
-            % \transpose c c,
-            \QuoniamViolone
-          }
-        >>
-        \new Staff {
-          \set Staff.instrumentName = "org"
-          \QuoniamOrgano
-        }
-        \new FiguredBass { \QuoniamBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 100 }
-    }
-  }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \QuoniamBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \QuoniamBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vlc" "b" }
+  %           % \transpose c c,
+  %           \QuoniamViolone
+  %         }
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "org"
+  %         \QuoniamOrgano
+  %       }
+  %       \new FiguredBass { \QuoniamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   % \bookpart {
   %   \section "3" "Credo"
   %   \addTocEntry
@@ -483,7 +483,7 @@
   %         >>
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-  %           \partCombine #'(0 . 10) \CredoFagottoI \CredoFagottoII
+  %           \CredoFagottoIeII
   %         >>
   %       >>
   %       \new StaffGroup <<
@@ -567,7 +567,7 @@
   %   \addTocEntry
   %   \score { %\articulate
   %     <<
-  %       \new StaffGroup <<
+  %       \new StaffGroup \with { \setGroupDistance #15 #15 } <<
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
   %           \partCombine #'(0 . 10) \EtIncarnatusOboeI \EtIncarnatusOboeII
@@ -578,11 +578,6 @@
   %         >>
   %       >>
   %       \new StaffGroup <<
-  %         \new Staff \with { \smallStaffDistance } <<
-  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
-  %           % \transpose c f,
-  %           \partCombine #'(0 . 10) \EtIncarnatusCornoI \EtIncarnatusCornoII
-  %         >>
   %         \new GrandStaff <<
   %           \set GrandStaff.instrumentName = "trb"
   %           \new Staff {
@@ -662,7 +657,7 @@
   %         >>
   %         \new Staff <<
   %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-  %           \partCombine #'(0 . 10) \EtResurrexitFagottoI \EtResurrexitFagottoII
+  %           \EtResurrexitFagottoIeII
   %         >>
   %       >>
   %       \new StaffGroup <<
@@ -738,9 +733,100 @@
   %       \new FiguredBass { \EtResurrexitBassFigures }
   %     >>
   %     \layout { }
-  %     \midi { \tempo 4 = 120 } % 60 – 120
+  %     \midi { \tempo 4 = 110 } % 55 – 110
   %   }
   % }
+  \bookpart {
+    \section "3a" "Credo finale (1797 version)"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \CredoOldOboeI \CredoOldOboeII
+          >>
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+            \CredoOldFagottoIeII
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine #'(0 . 10) \CredoOldClarinoI \CredoOldClarinoII
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CredoOldTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CredoOldTromboneII
+            }
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \CredoOldTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CredoOldViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CredoOldViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \CredoOldViola
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \CredoOldSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \CredoOldSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \CredoOldAlto }
+          }
+          \new Lyrics \lyricsto Alto \CredoOldAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CredoOldTenore }
+          }
+          \new Lyrics \lyricsto Tenore \CredoOldTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CredoOldBasso }
+          }
+          \new Lyrics \lyricsto Basso \CredoOldBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "vlc" "b" }
+            % \transpose c c,
+            \CredoOldOrgano
+          }
+        >>
+        \new FiguredBass { \CredoOldBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 110 } % 55 – 120
+    }
+  }
   % \bookpart {
   %   \section "4" "Sanctus"
   %   \addTocEntry

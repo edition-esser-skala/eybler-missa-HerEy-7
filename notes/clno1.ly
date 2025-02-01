@@ -4,7 +4,7 @@ KyrieClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*12 %13
     e'2.\fE
     d2 r4 %15
@@ -70,7 +70,7 @@ KyrieOldClarinoI = {
     g4 r r
     r8 g\pp g g g g
     g4 r r %155
-    R2.*5 \segnoMark \default \bar "|" %160 finis
+    R2.*5 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -183,10 +183,10 @@ CredoClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCredo
-    c4\f r c r
+    c'4\f r c r
     c r c r
-    r2 r4 d'
-    \partCombineChords e8 d c e \pd d4 r
+    r2 r4 d
+    e8 d c e d4 r
     R1 %5
     g,4 r r2
     R1
@@ -211,7 +211,7 @@ CredoClarinoI = {
     d2 e4 e
     f2 e4 r
     c8 c16 c c8 c c c c c %35
-    c2 c4 r
+    c2~ c4 r
     R1*8 %44
     c4 c8 c c4 c %45
     c8 c16 c c8 c c4 r
@@ -220,19 +220,19 @@ CredoClarinoI = {
     R1
     \pao e4 r r2
     R1*2 %55
-    e8 e16 e e8 e e4 r
+    \pa e8 e16 e e8 e e4 \pd r
     R1*2
-    c'2 d4 d
-    d e d r %60
+    c'2 d4 d8 d
+    d4 e d r %60
     R1*2
-    \once \tieDashed d1~
-    d4. d16 d \pa g,4 g \pd
-    e' e d2 %65
-    e4 e d2
+    d1~
+    d4 d8. d16 d4 d
+    e e d2 %65
+    e4 e d2\trill
     c4 r c r
     c r c r
     r2 r4 d
-    \partCombineChords e8 d c e \pd d4 r %70
+    e8 d c e d4 r %70
     R1*2
     r2 d
     e8 e d4 c r\fermata \bar "||" %74 finis
@@ -245,7 +245,7 @@ EtResurrexitClarinoI = {
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
     R1*26 %161
-    e'1\f
+    e'1\fE
     d4 r r2
     R1*2 %165
     e1
@@ -255,7 +255,7 @@ EtResurrexitClarinoI = {
     R1*3 %172
     r2 g,4 r
     R1*5 %178
-    r2 c,4 \ff r
+    r2 c,4 \f r
     c r c r %180
     c r c r
     c r c r8 c16 c
@@ -278,9 +278,10 @@ EtResurrexitClarinoI = {
     c4 r r2
     c4 r r2
     R1*2 %231
-    e,2 e4 e
-    e r r2
-    R1*11 %244
+    \pa e,2 e4 e
+    e \pd r r2
+    R1*5 \segnoMark 1 %238
+    R1*6 %244
     c'2\f d4 r %245
     d2 e4 r
     R1*3
@@ -290,10 +291,111 @@ EtResurrexitClarinoI = {
     c4 r c r
     c r c r
     r2 r4 d %255
-    \partCombineChords e8 d c e \pd d4 r
+    e8 d c e d4 r
     R1*2
     r2 d
     e8 e d4 c r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1*2 %240
+    r2 d'
+    e4 d c r
+    c r c r
+    c r c r
+    r2 r4 d \noBreak %245
+    c r r2\fermata
+    \tempoMortuorum R1*4 \noBreak %250
+    r2 r4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 R2*23 %274
+    r4 \pa c,  %275
+    g'2 %
+    e4 \pd r
+    R2*5 %282
+    g4 r
+    e r
+    R2*13 %297
+    d'4 d8 d e4 r
+    R2*26 %325
+    r4 g,
+    e r
+    R2*22 %349
+    r4 \pa e8. e16 %350
+    e4 \pd r
+    R2*5 %356
+    r4 d'
+    e r
+    R2*7 %365
+    r4 d
+    e r
+    R2*5 %372
+    d2
+    e4 r
+    R2*11 %385
+    g,4 r
+    R2*13 %399
+    r4 g %400
+    c r
+    R2*5 %406
+    r4 d
+    e r
+    R2*8 %416
+    r4 c
+    d2
+    e4 r
+    R2*6 %425
+    r4 c
+    c r
+    R2*9 %436
+    c4 c8. c16
+    c4 r
+    R2*17 %455
+    g2
+    \pao c,4 r
+    R2*17 %474
+    d'2 %475
+    e4 r
+    R2*7 %483
+    g,4 g8. g16
+    g4 r %485
+    R2*7 %492
+    g4 r
+    R2
+    g4 r %495
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %500
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %505
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %510
+    g4 r
+    g r
+    g g8 g
+    c d e4
+    d2\trill %515
+    c4 r
+    c\f r
+    R2*5 %522
+    c4 c
+    c4. c16 c
+    c8 c c c %525
+    c2~
+    c\fermata \bar "|." %527 finis
   }
 }
 

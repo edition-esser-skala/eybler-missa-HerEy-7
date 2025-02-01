@@ -4,7 +4,7 @@ KyrieViola = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoKyrie
-    c4\p r r \segnoMark \default
+    c4\p r r \segnoMark 1
     R2.
     << {
       a2.:8
@@ -249,7 +249,7 @@ KyrieOldViola = {
      g( gis a e f fis)
      g( d dis e f d)
      h( g gis a b h)
-     c4 r r \segnoMark \default \bar "|" %160 finis
+     c4 r r \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -538,9 +538,9 @@ CredoViola = {
     a c a f e g e c
     d d' d, c h d g h
     c g e c g d' g h
-    a a, a' g fis a d, fis %5
+    a a, a' g fis a d, \hA fis %5
     g a h a g d h h'
-    a a, a' g fis a d, fis
+    a a, a' g fis a d, \hA fis
     g a h a g d h h'
     c c, c' h a d, d' c
     h d h g fis a d d, %10
@@ -560,12 +560,12 @@ CredoViola = {
     e h' g e a, a' c a
     h h, g' e h' a h h, %25
     e fis g e c a h h
-    e fis g fis e g h e
+    e fis g \hA fis e g h e
     c e c a g h g e
-    c fis a g fis a h, dis
-    e a, h e dis h' fis dis %30
+    c fis a g \hA fis a h, dis
+    e a, h e dis h' fis \hA dis %30
     e h' gis e a e' c a
-    gis h e, gis a e c a
+    gis h e, \hA gis a e c a
     g! g' h g c g e c
     h d g, h c e g c
     a c a f c' g e c %35
@@ -573,19 +573,19 @@ CredoViola = {
     d a f d a' g a a,
     d e f d b g a a
     d e f e d f a d
-    b d b g f a f d %40
+    b d \hA b g f a f d %40
     b e g f e g cis, e
     a, f' a d cis a e cis
     d a' fis d g b g d
-    a' c a d, b' d b g
-    e g e c f a f c %45
+    a' c a d, b' d \hA b g
+    e g e c f! a f c %45
     g' b g c, a' c a f
     d e f d g g, g' f
     e f g e a a, a' g
     f a c c, d f a a,
     b d f f, g b d d, %50
     e e' a, a' e d e e,
-    a-\critnote h c a f' d h e
+    a h c a' f d h! e
     a, h c h a c e a
     f a f d c e c a
     h c d c h d gis h %55
@@ -593,10 +593,10 @@ CredoViola = {
     a e' c a gis h e gis
     a gis a a, e' e, e' d
     c c' e c h d h g
-    c-\critnote h c c, g' d h g %60
+    c h c c, g' d h g %60
     a a' c a g, g' h g
     f, f' a f e, e' g e
-    d c d e d e f e
+    d c h c d e f e
     d c h a g f e d
     c e g c g g' h g %65
     c, d e c a f d g
@@ -616,55 +616,65 @@ EtIncarnatusViola = {
     \clef alto
     \key f \major \time 3/4 \tempoEtIncarnatus
       \set Score.currentBarNumber = #75
-    \mvTr <c f>4\pE-\markup \remark "con sordino" d d
-    c2 r4
+    << {
+      f4 d d
+      c2
+    } \\ {
+      \mvTr c4\pE-\conSord d d
+      c2
+    } >> r4
     c2 d8 e
     f c c4 r
-    \once \slurDashed <b d>4.(\sfp <d f>8 <c e> <b d>)
-    <a c>4 r8 \once \slurDashed a( b c) %80
-    d4 r r8 b
-    a4( g8) b( a g)
+    << {
+      d4.( f8 e d)
+      c4 %80
+    } \\ {
+      b4.(\sfp d8 c b)
+      a4 %80
+    } >> r8 a( b c)
+    d r r4 r8 b
+    a4( g8) b([ a g)]
     f4 r r
     R2.*6 %89
-    r4 r8 g4\p g8 %90
-    g16\sfp g g g g g g g g g g g
-    g g g g g g g g g g g g
-    g\sfpE g g g g g g g g g g g
-    g g g g g g g g g g g g
-    f f f f a a a a a a a a %95
-    c c c c g g g g g g g g
-    f f f f a a a a h h c c
-    d d d d c c c c c^\critnote c c c
-    f f f f f f e e f f e e
-    f f f cis d d d d d d d d %100
-    d d d d c c c c c c c c
-    a a a a g-\critnote g g g g g g g
-    g\sfp c c c c c c c c  c a a
-    g g g g g g g g g g g g
-    b!\sfp b b b b b b b \once \slurDashed b( a g f) %105
-    g g g g g g g g h h h h
-    c <g e> q q q\pp q q q q q q q
-    q4 c16( h c h c h c h)
-    c(\crescE h c d es f g as g f es d)
-    c(\fE h c d es f g as g f es d) %110
-    c( h c d es f g as g f es d)
-    c( h c d es f g as g f es d)
-    c( h c d es f g as g f es d)
-    c es es es es es es es es es es es
-    d d d d d d d d d d d d %115
-    des des des des des des des des des des des des
-    c c c c c c c c c c c c
-    c c c c c c c c c c c c
-    h h h h g g g g g' g g g
-    g g g g g g g g a! a a a %120
-    d, d d d d d d d d d d d
-    des des des des des des des des des des des des
-    c c c c c c c c c c c c
-    ces ces ces ces ces ces ces ces ces ces ces ces
-    b b b b b b b b b b b b %125
-    ges'\fz ges ges ges ges ges ges ges ges ges ges ges
-    a!\fz a a a a a a a a a a a
-    \once \slurDashed h(\fzE g d h) g4 r
+    r4 r8 g4\p\cresc g8 %90
+    g2.:16\sfp
+    g:
+    g:\sfp
+    g:
+    f4: a2: %95
+    c4: g2:
+    f4: a: h16 h c c
+    d4: c2:
+    f4: f16 f e e f f e e
+    f f f cis d2: %100
+    d4: c2:
+    a4: g2:
+    g16\sfp c c c c4: c16 c a a
+    g2.:
+    b!2:\sfp b16( a g f) %105
+    g2: h4:
+    c16\pp <g e> q q q2:
+    q4 c16( h c \hA h c \hA h c \hA h)
+    c(\cresc h c d es f g as g f \hA es d)
+    c(\fE h c d es f g as g f \hA es d) %110
+    c( h c d es f g as g f \hA es d)
+    c( h c d es f g as g f \hA es d)
+    c( h c d es f g as g f \hA es d)
+    c es es es es2:
+    d2.: %115
+    des:
+    c:
+    c:
+    h4: g: g':
+    g2: a!4: %120
+    d,2.:
+    des:
+    c:
+    ces:
+    b: %125
+    ges':
+    a!:
+    h16 g d h g4 r
     R2.*6 %134
     R2.\fermata \bar "||" %135 finis
   }
@@ -675,19 +685,19 @@ EtResurrexitViola = {
     \clef alto
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
-    g'8\f fis g a h a h g
-    fis g fis e d e fis g
+    \mvTr g'8\fE-\senzaSord fis g a h a h g
+    fis g \hA fis e d e \hA fis g
     a gis a h c h c a
-    gis a gis fis? e fis gis a
-    h ais h cis? d cis? d h %140
+    gis a \hA gis fis e \hA fis \hA gis a
+    h ais h cis d \hA cis d h %140
     fis4 r r2
     R1*4 %145
     e1
     fis
     a
     gis
-    r4 c, e a %150
-    r d, f a
+    r4 c,! e a %150
+    r d, f! a
     r gis8 a h2
     a4 e g2
     f!4 r r a
@@ -698,29 +708,29 @@ EtResurrexitViola = {
     a
     c %160
     h2 r
-    c,8 d e fis? g a h c
+    c,8 d e f! g a h c
     h a g fis e d c h
-    a h c d e fis? g a
+    a h c d e fis g a
     g fis e d c h a g %165
-    c d e fis g a h c
+    c d e f g a h c
     c, fis a c cis, e g cis
-    d, g h d c, fis a c
-    g a h e c a d d,
+    d, g h d d, fis a d
+    g, a h e c a d d,
     g, a h a g h d g %170
     e g e c h d h g
     a a' a, g fis a d fis
-    g e c d g,4 r8 g16(\ff a
-    b4) r8 \tuplet 3/2 8 { b16( c d } es4) r
-    r2 as,4\ff r8 \once \slurDashed as16( b %175
-    c4) r8 \tuplet 3/2 8 { c16( d! e! } f4) r
-    r2 b,4\ff r8 \once \slurDashed b16( c
-    d4) r8 \tuplet 3/2 8 { d16( e! fis } g4) r
+    g e c d g,4\f r8 g16 a
+    b4 r8 \tuplet 3/2 8 { \hA b16 c d } es4 r
+    r2 as,4 r8 \hA as16 b %175
+    c4 r8 \tuplet 3/2 8 { c16 d! e! } f4 r
+    r2 b,4 r8 \hA b16 c
+    d4 r8 \tuplet 3/2 8 { d16 e! fis } g4 r
     r2 c,8-!\sf d-! es-! d-!
-    c-!\sf d-! es-! d-! c-!\sf d-! es-! d-! %180
-    c-!\sf d-! es-! d-! c-!\sf d-! es-! d-!
-    c-!\sf d-! es-! d-! c-!\sf d-! es-! d-!
-    c-!\sf d-! es-! d-! c-!\sf d-! es-! d-!
-    \parOn c-\parenthesize-!\sf b-! as-! \parOff g-\parenthesize-! \tempoEtMortuos f4 r
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-! %180
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c b as g \tempoEtMortuos f4 r
     R1 %185
     r2\fermata \tempoCuiusRegni r
     e'!8\fE f g e a a, a' g
@@ -736,14 +746,14 @@ EtResurrexitViola = {
     a c a f e g e c
     d c h a gis h e gis
     a e c a e' e, e' d
-    c d e d c h c a %200
-    d e f g a h c a
-    h a gis fis? gis e a a,
+    c d c h a h c a %200
+    d e f d a' h c a
+    h a gis fis \hA gis e a a,
     e' e, e' d c h c a
-    d e f g a e c a
+    d e f! g! a e c a
     b c d e f c a f %205
-    c' e f b, c b c c,
-    f g a b c b c c,
+    c' e f b, c \hA b c c,
+    f g a b c \hA b c c,
     f g a g f a c f
     d f d b a c a f
     g g' g, f e g c e %210
@@ -751,36 +761,36 @@ EtResurrexitViola = {
     f g a f e g c, e
     f a c b a g a f
     b f d b a c f a
-    b c b as g f g es %215
-    d c d b es b g es
-    b' c d c h a h g
-    c d es f g g, h d
-    g g, h g c es g es
+    b c \hA b as g f g es %215
+    d c d b es \hA b g es
+    b' c d c h a! h g
+    c d es f g g, h! d
+    g g, h! g c es g \hA es
     c c' c, d es f g g, %220
-    as c es c as b c c'
+    as c es c \hA as b c c'
     d d, g g, d' c d d,
-    g a b es c a d d,
-    g a b a g b d g
-    es g es c b d b g %225
-    a c' a g fis a d, fis
+    g a! b es c a d d,
+    g a b a g \hA b d g
+    es g \hA es c b d \hA b g %225
+    a c' a g fis a d, \hA fis
     g g, b d g g, g' f
     e! g e c f a f c
     e g e c f g f es
     d a' fis d g h! g d %230
-    fis a fis d g a g f
+    fis a \hA fis d g a g f
     e h' gis e a c a e
-    e h' gis e a c a a,
+    gis h \hA gis e a c a\p a,
     h h' c c, fis fis, gis gis'
     a a, a a' d, d' dis, dis' %235
-    e, e' e, fis gis a h gis
-    a c h a g h a g
-    f a g f e d c h
-    a c e a g, h e-\critnote g
+    e, e' e, fis gis\cresc a h \hA gis
+    a\f c h a g h a g
+    f a g f e d c h \segnoMark 1
+    a c e a g, h e g
     f, a c f e, g c e %240
     d, f a d h d g h
     c g e c g' d h g
     as1\p
-    g2 g'8\f f e d
+    g2 g'8\f f e! d
     c e g c g, h d g %245
     h, d g h c g e c
     a a' c a g, g' h g
@@ -796,7 +806,294 @@ EtResurrexitViola = {
     c f a, c e g g, h
     a d f, a c e e, g
     f f' f, e d h' d d,
-    c e g g' e4 r\fermata \bar "|." %260 finis
+    c e g g' <e g,>4 r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    a8 c e a g, h e g
+    f, a c f e, g c e %240
+    d, f a d h d g h
+    c c, g' g, c e f g
+    c, d e d c e g c
+    a c a f e g e c
+    d d' d, e16 f g a h c d8 g, \noBreak %245
+    c4 c, r2\fermata
+    \tempoMortuorum R1*4 \noBreak %250
+    r2 r4\fermata \tempoEtVitam r \noBreak
+    r c\f
+    f, r
+    r d'
+    g, r %255
+    r e'
+    a,8 h c4~
+    c h
+    c r
+    R2 %260
+    r4 c~
+    c a
+    r d~
+    d h
+    R2*3 %267
+    r8 c d e
+    f!4. e8
+    d d e f %270
+    g4. f8
+    e e f g
+    a g f e
+    f e16 f g8 f
+    e d c4 %275
+    r g'
+    c, r
+    r a'
+    d, r r
+    h' %280
+    e,8 fis g4~
+    g fis
+    g r
+    r8 e fis g
+    a4. g8 %285
+    fis d e \hA fis
+    g4. fis8
+    e4 r
+    r h
+    e2 %290
+    c4 c
+    fis2
+    d4 d
+    g g
+    e fis8 g %295
+    a2
+    fis4 r
+    R2
+    r8 e f! g
+    a4. g8 %300
+    f f g a
+    h4. a8
+    g g a h
+    c h a4~
+    a h8 a %305
+    gis2
+    a8 c, d e
+    f4. e8
+    d h c d
+    e4. d8 %310
+    c a h c
+    d e f4~
+    f8 h, e d
+    c4 r
+    r a'~ %315
+    a f
+    d r
+    g2
+    e4 c
+    r f~ %320
+    f d
+    h r
+    e2
+    c4 a
+    r d %325
+    g2
+    e4 e
+    a2
+    f4 f
+    b b %330
+    g a8 b
+    c4. b8
+    a f g a
+    b4. a8
+    g g a b %335
+    c4. b8
+    a a b c
+    d c b a
+    b a16 \hA b c8 \hA b
+    a g16 a b8 a %340
+    g f16 g a8 g
+    f d8 e f
+    g4. f8
+    e e f g
+    a4. g8 %345
+    f f g a
+    b a g f
+    g f16 g a8 g
+    f g a4~
+    a gis %350
+    a8 c, d e
+    f4. e8
+    d d e f
+    g4. f8
+    e e f g %355
+    a g f e
+    d2
+    c4 r
+    r f~
+    f d %360
+    r g~
+    g e
+    R2*4 %366
+    r8 e f g
+    a4. g8
+    f d e f
+    g4. f8 %370
+    e c d e
+    f4. e8
+    d4 r
+    r8 c d e
+    f4. e8 %375
+    d d e f
+    g4. f8
+    e e f g
+    a h c4~
+    c h~ %380
+    h a~
+    a g~
+    g f~
+    f e8 d
+    c h16 c d8 c %385
+    h h c d
+    e4. d8
+    c c d e
+    fis4. e8
+    d d e fis %390
+    g4. fis8
+    e4. fis16 g
+    a8 g fis e
+    d4. e16 fis
+    g8 fis e d %395
+    c4 a'~
+    a8 d, g4~
+    g fis~
+    fis8 h, e4~
+    e d %400
+    c8 e f! g
+    a4. g8
+    f f g a
+    h4. a8
+    g g a h %405
+    c g c4~
+    c h
+    c r
+    r8 a h c
+    d4. c8 %410
+    h g a h
+    c4. h8
+    a f g a
+    h4. a8
+    gis4 a~ %415
+    a gis
+    a r
+    R2*2
+    r4 h, %420
+    e2
+    c4 c
+    fis2
+    d4 d
+    g g %425
+    e f!8 g
+    a2~
+    a8 g f4
+    e2
+    d4 f %430
+    b2
+    g4 g
+    c2
+    a4 a
+    d d %435
+    b a8 \hA b
+    g e f g
+    a f g a
+    b a g4~
+    g8 a16 b c8 \hA b %440
+    a g f4~
+    f e
+    f8 e d4~
+    d cis
+    d r %445
+    R2
+    r4 b~
+    b es~
+    es c~
+    c f~ %450
+    f d~
+    d g
+    c, c'8 c
+    c4 b
+    a2 %455
+    g4 r
+    r8 c, d e
+    f!4. e8
+    d d e f
+    g4. f8 %460
+    e e f g
+    a c, d e
+    f a, h! cis
+    d e f4
+    e2 %465
+    d4 d
+    g2
+    e4 e
+    a2
+    f4 f %470
+    h! h
+    g a8 h
+    c2
+    a4 r
+    R2*2 %476
+    r4 c~
+    c a
+    f r
+    h!2 %480
+    g4 e
+    r a~
+    a f
+    d r
+    g2 %485
+    e4 c
+    r f~
+    f d~
+    d g~
+    g e %490
+    R2*2
+    r4 g
+    d2
+    f4 f %495
+    c2
+    e4 e
+    h h
+    d d8 d
+    a2 %500
+    c4 r
+    r8 e d c
+    h4. d8
+    f f e d
+    c4. e8 %505
+    g4 r
+    R2
+    r8 a g f
+    e4. f8
+    g g f e %510
+    d h c d
+    e c d e
+    f d e f
+    g4 a
+    a g %515
+    g r
+    r c,\f
+    f2
+    d4 d
+    g2 %520
+    e4 e
+    a a
+    f e8 e
+    f2~
+    f %525
+    e~
+    e\fermata \bar "|." %527 finis
   }
 }
 
@@ -987,7 +1284,7 @@ AgnusDeiViola = {
   \relative c' {
     \clef alto
     \key f \minor \time 4/4 \tempoAgnusDei
-    \mvTr c16\p-\markup \remark "con sordino" c c c c c c c c c c c c c c c
+    \mvTr c16\p-\conSord c c c c c c c c c c c c c c c
     c c c c c c c c c c c c c c c c
     b\< b b b b b b\fE b g g as as as as g g
     f f f f d' d d d \once \hairpinDashed g,\> c c c c c c c

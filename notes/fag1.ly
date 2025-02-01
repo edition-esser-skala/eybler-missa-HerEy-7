@@ -4,7 +4,7 @@ KyrieFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     c4(\p d e)
     f4 r r
     d( e f)
@@ -246,7 +246,7 @@ KyrieOldFagottoIeII = {
     g( gis a e f fis)
     g( d dis e f d)
     h( g gis a b h)
-    c4 r r \segnoMark \default \bar "|" %160 finis
+    c4 r r \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -528,7 +528,7 @@ QuoniamFagottoIeII = {
   }
 }
 
-CredoFagottoI = {
+CredoFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoCredo
@@ -536,9 +536,9 @@ CredoFagottoI = {
     a c a f e g e c
     d d' d, c h d g h
     c g e c g d' g h
-    a a, a' g fis a d, fis %5
+    a a, a' g fis a d, \hA fis %5
     g a h a g d h h'
-    a a, a' g fis a d, fis
+    a a, a' g fis a d, \hA fis
     g a h a g d h h'
     c c, c' h a d, d' c
     h d h g fis a d d, %10
@@ -546,24 +546,24 @@ CredoFagottoI = {
     g a h e c a d d,
     g a h a g h d g
     e g e c h d h g
-    a a' c a fis a fis d %15
+    a a' c a fis a \hA fis d %15
     g d h g d' fis a d
     a e c a e' gis h e
     c g e c g h d g
     d' a f! d a c e a
-    fis fis g g, a' g a d, %20
+    fis fis, g g' a g a d, %20
     g a h a g a g f
     e g e c h d h g
     c c' e c a, a' c a
     e h' g e a, a' c a
     h h, g' e h' a h h, %25
-    e fis g c a fis h h,
-    e fis g fis e g h e
+    e fis g c a \hA fis h h,
+    e fis g \hA fis e g h e
     c e c a g h g e
-    fis a fis e dis fis dis h
+    fis a \hA fis e dis \hA fis \hA dis h
     e fis g e h' h, h' a %30
-    gis h gis e a e' c a
-    gis h e, gis a e c a
+    gis h \hA gis e a e' c a
+    gis h e, \hA gis a e c a
     g! g' h g c g e c
     h d g, h c e g c
     a c a f c' g e c %35
@@ -571,19 +571,19 @@ CredoFagottoI = {
     d a f d a' g a a,
     d e f b g e a a,
     d e f e d f a d
-    b d b g f a f d %40
+    b d \hA b g f a f d %40
     e g e d cis e a cis
     d a f d a' a, a' g
-    fis a fis d g b g d
-    a' c a d, b' d b g
-    e g e c f a f c %45
+    fis a \hA fis d g b g d
+    a' c a d, b' d \hA b g
+    e g e c f! a f c %45
     g' b g c, a' c a f
     d e f d g g, g' f
     e f g e a a, a' g
     f a c c, d f a a,
     b d f f, g b d d, %50
     e e' a, a' e d e e,
-    a h c f d h e e,
+    a h c f d h! e e,
     a h c h a c e a
     f a f d c e c a
     h c h a gis h e gis %55
@@ -602,7 +602,7 @@ CredoFagottoI = {
     a c a f e g e c
     d d' d, c h d h g
     c g' e c h d g h %70
-    a, c f^\critnote a g, h e g
+    a, c f a g, h e g
     f, a d f e, g c e
     d d' d, c h d g, h
     c c' g g, c4 r\fermata \bar "||" %74 finis
@@ -615,13 +615,13 @@ EtIncarnatusFagottoI = {
     \key f \major \time 3/4 \tempoEtIncarnatus
       \set Score.currentBarNumber = #75
     R2.
-    r4 r8 c'\p c c
+    r4 r8 c'\pE c c
     c4 r r
     r r8 f( e es)
     d4 r r
     R2. %80
     r4 r r8 d
-    c4. \once \slurDashed d8( c b)
+    c4. d8 c b
     a4 r r
     r r8 g g g
     g4 r r %85
@@ -634,21 +634,21 @@ EtIncarnatusFagottoI = {
     g8 r r4 r
     g2.~\sfp
     g8 r r g h c
-    f,4 e d %95
+    \pa f,4 e d %95
     e d c
-    d d'8 c h a
+    d \pd d'8 c h a
     gis4 a r
     R2.*4 %102
-    c2\sfp c8 a
+    c2~\sfp c8 a
     g2.
-    cis2\sfp cis16( d e f) %105
+    cis2~\sfp cis16 d e f %105
     \pao g,2 h4
     c r r
     R2.*2
     g2.~\f %110
-    g4 g-! g-!
+    g4 g g
     g2.~
-    g4 g-! g-!
+    g4 g g
     c2.
     h %115
     b
@@ -661,31 +661,31 @@ EtIncarnatusFagottoI = {
     c4 r r
     ces2.
     b4 r r %125
-    ces2\fz r4
-    c2\fz r4
-    d2\fzE h4\pE
+    ces2\sfz r4
+    c2\sfz r4
+    \pa d2\sfpE h4
     c d es
     d2 d4 %130
     c2 c4
-    d( h c)
-    d( h c)
-    d h8.[ c16 h8. c16]
+    d h c
+    d h c
+    d h8.[ c16 h8. c16] \pd
     h2.\fermata \bar "||" %135 finis
   }
 }
 
-EtResurrexitFagottoI = {
+EtResurrexitFagottoIeII = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
-    g'8\f fis g a h a h g
-    fis g fis e d e fis g
+    g'8\fE fis g a h a h g
+    fis g \hA fis e d e \hA fis g
     a gis a h c h c a
-    gis a gis fis e fis gis a
-    h ais h cis d cis d h %140
-    cis h ais4 r2
-    h1
+    gis a \hA gis fis e \hA fis \hA gis a
+    h ais h cis d \hA cis d h %140
+    fis4 r r2
+    \clef "treble_8" h1
     cis
     e
     dis %145
@@ -694,43 +694,43 @@ EtResurrexitFagottoI = {
     r dis8 e fis2
     e4 h d2
     c!4 r r e %150
-    f d h a
+    f! d h a
     gis8 h e4 r2
-    a,8 gis a b a g f e
+    \clef bass a,8 gis a b a g? f e
     d cis d e f d e f
     g f e f g e f g %155
-    a gis a h cis a h cis
+    a gis a h cis a h \hA cis
     d cis d e d c h a
     g fis g a g f e d
     c h c d c h a g
     fis g a h c d e fis %160
     g h d h g d h g
-    c d e fis g a h c
+    c d e f! g a h c
     h a g fis e d c h
     a h c d e fis g a
     g fis e d c h a g %165
-    c d e fis g a h c
+    c d e f g a h c
     c, fis a c cis, e g cis
     d, g h d d, fis a d
     g, a h e c a d d,
     g, a h a g h d g %170
     e g e c h d h g
     a a' a, g fis a d fis
-    g e c d g,4 r8 \slurDashed g16(\ff a
-    b4) r8 \tuplet 3/2 8 { b16_( c d } es4) r
-    r2 as,4\ff r8 as16( b %175
-    c4) r8 \tuplet 3/2 8 { c16( d! e! } f4) r
-    r2 b,4\ff r8 b16( c
-    \once \stemUp d4) r8 \tuplet 3/2 8 { d16( e! fis } g4) \slurSolid r
-    r2 c,8\sf d es d
-    c\sf d es d c\sf d es d %180
-    c\sf d es d c\sf d es d
-    c\sf d es d c\sf d es d
-    c\sf d es d c\sf d es d
-    c\sf b as g \tempoEtMortuos f2\sfpE
+    g e c d g,4\f r8 g16 a
+    b4 r8 \tuplet 3/2 8 { \hA b16 c d } es4 r
+    r2 as,4 r8 \hA as16 b %175
+    c4 r8 \tuplet 3/2 8 { c16 d! e! } f4 r
+    r2 b,4 r8 \hA b16 c
+    d4 r8 \tuplet 3/2 8 { d16 e! fis } g4 r
+    r2 c,8-!\sf d-! es-! d-!
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-! %180
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c-!\sf d-! es-! d-! c-!\sf d-! \hA es-! d-!
+    c-! b-! as-! g-! \tempoEtMortuos f2\sfp
     as g %185
     g\fermata \tempoCuiusRegni r
-    e'!8\f f g e a a, a' g
+    e'!8\fE f g e a a, a' g
     f e d f g g, g' f
     e c h g c d e f
     g a g f e d c e %190
@@ -744,13 +744,13 @@ EtResurrexitFagottoI = {
     d c h a gis h e gis
     a e c a e' e, e' d
     c d c h a h c a %200
-    d e f g a h c a
-    h a gis fis gis e a a,
+    d e f d a' h c a
+    h a gis fis \hA gis e a a,
     e' e, e' d c h c a
-    d e f g a e c a
+    d e f! g! a e c a
     b c d e f c a f %205
-    c' e f b, c b c c,
-    f g a b c b c c,
+    c' e f b, c \hA b c c,
+    f g a b c \hA b c c,
     f g a g f a c f
     d f d b a c a f
     g g' g, f e g c e %210
@@ -758,36 +758,36 @@ EtResurrexitFagottoI = {
     f g a f e g c, e
     f a c b a g a f
     b f d b a c f a
-    b c b as g f g es %215
-    d c d b es b g es
-    b' c d c h a h g
-    c d es f g g, h d
-    g g, h g c es g es
+    b c b \hA as g f g es %215
+    d c d b es \hA b g es
+    b' c d c h a! h g
+    c d es f g g, h! d
+    g g, h! g c es g \hA es
     c c' c, d es f g g, %220
-    as c es c as b c c'
+    as c es c \hA as b c c'
     d d, g g, d' c d d,
-    g a b es c a d d,
-    g a b a g b d g
-    es g es c b d b g %225
-    a c' a g fis a d, fis
+    g a! b es c a d d,
+    g a b a g \hA b d g
+    es g \hA es c b d \hA b g %225
+    a c' a g fis a d, \hA fis
     g g, b d g g, g' f
     e! g e c f a f c
     e g e c f g f es
     d a' fis d g h! g d %230
-    fis a fis d g a g f
+    fis a \hA fis d g a g f
     e h' gis e a c a e
-    gis h gis e a c a a,
-    h h' c c, fis fis gis gis
-    a a, a' a d, d' dis, dis %235
-    e e' e, fis gis a h gis
-    a c h a g h a g
-    f a g f e d c h
-    a c e^\critnote a g, h e g
-    f, a c-\critnote f e, g c e %240
+    gis h \hA gis e a c a\p a,
+    h h' c c, fis fis, gis gis'
+    a a, a a' d, d' dis, dis' %235
+    e, e' e, fis gis\cresc a h \hA gis
+    a\f c h a g h a g
+    f a g f e d c h \segnoMark 1
+    a c e a g, h e g
+    f, a c f e, g c e %240
     d, f a d h d g h
     c g e c g' d h g
     as1\p
-    g2 g'8\f f e d
+    g2 g'8\f f e! d
     c e g c g, h d g %245
     h, d g h c g e c
     a a' c a g, g' h g
@@ -804,6 +804,282 @@ EtResurrexitFagottoI = {
     f, a d f e, g c e
     d d' d, c h d g, h
     c c' g g, c4 r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldFagottoIeII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    a8 c e a g, h e g
+    f, a c f e, g c e %240
+    d, f a d h d g h
+    c c, g' g, c e f g
+    c, d e d c e g c
+    a c a f e g e c
+    d d' d, e16 f g a h c d8 g, \noBreak %245
+    c4 c, r2\fermata
+    \tempoMortuorum c2 as' \noBreak
+    b, g'
+    as, f'
+    g, es'8 d c b \noBreak %250
+    as2 g4\fermata \tempoEtVitam r
+    \twofourtime \clef "treble_8" \time 2/4 r c'\f \noBreak
+    f, r
+    r d'
+    g, r %255
+    r e'
+    a,8 h c4~
+    c h
+    c r
+    R2 %260
+    r4 c~
+    c a
+    r d~
+    d h
+    R2*2 %266
+    r4 g
+    c2
+    a4 a
+    d2 %270
+    h4 h
+    e e
+    c d8 e
+    d2\trill
+    c4 r %275
+    r8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    h h c d %280
+    e d c h
+    c h16 c d8 c
+    h a g4
+    r8 c d e
+    fis4. e8 %285
+    d h c d
+    e4. d8
+    c d e4~
+    e dis
+    e r %290
+    r a,
+    d!2
+    h4 h
+    e2
+    c4 c %295
+    fis fis
+    d e8 fis
+    g2
+    e4 r
+    r8 a, h c %300
+    d4. c8
+    h h c d
+    e4. d8
+    c a h c
+    d e f4~ %305
+    f8 h, e d
+    c4 r
+    R2*5 %312
+    r4 e~
+    e c
+    a r %315
+    d2
+    h4 g
+    r c~
+    c a
+    f r %320
+    h2
+    g4 e
+    r a~
+    a f
+    d r %325
+    r8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    b b c d %330
+    e4. d8
+    c4 d8 e
+    f a, b c
+    d4. c8
+    b b c d %335
+    e4. d8
+    c c d e
+    f c f4~
+    f e~
+    e8 a, d4~ %340
+    d cis
+    d r
+    R2*7 %349
+    r4 e, %350
+    a2
+    f4 f
+    h! h
+    g g8 g
+    c4 c %355
+    a8 h c4~
+    c h
+    c r
+    r c,
+    f2 %360
+    d4 d
+    g2
+    e4 e
+    a a
+    f'8 e d c %365
+    h g a h
+    c4. h8
+    a f g a
+    h4. a8
+    g e f g %370
+    a4. g8
+    f d e f
+    g4 g
+    c2
+    a4 a %375
+    d2
+    h4 h
+    e e
+    c8 h a g
+    f e16 f g8 f %380
+    e4 r
+    R2
+    r8 a d c
+    h a16 h c8 h
+    a2 %385
+    g8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    h h c d %390
+    e4. d8
+    c4. d16 e
+    fis8 e d c
+    h4. c16 d
+    e8 d c h %395
+    a4 r
+    R2*3
+    r4 g %400
+    c2
+    a4 a
+    d2
+    h4 h
+    e e %405
+    c d8 e
+    d2\trill
+    c8 c d e
+    f4. e8
+    d h c d %410
+    e4. d8
+    c a h c
+    d4. c8
+    h c d4~
+    d8 c h a %415
+    h2
+    c8 d e4
+    d2
+    e8 f g4
+    fis2 %420
+    e4 e,
+    a2
+    fis4 fis
+    h2
+    g4 g %425
+    c c
+    a h8 c
+    d4 a
+    r a~
+    a d~ %430
+    d b~
+    b e~
+    e c~
+    c f
+    d e8 f %435
+    g4. f8
+    e c d e
+    f e d c
+    b4. a16 \hA b
+    c8 b a g %440
+    f4 g8 a
+    g2
+    f4 f'
+    e2
+    d8 c! b4~ %445
+    b a
+    b r
+    R2*8 %455
+    r8 g a b
+    c4. b8
+    a a b c
+    d4. c8
+    b b c d %460
+    e!4. d8
+    c4 r
+    R2*2
+    r4 a %465
+    d2
+    h!4 h
+    e2
+    c4 c
+    f f %470
+    d e8 f
+    g2
+    e4 r
+    R2*2 %475
+    g2
+    e4 c
+    r f~
+    f d
+    h! r %480
+    e2
+    c4 a
+    r d~
+    d h
+    g r %485
+    c2
+    a4 f
+    d'2
+    h4 g
+    e'2 %490
+    c4 a~
+    a h8 c
+    d4 g,
+    h2
+    d4 d %495
+    a2
+    c4 c
+    g g
+    h h8 h
+    f2 %500
+    a8 c h a
+    g4. a8
+    h d c h
+    a4. h8
+    c e d c %505
+    h4. c8
+    d d c h
+    a4. h8
+    c c h a
+    g4. a8 %510
+    h d8 c h
+    a e' d c
+    h f' e d
+    c d e c
+    d2 %515
+    e4 r
+    r a,\f
+    d2
+    h4 h
+    e2 %520
+    c4 c
+    f f
+    a, c8 c
+    c2~
+    c %525
+    c~
+    c\fermata \bar "|." %527 finis
   }
 }
 
@@ -1001,7 +1277,7 @@ AgnusDeiFagottoI = {
     b4 f' es des8 c
     b4.\f b8 c4 c %20
     c4. c8 d4 d8 h
-    \once \partCombineChords d4 g, g es'~
+    d4 g, g es'~
     es c2 c4
     g4. fis8 g4 r
     r8 \once \tieDashed g'~\pE g16 es c g b!8( as) as( b) %25

@@ -4,7 +4,7 @@ KyrieAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     \mvTr c2\p^\tuttiE c4
     c2.
     c2 c4
@@ -265,7 +265,7 @@ KyrieOldAlto = {
     g4 r r
     d2 d4 %155
     d r r
-    R2.*4 \segnoMark \default \bar "|" %160 finis
+    R2.*4 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -951,7 +951,7 @@ CredoAlto = {
     R1*2 %56
     a2 e4 e8 e
     e4. e8 e4 r
-    e e8 e g4 g8 g
+    e e8 e g!4 g8 g
     g2 g4 r %60
     r c h h,
     r a' g g,
@@ -1028,8 +1028,8 @@ CredoAltoLyrics = \lyricmode {
   lu -- tem %60
   de -- scen -- dit,
   de -- scen -- dit
-  de -- scen --
-  dit, de -- scen --
+  de coe --
+  lis, de -- scen --
   dit de coe -- %65
   lis.
   Cre -- do,
@@ -1046,7 +1046,7 @@ EtIncarnatusAlto = {
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #75
     R2.*8 %82
-    \mvTr c4\pE^\solo d g
+    \mvTr c4\p^\solo d g
     f8. g16 e4 r
     e g8([ f)] b([ a)] %85
     a8. g16 f4 r
@@ -1065,10 +1065,10 @@ EtIncarnatusAlto = {
     f4. e8 f e
     f8. g16 a4 r8 as %100
     g4 g r8 g
-    g16([ f)] a([ f)] e4 d
-    c(\sfpE b'!) b16([ a)] g([ f)]
+    g16([ f)] a!([ f)] e4 d
+    c(\sfp b'!) b16([ a)] g([ f)]
     e2 d4
-    cis2\sfpE cis16([ d)] e([ f)] %105
+    cis2\sfp cis16([ d)] e([ f)] %105
     e2 \appoggiatura g8 f4
     e r r
     R2.*2
@@ -1088,9 +1088,9 @@ EtIncarnatusAlto = {
     c,4 r r
     f2.
     b,4 r r %125
-    es2 r4
+    ges'2 r4
     a!2 r4
-    r r d,\pE
+    r r d,\p
     es( d) c
     h r r %130
     R2.*4
@@ -1164,12 +1164,12 @@ EtResurrexitAlto = {
     fis
     a
     gis
-    r4 c, e a %150
-    r d, f a
+    r4 c,! e a %150
+    r d, f! a
     r gis8([ a)] h2
     a4 e g2
     f!4 r r a
-    b?( g) e^\critnote d %155
+    b( g) e d %155
     cis8([ e)] a4 r2
     R1
     g1
@@ -1177,7 +1177,7 @@ EtResurrexitAlto = {
     c %160
     h2 r
     g1
-    g2 r4^\critnote g
+    g2 r4 g
     fis2. fis4
     g2 r4 g %165
     g2 g4 g
@@ -1187,22 +1187,22 @@ EtResurrexitAlto = {
     d' h %170
     e d
     R1*2
-    r2 r4 es,\ff
+    r2 r4 es,\f
     des4. des8 c4 r %175
-    r2 r4 f^\critnote
+    r2 r4 es
     es4. es8 d!4 r
-    r2 r4 g^\critnote
+    r2 r4 f
     f4. f8 es4 r
     r2 g %180
     c es
     c g~
     g c,
-    r \tempoEtMortuos r4 des\pp
+    r \tempoEtMortuos r4 des\p
     c2. h!8([ a!)] %185
     h2\fermata \tempoCuiusRegni r
     e!4\fE e e2
-    d4 f g2
-    g g
+    d4 f g2~
+    g4 g g2
     g4 d( e) g %190
     a2 f4 a
     h2 g4 h
@@ -1213,7 +1213,7 @@ EtResurrexitAlto = {
     a g
     R1
     r2 gis4 gis
-    a^\critnote a8 a a4 a %200
+    a a8 a a4 a %200
     a4. a8 a4 r
     r e4. e8 e e
     e4 e r e8 a
@@ -1227,7 +1227,7 @@ EtResurrexitAlto = {
     r2 e,4 e
     f f8 f g4. g8
     f4 r f f
-    f^\critnote f f2
+    f f f2
     f4 r8 f g4 g %215
     f f es2
     d g4 g
@@ -1246,12 +1246,12 @@ EtResurrexitAlto = {
     d4 d d8 d d d %230
     d4. c8 h!4 r8 h
     e4 e8 e e4 e8 e
-    e2 c4 a(
-    g) g fis f
+    e2 c4 a(\p
+    g!) g fis f
     e a f fis %235
     e e r2
-    e e
-    a gis
+    e\f e
+    a gis \segnoMark 1
     a e
     f c %240
     d4 d g g
@@ -1263,7 +1263,7 @@ EtResurrexitAlto = {
     a2 h4 e,4
     f2 g4 g
     g g g g8 g
-    g2 g4 \once \tieDashed g~ %250
+    g2 g4 g %250
     g g g2
     e4 r r2
     g e
@@ -1300,7 +1300,7 @@ EtResurrexitAltoLyrics = \lyricmode {
   scen -- %160
   dit,
   se --
-  det \xE ad \x
+  det ad
   dex -- te --
   ram, ad %165
   dex -- te -- ram
@@ -1383,18 +1383,592 @@ EtResurrexitAltoLyrics = \lyricmode {
   o -- rum, et
   vi -- tam ven -- %245
   tu -- ri, et
-  vi -- tam ven --
-  tu -- ri, ven --
-  tu -- ri sae -- cu -- li,
-  a -- men, \xE a -- %250
-  men, a --
-  men. \x
+  vi -- tam ex --
+  pe -- cto, ven --
+  tu -- ri sae -- cu -- li
+  vi -- tam, ex -- %250
+  pe -- cto vi --
+  tam.
   Cre -- do,
   cre -- do,
 
   cre -- do, %258
-  \xE a -- men,
+  a -- men,
   a -- men, a -- men. %260 finis
+}
+
+CredoOldAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1
+    a'2 g %240
+    r g4 g
+    g8 g g4 e r
+    g2 e
+    a g
+    d4.( e16[ f] g[ a]) h([ c)] d8 h \noBreak %245
+    g4 g r2\fermata
+    \tempoMortuorum r4 g2 f8([ es)] \noBreak
+    d[ es] f2 \hA es8[ d]
+    c[ d] es2 d8[ c]
+    h![ c] d4 g, c8([ d)] \noBreak %250
+    es4( d8[ c)] d4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 R2 \noBreak
+    r4 f~\fE
+    f d
+    r g~ %255
+    g e
+    R2*2
+    r4 c
+    g'2 %260
+    e4 e
+    a2
+    fis4 fis
+    h h
+    g a8 h %265
+    a2\trill
+    g4 r
+    r8 c,([ d)] e
+    f!4.( e8)
+    d d([ e)] f %270
+    g4.( f8)
+    e e([ f)] g
+    a[ g f e]
+    f[ e16 f] g8[ f]
+    e[ d] c4 %275
+    r g'
+    c, r
+    r a'
+    d, r r
+    h' %280
+    e,8[ fis] g4~
+    g fis
+    g r
+    r8 e([ fis)] g
+    a4.( g8) %285
+    fis d([ e)] \hA fis
+    g4.( fis8)
+    e4 r
+    r h
+    e2 %290
+    c4 c
+    fis2
+    d4 d
+    g g
+    e fis8 g %295
+    a2
+    fis4 r
+    R2
+    r8 e([ f!)] g
+    a4.( g8) %300
+    f f([ g)] a
+    h4.( a8)
+    g g([ a)] h
+    c[ h] a4~
+    a h8[ a] %305
+    gis2
+    a8 c,([ d)] e
+    f4.( e8)
+    d h([ c)] d
+    e4.( d8) %310
+    c a([ h)] c
+    d[ e] f4~
+    f8[ h, e d]
+    c4 r
+    r a'~ %315
+    a f
+    d r
+    g2
+    e4 c
+    r f~ %320
+    f d
+    h r
+    e2
+    c4 a
+    r d %325
+    g2
+    e4 e
+    a2
+    f4 f
+    b b %330
+    g a8 b
+    c4.( b8)
+    a f([ g)] a
+    b4.( a8)
+    g g([ a)] b %335
+    c4.( b8)
+    a a([ b)] c
+    d[ c b a]
+    b[ a16 \hA b] c8[ \hA b]
+    a[ g16 a] b8[ a] %340
+    g[ f16 g] a8[ g]
+    f d8([ e)] f
+    g4.( f8)
+    e e([ f)] g
+    a4.( g8) %345
+    f f([ g)] a
+    b[ a g f]
+    g[ f16 g] a8[ g]
+    f[ g] a4~
+    a gis %350
+    a8 c,([ d)] e
+    f4.( e8)
+    d d([ e)] f
+    g4.( f8)
+    e e([ f)] g %355
+    a[ g f e]
+    d2
+    c4 r
+    r f~
+    f d %360
+    r g~
+    g e
+    R2*4 %366
+    r8 e([ f)] g
+    a4.( g8)
+    f d([ e)] f
+    g4.( f8) %370
+    e c([ d)] e
+    f4.( e8)
+    d4 r
+    r8 c([ d)] e
+    f4.( e8) %375
+    d d([ e)] f
+    g4.( f8)
+    e e([ f)] g
+    a[ h] c4~
+    c h~ %380
+    h a~
+    a g~
+    g f~
+    f e8[ d]
+    c[ h16 c] d8[ c] %385
+    h h([ c)] d
+    e4.( d8)
+    c c([ d)] e
+    fis4.( e8)
+    d d([ e)] fis %390
+    g4. fis8
+    e4. fis16[ g]
+    a8[ g fis e]
+    d4. e16[ fis]
+    g8[ fis e d] %395
+    c4 a'~
+    a8[ d,] g4~
+    g fis~
+    fis8[ h,] e4~
+    e d %400
+    c8 e([ f!)] g
+    a4.( g8)
+    f f([ g)] a
+    h4.( a8)
+    g g([ a)] h %405
+    c[ g] c4~
+    c h
+    c r
+    r8 a([ h)] c
+    d4.( c8) %410
+    h g([ a)] h
+    c4.( h8)
+    a f([ g)] a
+    h4.( a8)
+    gis4 a~ %415
+    a gis
+    a r
+    R2*2
+    r4 h, %420
+    e2
+    c4 c
+    fis2
+    d4 d
+    g g %425
+    e f!8 g
+    a2~
+    a8[ g] f4
+    e2
+    d4 f %430
+    b2
+    g4 g
+    c2
+    a4 a
+    d d %435
+    b a8 \hA b
+    g[ e f g]
+    a[ f g a]
+    b[ a] g4~
+    g8[ a16 b] c8[ \hA b] %440
+    a[ g] f4~
+    f e
+    f8[ e] d4~
+    d cis
+    d r %445
+    R2
+    r4 b~
+    b es~
+    es c~
+    c f~ %450
+    f d~
+    d g
+    c, c'8 c
+    c4 b
+    a2 %455
+    g4 r
+    r8 c,([ d)] e
+    f!4.( e8)
+    d d([ e)] f
+    g4.( f8) %460
+    e e[ f g]
+    a[ c, d e]
+    f[ a, h! cis]
+    d[ e] f4
+    e2 %465
+    d4 d
+    g2
+    e4 e
+    a2
+    f4 f %470
+    h! h
+    g a8 h
+    c2
+    a4 r
+    R2*2 %476
+    r4 c~
+    c a
+    f r
+    h!2 %480
+    g4 e
+    r a~
+    a f
+    d r
+    g2 %485
+    e4 c
+    r f~
+    f d~
+    d g~
+    g e %490
+    R2*2
+    r4 g
+    d2
+    f4 f %495
+    c2
+    e4 e
+    h h
+    d d8 d
+    a2 %500
+    c4 r
+    r8 e([ d)] c
+    h4.( d8)
+    f f([ e)] d
+    c4.( e8) %505
+    g4 r
+    R2
+    r8 a([ g)] f
+    e4.( f8)
+    g g[ f e] %510
+    d[ h c d]
+    e[ c d e]
+    f[ d e f]
+    g4 a
+    a( g) %515
+    g r
+    r c,\f
+    f2
+    d4 d
+    g2 %520
+    e4 e
+    a a
+    f e8 e
+    f2~
+    f %525
+    e~
+    e\fermata \bar "|." %527 finis
+  }
+}
+
+CredoOldAltoLyrics = \lyricmode {
+  cre -- do, %240
+  cre -- do,
+  cre -- do, cre -- do,
+  et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %245
+  o -- nem
+  mor -- tu --
+  o -- _ _
+  _ _ _
+  _ rum, mor -- tu -- %250
+  o -- rum,
+
+  a --
+  men,
+  a -- %255
+  men,
+
+  et %259
+  vi -- %260
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li, %265
+  a --
+  men,
+  a -- men,
+  a --
+  men, a -- men, %270
+  a --
+  men, a -- men,
+  a --
+  _ _
+  _ men, %275
+  a --
+  men,
+  a --
+  men,
+  a -- %280
+  _ _
+  _
+  men,
+  a -- men,
+  a -- %285
+  men, a -- men,
+  a --
+  men,
+  et
+  vi -- %290
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li, %295
+  a --
+  men,
+
+  a -- men,
+  a -- %300
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- _
+  _ %305
+  _
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- %310
+  men, a -- men,
+  a -- _
+
+  men,
+  a -- %315
+  _
+  men,
+  a --
+  _ men,
+  a -- %320
+  _
+  men,
+  a --
+  _ men,
+  et %325
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %330
+  sae -- cu -- li,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %335
+  a --
+  men, a -- men,
+  a --
+  _ _
+  _ _ %340
+  _ _
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- %345
+  men, a -- men,
+  a --
+  _ _
+  _ _
+  _ %350
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %355
+  a --
+  _
+  men,
+  a --
+  men, %360
+  a --
+  men,
+
+  a -- men, %367
+  a --
+  men, a -- men,
+  a -- %370
+  men, a -- men,
+  a --
+  men,
+  a -- men,
+  a -- %375
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- _
+  _ %380
+  _
+  _
+  _
+  _
+  _ _ %385
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %390
+  a -- _
+  _ _
+  _
+  _ _
+  _ %395
+  men, a --
+  _
+  _
+  _
+  _ %400
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %405
+  a -- _
+  _
+  men,
+  a -- men,
+  a -- %410
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, a -- %415
+  _
+  men,
+
+  et %420
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %425
+  sae -- cu -- li,
+  a --
+  _
+  _
+  men, et %430
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %435
+  sae -- cu -- li,
+  a --
+  _
+  _ _
+  _ %440
+  _ _
+  men,
+  a -- _
+  _
+  men, %445
+
+  et __
+  vi --
+  tam __
+  ven -- %450
+  tu --
+  ri
+  sae -- cu -- li,
+  a -- men,
+  a -- %455
+  men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- %460
+  men, a --
+  _
+  _
+  _ men,
+  a -- %465
+  men, et
+  vi --
+  tam ven --
+  tu --
+  ri, ven -- %470
+  tu -- ri
+  sae -- cu -- li,
+  a --
+  men,
+
+  a -- %477
+  _
+  men,
+  a -- %480
+  _ men,
+  a --
+  _
+  men,
+  a -- %485
+  _ men,
+  a --
+  men, __
+  a --
+  men, %490
+
+  et %493
+  vi --
+  tam ven -- %495
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li,
+  a -- %500
+  men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- %505
+  men,
+
+  a -- men,
+  a --
+  men, a -- %510
+  _
+  _
+  _
+  _ men,
+  a -- %515
+  men,
+  et
+  vi --
+  tam ven --
+  tu -- %520
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li,
+  a --
+  %525
+  men. __ %526 finis
 }
 
 SanctusAlto = {

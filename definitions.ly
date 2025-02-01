@@ -8,22 +8,32 @@
 
 hA = \once \override Accidental.stencil = ##f
 accomp = \markup \remark "accomp."
+fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) \raise #.3 \fontsize #-5 \flat } }
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
-  tempoKyrieOld = \tempoMarkup "Andante"
+tempoKyrieOld = \tempoMarkup "Andante"
+
 tempoGloria = \tempoMarkup "Allegro vivace"
-  tempoQuiTollis = \tempoMarkup "Adagio"
-  tempoQuoniam = \tempoMarkup "Allegro"
+tempoQuiTollis = \tempoMarkup "Adagio"
+tempoQuoniam = \tempoMarkup "Allegro"
+
 tempoCredo = \tempoMarkup "Allegro"
-  tempoEtIncarnatus = \tempoMarkup "Adagio"
-  tempoEtResurrexit = \tempoMarkup "Allegro"
-    tempoEtMortuos = \tempoMarkup "Adagio"
-    tempoCuiusRegni = \tempoMarkup "Allegro"
+tempoEtIncarnatus = \tempoMarkup "Adagio"
+tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoEtMortuos = \tempoMarkup "Adagio"
+  tempoCuiusRegni = \tempoMarkup "Allegro"
+
+tempoCredoOld = \tempoMarkup "[Allegro]"
+  tempoMortuorum = \tempoMarkup "Adagio"
+  tempoEtVitam = \tempoMarkup "Allegro vivace"
+
 tempoSanctus = \tempoMarkup "Maestoso"
   tempoPleni = \tempoMarkup "Allegro"
+
 tempoBenedictus = \tempoMarkup "Andante, piuttosto allegretto"
   tempoOsanna = \tempoMarkup "Allegro"
+
 tempoAgnusDei = \tempoMarkup "Adagio"
   tempoDona = \tempoMarkup "Allegro molto"
 

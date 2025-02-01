@@ -4,7 +4,7 @@ KyrieTromboneII = {
   \relative c' {
     \clef tenor
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*6 %7
     fis,4\pE\cresc d' d
     d8 c h4 r
@@ -189,7 +189,7 @@ KyrieOldTromboneII = {
     h4 r r
     a2 fis8 g %155
     g4 r r
-    R2.*4 \segnoMark \default \bar "|" %160 finis
+    R2.*4 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -392,7 +392,7 @@ CredoTromboneII = {
     c c r8 d d d %5
     d4 d r d
     e e d d8 d
-    d4 d r d8^\critnote d
+    d4 d r d8 d
     c2 c4 c
     d4. d8 d4 d8 d %10
     d4 e e d8 c
@@ -400,7 +400,7 @@ CredoTromboneII = {
     d h
     e d
     R1 %15
-    r4 d8^\critnote d d4 d
+    r4 d8 d d4 d
     e4. e8 e4 r
     e c h h
     d d8 d c4 c
@@ -409,7 +409,7 @@ CredoTromboneII = {
     e e d2
     c4 r c c
     h2 c4 c
-    h h8^\critnote h h4 h %25
+    h h8 h h4 h %25
     h r r2
     h g
     c h
@@ -439,8 +439,8 @@ CredoTromboneII = {
     f e
     R1*2 %56
     c2 h4 h
-    h a gis r
-    c c8^\critnote c d4 d8 d
+    h a8 a gis4 r
+    c c8 c d4 d8 d
     d4 c h h %60
     c f r g,
     a d r e
@@ -454,7 +454,7 @@ CredoTromboneII = {
     r2 h
     a r
     r d4 d
-    c8^\critnote c h4 c r\fermata \bar "||" %74 finis
+    c8 c h4 c r\fermata \bar "||" %74 finis
   }
 }
 
@@ -470,32 +470,32 @@ EtIncarnatusTromboneII = {
     b4 r r
     R2. %80
     r4 r r8 b
-    c c, r4 r
+    c4 c,8 r r4
     R2.
     r4 r8 e e e
     e4 r r %85
     r r8 f f f
-    f4-\critnote r r
+    f2.~
     f4 r r
     r r8 c' c c
     c,4 r r %90
-    d'2.\sfpE
-    c4 r r
-    d2.\sfpE
-    c4 r8 g4 g8
-    f2. %95
+    d'2.\sfp
+    c8 r r4 r
+    d2.\sfp
+    c8 r r g4 g8
+    a2. %95
     g
-    f8 a4 a8 h? c
+    f8 a4 a8 h c
     d4 c r
     R2.*4 %102
-    c,2\sfpE r4
+    c,2\sfp r4
     R2.
-    e'2\sfpE r4 %105
-    c2 g4
-    e e\ppE e
+    e'2\sfp r4 %105
+    c2\p g4
+    e e e
     e r r
     R2.
-    c'2.~\fE %110
+    c'2.~\f %110
     c4 c c
     c2.~
     c4 c c
@@ -504,22 +504,22 @@ EtIncarnatusTromboneII = {
     des
     c
     c
-    d4. c8 h4
+    d!4. c8 h4
     h c a! %120
     h r r
     e!2.
     f4 r r
-    d2.
-    es4 r r %125
-    es2\fz r4
-    es2\fp r4
-    d2\fz r4
+    d!2.
+    es!4 r r %125
+    es2\sfz r4
+    es2\sfz r4
+    d2\sfz r4
     R2.
-    r4 h?\pE d %130
+    r4 h\pE d %130
     c2 c4
     d r c
     g d' c
-    h h8.[-\critnote c16 h8. c16]
+    h h8.[ c16 \hA h8. c16]
     h2.\fermata \bar "||" %135 finis
   }
 }
@@ -543,8 +543,8 @@ EtResurrexitTromboneII = {
     r a, c e
     r dis8 e fis2
     e4 h d2
-    c4 r r e %150
-    f d h a
+    c!4 r r e %150
+    f! d h a
     gis8 h e4 r2
     R1*5 %157
     r2 r4 g,
@@ -562,7 +562,7 @@ EtResurrexitTromboneII = {
     d h %170
     e d
     R1*2
-    r2 r4 b\ffE
+    r2 r4 b\f
     b4. b8 as4 r %175
     r2 r4 c
     c4. c8 b4 r
@@ -581,7 +581,7 @@ EtResurrexitTromboneII = {
     h h c e, %190
     f c' d f,
     g d' e g,
-    a-\critnote e' f f8 e
+    a e' f f8 e
     d4 c c h
     c r r2 %195
     g e
@@ -590,8 +590,8 @@ EtResurrexitTromboneII = {
     r2 h4 h
     c c8 c e4 c %200
     d4. d8 c4 r
-    r h4. h8 h[ a]
-    a4 gis? r a8 c
+    r h4. h8 h a
+    a4 gis r a8 c
     d2 c
     b a %205
     c4 c8 d c2
@@ -600,17 +600,17 @@ EtResurrexitTromboneII = {
     d c
     R1 %210
     r2 c4 c
-    c c c4. c8
+    c c8 c c4. c8
     c4 r a a
     b b c2
-    b4 r8 b b4 b %215
+    b4 r8 \hA b b4 b %215
     b b b2
     b d4 d
     c2 h4 r
     h h c4. c8
     c4 c2 b4 %220
     c4. c8 c4 as8 g
-    fis4 g2 fis4
+    fis4 g g fis
     g r r2
     d' b
     es d %225
@@ -618,26 +618,26 @@ EtResurrexitTromboneII = {
     r2 r4 r8 g,
     c4 c c c8 c
     c4. b8 a4 r8 a
-    d4 d d2 %230
+    d4 d d8 d d d %230
     d4. c8 h!4 r8 h
-    e4 e e2
-    e c4 r
+    e4 e8 e e4 e8 e
+    e2 c4 r
     R1*3 %236
-    a2 h
-    a h
+    a2\f h
+    a h \segnoMark 1
     c e
     a, c %240
     f,4 f d' d
     c2 h
     R1
-    r2 r4 g\fE
+    r2 r4 g\f
     c2 h4 h %245
     d2 c4 e
     c2 h4 h
     a2 g4 g'
-    f e d c
+    f e d c8 c
     h2 d4 d %250
-    c2 c4 h
+    c c c h
     c r r2
     g e
     a g
@@ -645,7 +645,283 @@ EtResurrexitTromboneII = {
     r2 h
     a r
     r4 h2 d4
-    c h c r\fermata \bar "|." %260 finis
+    c8 c h4 c r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    r2 h
+    a r %240
+    r d4 d
+    c8 c h4 c r
+    g2 e
+    a g
+    f4. g16 a h c d e f8 d \noBreak %245
+    c4 c r2\fermata
+    \tempoMortuorum r f, \noBreak
+    d' es,
+    c' d,
+    h'! c8 d es d \noBreak %250
+    c2 h!4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 r c\f \noBreak
+    f, r
+    r d'
+    g, r %255
+    r e'
+    a,8 h c4~
+    c h
+    c r
+    R2 %260
+    r4 c~
+    c a
+    r d~
+    d h
+    R2*2 %266
+    r4 g
+    c2
+    a4 a
+    d2 %270
+    h4 h
+    e e
+    c d8 e
+    d2\trill
+    c4 r %275
+    r8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    h h c d %280
+    e d c h
+    c h16 c d8 c
+    h a g4
+    r8 c d e
+    fis4. e8 %285
+    d h c d
+    e4. d8
+    c d e4~
+    e dis
+    e r %290
+    r a,
+    d!2
+    h4 h
+    e2
+    c4 c %295
+    fis fis
+    d e8 fis
+    g2
+    e4 r
+    r8 a, h c %300
+    d4. c8
+    h h c d
+    e4. d8
+    c a h c
+    d e f4~ %305
+    f8 h, e d
+    c4 r
+    R2*5 %312
+    r4 e~
+    e c
+    a r %315
+    d2
+    h4 g
+    r c~
+    c a
+    f r %320
+    h2
+    g4 e
+    r a~
+    a f
+    d r %325
+    r8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    b b c d %330
+    e4. d8
+    c4 d8 e
+    f a, b c
+    d4. c8
+    b b c d %335
+    e4. d8
+    c c d e
+    f c f4~
+    f e~
+    e8 a, d4~ %340
+    d cis
+    d r
+    R2*7 %349
+    r4 e, %350
+    a2
+    f4 f
+    h! h
+    g g8 g
+    c4 c %355
+    a8 h c4~
+    c h
+    c r
+    r c,
+    f2 %360
+    d4 d
+    g2
+    e4 e
+    a a
+    f'8 e d c %365
+    h g a h
+    c4. h8
+    a f g a
+    h4. a8
+    g e f g %370
+    a4. g8
+    f d e f
+    g4 g
+    c2
+    a4 a %375
+    d2
+    h4 h
+    e e
+    c8 h a g
+    f e16 f g8 f %380
+    e4 r
+    R2
+    r8 a d c
+    h a16 h c8 h
+    a2 %385
+    g8 g a h
+    c4. h8
+    a a h c
+    d4. c8
+    h h c d %390
+    e4. d8
+    c4. d16 e
+    fis8 e d c
+    h4. c16 d
+    e8 d c h %395
+    a4 r
+    R2*3
+    r4 g %400
+    c2
+    a4 a
+    d2
+    h4 h
+    e e %405
+    c d8 e
+    d2\trill
+    c8 c d e
+    f4. e8
+    d h c d %410
+    e4. d8
+    c a h c
+    d4. c8
+    h c d4~
+    d8 c h a %415
+    h2
+    c8 d e4
+    d2
+    e8 f g4
+    fis2 %420
+    e4 e,
+    a2
+    fis4 fis
+    h2
+    g4 g %425
+    c c
+    a h8 c
+    d4 a
+    r a~
+    a d~ %430
+    d b~
+    b e~
+    e c~
+    c f
+    d e8 f %435
+    g4. f8
+    e c d e
+    f e d c
+    b4. a16 \hA b
+    c8 b a g %440
+    f4 g8 a
+    g2
+    f4 f'
+    e2
+    d8 c! b4~ %445
+    b a
+    b r
+    R2*8 %455
+    r8 g a b
+    c4. b8
+    a a b c
+    d4. c8
+    b b c d %460
+    e!4. d8
+    c4 r
+    R2*2
+    r4 a %465
+    d2
+    h!4 h
+    e2
+    c4 c
+    f f %470
+    d e8 f
+    g2
+    e4 r
+    R2*2 %475
+    g2
+    e4 c
+    r f~
+    f d
+    h! r %480
+    e2
+    c4 a
+    r d~
+    d h
+    g r %485
+    c2
+    a4 f
+    d'2
+    h4 g
+    e'2 %490
+    c4 a~
+    a h8 c
+    d4 g,
+    h2
+    d4 d %495
+    a2
+    c4 c
+    g g
+    h h8 h
+    f2 %500
+    a8 c h a
+    g4. a8
+    h d c h
+    a4. h8
+    c e d c %505
+    h4. c8
+    d d c h
+    a4. h8
+    c c h a
+    g4. a8 %510
+    h d8 c h
+    a e' d c
+    h f' e d
+    c d e c
+    d2 %515
+    e4 r
+    r a,\f
+    d2
+    h4 h
+    e2 %520
+    c4 c
+    f f
+    a, c8 c
+    c2~
+    c %525
+    c~
+    c\fermata \bar "|." %527 finis
   }
 }
 

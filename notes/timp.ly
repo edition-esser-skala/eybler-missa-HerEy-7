@@ -4,7 +4,7 @@ KyrieTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     R2.*12 %13
     c2.\fE\startTrillSpan
     g4\stopTrillSpan r r %15
@@ -69,7 +69,7 @@ KyrieOldTimpani = {
     g4 r r
     r8 g\pp g g g g
     g4 r r %155
-    R2.*5 \segnoMark \default \bar "|" %160 finis
+    R2.*5 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -215,7 +215,16 @@ CredoTimpani = {
     R1*12 %58
     c4 c8 c g4 g8 g
     c c16 c c8 c g4 r %60
-    R1*12 %72
+    R1*2
+    g1\startTrillSpan
+    g
+    c4\stopTrillSpan c g2\trill %65
+    c4 r r g
+    c r c r
+    c r c r
+    r2 r4 g
+    c8 g c4 g r %70
+    R1*2
     r2 g4 g8 g
     c c g4 c r\fermata \bar "||" %74 finis
   }
@@ -227,7 +236,7 @@ EtResurrexitTimpani = {
     \key c \major \time 4/4 \tempoEtResurrexit
       \set Score.currentBarNumber = #136
     R1*26 %161
-    c4\f r r c
+    c4\fE r r c
     g r r2
     R1*2 %165
     c4 r r2
@@ -236,7 +245,7 @@ EtResurrexitTimpani = {
     R1*3 %172
     r2 g4 r
     R1*5 %178
-    r2 c4\ff r
+    r2 c4\f r
     c r c r %180
     c r c r
     c r c2~\startTrillSpan
@@ -245,7 +254,7 @@ EtResurrexitTimpani = {
     R1 %185
     r2\fermata \tempoCuiusRegni r
     R1*7 %193
-    g4\f c g2
+    g4\fE c g2
     c4 r r2 %195
     c4 r c r
     c r c r
@@ -258,12 +267,13 @@ EtResurrexitTimpani = {
     R1*2
     c4 r r2
     c4 r r2
-    R1*15 %244
+    R1*9 \segnoMark 1 %238
+    R1*6 %244
     c8\f c16 c c8 c g4 r %245
     g8 g16 g g8 g c4 r
     R1*3
-    g1\trill %250
-    c4 c g2\trill
+    g1\startTrillSpan %250
+    c4\stopTrillSpan c g2\trill
     c4 r r2
     c4 r c r
     c r c r
@@ -272,6 +282,104 @@ EtResurrexitTimpani = {
     R1*2
     r2 g4 g8 g
     c c g4 c r\fermata \bar "|." %260 finis
+  }
+}
+
+CredoOldTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1*2 %240
+    r2 g4 g
+    c g c r
+    c r c r
+    c r c r
+    r2 r4 g \noBreak %245
+    c r r2\fermata
+    \tempoMortuorum R1*4 \noBreak %250
+    r2 r4\fermata \tempoEtVitam r
+    \twofourtime \time 2/4 R2*23 %274
+    r4 c %275
+    g g
+    c r
+    R2*5 %282
+    g4 r
+    c r
+    R2*13 %297
+    g4 g8 g
+    c4 r
+    R2*26 %325
+    r4 g
+    c r
+    R2*29 %356
+    r4 g
+    c r
+    R2*7 %365
+    r4 g
+    c r
+    R2*5 %372
+    r4 g
+    c r
+    R2*11 %385
+    g4 r
+    R2*13 %399
+    r4 g %400
+    c r
+    R2*5 %406
+    r4 g
+    c r
+    R2*9 %417
+    r4 g
+    c r
+    R2*6 %425
+    r4 c
+    c r
+    R2*9 %436
+    c4 c8. c16
+    c4 r
+    R2*17 %455
+    r4 g
+    c r
+    R2*17 %474
+    g4 g8. g16 %475
+    c4 r
+    R2*7 %483
+    g4 g8. g16
+    c4 r %485
+    R2*7 %492
+    g4 r
+    R2
+    g4 r %495
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %500
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %505
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %510
+    g4 r
+    g r
+    g g8 g
+    c4 r
+    r g %515
+    c r
+    c\f r
+    R2*5 %522
+    c4 c
+    c4. c16 c
+    c8 c c c %525
+    c2~\startTrillSpan
+    \after 4 \stopTrillSpan c\fermata \bar "|." %527 finis
   }
 }
 

@@ -4,7 +4,7 @@ KyrieBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
-    R2. \segnoMark \default
+    R2. \segnoMark 1
     \mvTr c4(\p^\tuttiE d) e
     f2.
     d4( e) f
@@ -200,7 +200,7 @@ KyrieOldBasso = {
     h4 r r
     a2 fis8([ g)] %155
     g4 r r
-    R2.*4 \segnoMark \default \bar "|" %160 finis
+    R2.*4 \segnoMark 1 \bar "|" %160 finis
   }
 }
 
@@ -883,10 +883,10 @@ CredoBasso = {
     c2 g4 r
     a a r8 fis fis fis %5
     g4 h r h
-    a a fis8([ a)] d, fis
+    a a fis8([ a)] d, \hA fis
     g4 h r h8 h
     c2 c4 c
-    h4. a16([ g)] fis4 d8 fis %10
+    h4. a16([ g)] fis4 d8 \hA fis %10
     g4 e c d
     g, r r2
     d' h
@@ -919,12 +919,12 @@ CredoBasso = {
     R1*2
     fis4. fis8 g4 g
     a2 b4 r
-    e, e f8 f f f %45
+    e, e f!8 f f f %45
     g2 a4 r
     d,2 g
     e4. e8 a4 r
     f c' d a
-    b f g d^\critnote %50
+    b f g d %50
     e a,8 a e'4. e8
     a,4 r r2
     e' c
@@ -936,8 +936,8 @@ CredoBasso = {
     c4( c,) g' r %60
     r a g g
     r f e e
-    r h'8([ c)] d[ e f e]
-    d[ c h a] g[ f e d]
+    r h'8([ c)] d[( e)] f e
+    d[( c h a] g[ f e d])
     c4 c' g2 %65
     c,4 r r2
     g' e
@@ -1009,8 +1009,8 @@ CredoBassoLyrics = \lyricmode {
   lu -- tem %60
   de -- scen -- dit,
   de -- scen -- dit
-  de -- scen --
-  _ _
+  de coe -- lis, de --
+  scen --
   dit de coe -- %65
   lis.
   Cre -- do,
@@ -1027,7 +1027,7 @@ EtIncarnatusBasso = {
     \key f \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #75
     R2.*8 %82
-    \mvTr f4\p^\soloE d b
+    \mvTr f4\p^\solo d b
     c8. c16 c4 r
     c' e,8([ f)] b,([ c)] %85
     d e f4 r
@@ -1043,8 +1043,8 @@ EtIncarnatusBasso = {
     e d c
     d d8([ c)] h a
     gis4 a r
-    f'4. g8 f g
-    f8. e16 d4 r8 c %100
+    f'4. g!8 f g
+    f8. e16 d4 r8 c! %100
     h4 c r8 c
     f d g4 f
     e2\sfp f8 f
@@ -1057,11 +1057,11 @@ EtIncarnatusBasso = {
     es c r
     r c c
     g' c, r
-    r8 as' c as es c
+    r8 as' c \hA as es c
     h4 g' r %115
     r8 des' b! g e! b
     a!4 f' r
-    r8 as4 f8 c^\critnote as
+    r8 as4 f8 c as
     g2 g4
     g'2( fis4) %120
     g r r
@@ -1147,7 +1147,7 @@ EtResurrexitBasso = {
     h
     d
     cis
-    r4 f, a d
+    r4 f,! a d
     r g, b d %155
     r cis8([ d)] e2
     d4 a c2
@@ -1166,7 +1166,7 @@ EtResurrexitBasso = {
     d' h %170
     e d
     R1*2
-    r2 r4 es\ff
+    r2 r4 es\f
     es4. es8 as,4 r %175
     r2 r4 f'
     f4. f8 b,4 r
@@ -1174,12 +1174,12 @@ EtResurrexitBasso = {
     g4. g8 c,4 r
     r2 g' %180
     c es
-    c \once \tieDashed g~
+    c g~
     g c,
-    r \tempoEtMortuos r4 f,\ppE
+    r \tempoEtMortuos r4 f,\p
     as2( g4) g %185
     g2\fermata \tempoCuiusRegni r
-    e'!4\f e a2
+    e'!4\fE e a2
     f4 d g2(
     e4) h c2
     g'4 r r c, %190
@@ -1207,7 +1207,7 @@ EtResurrexitBasso = {
     f f8 f e4. e8
     f4 r f f
     b b a2
-    b4 r8 b g4 es %215
+    b4 r8 \hA b g4 es %215
     d b es2
     b h4 h
     c2 g4 r
@@ -1225,12 +1225,12 @@ EtResurrexitBasso = {
     d4 d d8 d d d %230
     d4. c8 h!4 r8 h
     e4 e8 e e4 e8 e
-    e2 c4 a(
+    e2 c4 a(\p
     h) c fis, gis
     a a, d dis %235
     e e r2
-    a g!
-    f e
+    a\f g!
+    f e \segnoMark 1
     a g
     f e %240
     d4 d h h
@@ -1242,8 +1242,8 @@ EtResurrexitBasso = {
     a'2 g4 g
     f2 e4 e'
     d c h a8 a
-    g2 h4 \once \slurDashed h( %250
-    c) c, g'2
+    g2 h4 h %250
+    c c, g'2
     c,4 r r2
     g' e
     a g
@@ -1356,20 +1356,574 @@ EtResurrexitBassoLyrics = \lyricmode {
   o -- nem
   mor -- tu -- o --
   rum, et
-  vi -- tam \xE ven -- %245
-  tu -- ri, \x et
-  vi -- tam \xE ven --
-  tu -- ri, \x ven --
-  tu -- ri sae -- cu -- li,
-  \xE a -- men, a -- %250
-  men, a --
-  men. \x
+  vi -- tam ven -- %245
+  tu -- ri, et
+  vi -- tam ex --
+  pe -- cto, ven --
+  tu -- ri sae -- cu -- li
+  vi -- tam, ex -- %250
+  pe -- cto vi --
+  tam.
   Cre -- do,
   cre -- do,
 
   cre -- %258
   do, a -- men,
   a -- men, a -- men. %260 finis
+}
+
+CredoOldBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoCredoOld
+      \set Score.currentBarNumber = #239
+      \segnoMark 1
+    R1
+    r2 g' %240
+    f h,4 h'
+    c8 c, g'4 c, r
+    g'2 e
+    a g
+    d4.( e16[ f] g[ a]) h([ c)] d8 g, \noBreak %245
+    c4 c, r2\fermata
+    \tempoMortuorum c as' \noBreak
+    b, g'
+    as, f'
+    g, es'8[ d c b] \noBreak %250
+    as2 g4\fermata r
+    \twofourtime \time 2/4 r8 c([\f d)] e \noBreak
+    f4.( e8)
+    d d([ e)] f
+    g4.( f8) %255
+    e e([ f)] g
+    a[ g f e]
+    f[ e16 f] g8[ f]
+    e[ d] c4
+    r g' %260
+    c, r
+    r a'
+    d, r
+    r h'
+    e,8[ fis] g4~ %265
+    g fis
+    g r
+    R2
+    r4 f!~
+    f d %270
+    r g~
+    g e
+    R2*2
+    r4 c %275
+    g'2
+    e4 e
+    a2
+    fis4 fis
+    h h %280
+    g a8 h
+    a2\trill
+    g8 g([ a)] h
+    c4.( h8)
+    a fis([ g)] a %285
+    h4.( a8)
+    g e([ fis)] g
+    a4 g
+    fis2\trill
+    e4 r %290
+    R2
+    r4 d
+    g2
+    e4 e
+    a2 %295
+    fis4 fis
+    h h
+    g a8 h
+    c2
+    a8 f!([ g)] a %300
+    h4.( a8)
+    g g([ a)] h
+    c4.( h8)
+    a4 r
+    R2 %305
+    r4 e~
+    e a~
+    a d,~
+    d g~
+    g c,~ %310
+    c f
+    h, c8 d
+    e2
+    a,4 a'~
+    a f %315
+    d r
+    g2
+    e4 c
+    r f~
+    f d %320
+    h r
+    e2
+    c4 a
+    r d~
+    d h %325
+    g r
+    R2*5 %331
+    r4 c
+    f2
+    d4 d
+    g2 %335
+    e4 e
+    a a
+    f g8 a
+    g2
+    f %340
+    e\trill
+    d4 r
+    r8 g,([ a)] b
+    c4.( b8)
+    a a([ b)] c %345
+    d4. c8
+    b[ c] d4~
+    d cis
+    f4. e8
+    d[ c16 d] e8[ d] %350
+    c! a([ h!)] c
+    d4.( c8)
+    h h([ c)] d
+    e4.( d8)
+    c c([ d)] e %355
+    f[ e d c]
+    f[ e16 f] g8[ f]
+    e[ d] c4
+    r a
+    d2 %360
+    h4 h
+    e2
+    c4 c
+    f f
+    d e8 f %365
+    g4 g,
+    r8 c([ d)] e
+    f4.( e8)
+    d h([ c)] d
+    e4.( d8) %370
+    c a([ h)] c
+    d4. c8
+    h[ a] g4
+    R2
+    r4 f'~ %375
+    f d
+    r g~
+    g e
+    R2*2 %380
+    r8 c[ f e]
+    d[ c16 d] e8[ d]
+    c4 r
+    R2
+    r4 d %385
+    g2
+    e4 e
+    a2
+    fis4 fis
+    h h %390
+    g a8 h
+    c[ h a g]
+    fis4. g16[ a]
+    h8[ a g fis]
+    e4. fis16[ g] %395
+    a8[ g] fis[ e16  \hA fis]
+    g8[ fis e c]
+    fis[ e] dis[ cis16 \hA dis]
+    e8[ d c a]
+    d[ c] h[ a16 h] %400
+    c4 r
+    R2*5 %406
+    r4 g'~
+    g c,~
+    c f~
+    f h,~ %410
+    h e~
+    e a,
+    f'4.( e8)
+    d4. c8
+    h4 c %415
+    d8[ c16 d] e8[ d]
+    c a a'[ g]
+    f[ e16 f] g8[ f]
+    e c c'[ h]
+    a[ g16 a] h8[ a] %420
+    g[ fis] e4
+    r8 a,([ h)] c
+    d4.( c8)
+    h h([ c)] d
+    e4.( d8) %425
+    c c([ d)] e
+    f!4.( e8)
+    d d([ e)] f
+    g[( a16 b] a8[ g])
+    f([ e)] d4 %430
+    g2
+    e4 e
+    a2
+    f4 f
+    b b %435
+    g g8 g
+    c2
+    f,4 r
+    R2*7 %445
+    r4 f,
+    b2
+    g4 g
+    c2
+    a4 a %450
+    d d
+    b b'8 b
+    b4 a~
+    a8[ d,] g4~
+    g fis %455
+    g r
+    R2
+    r8 f!([ g)] a
+    b4.( a8)
+    g g([ a)] b %460
+    c4. b8
+    a4. g8
+    f4. e8
+    d4 b'8[ a]
+    g[ f16 g] a8[ g] %465
+    f[ e] d4
+    R2
+    r4 c!
+    f2
+    d4 d %470
+    g2
+    e4 e
+    a a
+    f g8 a
+    h!2 %475
+    g4 c~
+    c a
+    f r
+    h2
+    g4 e %480
+    r a~
+    a f
+    d r
+    g2
+    e4 c %485
+    r f~
+    f d
+    h g'~
+    g e
+    c a'~ %490
+    a8[ g f e]
+    d[ c h a]
+    g4 r
+    r g'
+    d2 %495
+    f4 f
+    c2
+    e4 e
+    h h
+    d d8 d %500
+    a2
+    c4 r
+    R2*2
+    r8 c'([ h)] a %505
+    g4.( a8)
+    h h([ a)] g
+    f4.( g8)
+    a a([ g)] f
+    e4.( f8) %510
+    g2
+    g~
+    g
+    c4 a
+    f( g) %515
+    c, r
+    c\f f~
+    f d~
+    d g~
+    g e~ %520
+    e a~
+    a f~
+    f c8 c
+    f,2~
+    f %525
+    c'~
+    c\fermata \bar "|." %527 finis
+  }
+}
+
+CredoOldBassoLyrics = \lyricmode {
+  cre -- %240
+  do, cre -- do,
+  cre -- do, cre -- do,
+  et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %245
+  o -- nem
+  mor -- tu --
+  o -- rum,
+  mor -- tu --
+  o -- _ %250
+  _ rum,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- %255
+  men, a -- men,
+  a --
+  _ _
+  _ men,
+  a -- %260
+  men,
+  a --
+  men,
+  a --
+  _ _ %265
+  _
+  men,
+
+  a --
+  men, %270
+  a --
+  men,
+
+  et %275
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %280
+  sae -- cu -- li,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %285
+  a --
+  men, a -- men,
+  a -- men,
+  a --
+  men, %290
+
+  et
+  vi --
+  tam ven --
+  tu -- %295
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li,
+  a --
+  men, a -- men, %300
+  a --
+  men, a -- men,
+  a --
+  men,
+  %305
+  et __
+  vi --
+  tam __
+  ven --
+  tu -- %310
+  ri
+  sae -- cu -- li,
+  a --
+  men, a --
+  _ %315
+  men,
+  a --
+  _ men,
+  a --
+  _ %320
+  men,
+  a --
+  _ men,
+  a --
+  _ %325
+  men,
+
+  et %332
+  vi --
+  tam ven --
+  tu -- %335
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li,
+  a --
+  men, %340
+  a --
+  men,
+  a -- men,
+  a --
+  men, a -- men, %345
+  a -- _
+  _ _
+  men,
+  a -- _
+  _ _ %350
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, a -- men, %355
+  a --
+  _ _
+  _ men,
+  et
+  vi -- %360
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li, %365
+  a -- men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- %370
+  men, a -- men,
+  a -- _
+  _ men,
+
+  a -- %375
+  men,
+  a --
+  men,
+
+  a -- %381
+  _ _
+  men,
+
+  et %385
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %390
+  sae -- cu -- li,
+  a --
+  _ _
+  _
+  _ _ %395
+  _ _
+  _
+  _ _
+  _
+  _ _ %400
+  men,
+
+  et __ %407
+  vi --
+  tam __
+  ven -- %410
+  tu --
+  ri
+  sae --
+  cu -- li,
+  a -- men, %415
+  a -- _
+  _ men, a --
+  _ _
+  _ men, a --
+  _ _ %420
+  _ men,
+  a -- men,
+  a --
+  men, a -- men,
+  a -- %425
+  men, a -- men,
+  a --
+  men, a -- men,
+  a --
+  men, et %430
+  vi --
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri %435
+  sae -- cu -- li,
+  a --
+  men,
+
+  et %446
+  vi --
+  tam ven --
+  tu --
+  ri, ven -- %450
+  tu -- ri
+  sae -- cu -- li,
+  a -- _
+  _
+  _ %455
+  men,
+
+  a -- men,
+  a --
+  men, a -- men, %460
+  a -- _
+  _ _
+  _ _
+  men, a --
+  _ _ %465
+  _ men,
+
+  et
+  vi --
+  tam ven -- %470
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li,
+  a -- %475
+  men, a --
+  _
+  men,
+  a --
+  _ men, %480
+  a --
+  _
+  men,
+  a --
+  _ men, %485
+  a --
+  _
+  men, a --
+  _
+  men, a -- %490
+
+  _
+  men,
+  et
+  vi -- %495
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- li, %500
+  a --
+  men,
+
+  a -- men, %505
+  a --
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- %510
+  men,
+  a --
+
+  _ men,
+  a -- %515
+  men,
+  et vi --
+  tam __
+  ven --
+  tu -- %520
+  ri __
+  sae --
+  cu -- li,
+  a --
+  %525
+  men. __ %526 finis
 }
 
 SanctusBasso = {
