@@ -807,7 +807,7 @@ CredoOldViolinoII = {
     c4 r r2\fermata
     \tempoMortuorum R1*4 \noBreak %250
     r2 r4\fermata \tempoEtVitam r
-    R2
+    \twofourtime \time 2/4 R2
     r4 f,,~\fE
     f d
     r g~ %255

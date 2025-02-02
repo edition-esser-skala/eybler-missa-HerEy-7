@@ -19,6 +19,15 @@
     }
   }
   \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \KyrieOldOboeI }
+      >>
+    }
+  }
+  \bookpart {
     \section "2" "Gloria"
     \addTocEntry
     \score {
@@ -74,6 +83,15 @@
     }
   }
   \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOldOboeI }
+      >>
+    }
+  }
+  \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
     \paper { systems-per-page = #6 }
@@ -95,19 +113,9 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AgnusDeiOboeI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaOboeI }
+        \new Staff { \AgnusOboeI }
       >>
     }
   }

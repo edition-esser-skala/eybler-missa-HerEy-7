@@ -44,6 +44,44 @@
     }
   }
   \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Soprano"
+            \new Voice = "Soprano" { \dynamicUp \KyrieOldSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \KyrieOldSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Alto"
+            \new Voice = "Alto" { \dynamicUp \KyrieOldAlto }
+          }
+          \new Lyrics \lyricsto Alto \KyrieOldAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Tenore"
+            \new Voice = "Tenore" { \dynamicUp \KyrieOldTenore }
+          }
+          \new Lyrics \lyricsto Tenore \KyrieOldTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "Basso" { \dynamicUp \KyrieOldBasso }
+          }
+          \new Lyrics \lyricsto Basso \KyrieOldBassoLyrics
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "Organo"
+          \KyrieOldOrgano
+        }
+        \new FiguredBass { \KyrieOldBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "2" "Gloria"
     \addTocEntry
     \score {
@@ -254,6 +292,41 @@
     }
   }
   \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \CredoOldSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \CredoOldSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \CredoOldAlto }
+          }
+          \new Lyrics \lyricsto Alto \CredoOldAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CredoOldTenore }
+          }
+          \new Lyrics \lyricsto Tenore \CredoOldTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CredoOldBasso }
+          }
+          \new Lyrics \lyricsto Basso \CredoOldBassoLyrics
+        >>
+        \new Staff { \CredoOldOrgano }
+        \new FiguredBass { \CredoOldBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
     \score {
@@ -332,66 +405,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \AgnusDeiSoprano }
+            \new Voice = "Soprano" { \dynamicUp \AgnusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
+          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \AgnusDeiAlto }
+            \new Voice = "Alto" { \dynamicUp \AgnusAlto }
           }
-          \new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+          \new Lyrics \lyricsto Alto \AgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \AgnusDeiTenore }
+            \new Voice = "Tenore" { \dynamicUp \AgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \AgnusDeiBasso }
+            \new Voice = "Basso" { \dynamicUp \AgnusBasso }
           }
-          \new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
-        \new Staff { \AgnusDeiOrgano }
-        \new FiguredBass { \AgnusDeiBassFigures }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \paper { page-count = #4 }
-    \score {
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DonaSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \DonaSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DonaAlto }
-          }
-          \new Lyrics \lyricsto Alto \DonaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DonaTenore }
-          }
-          \new Lyrics \lyricsto Tenore \DonaTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DonaBasso }
-          }
-          \new Lyrics \lyricsto Basso \DonaBassoLyrics
-        >>
-        \new Staff { \DonaOrgano }
-        \new FiguredBass { \DonaBassFigures }
+        \new Staff { \AgnusOrgano }
+        \new FiguredBass { \AgnusBassFigures }
       >>
     }
   }

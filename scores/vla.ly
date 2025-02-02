@@ -19,6 +19,15 @@
     }
   }
   \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \KyrieOldViola }
+      >>
+    }
+  }
+  \bookpart {
     \section "2" "Gloria"
     \addTocEntry
     \score {
@@ -30,7 +39,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #8 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
         \new Staff { \QuiTollisViola }
@@ -58,6 +67,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \EtIncarnatusViola }
@@ -74,8 +84,18 @@
     }
   }
   \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOldViola }
+      >>
+    }
+  }
+  \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \SanctusViola }
@@ -94,19 +114,9 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \AgnusDeiViola }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaViola }
+        \new Staff { \AgnusViola }
       >>
     }
   }

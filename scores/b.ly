@@ -19,6 +19,15 @@
     }
   }
   \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \KyrieOldOrgano }
+      >>
+    }
+  }
+  \bookpart {
     \section "2" "Gloria"
     \addTocEntry
     \score {
@@ -42,7 +51,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolone }
+        \new Staff { \QuoniamOrgano }
       >>
     }
   }
@@ -58,7 +67,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
-    \paper { systems-per-page = #8 }
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \EtIncarnatusOrgano }
@@ -75,9 +84,18 @@
     }
   }
   \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOldOrgano }
+      >>
+    }
+  }
+  \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \SanctusOrgano }
@@ -96,19 +114,9 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AgnusDeiOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaOrgano }
+        \new Staff { \AgnusOrgano }
       >>
     }
   }

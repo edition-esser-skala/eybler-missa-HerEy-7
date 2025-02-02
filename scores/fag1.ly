@@ -13,8 +13,17 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Fagotto I"
-          \KyrieFagottoI
+          \KyrieFagottoIeII
         }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \KyrieOldFagottoIeII }
       >>
     }
   }
@@ -23,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GloriaFagottoI }
+        \new Staff { \GloriaFagottoIeII }
       >>
     }
   }
@@ -42,7 +51,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamFagottoI }
+        \new Staff { \QuoniamFagottoIeII }
       >>
     }
   }
@@ -51,7 +60,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoFagottoI }
+        \new Staff { \CredoFagottoIeII }
       >>
     }
   }
@@ -69,7 +78,16 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitFagottoI }
+        \new Staff { \EtResurrexitFagottoIeII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOldFagottoIeII }
       >>
     }
   }
@@ -95,19 +113,9 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \AgnusDeiFagottoI }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaFagottoI }
+        \new Staff { \AgnusFagottoI }
       >>
     }
   }

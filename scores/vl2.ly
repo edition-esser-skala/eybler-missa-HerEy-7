@@ -8,13 +8,25 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper {
+      indent = 2\cm
+      page-count = #1
+    }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino II"
           \KyrieViolinoII
         }
+      >>
+    }
+  }
+  \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \KyrieOldViolinoII }
       >>
     }
   }
@@ -30,7 +42,7 @@
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #8 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
         \new Staff { \QuiTollisViolinoII }
@@ -58,6 +70,7 @@
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
         \new Staff { \EtIncarnatusViolinoII }
@@ -70,6 +83,15 @@
     \score {
       <<
         \new Staff { \EtResurrexitViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoOldViolinoII }
       >>
     }
   }
@@ -94,19 +116,9 @@
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AgnusDeiViolinoII }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Dona nobis pacem"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DonaViolinoII }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }

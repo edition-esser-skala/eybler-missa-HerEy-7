@@ -33,6 +33,28 @@
     }
   }
   \bookpart {
+    \section "1a" "Kyrie (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "clno"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \KyrieOldClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \KyrieOldClarinoII
+            }
+          >>
+        >>
+        \new Staff { \KyrieOldTimpani }
+      >>
+    }
+  }
+  \bookpart {
     \section "2" "Gloria"
     \addTocEntry
     \score {
@@ -99,6 +121,28 @@
     }
   }
   \bookpart {
+    \section "3a" "Credo (1797 version)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "clno"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CredoOldClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CredoOldClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CredoOldTimpani }
+      >>
+    }
+  }
+  \bookpart {
     \subsection "Et resurrexit"
     \addTocEntry
     \score {
@@ -145,7 +189,7 @@
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new StaffGroup <<
@@ -166,7 +210,7 @@
     }
   }
   \bookpart {
-    \subsection "Dona nobis pacem"
+    \section "6" "Agnus Dei"
     \addTocEntry
     \score {
       <<
@@ -175,15 +219,15 @@
             \set GrandStaff.instrumentName = "clno"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DonaClarinoI
+              \AgnusClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DonaClarinoII
+              \AgnusClarinoII
             }
           >>
         >>
-        \new Staff { \DonaTimpani }
+        \new Staff { \AgnusTimpani }
       >>
     }
   }

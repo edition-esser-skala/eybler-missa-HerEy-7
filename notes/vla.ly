@@ -826,7 +826,7 @@ CredoOldViola = {
     c4 c, r2\fermata
     \tempoMortuorum R1*4 \noBreak %250
     r2 r4\fermata \tempoEtVitam r \noBreak
-    r c\f
+    \twofourtime \time 2/4 r c\f
     f, r
     r d'
     g, r %255
