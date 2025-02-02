@@ -1935,7 +1935,7 @@ SanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr e2\fE^\tuttiE e4
+    r4 \mvDl e2\fE^\tuttiE e4
     r c2 c4
     r c2 c4
     e e8 e h4 h \noBreak
@@ -2023,10 +2023,10 @@ BenedictusTenore = {
     r4 r8 c
     c4 d8 d %20
     h([ d e)] c
-    h4 r8 h\pE
+    h4 r8 h
     c16([ a)] a8 r c
-    d16([ h)] h8 h\f h
-    c4 c8 c %25
+    d16([ h)] h8 h\cresc h
+    c4\f c8 c %25
     h4 a16([ h)] c([ d)]
     d8\p d16 d d8 d
     d4 r
@@ -2053,17 +2053,17 @@ BenedictusTenore = {
     r e8.\f e16
     d8 d r4 %50
     R2*11 %61
-    h4. h8
+    h4.\fE h8
     a4 a8 c
     h4 c16([ d)] e([ c)]
     h4 a8 r %65
     r4 r8 c
     c4 d8 d
     h([ d e)] c
-    h4 r8 h\p
+    h4 r8 h
     c16([ a)] a8 r c %70
-    d16([ h)] h8 h\f h
-    c4 c8 c
+    d16([ h)] h8 h\cresc h
+    c4\f c8 c
     h4 a16([ h)] c([ d)]
     d8\p d16 d d8 d
     d4 cis16([ d)] e([ d)] %75
@@ -2075,13 +2075,13 @@ BenedictusTenore = {
     d4 d8 d
     c4 c
     h c
-    d e8 c^\critnote
+    d e8 c
     c16([ h)] a g e'8 e %85
     a, r r4
     d16([\p cis)] d([ e)] d4
     d16([ cis)] d([ e)] d4
     d d8\f d
-    c([ d)] e e^\critnote %90
+    c([ d)] e e %90
     d4 d8 d
     g,16([ h)] c d d([ c)] h([ a)]
     h4 r

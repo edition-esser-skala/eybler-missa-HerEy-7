@@ -950,7 +950,7 @@ SanctusTromboneII = {
     c2.~
     c4 c e
     c2 h4
-    c2 r4
+    c r r
     R2. %30
     r8 a d e f d
     h4 g' r
@@ -972,13 +972,13 @@ BenedictusTromboneII = {
     \clef tenor
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
     R2*3
-    r4 d,8\fE fis
+    r4 d,8\f fis
     a4 r %5
     R2*2
-    r4 r8 h\pE
+    r4 r8 h
     d4 r8 d
-    g4 \once \hairpinDashed g,8\< g %10
-    \once \tieDashed g2\sfE~
+    g4 g,8\f g %10
+    g2\sf~
     g4 r
     R2*2
     h2\f %15
@@ -988,13 +988,13 @@ BenedictusTromboneII = {
     a4 r
     c r %20
     r r8 d
-    h4 r8 h\pE
+    h4 r8 h
     d4 r8 d
-    g4 \once \hairpinDashed g,8\< g
-    g2~\sfE %25
+    g4 g,8\f g
+    g2~\sf %25
     g4 r
     R2*2
-    a2~\pE
+    a2~\fE
     a~ %30
     a~
     a4 r8 a
@@ -1004,16 +1004,16 @@ BenedictusTromboneII = {
     fis4 g
     a h8 g
     d4 r
-    r a'\pE
+    r a'\p
     d a %40
     d a
-    d8 d,4\fE d8
-    d4 r
-    a'2
+    d8 d,4\sf d8
+    d r r4
+    a'2\sf
     d4 r %45
-    r d,8\pE fis
+    r d,8\p fis
     a4 r
-    r d,8\fE fis
+    r d,8\f fis
     a4 r
     r r8 a %50
     h2
@@ -1023,58 +1023,58 @@ BenedictusTromboneII = {
     a h8 g %55
     d4 r
     R2
-    r8 d'\pE r4
+    r8 d'\p r4
     r8 g r4
-    g, r %60
+    g,\sfz r %60
     R2*4
-    r4 d8\fE fis %65
+    r4 d8\f fis %65
     a4 r
     c r
     r r8 d
-    h4 r8 h\pE
+    h4 r8 h
     d4 r8 d %70
-    g4 \once \hairpinDashed g,8\< g
-    \once \tieDashed g2~\sf
+    g4 g,8\f g
+    g2~\sfz
     g4 r
     R2*2 %75
     d2~\pE
     d~
     d~
-    d4 d'~\fE
+    d4 d'~\f
     d c~ %80
     c h~
-    h \once \tieDashed a~
+    h a~
     a8 g r c~
     c h r c
-    g4-\critnote r %85
-    r d\pE
+    g8 r r4 %85
+    r d\p
     g d
     g d
-    g8 g4\fE g8
+    g8 g4\sfz g8
     g4 r %90
-    d'2
+    d'2\sf
     g4 r
-    r g,8\pE h
+    r g,8\p h
     d4 r
-    r g,8\fE h %95
+    r g,8\f h %95
     d4 r
     r d~
     d c~
     c h~
-    h \once \tieDashed a~ %100
-    a8 g r \once \tieDashed c~
+    h a~ %100
+    a8 g r c~
     c h r c
-    g4 r
+    g8 r r4
     R2
-    r8 h\pE d4 %105
+    r8 h\p d4 %105
     r8 h d4
-    r8 g,\fE g4
-    g r
-    d'2
+    r8 g,4\sf g8
+    g4 r
+    d'2\sf
     g4 r %110
-    r g,8\pE h
+    r g,8\p h
     d4 r
-    r g,8\fE h \noBreak
+    r g,8\f h \noBreak
     d4 d8 d \bar "||"
     \key c \major \time 3/4 \tempoOsanna h r r4 r \noBreak %115
     r8 a d e f d

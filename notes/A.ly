@@ -1975,11 +1975,11 @@ SanctusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr g'2\fE^\tuttiE g4
+    r4 \mvDl g'2\fE^\tuttiE g4
     r a2 a4
     r c2 c4
     c g8 g g4 gis \noBreak
-    a8([ g fis)] g16([ a)] g4 r\fermata \bar "||" %5
+    a8([ g] fis) g16([ a)] g4 r\fermata \bar "||" %5
     \time 3/4 \tempoPleni R2.*12 %17
     d4 fis a
     c a fis
@@ -1989,8 +1989,8 @@ SanctusAlto = {
     g g r
     g4. g8 g4
     g g r %25
-    f2( a4
-    c) a a
+    f2 a4
+    c a a
     g2.
     e4 r r
     R2. %30
@@ -2024,8 +2024,8 @@ SanctusAltoLyrics = \lyricmode {
   tu -- a,
   glo -- ri -- a
   tu -- a, %25
-  glo --
-  ri -- a
+  glo -- _
+  _ ri -- a
   tu --
   a.
   %30
@@ -2055,10 +2055,10 @@ BenedictusAlto = {
     r4 r8 a'
     a4 fis8 fis %20
     g4( e8) d
-    d4 r8 g\pE
+    d4 r8 g
     fis16([ a)] a8 r a
-    g16([ h]) h8 g\f g
-    g4 g8 g %25
+    g16([ h]) h8 g\cresc g
+    g4\f g8 g %25
     g4 c16([ h)] a([ g)]
     fis8\p g16 g fis8 g
     fis4 gis16([\f a)] h([ a)]
@@ -2066,7 +2066,7 @@ BenedictusAlto = {
     a4 gis16([ a)] h[( a)] %30
     a2
     a4 a
-    a g8 g
+    a g!8 g
     g4 fis8 fis
     fis4 e %35
     e16([ d)] fis8 fis16([ e)] g8
@@ -2085,17 +2085,17 @@ BenedictusAlto = {
     r g8.\f g16
     fis8 d r4 %50
     R2*11 %61
-    d4. d8
+    d4.\fE d8
     d4 fis8 fis
     g4 e8 e
-    d4^\critnote d8 r %65
+    d4 d8 r %65
     r4 r8 a'
     a4 fis8 fis
     g4( e8) d
-    d r r g\p
+    d r r g
     fis16([ a)] a8 r a %70
-    g16([ h)] h8 g\f g
-    g4 g8 g
+    g16([ h)] h8 g\cresc g
+    g4\f g8 g
     g4 c16([ h)] a([ g)]
     fis8\p g16 g fis8 g
     fis4 r %75
@@ -2114,7 +2114,7 @@ BenedictusAlto = {
     g4 a16([ gis)] a([ h)]
     g8 h g\f f
     e([ d)] c h %90
-    a([ d)] fis a
+    a([ d)] fis! a
     g g16 g e8 d
     d4 r
     r fis8.\p fis16

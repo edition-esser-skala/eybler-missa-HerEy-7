@@ -403,14 +403,14 @@ SanctusClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoSanctus
-    r4 c'2\f c4
+    r4 c'2\fE c4
     r c2 c4
     r c2 c4
     c c8 c d4 e \noBreak
     c r d r\fermata \bar "||" %5
     \time 3/4 \tempoPleni g,4 r r \noBreak
     g r r
-    \pa r8 d' d d d d \pd
+    d'4 d8 d d d
     e4 r r
     c r r %10
     c r r
@@ -426,13 +426,13 @@ SanctusClarinoI = {
     R2.*4 %33
     d2.
     e4 r r %35
-    r r e
+    r r e~
     e d2\trill
     c4 r r
     r8 d d d d d
     \pa e c, e g c e \pd %40
     g d d d d d
-    c4 r r\fermata \bar "|." %42 finis
+    c4 \pao r r\fermata \bar "|." %42 finis
   }
 }
 
@@ -444,13 +444,13 @@ BenedictusClarinoI = {
     \time 3/4 \tempoOsanna R2.*4 %118
     d'2.\f
     e4 r r %120
-    r r \once \tieDashed e~
+    r r e~
     e d2\trill
     c4 r r
     r8 d d d d d
     \pa e c, e g c e \pd %125
     g d d d d d
-    c4 r r\fermata \bar "|." %127 finis
+    c4 \pao r r\fermata \bar "|." %127 finis
   }
 }
 

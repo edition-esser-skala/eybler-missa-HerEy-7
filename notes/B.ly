@@ -1930,7 +1930,7 @@ SanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr c'2\f^\tuttiE c4
+    r4 \mvDl c'2\fE^\tuttiE c4
     r a2 a4
     r f2 f4
     c c'8 c g4 e \noBreak
@@ -1952,8 +1952,8 @@ SanctusBasso = {
     e8([ d)] c4 r
     h4. a8 g4
     c c r %25
-    f2.(
-    e4) a fis
+    f2.
+    e4 a fis
     g2( g,4)
     c r r
     R2. %30
@@ -1961,7 +1961,7 @@ SanctusBasso = {
     g4 g r
     r8 a a a a a
     h4 h r8 g
-    c8([ h a)] g f e %35
+    c8([ h)] a([ g)] f e %35
     d4 g c,8([ d)]
     e([ f)] g2
     c,4 r r
@@ -1996,7 +1996,7 @@ SanctusBassoLyrics = \lyricmode {
   glo -- ri -- a
   tu -- a, %25
   glo --
-  ri -- a
+  _ ri -- a
   tu --
   a.
   %30
@@ -2026,10 +2026,10 @@ BenedictusBasso = {
     r4 r8 g
     fis4 a8 d, %20
     e([ h c)] d
-    g,4 r8 g'\p
+    g,4 r8 g'
     a16([ d,)] d8 r a'
-    h16([ g)] g8 g\f g
-    c,4 c8 c %25
+    h16([ g)] g8 g\cresc g
+    c,4\f c8 c %25
     g'4 fis16([ g)] a([ h)]
     c8\p h16 h a8 g
     d4 r
@@ -2056,17 +2056,17 @@ BenedictusBasso = {
     r a'8.\f a16
     d8 d, r4 %50
     R2*11 %61
-    g4. g8
+    g4.\fE g8
     fis4 a8 d,
     e4 c8 a
     d4 d8 r %65
     r4 r8 g
     fis4 a8 d,
     e([ h c)] d
-    g,4 r8 g'\p
+    g,4 r8 g'
     a16([ d,)] d8 r a' %70
-    h16([ g)] g8 g\f g
-    c,4 c8 c
+    h16([ g)] g8 g\cresc g
+    c,4\f c8 c
     g'4 fis16([ g)] a([ h)]
     c8\p h16 h a8 g
     d4 r %75
@@ -2080,10 +2080,10 @@ BenedictusBasso = {
     g a
     h c8 c
     g e16 e c8 cis %85
-    d4 r8 fis16\pE fis
+    d4 r8 fis16\p fis
     g8 g, r fis'
     g g, r fis'
-    g g, h'\fE h
+    g g, h'\f h
     c([ h)] a g! %90
     fis([ a)] d, c
     h e16 e c8 d
@@ -2098,7 +2098,7 @@ BenedictusBasso = {
     g4 g r
     r8 a a a a a
     h4 h r8 g
-    c8([ h a)] g f e %120
+    c8([ h)] a([ g)] f e %120
     d4 g c,8([ d)]
     e([ f)] g2
     c,4 r r

@@ -946,7 +946,7 @@ SanctusTromboneI = {
     r4 g'2\fE g4
     r a2 a4
     r c2 c4
-    c g g gis \noBreak
+    c g8 g g4 gis \noBreak
     a8 g fis g16 a g4 r\fermata \bar "||" %5
     \time 3/4 \tempoPleni R2.*12 %17
     d4 fis a
@@ -955,8 +955,8 @@ SanctusTromboneI = {
     h4 r r
     g'4. g8 g4
     g g r
-    g4. g8 g g
-    g4 g r %25
+    g4. g8 g4
+    g g r %25
     f2 a4
     c a a
     g2.
@@ -968,7 +968,7 @@ SanctusTromboneI = {
     d4 d r
     r8 g, c h a g %35
     f e d g a h
-    c4^\critnote c h
+    c c c4 h
     c r r
     r8 d, d d d d
     e4 g r %40
@@ -982,29 +982,29 @@ BenedictusTromboneI = {
     \clef alto
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
     R2*3
-    r4 d8\fE fis
+    r4 d8\f fis
     a4 r %5
     R2*2
-    r4 r8 g\pE
+    r4 r8 g
     a4 r8 a
-    h4 \once \hairpinDashed g8\< g %10
+    h4 g8\f g %10
     g2~\sf
     g4 r
     R2*2
-    g2\pE %15
+    g2\f %15
     a
     g4 r
     r d8 fis
     a4 r
     a r %20
     r r8 a
-    g4 r8 g\pE
+    g4 r8 g
     a4 r8 a
-    h4 \once \hairpinDashed g8\< g
-    g2~\sfE %25
+    h4 g8\f g
+    g2~\sf %25
     g4 r
     R2*2
-    a2~\pE
+    a2~\fE
     a~ %30
     a~
     a4 a~
@@ -1014,18 +1014,18 @@ BenedictusTromboneI = {
     e8 d r g~
     g fis r d
     d4 r
-    r e\pE
+    r e\p
     fis e %40
     fis e
-    fis8 d4\fE d8
-    d4 r
-    e2
+    fis8 d4\sf d8
+    d r r4
+    e2\sf
     fis4 r %45
-    r d8\pE fis
+    r d8\p fis
     a4 r
-    r d,8\fE fis
+    r d,8\f fis
     a4 r
-    r a~ %50
+    r \once \tieDashed a~ %50
     a g~
     g fis~
     fis e~
@@ -1033,40 +1033,40 @@ BenedictusTromboneI = {
     g fis r d %55
     d4 r
     R2
-    r8 a'\pE r4
+    r8 a'\p r4
     r8 h r4
-    g r %60
+    g\sfz r %60
     R2*4
-    r4 d8\fE fis %65
+    r4 d8\f fis %65
     a4 r
     a r
     r r8 a
-    g4 r8 g\pE
+    g4 r8 g
     a4 r8 a %70
-    h4 \once \hairpinDashed g8\< g
-    g2~\sfE
+    h4 g8\f g
+    g2~\sfz
     g4 r
     R2*2 %75
     d2~\pE
     d~
     d~
-    d4 r8 d\fE
+    d4 r8 d\f
     e2 %80
     d
     c
     h4 c
     d e
-    g r %85
+    g8 r r4 %85
     r a,\p
     h a
     h a
-    h8 g'4\fE g8
-    g4 r %90
-    a2
-    h4 r
-    r g,8\pE h
+    h8 g'4\sfz g8
+    g r r4 %90
+    a2\sf
+    h8 r r4
+    r g,8\p h
     d4 r
-    r g,8\fE h %95
+    r g,8\f h %95
     d4 r
     r r8 d
     e2
@@ -1074,19 +1074,19 @@ BenedictusTromboneI = {
     c %100
     h4 c
     d e
-    g r
+    g8 r r4
     R2
-    r8 g\pE a4 %105
+    r8 g\p a4 %105
     r8 g a4
-    r8 g\fE g4
-    g r
-    a2
-    h4 r %110
-    r g,8\pE h
+    r8 g4\sf g8
+    g4 r
+    a2\sf
+    h8 r r4 %110
+    r g,8\p h
     d r r4
-    r g,8\fE h \noBreak
+    r g,8\f h \noBreak
     d4 a'8 a \bar "||"
-    \key c \major \time 3/4 \tempoOsanna g8-\critnote r r4 r \noBreak %115
+    \key c \major \time 3/4 \tempoOsanna g8 r r4 r \noBreak %115
     r8 a a a a a
     h4 h r
     r8 c c c c c

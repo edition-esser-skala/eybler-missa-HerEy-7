@@ -943,14 +943,14 @@ SanctusOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoSanctus
-    r4 c'2\f c4
+    r4 c'2\fE c4
     r e2 e4
     r a2 a4
     g e8 c d4 e \noBreak
-    a,4. h16 c h4 r\fermata \bar "||" %5
+    \pa a,4. h16 c \pd h4 r\fermata \bar "||" %5
     \time 3/4 \tempoPleni h2. \noBreak
     d
-    f
+    f!
     e4 r r
     e2. %10
     g
@@ -966,9 +966,9 @@ SanctusOboeI = {
     g4 r r
     d2.
     e
-    f
+    f!
     e8 f g4 r %25
-    a2.
+    a2.~
     a8 g f e d c
     e2 d4
     \pao c r r
@@ -978,7 +978,7 @@ SanctusOboeI = {
     c4 a' r
     r8 d, g f e d
     e4 f f %35
-    f2 e4
+    f2 e4~
     e d2\trill
     \pao c4 r r
     d2.
@@ -996,123 +996,124 @@ BenedictusOboeI = {
     r4 d16(\f fis) fis( a)
     a4 r %5
     R2*2
-    r4 \pa \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d)
-    h8 r \slurDashed \pd d16(\< e fis g) %10
-    g4\sf fis16( e g e)
-    d4 e16(\> d c h) \slurSolid
-    a\p r \pao g r c r h r
+    r4 r8 h
+    a16 c c8 r c
+    h16 d d8 d16\cresc e fis g %10
+    g4\sf fis16 e g e
+    d4 e16\decresc d c h
+    a\p r \pao g r \appoggiatura d' c r h r
     a8 r r4
     R2*3 %17
-    r4 d,16(\f fis) fis( a)
+    r4 d,16\fE fis fis a
     a4 r
     R2*2 %21
-    r4 \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d)
-    h8 r \slurDashed d16(\< e fis g)
-    g4\sf fis16( e g e) %25
-    d4 e16(\> d c h) \slurSolid
-    a\p r \pao g r c r h r
+    r4 \appoggiatura c16 h a h c
+    a8 r \appoggiatura d16 c h c d
+    h8 r d16\cresc e fis g
+    g4\sfz fis16 e g e %25
+    d4 e16\decresc d c h
+    a\p r \pao g r \appoggiatura d' c r h r
     a8 r r4
-    r8 \slurDashed d(\f e fis)
-    fis( e) r4 %30
-    r8 e( fis g)
-    g( fis) \slurSolid a4~
+    r8 d\f e fis
+    fis e r4 %30
+    r8 e fis g
+    g fis a4~
     a g~
     g fis~
     fis e~ %35
     e16 d fis8~ fis16 e g8~
     g16 fis a8~ a16 g h8
-    \slurDashed h16( a g fis) fis( e fis d)
+    h16 a g fis fis e fis d
     cis8 r r g'\p
-    fis16( a) a8 r g %40
-    fis16( a) a8 r g
-    fis16( a) a8 r d,\f
+    fis16 a a8 r g %40
+    fis16 a a8 r g
+    fis16 a a8 r d,\f
     d dis e fis
-    g4 fis16( e d cis)
-    h'( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! fis( e) \parOn d-\parenthesize-! \parOff cis-\parenthesize-! \slurSolid %45
+    g4\sf fis16 e d cis
+    h' a g fis fis e d cis %45
     d8 r r4
     R2
     r4 d16(\f fis) fis( a)
     a4 r
-    r \once \tieDashed a~ %50
+    r a~ %50
     a g~
     g fis~
     fis e~
     e16 d fis8~ fis16 e g8~
     g16 fis a8~ a16 g h8 %55
-    \slurDashed h16( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! fis( e) \parOn d-\parenthesize-! \parOff cis-\parenthesize-!
+    h16 a g fis fis e d cis
     d8 r r4
-    \slurDashed d,16(\p fis) fis( a) a8 r
-    d,16( g) g( h) h( a h c)
-    d( h g' fis) e( d c h) %60
-    a4 h16(\fE c a d) \slurSolid
-    \sbOn \tieDashed g,4~ \tuplet 3/2 8 { g16 a h h c d }
-    d4~ \tuplet 3/2 8 { d16 e d c h a } \sbOff
-    g8 g \once \slurDashed a16( h c a)
-    \pa g8. a16 fis8 r %65
-    \sbOn a4~ \tuplet 3/2 8 { a16 h c c d e }
-    e4~ \tuplet 3/2 8 { e16 d h d c a } \sbOff \tieSolid
-    g8 g \once \slurDashed a16( h c fis,)
-    g8 r \pd \appoggiatura c32 h16(\pE a h c)
-    a8-\critnote r \appoggiatura d32 c16( h c d) %70
-    h8 r \slurDashed d16(\< e fis g)
-    g4\sf fis16( e g e)
-    d4 e16(\> d c h) \slurSolid
-    a\p r \pao g r c r h r
+    d,16(\p fis) fis( a) a8 r
+    d,16( g) g( h) \appoggiatura c h\cresc a h c
+    d h g' fis e d c h\! %60
+    a4 h16( c a d)
+    g,4~\fE \tuplet 6/4 4 { g16 a h h c d }
+    d4~ \tuplet 6/4 4 { d16 e d c h a } \sbOff
+    g8 g a16( h c a)
+    % g8. a16 \pa fis8 r %65 for MIDI
+    \after 8 _\turn g8. a16 \pa fis8 r %65
+    a4~ \tuplet 6/4 4 { a16 h c c d e }
+    e4~ \tuplet 6/4 4 { e16 d h d c a } \sbOff \tieSolid
+    g8 g a16( h c fis,)
+    g8 r \pd \appoggiatura c16 h a h c
+    a8 r \appoggiatura d16 c h c d %70
+    h8 r d16\cresc e fis g
+    g4\sfz fis16 e g e
+    d4 e16\decresc d c h
+    a\p r \pao g r \appoggiatura d' c r h r
     a4 r %75
-    r8 g( a h)
-    \once \slurDashed h( a) r4
-    r8 a( h c)
-    \once \slurDashed c( h) r g\f
+    r8 g a h
+    h a r4
+    r8 a h c
+    c h r g\f
     e'2 %80
     d
     c
     h8.[ h16 c8. c16]
     d8.[ d16 e8. e16]
-    \slurDashed e( d c h) h( a h g) \slurSolid %85
+    e d c h h a h g %85
     fis8 r r c'\p
-    h16( d) d8 r c
-    h16( d) d8 r c
-    \once \slurDashed h16( d) d8 r g,\f
+    h16 d d8 r c
+    h16 d d8 r c
+    h16 d d8 r g,~\f
     g gis a h %90
-    c4 \slurDashed h16( a g fis)
-    e'( d) \parOn c-\parenthesize-! \parOff h-\parenthesize-! d( c) \parOn h-\parenthesize-! \parOff a-\parenthesize-!
+    c4\sf h16 a g fis
+    e' d c h d c h a
     \pao g4 r
-    R2-\critnote
-    r4 \slurDashed g'16(\f h) h( d) \slurSolid %95
-    d8^\critnote r r4
+    R2
+    r4 g'16(\f h) h( d) %95
+    d8 r r4
     r r8 g,,
     e'2
     d
     c %100
     h8.[ h16 c8. c16]
     d8.[ d16 e8. e16]
-    \slurDashed e( d c h) h( a h g)
+    e d c h h a h g
     fis8 r r c'\p
-    h16( d) d8 r c %105
-    h16( d) d8 r c
-    h16( d) d8 r g,\f
+    h16 d d8 r c %105
+    h16 d d8 r c
+    h16 d d8 r g,~\f
     g gis a h
-    c4 h16( a g fis)
-    e'( d) \parOn c-\parenthesize-! \parOff h-\parenthesize-! d( c) \parOn h-\parenthesize-! \parOff a-\parenthesize-! \slurSolid %110
-    \pao g4 r
+    c4\fz h16( a g fis)
+    e' d c h d c h a %110
+    \pao g8 r r4
     R2
-    r4 \slurDashed g'16(\f h) h( d) \slurSolid \noBreak
+    r4 g'16(\f h) h( d) \noBreak
     d4 fis,8 fis \bar "||"
     \key c \major \time 3/4 \tempoOsanna g g, c d e c \noBreak %115
     a4 f' r
     r8 h, e f g e
     c4 a' r
     r8 d, g f e d
-    e4 f2 %120
-    f e4
-    e d2\trillE
+    e4 f f %120
+    f2 e4~
+    e d2\trill
     \pao c4 r r
     d2.
     \pa e8 c, e g c e \pd %125
     g2.
-    e4^\critnote r r\fermata \bar "|." %127 finis
+    e4 r r\fermata \bar "|." %127 finis
   }
 }
 

@@ -31,7 +31,7 @@ tempoCredoOld = \tempoMarkup "[Allegro]"
 tempoSanctus = \tempoMarkup "Maestoso"
   tempoPleni = \tempoMarkup "Allegro"
 
-tempoBenedictus = \tempoMarkup "Andante, piuttosto allegretto"
+tempoBenedictus = \tempoMarkup "Andante piutosto allegretto"
   tempoOsanna = \tempoMarkup "Allegro"
 
 tempoAgnusDei = \tempoMarkup "Adagio"

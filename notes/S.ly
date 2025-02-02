@@ -1909,13 +1909,13 @@ SanctusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoSanctus
-    r4 \mvTr c'2\fE^\tuttiE c4
+    r4 \mvDl c'2\fE^\tuttiE c4
     r e2 e4
     r a2 a4
     g e8 c d4 e \noBreak
     a,4. h16([ c)] h4 r\fermata \bar "||" %5
     \time 3/4 \tempoPleni g4 h d \noBreak
-    f d h
+    f! d h
     f2.
     e4 r g
     g' e c %10
@@ -1934,7 +1934,7 @@ SanctusSoprano = {
     c8([ d)] e4 r
     d4. e8 f!4
     e8([ f)] g4 r %25
-    \once \tieDashed a2.~
+    a2.~
     a8[ g] f([ e)] d([ c)]
     e2( d4)
     c4 r r
@@ -1981,7 +1981,7 @@ SanctusSopranoLyrics = \lyricmode {
   glo -- ri -- a
   tu -- a, %25
   glo --
-  ri -- a
+  ri -- a __
   tu --
   a.
   O -- san -- na in ex -- %30
@@ -2011,10 +2011,10 @@ BenedictusSoprano = {
     r4 r8 e'
     e4 d16([ h)] c[( a)] %20
     g4( a16[ h)] c([ fis,)]
-    g4 r8 h\pE
+    g4 r8 h
     a16([ c)] c8 r c
-    h16([ d)] d8 d\fE d
-    e4 e8 e %25
+    h16([ d)] d8 d\cresc d
+    e4\f e8 e %25
     d4 e16([ d)] c([ h)]
     a8\p g16 g c8 h
     a4 r
@@ -2029,36 +2029,36 @@ BenedictusSoprano = {
     a h8 h
     h16[( a)] g' fis e8 d
     cis r r4
-    a16([\p gis)] a([ h)] a4 %40
+    a16([\pE gis)] a([ h)] a4 %40
     a16([ gis)] a([ h)] a4
     a d8\f d
     d([ dis)] e fis
     g4 e8 cis
-    d g16 fis fis([ e)] d([ cis)] %45
+    d! g16 fis fis([ e)] d([ cis)] %45
     d4 r
     r g,8.\p g16
     fis8 a r4
     r4 cis8.\f cis16
     d8 d, r4 %50
     R2*11 %61
-    g4. h8
+    g4.\fE h8
     d4 c8 a
     g4 a16([ h)] c([ a)]
     g4 fis8 r %65
     r4 r8 e'
     e4 d16([ h)] c([ a)]
     g4( a16[ h)] c([ fis,)]
-    g4 r8 h\p
+    g4 r8 h
     a16([ c)] c8 r c %70
-    h16([ d)] d8 d\f d
-    e4 e8 e
+    h16([ d)] d8 d\cresc d
+    e4\f e8 e
     d4 e16([ d)] c([ h)]
     a8\p g16 g c8 h
     a4 r %75
     r8 g([ a)] h
     h a r4
     r8 a([ h)] c
-    c h r d\fE
+    c h r d\f
     d4 c8 c %80
     c4 h8 h
     h4 a
@@ -2068,13 +2068,13 @@ BenedictusSoprano = {
     fis r c'16([\p h)] c([ d)]
     h4 c16([ h)] c([ d)]
     h4 c16([ h)] c([ d)]
-    h8 d g,\fE g
+    h8 d g,\f g
     g([ gis)] a h %90
     c4 h16([ a)] g([ fis)]
     e'([ d)] c h h([ a)] g([ fis)]
     g4 r
     r c8.\p c16
-    h([ d)] d8^\critnote r4 %95
+    h([ d)] d8 r4 %95
     r fis8.\f fis16
     g8 g, r4
     R2*17 \bar "||" %114

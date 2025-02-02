@@ -33,7 +33,7 @@ KyrieViolinoII = {
     c8 \once \slurDashed e16( d) d( c) c( h) h( a) a( g)
     f8\pp e16 f g( f e f) b( as g \hA as)
     as( g fis g) g( f e f) f( e dis e)
-    e f a f e8 e d d %30
+    e( f a f) e8 e d d %30
     e4 r8 e'8:32\f f: g:
     a4 r8 f: g: a:
     b4 r8 g: a: b:
@@ -1089,26 +1089,26 @@ SanctusViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoSanctus
-    r4 g'2\f g4
+    r4 g'2\fE g4
     r a2 a4
     r <c f>2 q4
     <c e> g8 g g4 gis \noBreak
     a8 g fis g16 a g4 r\fermata \bar "||" %5
-    \time 3/4 \tempoPleni <d h>16 q q q q q q q q q q q \noBreak
-    q q q q q q q q q q q q
-    q q q q q q q q q q q q
+    \time 3/4 \tempoPleni <d h>2.:16 \noBreak
+    q:
+    q:
     c8 \tuplet 3/2 8 { g'16 a h } c8 g e g
-    g16 g g g g g g g g g g g %10
-    g g g g g g g g g g g g
-    g g g g g g g g g g g g
-    f8 f16 g a8 f-\critnote e d
-    <cis e>16 q q q q q q q q q q q
-    q q q q q q q q q q q q %15
-    q q q q q q q q q q q q
+    g2.: %10
+    g:
+    g:
+    f8 f16 g a8 f e d
+    <cis e>2.:
+    q: %15
+    q:
     d8 \tuplet 3/2 8 { a'16 h cis } d8 a fis a
-    <fis a>16 q q q q q q q q q q q
-    q q q q q q q q q q q q
-    q q q q q q q q q q q q %20
+    <fis a>2.:
+    q:
+    q: %20
     g8 \tuplet 3/2 8 { d16 e fis } g8 d h d
     g16 fis g a g a h c h d c h
     c h c d c e e c c g g e
@@ -1122,10 +1122,10 @@ SanctusViolinoII = {
     r16 a h c d c d e f e d c
     h4 g' r
     r16 c, d e f e f g a g f e
-    d8^\critnote e16 f g a f g e f d f
+    d8 e16 f g a f g e f d f
     e c d e f g e f d e c d %35
     h c d e f a g f e d c h
-    c e e e d^\critnote c' c c g,8 h'
+    c e e e d c' c c g,8 h'
     c, c,16 e e g g c c e e g
     g8 f16 e d c h a g f e d
     e8 c16 e e g g c c e e g %40
@@ -1141,52 +1141,54 @@ BenedictusViolinoII = {
     r8 d\f c h
     r a d fis
     g h, c16( d e c)
-    h8.\trill c16 a8 r
+    % h8. c16 a8 r % for MIDI
+    \after 8 _\turn h8. c16 a8 r
     r e' c a %5
     r a d fis
-    g d \once \slurDashed e16( d c a)
-    h8 r \appoggiatura a'32 g16(\pE fis g a)
-    fis8 r \appoggiatura h32 a16( g a h)
-    g8 r h16(\< c d e) %10
+    g d e16( d c a)
+    h8 r \appoggiatura a'16 g16 fis g a
+    fis8 r \appoggiatura h16 a g a h
+    g8 r h16(\cresc c d e) %10
     e4\sf d16( c e c)
-    h4 c16(\> h a g)
+    h4 c16(\decresc h a g)
     fis\p r g r fis r g r
     fis4 r
-    r8 d8\fE c h %15
+    r8 d8\f c h %15
     r a d fis
     g h, c16( d e c)
-    h8.\trill c16 a8 r
+    % h8. c16 a8 r % for MIDI
+    \after 8 _\turn h8. c16 a8 r
     r e' c a
     r a d fis %20
     g h, e16( d c a)
-    h8 r \appoggiatura a'32 g16(\pE fis g a)
-    fis8 r \appoggiatura h32 a16( g a h)
-    g8 r h16(\< c d e)
-    e4\sf d16( c e c) %25
-    h4 c16(\> h a g)
+    h8 r \appoggiatura a'16 g fis g a
+    fis8 r \appoggiatura h16 a g a h
+    g8 r h16(\cresc c d e)
+    e4\sfz d16( c e c) %25
+    h4 c16(\decresc h a g)
     fis\p r g r fis r g r
     fis8 r r4
     r8 a\f g fis
-    \once \slurDashed d'( cis) r4 %30
+    d'( cis) r4 %30
     r8 e, d cis
-    \once \slurDashed e'( d) r4
+    e'( d) r4
     h,16( d e g) g8( cis,)
     a16( cis d fis) fis8( h,)
     g16( h cis e) e8( a,) %35
-    a16( d fis a) cis,( e g cis)
-    d( a fis d) \once \slurDashed d( h' d g)
-    \once \slurDashed g( fis e d) h8 h
-    a r \appoggiatura a32 g16(\p fis g a)
-    fis8 r \appoggiatura a32 g16( fis g a) %40
-    fis8 r \appoggiatura a32 g16( fis g a)
-    fis( d fis a) d(\f c! h a)
+    a16 d fis a cis, e g cis
+    d a fis d d h' d g
+    g fis e d h8 h
+    a r \grace a16 g(\p fis g a)
+    fis4 \grace a16 g( fis g a) %40
+    fis4 \grace a16 g( fis g a)
+    fis d(\f fis a) d( c! h a)
     h( cis) cis( dis) dis( e) e( fis)
-    g8.( a32 g) fis16( e d cis)
-    \once \slurDashed d( fis) \parOn e-\parenthesize-! \parOff d-\parenthesize-! \once \slurDashed a( g) \parOn fis-\parenthesize-! \parOff e-\parenthesize-! %45
+    g8.\sf a32 g fis16 e d cis
+    d fis e d a g fis e %45
     fis8 r r4
     r \mvTr <cis e>8\pE-\pizz q
     <d fis> r r4
-    r \mvTr <a e' cis'>8\fE-\arco q
+    r \mvTr <a e' cis'>8\f-\arco q
     <a fis' d'>4 r %50
     h16( dis e g) g8( cis,)
     a16( cis d fis) fis8( h,)
@@ -1194,61 +1196,62 @@ BenedictusViolinoII = {
     a16( d fis a) cis,( e g cis)
     d( a fis d) d( h' d g) %55
     g( fis) e-! d-! a( g) fis-! e-!
-    fis8 r \appoggiatura c'!32 h16(\p a h c)
-    a8 r \appoggiatura h32 a16( g a h)
-    g8 r \appoggiatura a32 g16( fis g a)
-    h( g e' d) c( h a g) %60
-    fis4 r
+    fis8 r \grace c'!16 h(\p ais h c)
+    a8 r \grace h16 a( g a h)
+    g8 r \grace a16 g(\cresc fis g a)
+    h( g e' d c h a g) %60
+    d4 r
     r8 d\fE c h
     r a d fis
     g h, c16( d e c)
-    h8.\trill c16 a8 r %65
+    % h8. c16 a8 r %65 for MIDI
+    \after 8 _\turn h8. c16 a8 r %65
     r e' c a
     r a d fis
     g h, e16( d c a)
-    h8 r \appoggiatura a'32 g16(\pE fis g a)
-    fis8 r \appoggiatura h32 a16( g a h) %70
-    g8 r h16(\< c d e)
-    e4\sf d16( c e c)
-    h4 c16(\> h a g)
+    h8 r \grace a'16 g( fis g a)
+    fis8 r \grace h16 a( g a h) %70
+    g8 r h16(\cresc c d e)
+    e4\sfz d16( c e c)
+    h4 c16(\decresc h a g)
     fis\p r g r fis r g r
-    fis4-\critnote r %75
+    fis8 r r4 %75
     r8 d c h
     g'( fis) r4
     r8 a g fis
     fis( g) r4
-    e16(\f g a c) c8( fis,) %80
-    d16( fis g h) h8( e,)
-    c16( e fis a) \once \slurDashed a8( d,)
-    d16( g h d) fis,( a c fis)
-    \slurDashed g( d h g) g( e' g c)
-    c( h a g) \slurSolid e8 e %85
-    d r \appoggiatura h32 a16(\pE gis a h)
-    g4-\critnote \appoggiatura h32 a16( gis a h)
-    g4 \appoggiatura h32 a16( gis a h)
-    \once \slurDashed g( h) h8 h16(\f g h d)
+    e16(\f g a c) c8( fis,!) %80
+    d16( fis g h) \slurDashed h8( e,)
+    c16( e fis a) a8( d,)
+    d16( g h d) \slurSolid fis,( a c fis)
+    g( d h g) g( e' g c)
+    c h a g e8 e %85
+    d r \grace h16 a(\p gis a h)
+    g4 \grace h16 a( gis a h)
+    g4 \grace h16 a( gis a h)
+    g h h8~\f \once \slurDashed h16( g h d)
     e( fis!) fis( gis) gis( a) a( h) %90
-    c8.( d32 c) \slurDashed h16( a g fis)
-    g( h) \parOn a-\parenthesize-! \parOff g-\parenthesize-! d( c) \parOn h-\parenthesize-! \parOff a-\parenthesize-! \slurSolid
+    c8.\sfz d32 c h16( a g fis)
+    g( h) a-! g-! d( c) h-! a-!
     h8 r r4
     r \mvTr <fis a>8\pE-\pizz q
     <g h> r r4 %95
     r \mvTr <d c'>8\f-\arco q
     <g, d' h'>4 r
-    e'16( g a c) c8( fis,)
+    e'16( gis a c) c8( fis,)
     d16( fis g h) h8( e,)
     c16( e fis a) a8( d,) %100
     d16( g h d) fis,( a c fis)
     g( d h g) g( e' g c)
     c( h a g) e8 e
-    d r \appoggiatura h32 a16(\p gis a h)
-    g8 r \appoggiatura h32 a16( gis a h) %105
-    g8 r \appoggiatura h32 a16( gis a h)
-    g( h) h8 h16(\fE g h d)
+    d r \grace h16 a(\p gis a h)
+    g8 r \grace h16 a( gis a h) %105
+    g8 r \grace h16 a( gis a h)
+    g( h) h8~\f h16 g( h d)
     e( fis!) fis( gis) gis( a) a( h)
-    c8.( d32 c) h16( a g fis)
+    c8.\sf d32 c h16( a g fis)
     g( h) a-! g-! d( c) h-! a-! %110
-    h4^\critnote r
+    h8 r r4
     r \mvTr <fis a>8\pE-\pizz q
     <g h> r r4 \noBreak
     r \mvTr <d c'>8\f-\arco q \bar "||"

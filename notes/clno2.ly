@@ -404,7 +404,7 @@ SanctusClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoSanctus
-    r4 c2\f c4
+    r4 c2\fE c4
     r c2 c4
     r c2 c4
     c e8 e g4 e \noBreak
@@ -427,13 +427,13 @@ SanctusClarinoII = {
     R2.*4 %33
     g2.
     c4 r r %35
-    r r c
+    r r c~
     c g2\trill
     e4 r r
     r8 g g g g g
     c c, e g c e %40
     g, g g g g g
-    e4 r-\critnote r\fermata \bar "|." %42 finis
+    e4 c r\fermata \bar "|." %42 finis
   }
 }
 
@@ -448,10 +448,10 @@ BenedictusClarinoII = {
     r r c~
     c g2\trill
     e4 r r
-    r8 g_\critnote g g g g
+    r8 g g g g g
     c c, e g c e %125
     g, g g g g g
-    e4 r r\fermata \bar "|." %127 finis
+    e4 c r\fermata \bar "|." %127 finis
   }
 }
 

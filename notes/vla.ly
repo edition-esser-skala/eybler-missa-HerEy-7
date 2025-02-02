@@ -1101,40 +1101,40 @@ SanctusViola = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoSanctus
-    r4 <c e>2\f q4
+    r4 <c e>2\fE q4
     r q2 q4
     r <c f>2 q4
-    <c e> q8 q <h d>4 <h e>-\critnote \noBreak
+    <c e> q8 q <h d>4 <h e> \noBreak
     c8 h16 c d8 d <d g,>4 r\fermata \bar "||" %5
-    \time 3/4 \tempoPleni g,16 g g g g g g g g g g g \noBreak
-    g g g g g g g g g g g g
-    g g g g g g g g g g g g
+    \time 3/4 \tempoPleni g,2.:16  \noBreak
+    g:
+    g:
     g8 \tuplet 3/2 8 { g16 a h } c8 g e g
-    <c e>16 q q q q q q q q q q q %10
-    q q q q q q q q q q q q
-    q q q q q q q q q q q q
+    <c e>2.: %10
+    q:
+    q:
     f8 f16 g a8 f e d
-    a16 a a a a a a a a a a a
-    a a a a a a a a a a a a %15
-    a a a a a a a a a a a a
+    a2.:
+    a: %15
+    a:
     d8 \tuplet 3/2 8 { a16 h cis } d8 a fis a
-    d16 d d d d d d d d d d d
-    d d d d d d d d d d d d
-    d d d d d d d d d d d d %20
+    d2.:
+    d:
+    d: %20
     g8 \tuplet 3/2 8 { d16 e fis } g8 d h d
     g, g'16 fis g8 g, g' f
     e c'16 h c8 g e c
-    g g'16 fis? g8 g, g' g,
+    g g'16 fis g8 g, g' g,
     c c'16 h c8 g e c %25
     f, f'16 e f8 c a f
     e e' a, a' fis, fis'
-    g, g'16 f g8 g, g' g,
+    g, g'16 fis g8 g, g' g,
     c a' f d g g,
     c4 g'8 f e g %30
-    a, f' a g f a
+    c, f a g f a
     d, g h a g h
     e, a c h a c
-    d, h' d c h d
+    f, h d c h d
     c g c h a g %35
     f e d g a h
     c f, g f g g,
@@ -1153,122 +1153,191 @@ BenedictusViola = {
     r8 d\f d d
     r d, fis a
     r e e' e
-    d d, d'4
-    r8 e e c^\critnote %5
+    d d, d' r
+    r e e c %5
     r c fis a16 c,
-    h8 d \slurDashed c16( h c d)
-    h8 r h16(\pE a h c)
-    a8 r c16( h c d) \slurSolid
-    h8 r d16(\< e fis g) %10
-    g4\sf \once \slurDashed fis16( e g e)
-    d4 \once \slurDashed e16(\> d c h)
-    a\pE r d r d r d r
-    d4 r
-    r8 d\f d d %15
+    h8 d c16( h c d)
+    h8 r << {
+      \appoggiatura c16 h a h c
+      a8 r \appoggiatura d16 c h c d
+      h8 r d16 e fis g %10
+      g4 fis16 e g e
+      d4 e16 d c h
+      a \once \oneVoice r d \once \oneVoice r d \once \oneVoice r d \once \oneVoice r
+      d4
+    } \\ {
+      \appoggiatura a16 g fis g a
+      fis8 r \appoggiatura h16 a g a h
+      g8 r h16\cresc c d e %10
+      e4\sf d16 c e c
+      h4 c16\decresc h a g
+      d\p s d s d s d s
+      d4
+    } >> r
+    r8 d'\f d d %15
     r d, fis a
     r e e' e
-    d d, d'4
-    r8 e e c
+    d d, d' r
+    r e e c
     r c fis a16 c, %20
-    h8 d \slurDashed c16( h c d)
-    h8 r h16(\pE a h c)
-    a8 r c16( h c d)
-    h8 r d16(\< e fis g)
-    g4\sf fis16( e g e) %25
-    d4 e16(\> d c h) \slurSolid
-    a\p r d r d r d r
-    d4 r
-    r8 a\f a a
+    h8 d c16( h c d)
+    h8 r << {
+      \appoggiatura c16 h a h c
+      a8 r \appoggiatura d16 c h c d
+      h8 r d16 e fis g
+      g4 fis16 e g e %25
+      d4 e16 d c h
+      a \once \oneVoice r d \once \oneVoice r d \once \oneVoice r d \once \oneVoice r
+      d4
+    } \\ {
+      \appoggiatura a16 g fis g a %22
+      fis8 r \appoggiatura h16 a g a h
+      g8 r h16\cresc c d e
+      e4\sfz d16 c e c %25
+      h4 c16\decresc h a g
+      d\p s d s d s d s
+      d4
+    } >> r
+    r8 a'\f a a
     a4 r %30
     r8 a a a
     a4 r8 d
-    g, h d g
+    g, h e g
     cis, a d fis
     h, g cis e %35
     a,4 r
-    r8 d4\sf h'8
-    \once \slurDashed h16( a g fis) g8 fis
-    e r \appoggiatura fis32 e16(\p dis e fis)
-    d8-\critnote r \appoggiatura fis32 e16( dis e fis) %40
-    d8 r \appoggiatura fis32 e16( dis e fis)
-    d8 a'4\f fis8
+    r8 d4 << {
+      h'8
+      h16 a g fis
+    } \\ {
+      g8
+      g16 fis e d
+    } >> g8 fis
+    e r \grace fis16 e(\p dis e fis)
+    d4 \grace fis16 e( dis e fis) %40
+    d4 \grace fis16 e( dis e fis)
+    d8 a'4\sf fis8
     d a' g fis
     e a, cis e
-    \slurDashed d16( a') \parOn g-\parenthesize-! \parOff fis-\parenthesize-! fis( e) \parOn d-\parenthesize-! \parOff cis-\parenthesize-! \slurSolid %45
-    d8 r r4
-    r \mvTr <g, a>8\p-\pizz q
+    << { d16 a' g fis fis e d cis d8 } \\ { d16 fis e d a g fis g fis8 } >> %45
+    r r4
+    r \mvTr <g a>8\pE-\pizz q
     <fis a> r r4
     r \mvTr <a g'>8\f-\arco q
     <a fis'>4 r8 fis' %50
-    g, h d g
+    g, h e g
     cis, a d fis
     h, g cis e
     a,4 r
-    r8 d4\sf h'8 %55
-    \slurDashed h16( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! fis( e) \parOn d-\parenthesize-! \parOff cis-\parenthesize-! \slurSolid
-    d8 r \appoggiatura e32 d16(\p c d e)
-    c8 r \appoggiatura d32 c16( h c d)
-    h8 r \appoggiatura c32 h16(-\critnote a h c)
-    d( h g' fis) e( d c h) %60
-    a4 r
-    r8 d\fE d d
+    r8 d4 << {
+      h'8 %55
+      h16( a) g-! fis-! fis( e) d-! cis-!
+      d8 r \appoggiatura e16 d cis d e
+      c8 r \appoggiatura d16 c h c d
+      h8 r \appoggiatura c16 h a h c
+      d h g' fis e d c h %60
+      a4
+    } \\ {
+      g'8 %55
+      g16( fis) e-! d-! a( g) fis-! e-!
+      fis8 r \appoggiatura c'!16 h\p ais h c
+      a8 r \appoggiatura h16 a g a h
+      g8 r \appoggiatura a16 g\cresc fis g a
+      h\! g e' d c h a g %60
+      d4
+    } >> r
+    r8 d'\fE d d
     r d, fis a
-    e e' e, e'16 c
+    e e' e16( d c e)
     d8 d, d' r %65
     r e, e' c
     fis, a16 c fis8 a16 c,
     h8 d c16( h c d)
-    h8 r \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d) %70
-    h8 r d16(\< e fis g)
-    g4\sf \once \slurDashed fis16( e g e)
-    d4 \once \slurDashed e16(\> d c h)
-    a\pE r d r d r d r
-    d4 r %75
-    r8 d d d
+    h8 r << {
+      \appoggiatura c16 h a h c
+      a8 r \appoggiatura d16 c h c d %70
+      h8 r d16 e fis g
+      g4 fis16 e g e
+      d4 e16 d c h
+      a \once \oneVoice r d \once \oneVoice r d \once \oneVoice r d \once \oneVoice r
+      d4
+    } \\ {
+      \appoggiatura a16 g fis g a
+      fis8 r \appoggiatura h16 a g a h %70
+      g8 r h16\cresc c d e
+      e4\sfz d16 c e c
+      h4 c16\decresc h a g
+      d\p s d s d s d s
+      d4
+    } >> r %75
+    r8 d' d d
     d4 r
     r8 d d d
-    d4 r
-    c8\f e g c %80
+    d4 r8 g\f
+    c, e a c %80
     fis, d g h
     e, c fis a
     d,4 r
-    r8 g4\sfE e'8
-    \once \slurDashed e16( d c h) c8 h %85
+    r8 g4 << {
+      e'8
+      e16 d c h %85
+    } \\ {
+      c8
+      c16 h a g %85
+    } >> c8 h
     a r r4
     d,16(\p cis d e) d4
-    d16( cis d e) d4
-    d8 h\f d h
+    d16( cis d e) d4~
+    d8 h[\f d h]
     g d' c h %90
     a d fis a
-    \slurDashed g16( d') \parOn c-\parenthesize-! \parOff h-\parenthesize-! h( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! \slurSolid
-    g4 r
-    r \mvTr <c, d>8\pE-\pizz q
+    << {
+      g16 d' c h h a g fis
+      g8
+    } \\ {
+      g16 h a g d c h c
+      h8
+    } >> r r4
+    r \mvTr <c d>8\pE-\pizz q
     <h d>4 r %95
     r \mvTr <d fis a>8\fE-\arco q
-    <g, d' h'>4 r8 g'
-    c, e g c
+    <g, g' h>4 r8 g'
+    c, e a c
     fis, d g h
     e, c fis a %100
     d,4 r
-    r8 g4\sfE e'8
-    \once \slurDashed e16( d c h) c8 h
-    a r \appoggiatura d,32 c16(\p h c d)
-    h8 r \appoggiatura d32 c16( h c d) %105
-    h8 r \appoggiatura d32 c16( h c d)
-    h8 h\f d h
+    r8 g4 << {
+      e'8
+      e16 d c h c8 h
+      a \once \oneVoice r \appoggiatura d,16 c h c d
+      h8 r \appoggiatura d16 c h c d %105
+      h8 r \appoggiatura d16 c h c d
+      h8
+    } \\ {
+      c'8 %102
+      c16 h a g c8 h
+      a s \appoggiatura h,16 a\p gis a h
+      g8 r \appoggiatura h16 a gis a h %105
+      g8 r \appoggiatura h16 a gis a h
+      g8
+    } >> h[\f d h]
     g d' c h
     a d fis a
-    \slurDashed g16( d') \parOn c-\parenthesize-! \parOff h-\parenthesize-! h( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! \slurSolid %110
-    g4 r
-    r \mvTr <c, d>8\pE-\pizz q
+    << {
+      g16 d' c h h a g fis %110
+      g8
+    } \\ {
+      g16 h a g d c h a %110
+      h8
+    } >> r r4
+    r \mvTr <c d>8\pE-\pizz q
     <h d>4 r \noBreak
-    r \mvTr <d fis a>8\fE-\arco q \bar "||"
+    r \mvTr <d fis a>8\f-\arco q \bar "||"
     \key c \major \time 3/4 \tempoOsanna g g, g' f e g %115
-    a, f' a g f a
+    c, f a g f a
     d, g h a g h
     e, a c h a c
-    d, h' d c h d
+    f, h d c h d
     c g c h a g %120
     f e d g a h
     c f, g f g g,

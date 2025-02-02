@@ -2285,7 +2285,7 @@ SanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoSanctus
-    r4 \mvTr c'2\f-\tuttiE c4
+    r4 \mvTr c'2\fE-\tuttiE c4
     r a2 a4
     r f2 f4
     c c' g e \noBreak
@@ -2293,26 +2293,26 @@ SanctusOrgano = {
     \time 3/4 \tempoPleni g,8 g'16 fis g8 d h d \noBreak
     g, g'16 fis g8 h d h
     g g16 fis g8 d h g
-    c \parOn c'16-\parenthesize-! h-! c8-! g-! e-! \parOff g-\parenthesize-!
+    c c'16 h c8 g e g
     c, c'16 h c8 g e g %10
-    c, c'16 h c8 e, g e
-    c c'16 h c8 g e c
-    f \parOn f16-\parenthesize-! \parOff g-\parenthesize-! a8-! f-! e-! d-!
+    c, c'16 h c8 e g e
+    c c16 h c8 g e c
+    f f16-! g-! a8-! f-! e-! d-!
     cis a'16 g a8 e cis e
-    a, a'16 g a8 cis e cis %15
+    a, a'16 g a8 cis e \hA cis %15
     a a16 g a8 e cis a
-    d \parOn d'16-\parenthesize-! \parOff cis-\parenthesize-! d8-! a-! fis-! a-!
+    d d'16 cis d8-! a-! fis-! a-!
     d, d'16 cis d8 a fis a
-    d, d16 cis d8 fis a fis
-    d d'16 cis d8 a fis d^\critnote %20
-    g \parOn g16-\parenthesize-! fis-! g8-! d-! h-! \parOff d-\parenthesize-!
+    d, d16 cis d8 fis a \hA fis
+    d d'16 cis d8 a fis d %20
+    g g16 fis g8 d h d
     g, g'16 fis g8 g, g' f
     e c'16 h c8 g e c
     g g'16 fis g8 g, g' g,
     c c'16 h c8 g e c %25
     f, f'16 e f8 c a f
-    e e' a, a' fis,-\critnote fis'
-    g, g'16 f g8 g,-\critnote g g'
+    e e' a, a' fis, fis'
+    g, g'16 fis g8 g, g g'
     c, a'-! f-! d-! g-! g,-!
     c g' e d c e %30
     f a f e d f
@@ -2323,7 +2323,7 @@ SanctusOrgano = {
     d f g g, c d
     e f g f g g,
     c \clef "treble_8" c[-! e-! g-! c-! e]-!
-    g-! \clef bass g,[ g g g g]
+    << { g_! \clef bass g, g g g g } \\ { r8 g g g g g } >>
     e4 c r %40
     r8 g' g g g g
     c4 c, r\fermata \bar "|." %42 finis
@@ -2354,8 +2354,8 @@ SanctusBassFigures = \figuremode {
   r
   r
   <[6]>
-  \bo <[5 3]>4. <6 4>8 \bc <[7 5]>4
-  r2. %25
+  r
+  r %25
   r
   \bo <6 [4]>8 \bc <\t [3]> <6> <5> <6> <7>
   <6 4>2 <5 [3]>4
@@ -2365,9 +2365,9 @@ SanctusBassFigures = \figuremode {
   <5>4 <6>2
   <5>4 <6>2
   <5>4 <6>8 q q <6 5>
-  r4 <6>2 %35
-  q2.
-  <6>4 <4> <3>
+  r4 <[6]> <6> %35
+  q4. \once \bassFigureExtendersOn q8 q4
+  q <4> <3>
   r2.
   r
   <[6]> %40
@@ -2379,7 +2379,7 @@ BenedictusOrgano = {
   \relative c {
     \clef bass
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
-    r8-\critnote \mvTr h'\fE-\solo a g
+    r8 \mvTr h'\f-\solo a g
     r fis a d,
     r e c a
     d d, d' r
@@ -2387,13 +2387,13 @@ BenedictusOrgano = {
     r fis a d,
     e h c d
     g, g' r4
-    d,8\pE d' r4
+    d,8 d' r4
     g,8 g' r4 %10
     r8 c,\sf c' c,
-    r g' fis16(\> g a h)
-    c\p r h r a r g r
+    r g' fis16(\decresc g a h)
+    c\p r h r a r g r \segnoMark 1
     d8 d' r4
-    r8 \mvTr h\f-\tutti a g %15
+    r8 \mvTr h\fE-\tutti a g %15
     r fis a d,
     r e c a
     d d, d' r
@@ -2401,10 +2401,10 @@ BenedictusOrgano = {
     r fis a d, %20
     e h c d
     g, g' r4
-    d,8\pE d' r4
+    d,8 d' r4
     g,8 g' r4
-    r8 c,\sf c' c, %25
-    r g' fis16(\> g a h)
+    r8 c,\sfz c' c, %25
+    r g' fis16(\decresc g a h)
     c\p r h r a r g r
     d8 d' r4
     r8 fis,\f e d
@@ -2418,16 +2418,16 @@ BenedictusOrgano = {
     fis fis, g g'
     d h' g gis
     a a, r4
-    r8 d(\p cis a) %40
+    r8 d(\pE cis a) %40
     r d( cis a)
     r d\f fis d
     g fis e d!
     cis e a g
-    fis h g a %45
+    fis h g a \segnoMark 2 %45
     d,4 r
-    r \mvTr a8\p-\pizz a
+    r \mvTr a8\pE-\pizz a
     d4 r
-    r \mvTr a'8\f-\arco a
+    r \mvTr a'8\f-\arco a \segnoMark 3
     d,4 r8 fis-\soloE %50
     g g, r e'
     fis fis, r d'
@@ -2438,9 +2438,9 @@ BenedictusOrgano = {
     d, d' r4
     r8 fis,(\p a d,)
     r g( h d,)
-    r h( c cis) %60
+    r h(\cresc c cis) %60
     d d' r4
-    r8 \mvTr h\f-\tutti a g
+    r8 \mvTr h\fE-\tutti a g
     r fis a d,
     r e c a
     d d, d' r %65
@@ -2448,10 +2448,10 @@ BenedictusOrgano = {
     r fis a d,
     e h c d
     g, g' r4
-    d,8\pE d' r4 %70
+    d,8 d' r4 %70
     g,8 g' r4
     r8 c,\sf c' c,
-    r g' fis16(\> g a h)
+    r g'\sf fis16(\decresc g a h)
     c\p r h r a r g r
     d8 d' r4 %75
     r8 h a g
@@ -2466,13 +2466,13 @@ BenedictusOrgano = {
     g e' c cis %85
     d d, r4
     r8 g(\p fis d)
-    r g( fis d)
+    r g fis d
     r g\f h g
     c h a g! %90
     fis a d, c
-    h e c d
-    g,4 \clef "treble_8" g'16(\p h) h( d)
-    d8 r \clef bass d,-\pizz d
+    h e c d \segnoMark 4
+    g,4 \clef "treble_8" g'16(\pE h) h( d)
+    d8^\critnote r \clef bass d,-\pizz d
     g4 r %95
     r \mvTr d8\f-\arco d
     g,4 r8 h'-\solo
@@ -2492,7 +2492,7 @@ BenedictusOrgano = {
     g,4 \clef "treble_8" g16(\pE h) h( d)
     d8 r \clef bass d,-\pizz d
     g4 r \noBreak
-    r \mvTr d8\fE-\arco d \bar "||"
+    r \mvTr d8\f-\arco d \bar "||"
     \key c \major \time 3/4 \tempoOsanna g,8 g' e d c e \noBreak %115
     f a f e d f
     g h g f e g
@@ -2501,8 +2501,8 @@ BenedictusOrgano = {
     c h a g f e %120
     d f g g, c d
     e f g f g g,
-    c \clef "treble_8" c-![ e-! g-! c-! e-!]
-    g-! \clef bass g,[ g g g g]
+    c \clef "treble_8" c[-! e-! g-! c-! e]-!
+    << { g_! \clef bass g, g g g g } \\ { r8 g g g g g } >>
     e4 c r %125
     r8 g' g g g g
     c4 c, r\fermata \bar "|." %127 finis
@@ -2510,7 +2510,7 @@ BenedictusOrgano = {
 }
 
 BenedictusBassFigures = \figuremode {
-  r8 <6>4.
+  r8 \bo <[6 _]>4.
   r8 <6> q <7>
   r4 <6>
   <6 4> <5 3>
@@ -2522,17 +2522,17 @@ BenedictusBassFigures = \figuremode {
   r %10
   r
   r4 <7>16 <5> <6> q
-  <2>8 <6> q4
+  <2>8 <6> \bc <[6 _]>4
   r2
-  r8 <6> <\t>4 %15
-  r8 <6> <\t> <7>
-  r4 <6>
-  <6 4> <5 [3]>
-  r8 <6>4 <[2]>8
-  r <7> <6 4> <7> %20
+  <6> %15
+  <6>4 \once \bassFigureExtendersOn q8 <7>
+  r4 <6>8 <\t>
+  <6 4>4 <5 [3]>
+  r8 <6>4 \once \bassFigureExtendersOn q8
+  <7> <\t> <6 4> <7> %20
   r <[6]> <6> <7>
   r2
-  <[7]>
+  r
   r
   r %25
   r4 <7 5>16 <5> <6> q
@@ -2541,7 +2541,7 @@ BenedictusBassFigures = \figuremode {
   r8 <6> <6\\>4
   <6 4>8 <[5] _+>4. %30
   r8 <6> <\t> <7 _+>
-  \bo <[9] 4> \bc <[8] 3> r <6>
+  \bo <[9] 4> \bc <[8] 3> <6> <\t>
   <9>4 <6\\ 5>8 <\t \t>
   <9 5\+>4 <6 5>8 <\t \t>
   <9>4 <6 5>8 <\t \t> %35
@@ -2549,46 +2549,46 @@ BenedictusBassFigures = \figuremode {
   <9 6> <8 \t> <9> <8>
   <6 4>16 <5 3> <6 4> <5 3> <6>8 <7>
   <_+>2
-  r4 \bo <[6 5]>8 \bc <[7 _+]> %40
-  r4 \bo <[6 5]>8 \bc <[7 _+]>
-  r4 <[6]>8 <7!>
-  r <6\\> r <6>
-  <6 5> <\t \t> <_+> <[\t]>
-  \bo <[6 _]> <8 6>16 \bc <[7 5]> \bo <[9] 7> \bc <[8] 6> <6 4> <5 _+> %45
+  r4 \bo <[6 5]> %40
+  r \bc q
+  r4. <7!>8
+  r <6\\>4 <6>8
+  <6 5> <\t \t> <_+>4
+  \bo <[6 _]>8 <8 6>16 \bc <[7 5]> <7> <6> <6 4> <5 _+> %45
   r2
-  r4 <7 _+>
-  r2
-  r4 q
-  r4. <6>8 %50
-  <9>4 <6\\ 5>8 <\t \t>
+  r
+  r
+  r
+  r %50
+  \bo <[9 _]>4 <6\\ 5>8 <\t \t>
   <9 5\+>4 <6 5>8 <\t \t>
   <9>4 <6 5>8 <\t \t>
   <9> <8> <9 6\\> <8 \t>
   <9 6> <8 \t> <9> <8> %55
   <6 4>16 <5 3> <6 4> <5 3> <9 7> <8 6> <6 4> <5 _+>
   r2
-  r8 <6 5!>4 \bassFigureExtendersOn q8
-  r <5 3>4 q8 \bassFigureExtendersOff
-  r <6>4 <7>8 %60
+  r8 <6 5!>4.
   r2
-  r8 <6> <\t>4
-  r8 <6> q <[7]>
-  r <5> <6>4
-  <6 4> <[5] _+> %65
-  r8 <6>4 <[2]>8
-  r <7> <6 4> <7>
+  r8 <6>4 \bc <[7 _]>8 %60
+  r2
+  <6>4. \once \bassFigureExtendersOn q8
+  <6> <\t> <6> <\t>
+  <5> <\t> <6> <\t>
+  <6 4>4 <[5] _+> %65
+  <6>4. \once \bassFigureExtendersOn q8
+  <7> <\t> <6 4> <7>
   r \bo <[6]> <6> \bc <[7]>
   r2
-  <[7]> %70
+  r %70
   r
   r
   r4 <7>16 <5> <6> q
   <2>8 <6> q4
   r2 %75
   r8 <6> <6 4> <5>
-  <6 4> <5 _+>4.
+  <6 4> <[5] _+>4.
   r8 <6> <7> q
-  <9 4> <[8 3]>4 <6>8
+  <9 4> <5>4 <6>8
   <9>4 <6 5>8 <\t \t> %80
   <9>4 <6 5>8 <\t \t>
   <9>4 <6 5>8 <\t \t>
@@ -2596,45 +2596,45 @@ BenedictusBassFigures = \figuremode {
   <9 6> <8 \t> <9> <8>
   \bo <[6 4]>16 <5 3> <6 4> \bc <[5 3]> <6>8 <7> %85
   r2
-  r4 \bo <[6 5]>8 \bc <[7 _]>
-  r4 \bo <[6 5]>8 \bc <[7 _]>
-  r4 \bo <[6]>8 \bc <[7!]>
-  r <6\\> <5> <6> %90
-  <6 5> <\t \t> r <2>
-  \bo <[6 4]>16 <\t 3> <6> \bc <[5 _]> \bo <[9] 7> \bc <[8] 6> <6 4> <5 3>
+  r4 \bo <[6 5]>
+  r \bc q
   r2
-  r4 <7>
-  r2 %95
-  r4 q
-  r4. <6>8
-  <9>4 <6 5>8 <\t \t>
+  r8 <6\\> <5> <6> %90
+  <6 5>4 \once \bassFigureExtendersOn q8 <2>
+  <6>4 <7>16 <6> <6 4> <5 3>
+  r2
+  r
+  r %95
+  r
+  r
+  \bo <[9 _]>4 <6 5>8 <\t \t>
   <9>4 <6 5>8 <\t \t>
   <9>4 <6 5>8 <\t \t> %100
   <9> <8> <9 6> <8 \t>
   <9 6> <8 \t> <9> <8>
   <6 4>16 <5 3> <6 4> <5 3> <6>8 <7>
   r2
-  r4 <6 5>8 <7 _> %105
-  r4 <6 5>8 <7 _>
-  r4 <6>8 <7!>
-  r <6\\> <5> <6>
-  <6 5> <\t \t> r <2>
-  <6 4>16 <\t 3> <6> <5 _> <9 7> <8 6> <6 4> <5 3> %110
+  r4 <6 5> %105
+  r q
   r2
-  r4 <7>
+  r8 <6\\> <5> <6>
+  <6 5>4 \once \bassFigureExtendersOn q8 <2>
+  <6 4>16 <\t 3> <6> <5 _> <9 7> <8 6> <6 4> \bc <[5 3]> %110
   r2
-  r4 <7>
-  r <[6]>2 %115
+  r
+  r
+  r
+  r4 <[6]>2 %115
   <5>4 <6>2
   <5>4 <6>2
   <5>4 <6>2
   <5>4 <6>8 q q <6 5>
-  r4 <6>2 %120
-  q2.
-  q4 <4> <3>
+  r4 <[6]> <6> %120
+  q4. \once \bassFigureExtendersOn q8 q4
+  q <4> <3>
   r2.
-  r8 <7> r2
-  <[6]>2. %125
+  r
+  <[6]> %125
   r8 <7> r2
   r2. %127 finis
 }

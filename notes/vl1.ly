@@ -1078,26 +1078,26 @@ SanctusViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoSanctus
-    r4 <e c'>2\f q4
+    r4 <e c'>2\fE q4
     r <c' e>2 q4
     r <c a'>2 q4
     <c g'> e8 c d4 e \noBreak
     a,4. h16 c h4 r\fermata \bar "||" %5
-    \time 3/4 \tempoPleni g16 g g g h h h h d d d d \noBreak
-    f f f f d d d d h h h h
-    f f f f d' d d d f, f f f
+    \time 3/4 \tempoPleni g4:16 h: d: \noBreak
+    f!: d: h:
+    f: d': f,:
     e8 \tuplet 3/2 8 { g16 a h } c8 g e g
-    c16 c c c e e e e g g g g %10
-    b b b b g g g g e e e e
-    b b b b g' g g g b, b b b
+    c4:16 e: g: %10
+    b: g: e:
+    b: g': \hA b,:
     a8 f16 g a8 f e d
-    a'16 a a a cis cis cis cis e e e e
-    g g g g e e e e cis cis cis cis %15
-    g g g g e' e e e g, g g g
+    a'4: cis: e:
+    g: e: cis: %15
+    g: e': g,:
     fis8 \tuplet 3/2 8 { a16 h cis } d8 a fis a
-    d16 d d d fis fis fis fis a a a a
-    c c c c a a a a fis fis fis fis
-    c c c c a' a a a c, c c c %20
+    d4: fis: a:
+    c!: a: fis:
+    c: a': c,: %20
     h8 \tuplet 3/2 8 { d,16 e fis } g8 d h d
     g16 a h c h c d e d f! e d
     c d e f e c c g g e e c'
@@ -1114,7 +1114,7 @@ SanctusViolinoI = {
     r16 d, e f g a f g e f d f
     e c d e f g e f d e c d %35
     h c d e f a g f e d c h
-    c c' c c c d,^\critnote d c' g,8 h'
+    c c' c c c d, d c' g,8 h'
     c, c,16 e e g g c c e e g
     g8 f16 e d c h a g f e d
     e8 c16 e e g g c c e e g %40
@@ -1127,51 +1127,52 @@ BenedictusViolinoI = {
   \relative c' {
     \clef treble
     \twofourtime \key g \major \time 2/4 \tempoBenedictus
-    g'4\f g16( h) h( d)
-    d4 \appoggiatura d32 \once \slurDashed c16( h c a)
+    g'4~\f g16( h) h( d)
+    d4 \grace d16 c( h c a)
     g8 g a16( h c a)
-    g8.\trill a16 fis8 r
-    a4 a16( c) c( e) %5
-    e4 \once \slurDashed d16( h c a)
+    % g8. a16 fis8 r % for MIDI
+    \after 8 _\turn g8. a16 fis8 r
+    a4~ a16( c) c( e) %5
+    e4 d16( h c a)
     g8 g a16( h c fis,)
-    g8 r \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d)
-    h8 r d16(\< e fis g) %10
+    g8 r \appoggiatura c16 h a h c
+    a8 r \appoggiatura d16 c h c d
+    h8 r d16(\cresc e fis g) %10
     g4\sf fis16( e g e)
-    d4 e16(\> d c h)
-    a\p r g r \appoggiatura d'32 c16 r h r
-    a4 h16(\f c a d)
-    g,4 g16( h) h( d) %15
-    d4 \appoggiatura d32 c16( h c a)
+    d4 e16(\decresc d c h)
+    a\p r g r \appoggiatura d' c r h r
+    a4 h16( c a d)
+    g,4~\f g16( h) h( d) %15
+    d4 \grace d16 c( h c a)
     g8 g a16( h c a)
     \afterGrace g8.[ { a32 g fis g } a16] fis8 r
-    a4 a16( c) c( e)
+    a4~ a16( c) c( e)
     e4 d16( h c a) %20
     g8 g a16( h c fis,)
-    g8 r \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d)
-    h8 r d16(\< e fis g)
-    g4\sf fis16( e g e) %25
-    d4 e16(\> d c h)
-    a\p r g r \appoggiatura d'32 c16 r h r
-    a8 r gis16(\f a h a)
+    g8 r \appoggiatura c16 h a h c
+    a8 r \appoggiatura d16 c h c d
+    h8 r d16(\cresc e fis g)
+    g4\sfz fis16( e g e) %25
+    d4 e16(\decresc d c h)
+    a\p r g r \appoggiatura d' c r h r
+    a8 r gis16\f a h a
     a4~ a16( cis d fis)
-    \once \slurDashed fis8( e) gis,16( a h a) %30
-    a4~ a16( cis e g)
+    fis8( e) gis,16( a h a) %30
+    a4~ a16 cis e g
     g8( fis) a,16( d fis a)
     a8( h,) g16( cis e g)
     g8( a,) fis16( h d fis)
-    \once \slurDashed fis8( g,) e16( g cis e) %35
-    fis,( a d fis) g,( cis e g)
-    a,( d fis a) h,( d g h)
-    h( a g fis) fis( e fis d)
+    fis8( g,) e16( g cis e) %35
+    fis, a d fis g, cis e g
+    a, d fis a h, d g h
+    h a g fis fis e fis d
     cis8 r r4
-    \appoggiatura h32 a16(\p gis a h) a4 %40
-    \appoggiatura h32 a16( gis a h) a4
-    a16( d, fis a) d(\f c! h a)
+    \grace h16 a(\p gis a h) a4 %40
+    \grace h16 a( gis a h) a4
+    a16 d,(\f fis a) d( c! h a)
     h( cis) cis( dis) dis( e) e( fis)
-    g8.( a32 g) fis16( e d cis)
-    h'( a) g-! fis-! fis( e) d-! cis-! %45
+    g8.\sf a32 g fis16 e d cis
+    h' a g fis fis e d cis %45
     d8 r d,16(\p fis) fis( a)
     a8 r e16( fis g a)
     fis8 r d'16(\f fis) fis( a)
@@ -1183,41 +1184,41 @@ BenedictusViolinoI = {
     fis,( a d fis) g,( cis e g)
     a,( d fis a) h,( d g h) %55
     h( a) g-! fis-! fis( e) d-! cis-!
-    d8 r \appoggiatura e32 d16(\p c d e)
-    c8 r \appoggiatura d32 c16( h c d)
-    h8 r \appoggiatura c32 h16( a h c)
-    d( h g' fis) e( d c h) %60
-    a4 h16(\fE c a d)
-    \sbOn g,4~ \tuplet 3/2 8 { g16 a h h c d }
-    d4~ \tuplet 3/2 8 { d16 e d c h a } \sbOff
+    d8 r \grace e16 d(\p cis d e)
+    c8 r \grace d16 c( h c d)
+    h8 r \grace c16 h(\cresc a h c)
+    d( h g' fis e d c h) %60
+    a4 h16( c a d)
+    g,4~\fE \tuplet 6/4 4 { g16 a h h c d }
+    d4~ \tuplet 6/4 4 { d16 e d c h a }
     g8 g a16( h c a)
     \afterGrace g8.[ { a32 g fis g } a16] fis8 r %65
-    \sbOn a4~ \tuplet 3/2 8 { a16 h c c d e }
-    e4~ \tuplet 3/2 8 { e16 d h d c a } \sbOff
+    a4~ \tuplet 6/4 4 { a16 h c c d e }
+    e4~ \tuplet 6/4 4 { e16 d h d c a }
     g8 g a16( h c fis,)
-    g8 r \appoggiatura c32 h16(\pE a h c)
-    a8 r \appoggiatura d32 c16( h c d) %70
-    h8 r d16(\< e fis g)
-    g4\sf fis16( e g e)
-    d4 e16(\> d c h)
-    a\p r g r \appoggiatura d'32 c16 r h r
+    g8 r \grace c16 h( a h c)
+    a8 r \grace d16 c( h c d) %70
+    h8 r d16(\cresc e fis g)
+    g4\sfz fis16( e g e)
+    d4 e16(\decresc d c h)
+    a\p r g r \appoggiatura d' c r h r
     a4 cis16( d e d) %75
     d4~ d16( fis g h)
     h8( a) cis,16( d e d)
-    d4~ d16( fis a c)
+    d4~ d16 fis a c
     c8( h) d,16(\f g h d)
-    d8( e,) c16( fis a c) %80
-    c8( d,) h16( e g h)
-    h8( c,) a16( c fis a)
+    d8 e, c16( fis a c) %80
+    c8 d, h16( e g h)
+    h8 c, a16( c fis a)
     h,( d g h) c,( fis a c)
     d,( g h d) e,( g c e)
-    e( d c h) h( a h g) %85
-    fis8 r \appoggiatura d32 c16(\p h c d)
-    h4 \appoggiatura d32 c16( h c d)
-    h4 \appoggiatura d32 c16( h c d)
-    h16( g') g8 g16(\fE f e d)
+    e d c h h a h g %85
+    fis8 r \grace d16 c(\p h c d)
+    h4 \grace d16 c( h c d)
+    h4 \grace d16 c( h c d)
+    h16 g' g8~\f g16( f e d)
     e( fis) fis( gis) gis( a) a( h) %90
-    c8.( d32 c) h16( a g fis)
+    c8.\sfz d32 c h16( a g fis)
     e'( d) c-! h-! h( a) g-! fis-!
     g8 r g,16(\p h) h( d)
     d8 r a16( h c d)
@@ -1230,13 +1231,13 @@ BenedictusViolinoI = {
     h,( d g h) c,( fis a c)
     d,( g h d) e,( g c e)
     e( d c h) h( a h g)
-    fis8 r \appoggiatura d32 c16(\p h c d)
-    h8 r \appoggiatura d32 c16( h c d) %105
-    h8 r \appoggiatura d32 c16( h c d)
-    h16( g') g8 g16(\f f e d)
+    fis8 r \grace d16 c(\p h c d)
+    h8 r \grace d16 c( h c d) %105
+    h8 r \grace d16 c( h c d)
+    h16( g') g8~\f g16 f( e d)
     e( fis) fis( gis) gis( a) a( h)
-    c8.( d32 c) h16( a g fis)
-    e'( d) c-! h-! \once \slurDashed h( a) \parOn g-\parenthesize-! \parOff fis-\parenthesize-! %110
+    c8.\sf d32 c h16( a g fis)
+    e'( d) c-! h-! h( a) g-! fis-! %110
     g4 g,16(\p h) h( d)
     d8 r a16( h c d)
     h8 r g'16(\f h) h( d) \noBreak
