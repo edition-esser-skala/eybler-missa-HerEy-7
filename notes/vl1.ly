@@ -1258,54 +1258,47 @@ BenedictusViolinoI = {
   }
 }
 
-AgnusDeiViolinoI = {
+AgnusViolinoI = {
   \relative c' {
     \clef treble
-    \key f \minor \time 4/4 \tempoAgnusDei
-    \mvTr as'16\p-\conSord as as as as as as as g g g g g g g g
-    b b b b b b b b b b b b as as as as
-    des\< des des des des des des\fE des des des c c c c b b
-    as as as as as as as as g\> g g g g g g g
-    g\p g g g g g g g \once \hairpinDashed g\< g as as as as as as %5
-    a\f a a a a a a a a a b b b b b b
-    b\pp b b b b b b b ces ces ces ces b b b b
-    as as as as as as as as ges8 ges-\dolce ges16( des' ces b)
+    \key f \minor \time 4/4 \tempoAgnus
+    as'2:16\p^\conSord g:
+    b2: b4: as:
+    des2:\cresc des16\fE des c c c c b b
+    as2: g:\decresc
+    g:\p g16\cresc g as as as4: %5
+    a2:\f a16 a b b b4:
+    b2:\pp ces4: b:
+    as2: ges8 ges~-\pedolce ges16( des' ces b)
     b8( as) r4 r8 des~ des16( ges f fes)
-    fes( es) des32( ces b as) ges16. as32 as8\trill ges16\p b b b b b b b %10
-    as as as as as as as as ces ces ces ces ces ces ces ces
-    ces ces ces ces b b b b es\< es es es es es es\fE es
-    es es des des des des ces ces b b b b heses heses heses heses
-    as\> as as as as as as as as\p as as as as as as as
-    as as ges ges ges ges ges ges ces ces ces ces ces ces ces ces %15
-    ces\< ces b b b b b b es\fE es es es es es es es
-    es es des des c c b b b\p b b b a a a a
-    b8 b,-\dolce b16( f' es des) des8( c) r4
-    r8 f' f16( des b f) \once \slurDashed as( ges) f32( es des c) b16. c32 c8\trill
-    b16\f des' des des des des des des c c c c c c c c %20
-    c c c c c c c c c c h h h h d d
+    fes([ es] des32 ces b as) ges16. as32 as8\trill ges16\p b b b b4:16 %10
+    as2: ces:
+    ces4: b: es2:\cresc
+    es16\fE es des des des des ces ces b4: heses:
+    as2:\decresc as:\p
+    as16 as ges ges ges4: ces2:\cresc %15
+    ces16 ces b b b4: es2:\f
+    es16\decresc es des des c c b b b4:\pp a:
+    b8 b,~-\pedolce b16( f' es des) des8( c) r4
+    r8 f'~ f16( des b f) as([ ges] f32 es des c) b16. c32 c8\trill
+    b16\f des' des des des4:16 c2: %20
+    c: c16 c h h h h d d
     d d as! as g g f f f f es es es' es es es
     d d c c c c b! b b b as as as as g g
-    g g f f f f es es es8 d16 \once \tieDashed d'~-\dolce d16( h g f)
-    \once \slurDashed d8( es) r4 r8 c''~ c16 g( as e) %25
-    g( f as g) f( es d c) c4\trill h\fermata \bar "||" %26 finis
-  }
-}
-
-DonaViolinoI = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    d'8\p d d( c)
+    g g f f f f es es es8\trill \noBeam \grace d16 d'8~-\pedolce d16( h g f)
+    d8( es) r4 r8 c''~ c16 g( as e) \noBreak %25
+    g( f as g f es d c) c4\trill h\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      d8\p^\senzaSord d d c \noBreak
     c( h) h( d)
     f f f e
     e d d4 %30
-    <g c, e,>4\f <g d g,>
+    <g c, e,>4\f <g d d,>
     <g e g,>~ g16 a g f
     f e d c h c d e
-    d e fis g fis g a h
+    d e fis g \hA fis g a h
     a h a g fis e d c %35
-    h c d e d e fis? g
+    h c d e d e fis g
     a h a g fis e d c
     h c d e d e fis g
     e e, e' e e fis fis gis
@@ -1316,34 +1309,34 @@ DonaViolinoI = {
     h d c e d g e c
     h d g h a fis d c %45
     h c d e d e fis g
-    fis g a h c a fis a
+    fis g a h c a \hA fis a
     g d h' a g fis e d
-    d\pE cis d e d c h a
+    d\p cis d e d c h a
     c h a g fis g h g %50
-    fis\fE a d fis a g fis a
+    fis\f a d fis a g \hA fis a
     g d h' a g fis e d
     d\p cis d e d c h a
     c h a g fis g h d
-    g\f g, g' g fis fis, fis' fis %55
+    g\f g, g' g fis fis, \hA fis' fis %55
     e e, e' e d d, d' d
-    cis d e d cis e fis g
-    a h a g fis e d c
+    cis d e d \hA cis e fis g
+    a h! a g fis e d c
     h g a h c a h c
     d h c d e c a g %60
     fis g a h c h c d
     h8 h\p h h
-    c c c c
-    h h h h
-    fis fis fis fis %65
-    g g g g
-    c c c c
-    c( h a g)
-    fis fis fis fis
-    g g g g %70
-    fis fis fis fis
-    g g g g
-    fis fis fis fis
-    g g g g
+    c2:8
+    h:
+    fis: %65
+    g:
+    c:
+    c8( h a g)
+    fis2:
+    g: %70
+    fis:
+    g:
+    fis:
+    g:
     g4. g8 %75
     g4 g
     g2~
@@ -1352,11 +1345,11 @@ DonaViolinoI = {
     f( e d c) %80
     h4 c8 e
     e4 d
-    <g c, e,>\f <g d g,>
+    <g c, e,>\f <g d d,>
     <g e g,>~ g16 a g f
     f e d c h c d e %85
     d c h a g f e d
-    \mvTr c\ff-\critnote c e' e d d c c
+    c\ff c e' e d d c c
     h h a a g g f f
     e e d d c c h h
     a a g' g f f e e %90
@@ -1364,24 +1357,24 @@ DonaViolinoI = {
     f f g g a a g g
     a a h h c c h h
     c c d, d e e d d
-    e e fis fis gis? gis fis fis %95
-    gis gis a a h h gis-\critnote gis
+    e e fis fis gis gis \hA fis fis %95
+    gis gis a a h h \hA gis gis
     a a h h a a g g
-    f f g g f f e e
+    f! f g g f f e e
     d d c c h h a a
     g g h h c c d d %100
     e8 e\p e e
-    f f f f
-    e e e e
-    f f f f
-    e e e e %105
-    f f f f
-    f( e d c)
-    h h h h
-    c\decrescE c c c
-    d d d d %110
-    e e e e
-    d\pp d d d
+    f2:
+    e:
+    f:
+    e: %105
+    f:
+    f8( e d c)
+    h2:
+    c:\decresc
+    d: %110
+    e:
+    d:\pp
     e4 r
     e r
     e2\fermata \bar "|." %115 finis

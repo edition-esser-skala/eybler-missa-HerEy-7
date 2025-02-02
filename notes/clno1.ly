@@ -454,15 +454,17 @@ BenedictusClarinoI = {
   }
 }
 
-DonaClarinoI = {
+AgnusClarinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    R2*4 %30
+    \key c \major \time 4/4 \tempoAgnus
+    R1*25 \noBreak %25
+    R1\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %30
     c'4\f d
     e d
-    d^\critnote e
+    d e
     d r
     \pao d2 %35
     d4 r
@@ -472,7 +474,7 @@ DonaClarinoI = {
     R2*6 %45
     d4 r
     R2*8 %54
-    g,4\fE r %55
+    g,4\f r %55
     R2*3
     g4 r
     R2*23 %82

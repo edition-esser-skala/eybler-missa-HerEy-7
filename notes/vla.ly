@@ -1349,60 +1349,53 @@ BenedictusViola = {
   }
 }
 
-AgnusDeiViola = {
+AgnusViola = {
   \relative c' {
     \clef alto
-    \key f \minor \time 4/4 \tempoAgnusDei
-    \mvTr c16\p-\conSord c c c c c c c c c c c c c c c
-    c c c c c c c c c c c c c c c c
-    b\< b b b b b b\fE b g g as as as as g g
-    f f f f d' d d d \once \hairpinDashed g,\> c c c c c c c
-    des\p des des des des des des des des\< des c c c c c c %5
-    es!\f es es es es es es es es es des des des des des des
-    des\pp des des des des des des des des des des des des des des des
-    des des des des des des ces ces b b b b des des des des
-    es es es es des des des des des des des des des des des des
-    ges, ges as as b b f f ges\p des' des des des des des des %10
-    des des des des des des des des des des des des des des des des
-    des des des des des des des des ces\< ces ces ces ces ces ces\fE ces
-    ces ces b b b b as as ges ges ges ges es' es es es
-    des\> des des des des des des des d\p d d d d d d d
-    d d es es b b b b f' f f f f f f f %15
-    f\< f ges ges des des des des a'\f a a a a a a a
-    b b f f es es des des c\p c c c c c c c
-    b b b b f f f f ges ges ges ges f f f f
-    f f f f f f f f es es ges ges f f es es
-    des\fE b' b b b b b b c c c c c c c c %20
-    c c c c c c c c d d d d d d h h
-    d d d d g, g g g g g g g g' g g g
-    es es es es c c c c c c c c c c c c
-    g g g g g g fis fis g g g g g\p g g g
-    g g g g c c c c c c c c c c b b %25
-    c8 as4 a8 g2\fermata \bar "||" %26 finis
-  }
-}
-
-DonaViola = {
-  \relative c' {
-    \clef alto
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    d8\p d d d
-    d d d d
-    g g g g
-    g g g g %30
-    g\f e d f
+    \key f \minor \time 4/4 \tempoAgnus
+    c2:16\p^\conSord c:
+    c: c:
+    b:\cresc g16\fE g as as as as g g
+    f4: d': g,16\decresc c c c c4:
+    des2:\p des16\cresc des c c c4: %5
+    es2:\f es16 es des des des4:
+    des2:\pp des:
+    des4: des16 des ces ces b4: des:
+    es: des: des2:
+    ges,16 ges as as b b f f ges\p des' des des des4: %10
+    des2: des:
+    des: ces:\cresc
+    ces16\fE ces b b b b as as ges4: es':
+    as,16\decresc des des des des4: d2:\p
+    d16 d es es b4: f'2:\cresc %15
+    f16 f ges ges des4: a'2:\f
+    b16\decresc b f f es es des des c2:\pp
+    b4: f: ges: f:
+    f2: es16 es ges ges f f es es
+    des\f b' b b b4: c2: %20
+    c: d4: d16 d h h
+    d4: g,: g: g':
+    es: c: c2:
+    g4: g16 g fis fis g4: g:\p
+    g: c: c: c16 c b! b %25
+    c8 as4 a8 g2\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      d'2:8\p^\senzaSord \noBreak
+    d:
+    g:
+    g: %30
+    g8\f e d f
     e c h d
     g, g' g g
     g h, d g
     a fis g a %35
     h g d h
-    a' fis g a
+    a fis' g a
     h g d h
     c c'4 h8
     a g fis g16 a %40
     h8 h, h' a
-    g fis e fis16 g
+    g fis e \hA fis16 g
     a8 g e fis
     g e h c
     d4 d, %45
@@ -1415,7 +1408,7 @@ DonaViola = {
     d, g h g
     a\p fis4 a8
     d, h d h
-    g\fE g'4 g8~ %55
+    g\f g'4 g8~ %55
     g g4 g8~
     g e g e
     d d4 fis8
@@ -1423,24 +1416,35 @@ DonaViola = {
     g g4 e8 %60
     d d d d
     d d\p d d
-    es es es es
-    d d d d
-    a a a a %65
-    h d d d
-    <a fis> q q q
-    q <g h> <a c> <h d>
-    <c es> q q q
-    <h d> q q q %70
-    <a c> q q q
-    <g h> q q q
-    <a c> q q q
-    <g h> q q q
-    q4. q8 %75
-    \once \slurDashed h( c d e)
+    es2:
+    d:
+    a: %65
+    h8 d d d
+    << {
+      a2:
+      a8 h c d
+      es2:
+      d: %70
+      c:
+      h:
+      c:
+      h:
+    } \\ {
+      fis2:8 %67
+      fis8 g a h
+      c2:
+      h: %70
+      a:
+      g:
+      a:
+      g:
+    } >>
+    h4. h8 %75
+    h( c d e)
     f!4 e8 c
     c4 h
     h4. h8
-    \once \slurDashed h( c d e) %80
+    h( c d e) %80
     f4 e8 c
     c4 h
     g'8\f e d f
@@ -1455,24 +1459,24 @@ DonaViola = {
     f g a g
     a h c h
     c d e d
-    e fis gis fis %95
-    gis a h gis
+    e fis gis \hA fis %95
+    gis a h \hA gis
     a h a g
-    f g f e
+    f! g f e
     d c h a
     g f e d %100
     c g'\p g g
-    as as as as
-    g g g g
-    as as as as
-    g g g g %105
-    as as as as
-    g g g g
-    as as as as
-    g\decrescE g g g
-    g g g g %110
-    g g g g
-    <f g>\pp q q <d g>
+    as2:
+    g:
+    as:
+    g: %105
+    as:
+    g:
+    as:
+    g:\decresc
+    g: %110
+    g:\!
+    << { g: } \\ { f8\pp f f d } >>
     <c g'>4 r
     <e g> r
     q2\fermata \bar "|." %115 finis

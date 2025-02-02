@@ -2184,15 +2184,15 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %127 finis
 }
 
-AgnusDeiSoprano = {
+AgnusSoprano = {
   \relative c' {
     \clef treble
-    \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+    \key f \minor \time 4/4 \autoBeamOff \tempoAgnus
     \mvTr as'4.\p^\tuttiE c8 c8.([ g16)] g4
     b4. c8 b8.([ g16)] as8 f\f
     f([ des')] des des des([ c)] c b
     as as as4 g r
-    g4.\p g8 g([ as)] as4 %5
+    g4.\p g8 g([\cresc as)] as4 %5
     a4.\f a8 a([ b)] b4
     b4.\pp b8 des([ ces)] b4
     as2 ges4 r
@@ -2202,54 +2202,20 @@ AgnusDeiSoprano = {
     ces8.([ a16)] b8 ges\f ges([ es')] es es
     es([ des)] des ces b b heses4
     as r as4.\p as8
-    as([ ges)] ges4 ces4. ces8 %15
+    as([ ges)] ges4 ces4.\cresc ces8 %15
     ces([ b)] b4 es4.\f es8
-    es([ des)] c([ b)] b4(\pE a)
+    es([\decresc des)] c([ b)] b4(\p a)
     b r r2
     R1
     des4.\f f8 f8.([ c16)] c4 %20
-    f4. es16([ d)] c8([ h)] h d
+    f4. es16([ d)] c8([ h)] h \hA d
     d([ as!)] g f f es r es'
     d([ c)] c b! b8[( as)] as g
     g([ f)] f([ es)] es d r4
-    R1 %25
-    R\fermata \bar "||" %26 finis
-  }
-}
-
-AgnusDeiSopranoLyrics = \lyricmode {
-  A -- gnus De -- i,
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta mun -- di:
-  Mi -- se -- re -- re, %5
-  mi -- se -- re -- re,
-  mi -- se -- re -- re
-  no -- bis.
-
-  A -- gnus %10
-  De -- i, A -- gnus
-  De -- i, qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta mun --
-  di: Mi -- se --
-  re -- re, mi -- se -- %15
-  re -- re, mi -- se --
-  re -- re __ no --
-  bis.
-
-  A -- gnus De -- i, %20
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta, qui tol -- lis pec --
-  ca -- ta __ mun -- di: %24 finis
-}
-
-DonaSoprano = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
-      \set Score.currentBarNumber = #27
-    \mvTr d'4.\p^\tuttiE c8
+    R1 \noBreak %25
+    R\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      d'4.\p c8 \noBreak
     c([ h)] h4
     f'4. e8
     e([ d)] d4 %30
@@ -2276,12 +2242,12 @@ DonaSoprano = {
     fis'4.\f fis8
     g([ d)] d4
     d4.\p a8
-    c([ h])^\critnote h4
+    c([ h]) h4
     g'\f fis %55
     e d
     cis2
     c4 r
-    h c
+    h! c
     d e %60
     fis,2
     g4 r
@@ -2296,7 +2262,7 @@ DonaSoprano = {
     R2*2
     d'4.( c8)
     h4 r
-    g4.^\critnote g8 %75
+    g4. g8 %75
     g4 g
     g2
     g
@@ -2314,7 +2280,7 @@ DonaSoprano = {
     c %90
     f~
     f
-    e^\critnote
+    e
     R
     d %95
     e
@@ -2322,7 +2288,7 @@ DonaSoprano = {
     a
     h~
     h %100
-    c^\critnote
+    c
     f\p
     e4 r
     h2
@@ -2339,7 +2305,32 @@ DonaSoprano = {
   }
 }
 
-DonaSopranoLyrics = \lyricmode {
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i,
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %10
+  De -- i, A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %15
+  re -- re, mi -- se --
+  re -- re __ no --
+  bis.
+
+  A -- gnus De -- i, %20
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta, qui tol -- lis pec --
+  ca -- ta __ mun -- di:
+
   Do -- na %27
   no -- bis,
   no -- bis
@@ -2356,20 +2347,20 @@ DonaSopranoLyrics = \lyricmode {
   no -- bis, %40
   do -- na
   no -- bis,
-  do -- na
+  pa -- cem
   no -- bis
-  pa -- %45
-  cem,
+  do -- %45
+  na,
+  no -- bis
   do -- na
-  no -- bis,
-  \xE no -- bis \x
+  pa -- cem,
   pa -- cem, %50
   do -- na
-  \xE no -- bis, \x
   no -- bis
   pa -- cem,
-  do -- na %55
-  no -- bis
+  pa -- cem,
+  no -- bis %55
+  do -- na
   pa --
   cem,
   do -- na
@@ -2391,8 +2382,8 @@ DonaSopranoLyrics = \lyricmode {
   no -- bis
   pa --
   cem,
-  do -- na
-  no -- bis, %80
+  do -- na,
+  do -- na %80
   no -- bis
   pa -- cem,
   do -- na

@@ -2195,15 +2195,15 @@ BenedictusTenoreLyrics = \lyricmode {
   cel -- sis. %127 finis
 }
 
-AgnusDeiTenore = {
+AgnusTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+    \key f \minor \time 4/4 \autoBeamOff \tempoAgnus
     \mvTr f,4.\p^\tuttiE f8 e4 e
     e4. e8 f4 f8 f\f
     b4 b8 b b([ as)] as g
     f f d'4 g, r
-    des'4.\p des8 des([ c)] c4 %5
+    des'4.\p des8 des([\cresc c)] c4 %5
     es!4.\f es8 es([ des)] des4
     des4.\pp des8 des4 des
     des4.( ces8) b4 r
@@ -2213,9 +2213,9 @@ AgnusDeiTenore = {
     ges4 ges8 ges\f ces4 ces8 ces
     ces([ b)] b as ges ges es'4
     as,4 r as4.\p f8
-    f([ es)] es4 as4. as8 %15
+    f([ es)] es4 as4.\cresc as8 %15
     as8([ ges)] ges4 c!4.\f c8
-    b([ f')] es([ des)] c2\p
+    b([\decresc f')] es([ des)] c2\p
     b4 r r2
     R1
     b4.\f b8 c4 c %20
@@ -2223,44 +2223,10 @@ AgnusDeiTenore = {
     d4 g,8 g g g r h
     h8[( c)] c c c4 c8 c
     g4. fis8 g g r4
-    R1 %25
-    R\fermata \bar "||" %26 finis
-  }
-}
-
-AgnusDeiTenoreLyrics = \lyricmode {
-  A -- gnus De -- i,
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta mun -- di:
-  Mi -- se -- re -- re, %5
-  mi -- se -- re -- re,
-  mi -- se -- re -- re
-  no -- bis.
-
-  A -- gnus %10
-  De -- i, A -- gnus
-  De -- i, qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta mun --
-  di: Mi -- se --
-  re -- re, mi -- se -- %15
-  re -- re, mi -- se --
-  re -- re __ no --
-  bis.
-
-  A -- gnus De -- i, %20
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta, qui tol -- lis pec --
-  ca -- ta mun -- di: %24 finis
-}
-
-DonaTenore = {
-  \relative c' {
-    \clef "treble_8"
-    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
-      \set Score.currentBarNumber = #27
-    \mvTr d4.\p^\tuttiE d8
+    R1 \noBreak %25
+    R\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      d'4.\p d8 \noBreak
     d4 d
     d4. c8
     c([ h)] h4 %30
@@ -2275,7 +2241,7 @@ DonaTenore = {
     r8 e,([ fis)] gis
     a([ h)] c4 %40
     r8 d,([ e)] fis
-    g([ a)] h4
+    g!([ a)] h4
     c4. d8
     d([ e)] d([ c)]
     h4( c) %45
@@ -2289,7 +2255,7 @@ DonaTenore = {
     d4.\p d8
     d4 d
     R2 %55
-    c4\fE d
+    c4\f d
     e2
     d4 r
     d c
@@ -2315,7 +2281,7 @@ DonaTenore = {
     h([ c)] d([ e)] %80
     f4 e8([ c)]
     c4 h
-    c\fE d
+    c\f d
     e d
     d( c) %85
     h r
@@ -2350,7 +2316,32 @@ DonaTenore = {
   }
 }
 
-DonaTenoreLyrics = \lyricmode {
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i,
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %10
+  De -- i, A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %15
+  re -- re, mi -- se --
+  re -- re __ no --
+  bis.
+
+  A -- gnus De -- i, %20
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta, qui tol -- lis pec --
+  ca -- ta mun -- di:
+
   Do -- na %27
   no -- bis,
   no -- bis
@@ -2365,22 +2356,22 @@ DonaTenoreLyrics = \lyricmode {
   pa -- cem,
   do -- na
   no -- bis, %40
-  no -- bis
-  pa -- cem,
-  do -- na
-  no -- bis
-  pa -- %45
-  cem,
   do -- na
   no -- bis,
+  pa -- cem
   no -- bis
+  do -- %45
+  na,
+  no -- bis
+  do -- na
+  pa -- cem,
   pa -- cem, %50
   do -- na
-  no -- bis,
   no -- bis
   pa -- cem,
+  pa -- cem,
   %55
-  no -- bis
+  do -- na
   pa --
   cem,
   do -- na
@@ -2399,11 +2390,11 @@ DonaTenoreLyrics = \lyricmode {
   pa -- %73
   cem,
   do -- na %75
-  no -- bis,
-  \xE no -- bis \x
+  no -- bis
   pa -- cem,
-  do -- na
-  no -- bis, %80
+  pa -- cem,
+  do -- na,
+  do -- na %80
   no -- bis
   pa -- cem,
   do -- na

@@ -1121,30 +1121,23 @@ BenedictusOboeII = {
   }
 }
 
-AgnusDeiOboeII = {
+AgnusOboeII = {
   \relative c' {
     \clef treble
-    \key f \minor \time 4/4 \tempoAgnusDei
+    \key f \minor \time 4/4 \tempoAgnus
     R1*15 %15
     r2 a'\fE
     b4 r r2
     R1*2
-    f4.\f f8 f4. f8 %20
+    f4.\f f8 f4 f %20
     f4. f8 f4 f
     f es8 d d c h'4~
     h8 c as g g f f es!
     g f f es es d r4
-    r2 r8 c'4\pE c8 %25
-    \slurDashed c8.( b16) as( g f es) es4 d\fermata \bar "||" %26 finis
-  }
-}
-
-DonaOboeII = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    R2*4 %30
+    r2 r8 c'4\pE c8 \noBreak %25
+    c8. b16 as g f es es4 d\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %30
     c'4\f d
     e d
     d c
@@ -1167,13 +1160,13 @@ DonaOboeII = {
     a2\f
     h4 r
     R2*2
-    g2~\fE %55
+    g2~\f %55
     g~
     g
     a4 r
-    g2
+    g2~
     g4 e %60
-    d2
+    d2~
     d4 r
     a'2\p
     g4 r
@@ -1209,7 +1202,7 @@ DonaOboeII = {
     g4 r
     as2
     g4 r %105
-    as2
+    as4. as8
     g4 g
     as2
     g4 r

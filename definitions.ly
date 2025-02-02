@@ -9,6 +9,7 @@
 hA = \once \override Accidental.stencil = ##f
 accomp = \markup \remark "accomp."
 fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) \raise #.3 \fontsize #-5 \flat } }
+pedolce = \markup { \larger \bold "p" \remark "e dolce" }
 
 
 tempoKyrie = \tempoMarkup "Andante sostenuto"
@@ -34,7 +35,7 @@ tempoSanctus = \tempoMarkup "Maestoso"
 tempoBenedictus = \tempoMarkup "Andante piutosto allegretto"
   tempoOsanna = \tempoMarkup "Allegro"
 
-tempoAgnusDei = \tempoMarkup "Adagio"
+tempoAgnus = \tempoMarkup "Adagio"
   tempoDona = \tempoMarkup "Allegro molto"
 
 

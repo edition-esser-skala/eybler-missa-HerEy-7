@@ -2639,133 +2639,97 @@ BenedictusBassFigures = \figuremode {
   r2. %127 finis
 }
 
-AgnusDeiOrgano = {
+AgnusOrgano = {
   \relative c {
     \clef "treble_8"
-    \key f \minor \time 4/4 \tempoAgnusDei
-    \mvTr f16\pE-\tuttiE-\vlc f f f f f f f e e e e e e e e
-    e e e e e e e e f f f f f f f f
-    b\< b b b b[ b] \clef bass \mvTr e,8\fE-\bassi f g as c,
-    des f h,4 c16\> c c c c c c c
-    b\p b b b b b b b as\< as as as as as as as %5
-    c\f c c c c c c c des des des des des des des des
-    b\pp b b b b' b b b f f f f ges ges ges ges
-    des des des des des, des des des ges-\tasto ges ges ges b b b b
-    ces ces ces ces des des des des ges ges ges ges b b b b
-    ces ces ces ces des des des, des ges\p \clef "treble_8"  ges[-\vlc ges ges] ges ges ges ges %10
-    f f f f f f f f f f f f f f f f
-    ges ges ges ges ges ges ges ges ces\< ces ces ces ces[ ces] \clef bass \mvTr f,8\f-\bassi
+    \key f \minor \time 4/4 \tempoAgnus
+    \mvTr f2:16\p-\solo ^\tweak TextScript.X-offset #0 ^\vlc e:
+    e: f:
+    b16\cresc b b b b[ b] \clef bass \mvTr e,8\f-\tuttiE f g as c,
+    des f h,4 c2:\decresc
+    b:\p as:\cresc %5
+    c:\f des:
+    b4:\pp b': f: ges:
+    des: des,: ges:-\solo b:
+    ces: des: ges: b:
+    ces: des16 des des, des << { ges^\vlc \clef "treble_8" ges ges ges ges4: } \\ { ges8_\markup \remark "org, b" r r4 } >> %10
+    f2: f:
+    ges: ces16\cresc ces ces ces ces[ ces] \clef bass \mvTr f,8\f-\tuttiE
     ges as b des, es ges c,!4
-    des16\> des des des des des des des b\p b b b b b b b
-    es es es es es es es es des! des des des des des des des %15
-    ges\< ges ges ges ges ges ges ges f\f f f f f f f f
-    b b b b es, es es es f\p f f f f, f f f
-    b-\tasto b b b des des des des es es es es f f f f
-    b b b b des, des des des es es es es f f f, f
-    b\f b' b b b b b b a a a a a a a a %20
-    as as as as as as as as g! g g g g g g g
-    h, h h h h h h h c c c c g' g g g
-    as as as as e e e e f f f f c c c c
-    h h h h c c c c g' g g g \mvTr h,\p-\tasto h h h
-    c c c c es es es es f f f f f f g g %25
-    as8 f,4 fis8 g2\fermata \bar "||" %26 finis
-  }
-}
-
-AgnusDeiBassFigures = \figuremode {
-  r2 <[6]>
-  \bo <[6 5]> <9 4>4 \bc <[8 3]>
-  <_->4. <7>8 <7! 6 4> <7 4 2> <\t \t \t> <7 [_!]>
-  <5> <\t> <7 _!>4 <_!>2
-  <4! _-> <[\t \t]>8 <6>4. %5
-  <6! 5->2 <[\t \t]>8 <6>4.
-  <6->2 <6 5->
-  <4->4 <3>2.
-  r1
-  r %10
-  <6>2 <6 5->
-  <9 4->4 <8 3> <[5-]>4. <7 5->8
-  <7 6 4-> <7- 4 2> <\t \t \t> <7-> <_->4 <7-- 5->
-  r2 <7 _!>
-  <[\t \t]>8 <8 _->4. <7->2 %15
-  <[\t \t]>8 <8 [3]>4. <7 5! _!>2
-  \bo <[9 4 _]>8 <8 3> <8 6 _-> <7 5 \t> <4>4 \bc <[_! _ _]>
-  r1
-  r
-  <_->2 <6> %20
-  q \bo <7 5! [4]>8 \bc <\t \t [_!]>4.
-  <7- _!>4 <6 4>8 <5 _!> <9! 4> <8 3> <6 _!>4
-  <4! 2!>8 <[5] 3> <6 4> <5 3> <9 4> <8 3> <6 4> <5 _!>
-  <6 4> <5 3> <9 4> <6! 4\+> <6 4> <5 _!> r4
-  r1 %25
-  r %26 finis
-}
-
-DonaOrgano = {
-  \relative c {
-    \clef "treble_8"
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    \mvTr fis8\p-\solo fis fis fis
-    g g g g
-    h, h h c
+    des2:\decresc b:\p
+    es: des:\cresc %15
+    ges: f:\f
+    b4:\decresc es,: f:\p f,:
+    b:-\solo des: es: f:
+    b: des,: es: f16 f f, f
+    \mvTr b\f-\tuttiE b' b b b4: a2: %20
+    as: g!:
+    h,: c4: g':
+    as: e: f: c:
+    h: c: g': \mvTr h,:\p-\solo
+    c: es: f: f16 f g g \noBreak %25
+    as8 f,4 fis8 g2\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      \mvTr fis'2:8\p-\solo \noBreak
+    g:
+    h,8 h h c
     g' g, g' f! %30
     \clef bass \mvTr e\f-\tutti c h g
     c e g h
     c h c c,
     g' g, h' g
-    fis d e fis %35
+    fis d e \hA fis %35
     g g, h' g
-    fis d e fis
+    fis d e \hA fis
     g g, h' g
     c c, c' h
     a g fis g16 a %40
     h8 h, h' a
-    g fis e fis16 g
+    g fis e \hA fis16 g
     a8 g e fis
     g e h c
     d d' d, d, %45
     g g' h d
     c a fis c
     h d g h
-    fis\p a d, fis
+    fis\p a d, \hA fis
     g, g' h d %50
     c\f a fis c
     h d g h
-    fis\p a d, fis
+    fis\p a d, \hA fis
     g d h g
     e'\f e' d d, %55
     c c' h h,
     b b' a g
     fis g a d,
     g g, a a'
-    h h, c c' %60
+    h! h,! c c' %60
     d a fis d
     g \mvTr g,\p-\tasto g g
-    g g g g
-    g g g g
-    g g g g %65
-    g g g g
-    g g g g
-    g g g g
-    g g g g
-    g g g g %70
-    g g g g
-    g g g g
-    g g g g
-    g g' g g
-    g g g g %75
-    g g g g
-    g g g g
-    g g g g
-    g g g g
-    g g g g %80
-    g g g g
-    g g, g' f
+    g2:8
+    g:
+    g: %65
+    g:
+    g:
+    g:
+    g:
+    g: %70
+    g:
+    g:
+    g:
+    g8 g' g g
+    g2: %75
+    g:
+    g:
+    g:
+    g:
+    g: %80
+    g:
+    g8 g, g' f
     e\f c h g
     c e g h
     c h c c, %85
-    g' g, g' f
+    g' g, g' f \segnoMark 1
     e\ff e' d c
     h a g f
     e d c h
@@ -2774,58 +2738,84 @@ DonaOrgano = {
     f g a g
     a h c h
     c d e d
-    e fis gis fis %95
-    gis a h gis
+    e fis gis \hA fis %95
+    gis a h \hA gis
     a h a g
-    f g f e
+    f! g f e
     d c h a
     g f e d %100
-    c \mvTr c'\p-\tasto c c
-    c c c c
-    c c c c
-    c c c c
-    c c c c %105
-    c c c c
-    c c c c
-    c c c c
-    c\decresc c c c
-    c c c c %110
-    c c c c
-    c\pp c c c
+    c c'\p c c
+    c2:8-\solo
+    c:
+    c:
+    c: %105
+    c:
+    c:
+    c:
+    c:\decresc
+    c: %110
+    c:
+    c:\pp
     c4 r
     c r
     c2\fermata \bar "|." %115 finis
   }
 }
 
-DonaBassFigures = \figuremode {
-  \bo <[6]>4. \bc <[5]>8 %27
-  \bo <[9 4]>4 \bc <[8 3]>
-  <[6 5]>2
-  \bo <[6 4]>4 \bc <[5 3]> %30
-  <[6]> <6>
+AgnusBassFigures = \figuremode {
+  r2 \bo <[6 _]>
+  <5> <9 4>4 \bc <[8 3]>
+  <_->4. <7->8 <7! 6 4> <7 4 2> <\t \t \t> <7 _!>
+  r4 <7 [_!]> <_!>2
+  <4! _-> <\t \t>8 <6>4. %5
+  <6! 5->2 <\t \t>8 <6>4.
+  <6->2 <6 5->
+  <4->4 <3>2.
+  r1
+  r %10
+  <6>2 <5->
+  <9 4->4 <8 3> <[5-]>4. <7 5->8
+  <7 6 4-> <7- 4 2> <\t \t \t> <7-> <_->4 <7-- 5->
+  r2 <7 _!>
+  <\t \t>8 <8 _->4. <7->2 %15
+  <\t>8 <8>4. <7 [5!] _!>2
+  <4>8 <_-> <[8] 6 _-> <7 5 \t> <4>4 <_!>
+  r1
+  r
+  <_->2 <6> %20
+  q <7 5! 4>8 <\t \t _!>4.
+  <7- [_!]>4 <6 4>8 <5 3[!]> <9[!] 4> <8 3> <6- _!>4
+  <5 2!>8 <\t 3> <6 4> <5 3> <9 4> <8 3> <6 4> <5 3[-]>
+  <6 4> <5 3> <9 4> <6! 4\+> <6 4> <5 _!> r4
+  r1 %25
+  r
+  \bo <[6 _]>4. <5>8
+  <9 4> <8 3>4.
+  <6 5>2
+  <6 4>8 \bc <[5 3]>4. %30
+  <6>4 <[6]>
   r <7>8 <\t>
   <9 4>4 <8 3>
   r2
-  <[6 5]> %35
+  \bo <[6 5]> %35
   r
-  <[6 5]>
+  \bc q
   r
-  r4 <6 4\+ 3>8 <6\\ 4 3>
+  r4 <4\+ 3>8 <6\\ 4 3>
   r4 <5> %40
-  <5\+> <6 4! 3>8 <6\\ 4 3>
+  <5\+> <6 4 3>8 <6\\ 4 3>
   r2
-  <5 3>4. \once \bassFigureExtendersOn q8
-  r8 \bo <[6]> \bc q4
+  <8 3>4. \once \bassFigureExtendersOn q8
+  r \bo <[6]> \bc q4
   <6 4> <[7] _+> %45
   r2
   <4\+>
   <[6]>
-  <6>4. <5>8
+  <6>4 \once \bassFigureExtendersOn q8 <5>
   <9 4> <8 3>4. %50
   <4\+>2
   <[6]>
-  <6>4. <5>8
+  <6>4 \once \bassFigureExtendersOn q8 <5>8
   <9 4>8 <6 4>4.
   <3>4 <_+> %55
   <3> <6>
@@ -2835,23 +2825,23 @@ DonaBassFigures = \figuremode {
   <6>2 %60
   <7 _+>2
   r2*21 %82
-  <[6]>4 q
+  \bo <[6]>4 \bc q
   r <7>
   <9 4> <8 3> %85
   r2
   <6>
   q
+  q4. \once \bassFigureExtendersOn q8
+  r2 %90
+  r
   q
-  r %90
   r
-  <6>
-  r
-  <6>
+  q
   <7 _+> %95
   <6>
   r
   r
-  <6>
-  <7> %100
+  q4. \bassFigureExtendersOn q8
+  <7>4. q8 \bassFigureExtendersOff %100
   r2*15 %115 finis
 }

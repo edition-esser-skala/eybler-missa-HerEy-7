@@ -1102,19 +1102,19 @@ BenedictusTromboneI = {
   }
 }
 
-AgnusDeiTromboneI = {
+AgnusTromboneI = {
   \relative c' {
     \clef alto
-    \key f \minor \time 4/4 \tempoAgnusDei
+    \key f \minor \time 4/4 \tempoAgnus
     R1
-    r2 r4 r8 f\fE
-    f4 f8 g e f f e
+    r2 r4 r8 f\f
+    f4 f8 g e f f \hA e
     f f f4 e r
     R1 %5
-    ges4.\fE ges8 ges f f4
+    ges4.\f ges8 ges f f4
     R1*5 %11
-    r4 r8 ges\fE ges4 ges8 as
-    f ges ges f ges ges ges4
+    r4 r8 ges\f ges4 ges8 as
+    f ges ges f \hA ges ges ges4
     f r r2
     R1 %15
     r2 a4.\f a8
@@ -1125,18 +1125,11 @@ AgnusDeiTromboneI = {
     f4 es8 d d c r es
     es as as g g f f es!
     es d d c c h r4
-    R1 %25
-    R\fermata \bar "||" %26 finis
-  }
-}
-
-DonaTromboneI = {
-  \relative c' {
-    \clef alto
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    R2*4 %30
-    g'4\fE g
+    R1 \noBreak %25
+    R\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %30
+    g'4\f g
     g g
     g2
     g4 r
@@ -1155,11 +1148,11 @@ DonaTromboneI = {
     d4. d8
     d g g4
     R2*2 %50
-    a4.\fE a8
+    a4.\f a8
     g4 g
-    a4.\pE a8
+    a4.\p a8
     a g g4
-    g\fE g %55
+    g\f g %55
     g g
     g2
     a4 r

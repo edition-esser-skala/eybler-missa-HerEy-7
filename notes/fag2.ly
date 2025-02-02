@@ -276,38 +276,31 @@ BenedictusFagottoII = {
   }
 }
 
-AgnusDeiFagottoII = {
+AgnusFagottoII = {
   \relative c {
-    \clef bass
-    \key f \minor \time 4/4 \tempoAgnusDei
+    \clef "treble_8"
+    \key f \minor \time 4/4 \tempoAgnus
     R1*5 %5
     es'2\fE es8 des des4
     R1
-    r2 ges,~\pE
-    ges4 f ges b
+    r2 ges,~\p
+    ges4 f ges des'
     ces8. as16 ges8 f ges r r4 %10
     R1*5 %15
-    r2 c\f
+    r2 c\fE
     b4 r r2
-    b2.\pE a4
+    b2.\p a4
     b2~ b8 c b a
     b4.\f b8 a4 a %20
     as4. as8 g!4 g
-    h, h c g'
+    \clef bass h, h c g'
     as e f c
-    h c g8 \once \tieDashed d''~\pE d16( h g f)
-    d8 es r4 r8 f4 g8 %25
-    as8. g16 f8 fis g4 g,\fermata \bar "||"
-  }
-}
-
-DonaFagottoII = {
-  \relative c {
-    \clef bass
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    R2*4 %30
-    e4\f g
+    h c g8 \noBeam \clef "treble_8" d''~\pE d16( h g f)
+    d8 es r4 r8 f4 g8 \noBreak %25
+    as8. g16 \clef bass f8 fis g4 g,\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      R2*4 %30
+    e'4\f g
     c, g'
     c c,
     g' r
@@ -337,18 +330,18 @@ DonaFagottoII = {
     h c %60
     d2
     g,4 r
-    es''2
+    \clef "treble_8" es''2
     d4 r
     a2 %65
     h4 r
-    a4. a8
+    \clef bass a4. a8
     a[ h c d]
     c2
     h4 r %70
     a2\sfp
     g4 r
     R2*2
-    d'4.\p d8 %75
+    \clef "treble_8"d'4.\p d8 %75
     d[ c f e]
     d4 c
     c h
@@ -356,26 +349,26 @@ DonaFagottoII = {
     h[ c d e] %80
     d4 c
     c h
-    e,\f g
+    \clef bass e,\f g
     c, g'
     c c, %85
     g' r
-    r c\ffE
+    r c\ff
     r g
     r c,
     r a %90
-    r d
-    r f,
+    r d,
+    r f
     r a
     r c
     r e %95
     r gis,
     r a
     r f
-    r d'
-    r g, %100
+    r d
+    r g %100
     c r
-    h'2\p
+    \clef "treble_8"h'2\p
     c4 r
     d2
     e4 r %105

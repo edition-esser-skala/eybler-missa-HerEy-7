@@ -2227,27 +2227,27 @@ BenedictusAltoLyrics = \lyricmode {
   cel -- sis. %127 finis
 }
 
-AgnusDeiAlto = {
+AgnusAlto = {
   \relative c' {
     \clef treble
-    \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+    \key f \minor \time 4/4 \autoBeamOff \tempoAgnus
     \mvTr c4.\p^\tuttiE c8 c4 c
     g'4. g8 g8.([ e16)] f8 f\f
-    f4 f8 g e([ f)] f e
+    f4 f8 g e([ f)] f \hA e
     f f f4 e r
-    e4.\p e8 e([ f)] f4 %5
+    e4.\p e8 e([\cresc f)] f4 %5
     ges4.\f ges8 ges([ f)] f4
-    ges4.\pp ges8 as4 ges
-    ges( f) ges r
+    ges4.\pp ges8 as4 \hA ges
+    ges( f) \hA ges r
     R1
     r2 des4.\p des8 %10
     des4 des as'4. as8
     as8.([ f16)] ges8 ges\f ges4 ges8 as
     f([ ges)] ges f ges ges ges4
     f r f4.\p d8
-    d([ es)] es4 f4. f8 %15
+    d([ es)] es4 f4.\cresc f8 %15
     f([ ges)] ges4 a4.\f a8
-    b4 ges f4.(\p es8)
+    b4\decresc ges f4.(\p es8)
     des4 r r2
     R1
     f4.\f f8 f4 f %20
@@ -2255,44 +2255,10 @@ AgnusDeiAlto = {
     f4 es8 d d c r es
     es([ as)] as g g([ f)] f es!
     es([ d)] d([ c)] c h r4
-    R1 %25
-    R\fermata \bar "||" %26 finis
-  }
-}
-
-AgnusDeiAltoLyrics = \lyricmode {
-  A -- gnus De -- i,
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta mun -- di:
-  Mi -- se -- re -- re, %5
-  mi -- se -- re -- re,
-  mi -- se -- re -- re
-  no -- bis.
-
-  A -- gnus %10
-  De -- i, A -- gnus
-  De -- i, qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta mun --
-  di: Mi -- se --
-  re -- re, mi -- se -- %15
-  re -- re, mi -- se --
-  re -- re no --
-  bis.
-
-  A -- gnus De -- i, %20
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta, qui tol -- lis pec --
-  ca -- ta __ mun -- di: %24 finis
-}
-
-DonaAlto = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
-      \set Score.currentBarNumber = #27
-    \mvTr a'4.\p^\tuttiE a8
+    R1 \noBreak %25
+    R\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      a'4.\p a8 \noBreak
     a8([ g)] g4
     g4. g8
     g4 g %30
@@ -2309,8 +2275,8 @@ DonaAlto = {
     fis8([ e)] d4
     g4. fis8
     e4 a
-    g4.( e8
-    d2) %45
+    g4. e8
+    d2 %45
     d4 r
     d4. d8
     d([ g)] g4
@@ -2320,7 +2286,7 @@ DonaAlto = {
     g4 g
     a4.\p a8
     a([ g)] g4
-    g\fE g %55
+    g\f g %55
     g g
     g2
     a4 r
@@ -2351,7 +2317,7 @@ DonaAlto = {
     g g
     g2 %85
     g4 r
-    c,2\ffE
+    c,2\ff
     d
     e
     c %90
@@ -2382,7 +2348,32 @@ DonaAlto = {
   }
 }
 
-DonaAltoLyrics = \lyricmode {
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i,
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %10
+  De -- i, A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %15
+  re -- re, mi -- se --
+  re -- re no --
+  bis.
+
+  A -- gnus De -- i, %20
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta, qui tol -- lis pec --
+  ca -- ta __ mun -- di:
+
   Do -- na %27
   no -- bis,
   no -- bis
@@ -2397,22 +2388,22 @@ DonaAltoLyrics = \lyricmode {
   pa -- cem,
 
   do -- na %40
-  no -- bis,
-  do -- na
-  no -- bis
-  pa --
-  %45
-  cem,
-  do -- na
-  no -- bis,
-  \xE no -- bis
-  pa -- cem, \x %50
-  do -- na
-  no -- bis,
   no -- bis
   pa -- cem,
-  do -- na %55
+  pa -- cem
   no -- bis
+  do -- %45
+  na,
+  no -- bis
+  do -- na
+  pa -- cem,
+  pa -- cem, %50
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  no -- bis %55
+  do -- na
   pa --
   cem,
   do -- na
@@ -2431,11 +2422,11 @@ DonaAltoLyrics = \lyricmode {
   pa -- %73
   cem,
   do -- na %75
-  no -- bis,
   no -- bis
   pa -- cem,
-  do -- na
-  no -- bis, %80
+  pa -- cem,
+  do -- na,
+  do -- na %80
   no -- bis
   pa -- cem,
   do -- na

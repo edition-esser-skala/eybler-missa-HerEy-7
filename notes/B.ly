@@ -2198,14 +2198,14 @@ BenedictusBassoLyrics = \lyricmode {
   cel -- sis. %127 finis
 }
 
-AgnusDeiBasso = {
+AgnusBasso = {
   \relative c {
     \clef bass
-    \key f \minor \time 4/4 \autoBeamOff \tempoAgnusDei
+    \key f \minor \time 4/4 \autoBeamOff \tempoAgnus
     R1*2
     r4 r8 \mvTr e\f^\tuttiE f([ g)] as c,
     des f h,4 c r
-    b4.\p b8 as4 as %5
+    b4.\p b8 as4\cresc as %5
     c4.\f c8 des4 des
     b\pp b' f ges
     des2 ges,4 r
@@ -2213,9 +2213,9 @@ AgnusDeiBasso = {
     r2 r4 r8 f'\f
     ges8([ as)] b des, es ges c,!4
     des r b4.\p b8
-    es4 es des!4. des8 %15
+    es4 es des!4.\cresc des8 %15
     ges4 ges f4.\f f8
-    b4 es, f2\p
+    b4\decresc es, f2\p
     b,4 r r2
     R1
     b'4.\f b8 a4 a %20
@@ -2223,44 +2223,14 @@ AgnusDeiBasso = {
     h,4 h8 h c c r g'
     g4 e8 e f4 c8 c
     h4 c g'8 g, r4
-    R1 %25
-    R\fermata \bar "||" %26 finis
-  }
-}
-
-AgnusDeiBassoLyrics = \lyricmode {
-  Qui tol -- lis pec -- %3
-  ca -- ta mun -- di:
-  Mi -- se -- re -- re, %5
-  mi -- se -- re -- re,
-  mi -- se -- re -- re
-  no -- bis.
-
-  Qui %12
-  tol -- lis pec -- ca -- ta mun --
-  di: Mi -- se --
-  re -- re, mi -- se -- %15
-  re -- re, mi -- se --
-  re -- re no --
-  bis.
-
-  A -- gnus De -- i, %20
-  A -- gnus De -- i, qui
-  tol -- lis pec -- ca -- ta, pec --
-  ca -- ta, qui tol -- lis pec --
-  ca -- ta mun -- di: %24 finis
-}
-
-DonaBasso = {
-  \relative c {
-    \clef bass
-    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoDona
-      \set Score.currentBarNumber = #27
-    \mvTr fis4.\p^\tuttiE fis8
+    R1 \noBreak %25
+    R\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      fis'4.\p fis8 \noBreak
     g4 g
     h,4. c8
     g'4 g %30
-    e\fE h
+    e\f h
     c g'
     c( c,)
     g' r
@@ -2289,7 +2259,7 @@ DonaBasso = {
     b( a8[ g)]
     fis4 r
     g, a
-    h c %60
+    h! c %60
     d2
     g,4 r
     g2\p
@@ -2346,7 +2316,28 @@ DonaBasso = {
   }
 }
 
-DonaBassoLyrics = \lyricmode {
+AgnusBassoLyrics = \lyricmode {
+  Qui tol -- lis pec -- %3
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  Qui %12
+  tol -- lis pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- %15
+  re -- re, mi -- se --
+  re -- re no --
+  bis.
+
+  A -- gnus De -- i, %20
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta, qui tol -- lis pec --
+  ca -- ta mun -- di:
+
   Do -- na %27
   no -- bis,
   no -- bis
@@ -2363,20 +2354,20 @@ DonaBassoLyrics = \lyricmode {
   no -- bis, %40
   do -- na
   no -- bis,
-  do -- na
+  pa -- cem
   no -- bis
-  pa -- %45
-  cem,
-  do -- na
-  no -- bis,
+  do -- %45
+  na,
   no -- bis
+  do -- na
+  pa -- cem,
   pa -- cem, %50
   do -- na
-  no -- bis,
   no -- bis
   pa -- cem,
-  do -- na %55
-  no -- bis
+  pa -- cem,
+  no -- bis %55
+  do -- na
   pa --
   cem,
   do -- na
@@ -2398,8 +2389,8 @@ DonaBassoLyrics = \lyricmode {
   no -- bis
   pa --
   cem,
-  do -- na
-  no -- bis, %80
+  do -- na,
+  do -- na %80
   no -- bis
   pa -- cem,
   do -- na

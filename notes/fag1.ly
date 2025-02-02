@@ -1261,50 +1261,43 @@ BenedictusFagottoI = {
   }
 }
 
-AgnusDeiFagottoI = {
+AgnusFagottoI = {
   \relative c {
-    \clef bass
-    \key f \minor \time 4/4 \tempoAgnusDei
+    \clef "treble_8"
+    \key f \minor \time 4/4 \tempoAgnus
     R1*5 %5
     ges''2\fE ges8 f f4
     R1*2
-    as,2\pE ges4 ges'~
-    ges8[ es16 ces] b8 as ges r r4 %10
+    \pa as,2\p ges4 ges'~
+    ges8 es16 ces \pd b8 as \pao ges r r4 %10
     R1*5 %15
-    r2 f'~\f
+    r2 f'~\fE
     f4 r r2
-    r c\p
+    \pa r c\p
     b4 f' es des8 c
-    b4.\f b8 c4 c %20
+    b4.\f b8 \pd c4 c %20
     c4. c8 d4 d8 h
-    d4 g, g es'~
+    \clef bass d4 g, g es'~
     es c2 c4
-    g4. fis8 g4 r
-    r8 \once \tieDashed g'~\pE g16 es c g b!8( as) as( b) %25
-    c8. b16 as8 a \pa g2\fermata \bar "||" %26 finis
-  }
-}
-
-DonaFagottoI = {
-  \relative c {
-    \clef bass
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    R2*4 %30
-    c'4\f h
+    g4. fis8 g \clef "treble_8" \pa r r4
+    r8 g'~\pE g16( es c g) b!8 \pd as4 b8 \noBreak %25
+    c8. b16 \clef bass as8 a g2\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \noBreak
+      R2*4 %30
+    c4\f h
     c h
     \pa c c,
     g' \pd r
     d'2~ %35
-    d~
-    d~
+    d
+    d
     d
     \pa r8 e, fis gis
     a h c4 %40
     r8 d, e fis
     g a h4
-    c4. d8
-    d e d c \pd
+    c4. d8 \pd
+    d e d c
     h4 c %45
     h r
     c2
@@ -1320,18 +1313,18 @@ DonaFagottoI = {
     h e \pd %60
     a,2
     g4 r
-    fis'2\p
+    \clef "treble_8" fis'2\p
     g4 r
     c,2 %65
     d4 r
-    es4. es8
+    \clef bass es4. es8
     d4 c8 h
     a2
     d4 r %70
     c2\sfp
     d4 r
     R2*2
-    f!4.\p f8 %75
+    \clef "treble_8"f!4.\p f8 %75
     f e d c
     h4 c8 e
     e4 d
@@ -1339,11 +1332,11 @@ DonaFagottoI = {
     d c h c %80
     f4 e
     e d
-    c\f h
+    \clef bass c\f h
     c h
     \pa c c, %85
     g' \pd r
-    r e'\ffE
+    r e'\ff
     r h
     r c
     r c %90
@@ -1358,7 +1351,7 @@ DonaFagottoI = {
     r d
     r d %100
     c r
-    d2\p
+    \clef "treble_8"d2\p
     e4 r
     f2
     \pao e4 r %105
@@ -1366,7 +1359,7 @@ DonaFagottoI = {
     d e h c
     d2
     \pao e4 r
-    g4.\sfp f8 %110
+    \once \override DynamicText.X-offset = #-3 g4.\sfp f8 %110
     e4 r
     g4.\pp f8
     e4 r

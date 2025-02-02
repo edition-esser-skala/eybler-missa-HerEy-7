@@ -1271,53 +1271,46 @@ BenedictusViolinoII = {
   }
 }
 
-AgnusDeiViolinoII = {
+AgnusViolinoII = {
   \relative c' {
     \clef treble
-    \key f \minor \time 4/4 \tempoAgnusDei
-    \mvTr f16\p-\conSord f f f f f f f g g g g g g g g
-    g g g g g g g g g g g g f f f f
-    \once \hairpinDashed f\< f f f f f g?\fE g e e f f f f e e
-    f f f f f f f f e\> e e e e e e e
-    e\p e e e e e e e e\< e f f f f f f %5
-    ges\f ges ges ges ges ges ges ges ges ges f f f f f f
-    ges\pp ges ges ges ges ges ges ges as as as as ges ges ges ges
-    ges ges ges ges f f f f ges4 r
-    r8 as-\dolce as16( es' des ces) a8( b) r ges~
-    ges \once \slurDashed f32( es des ces) b8 as b16\p ges' ges ges ges ges ges ges %10
-    as as as as as as as as as as as as as as as as
-    as as as as ges ges ges ges ges\< ges ges ges ges ges as\fE as
-    f f ges ges ges ges f f ges ges ges ges ges ges ges ges
-    f\> f f f f f f f f\p f f f f f f f
-    f f es es es es es es as as as as as as as as %15
-    as\< as ges ges ges ges ges ges c!\f c c c c c c c
-    b b b b ges ges ges ges f\p f f f f f es es
-    des4 r r8 c'-\dolce c16( a f es)
+    \key f \minor \time 4/4 \tempoAgnus
+    f2:16\p^\conSord g:
+    g: g4: f:
+    f4:\cresc f16 f g g e\fE e f f f f \hA e e
+    f2: e:\decresc
+    e:\p e16\cresc e f f f4: %5
+    ges2:\f ges16 ges f f f4:
+    ges2:\pp as4: \hA ges:
+    ges: f: ges4 r
+    r8 as~-\pedolce as16( es' des ces) a8( b) r ges~
+    ges fes32( es des ces) b8 ces b16\p ges' ges ges ges4:16 %10
+    as2: as:
+    as4: ges: ges:\cresc ges16 ges as as
+    f\fE f ges ges ges ges f f ges2:
+    f:\decresc f:\p
+    f16 f es es es4: as2:\cresc %15
+    as16 as ges ges ges4 c2:\f
+    b4:\decresc ges: f:\pp f16 f es es
+    des4 r r8 c'~-\pedolce c16( a f es)
     c8( des) r b4 b a8
-    b16\f f' f f f f f f f f f f f f f f %20
-    f f f f f f f f f f f f f f f f
-    f f f f es es d d d d c c h' h h h
+    b16\f f' f f f4:16 f2: %20
+    f: f:
+    f4: es16 es d d d d c c h' h h h
     h h c c as as g g g g f f f f es! es
-    es es d d d d c c c8 h r4
-    r8 g''~-\dolceE g16 es c g b!8 as~ as16 \slurDashed e( f b) %25
-    as8( c16 b) as( g f es) es4 d\fermata \bar "||" %26 finis
-  }
-}
-
-DonaViolinoII = {
-  \relative c' {
-    \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoDona
-      \set Score.currentBarNumber = #27
-    a'8\p a a a
-    a( g) g( h)
+    es es d d d d c c c8\trill h r4
+    r8 g''~-\pedolce g16( es c g) b!8( as)~ as16 \slurDashed e( f b) \noBreak %25
+    as8( c16 b as g f es) \slurSolid es4\trill d\fermata \bar "||"
+    \twofourtime \key c \major \time 2/4 \tempoDona \newSpacingSection
+      a'8\p^\senzaSord a a a \noBreak
+    \once \slurDashed a( g) g( h)
     d d d c
     c h h4 %30
     c16\f d e c d e f d
     e f g e d f e d
     d c f e d c h c
     h8 d4 d8
-    d16 fis a g fis e d c %35
+    d16 fis a g \hA fis e d c %35
     h a h c d e fis g
     a h a g fis e d c
     h c d e d e fis g
@@ -1329,34 +1322,34 @@ DonaViolinoII = {
     h d c e d g e c
     h d g h a fis d c %45
     h c d e d e fis g
-    fis g a h c a fis a
+    fis g a h c a \hA fis a
     g d h' a g fis e d
     d\p cis d e d c h a
     c h a g fis g h g %50
-    fis\f a d fis a g fis a
+    fis\f a d fis a g \hA fis a
     g d h' a g fis e d
     d\p cis d e d c h a
     c h a g fis g h d
-    g\f g, g' g fis fis, fis' fis %55
+    g\f g, g' g fis fis, \hA fis' fis %55
     e e, e' e d d, d' d
-    cis d e d cis^\critnote e fis g
-    a h a g fis e d c
+    cis d e d \hA cis e fis g
+    a h! a g fis e d c
     h g a h c a h c
     d h c d e c a g %60
     fis g a h c h c d
     h8 g\p g g
-    <fis a> q q q
-    g g g g
-    <c, es> q q q %65
-    <h d> q q q
-    es es es es
-    d d d d
-    a a a a
-    h h h h %70
-    d d d d
-    d d d d
-    d d d d
-    d d d d
+    <fis a>2:8
+    g:
+    <c, es>: %65
+    <h d>:
+    es:
+    d:
+    a:
+    h: %70
+    d:
+    d:
+    d:
+    d:
     f!4. f8 %75
     f( e d c)
     h d c e
@@ -1377,24 +1370,24 @@ DonaViolinoII = {
     f f g g a a g g
     a a h h c c h h
     c c d, d e e d d
-    e e fis fis gis gis fis fis %95
-    gis gis a a h h gis gis
+    e e fis fis gis gis \hA fis fis %95
+    gis gis a a h h \hA gis gis
     a a h h a a g g
-    f f g g f f e e
+    f! f g g f f e e
     d d c c h h a a
     g g h h c c d d %100
     e8 c\p c c
-    <h d> q q q
-    <c e> q q q
-    <h d> q q q
-    <c e> q q q %105
-    <h d> q q q
-    h( c d e)
-    f f f f
-    e\decrescE e e e
-    h h h h %110
-    c c c c
-    h\pp h h h
+    <h d>2:8
+    <c e>:
+    <h d>:
+    <c e>: %105
+    <h d>:
+    h8( c d e)
+    f2:
+    e:\decresc
+    h: %110
+    c:
+    h:\pp
     c4 r
     c r
     c2\fermata \bar "|." %115 finis
