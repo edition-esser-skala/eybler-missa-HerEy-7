@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.0 – 2025-02-02
+
+### Changed
+
+- uses the autograph manuscript as principal source
+
+
 ## 2.1.0 - 2023-04-19
 
 ### Added

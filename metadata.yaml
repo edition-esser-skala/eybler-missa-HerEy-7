@@ -4,7 +4,7 @@ composer:
 title: Missa Sancti Benonis
 id: HerEy 7/8
 genre: mass
-scoring: S, A, T, B (coro), 2 ob, 2 fag,\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag,\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -13,7 +13,7 @@ sources:
     date: 1797
     license: public domain
     principal: true
-    notes: full score, XX pages
+    notes: full score, 189 pages
   B1:
     siglum: A-Wn
     shelfmark: HK.2033
@@ -26,3 +26,5 @@ parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
   vla: Viole
   b: Violoncello \& Bassi
+extra_abbreviation:
+  vlc:
